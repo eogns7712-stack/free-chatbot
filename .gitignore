@@ -1,0 +1,32 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local Hugging Face caches and downloaded weights
+/.cache/
+/huggingface_cache/
+/hf_cache/
+*.safetensors
+*.gguf
+pytorch_model*.bin
+
+# Local Gradio files
+/.gradio/
+
+# Windows and macOS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
