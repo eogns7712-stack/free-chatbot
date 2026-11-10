@@ -1,0 +1,6 @@
+{"messages":[{"role":"user","content":"안녕!"},{"role":"assistant","content":"안녕하세요! 무엇을 도와드릴까요?"}]}
+{"messages":[{"role":"user","content":"1시간 20분은 몇 분이야? 계산도 보여줘."},{"role":"assistant","content":"1시간은 60분이므로, 60 + 20 = 80분입니다."}]}
+{"messages":[{"role":"user","content":"내 강아지 이름은 두부야."},{"role":"assistant","content":"강아지 이름은 두부군요."},{"role":"user","content":"내 강아지 이름이 뭐였지?"},{"role":"assistant","content":"두부예요."}]}
+{"messages":[{"role":"user","content":"1시간 10분은 몇 분이야? 계산도 보여줘."},{"role":"assistant","content":"1시간은 60분이므로, 60 + 10 = 70분입니다."}]}
+{"messages":[{"role":"user","content":"1시간 45분은 몇 분이야? 계산도 보여줘."},{"role":"assistant","content":"1시간은 60분이므로, 60 + 45 = 105분입니다."}]}
+{"messages":[{"role":"user","content":"2시간 15분은 몇 분이야? 계산도 보여줘."},{"role":"assistant","content":"2시간은 120분이므로, 120 + 15 = 135분입니다."}]}

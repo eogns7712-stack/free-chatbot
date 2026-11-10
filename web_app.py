@@ -8,12 +8,25 @@ def reply_in_browser(message, history):
     if not question:
         raise gr.Error("메시지를 입력해 주세요.")
 
-    text_history = [
-        {"role": entry["role"], "content": entry["content"]}
-        for entry in history
-        if entry["role"] in ("user", "assistant")
-        and isinstance(entry["content"], str)
-    ]
+    text_history = []
+
+    for entry in history:
+        role = entry["role"]
+        if role not in ("user", "assistant"):
+            continue
+
+        content = entry["content"]
+        if isinstance(content, list):
+            content = "\n".join(
+                block["text"]
+                for block in content
+                if isinstance(block, dict)
+                and block.get("type") == "text"
+                and isinstance(block.get("text"), str)
+            )
+
+        if isinstance(content, str) and content.strip():
+            text_history.append({"role": role, "content": content})
 
     messages = [
         SYSTEM_MESSAGE,
