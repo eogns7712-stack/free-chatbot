@@ -8,7 +8,8 @@ from transformers import GPT2Config, GPT2LMHeadModel
 ROOT = Path(__file__).resolve().parent
 DATA_PATH = ROOT / "data" / "train.jsonl"
 TOKENIZER_PATH = ROOT / "artifacts" / "tokenizer.json"
-MODEL_DIR = ROOT / "artifacts" / "tiny-chat-model-v2"
+MODEL_DIR = ROOT / "artifacts" / "tiny-chat-model-sns-v2"
+LEARNING_RATE = 0.0003
 
 EPOCHS = 60
 CONTEXT_LENGTH = 256

@@ -1,0 +1,113 @@
+{
+  "source_zip": "(비식별화완료)[라벨]한국어SNS_train.zip",
+  "tokenizer_sha256": "c18b5401ac193cc54e14091bb4a5178ebcb7ee8691ad8c36b37c3b1493c7175d",
+  "vocab_size": 386,
+  "max_tokens": 256,
+  "per_topic_target": 200,
+  "split_method": "SHA256(dialogue_id) modulo 10; validation bucket 0",
+  "counts": {
+    "train": 1644,
+    "validation": 156
+  },
+  "total": 1800,
+  "token_min": 17,
+  "token_max": 256,
+  "topics": [
+    {
+      "source_json": "[라벨]한국어SNS_train/여가생활.json",
+      "scanned": 857,
+      "not_two_participants": 138,
+      "mask_or_blocked_text": 499,
+      "short_or_over_limit_prefix": 20,
+      "selected": 200,
+      "train": 183,
+      "validation": 17
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/주거와생활.json",
+      "scanned": 524,
+      "mask_or_blocked_text": 243,
+      "selected": 200,
+      "validation": 16,
+      "train": 184,
+      "not_two_participants": 60,
+      "short_or_over_limit_prefix": 21
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/식음료.json",
+      "scanned": 488,
+      "mask_or_blocked_text": 227,
+      "selected": 200,
+      "train": 186,
+      "not_two_participants": 57,
+      "validation": 14,
+      "short_or_over_limit_prefix": 4
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/시사교육.json",
+      "scanned": 588,
+      "selected": 200,
+      "train": 177,
+      "mask_or_blocked_text": 292,
+      "not_two_participants": 77,
+      "short_or_over_limit_prefix": 19,
+      "validation": 23
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/미용과건강.json",
+      "scanned": 470,
+      "mask_or_blocked_text": 212,
+      "selected": 200,
+      "train": 180,
+      "not_two_participants": 48,
+      "validation": 20,
+      "short_or_over_limit_prefix": 10
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/일과직업.json",
+      "scanned": 542,
+      "selected": 200,
+      "train": 186,
+      "mask_or_blocked_text": 248,
+      "not_two_participants": 75,
+      "short_or_over_limit_prefix": 19,
+      "validation": 14
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/행사.json",
+      "scanned": 659,
+      "mask_or_blocked_text": 376,
+      "not_two_participants": 72,
+      "short_or_over_limit_prefix": 11,
+      "selected": 200,
+      "train": 182,
+      "validation": 18
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/상거래(쇼핑).json",
+      "scanned": 571,
+      "mask_or_blocked_text": 300,
+      "selected": 200,
+      "train": 181,
+      "short_or_over_limit_prefix": 16,
+      "not_two_participants": 55,
+      "validation": 19
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/개인및관계.json",
+      "scanned": 748,
+      "mask_or_blocked_text": 448,
+      "not_two_participants": 73,
+      "selected": 200,
+      "train": 185,
+      "short_or_over_limit_prefix": 27,
+      "validation": 15
+    }
+  ],
+  "limitations": [
+    "각 주제 파일 앞부분의 조건 통과 대화를 사용하므로 무작위 대표 표본이 아닙니다.",
+    "자동 필터는 문맥·사실성·비속어를 완전히 판별하지 못합니다.",
+    "첫 화자는 user, 상대는 assistant로 매핑하며 사람 간 대화를 모사합니다.",
+    "기존 소량 토크나이저와 256토큰 한도로 긴 대화는 제외되거나 앞 구간만 사용됩니다."
+  ]
+}

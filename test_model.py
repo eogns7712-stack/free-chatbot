@@ -4,7 +4,11 @@ import torch
 from tokenizers import Tokenizer
 from transformers import GPT2LMHeadModel
 
-MODEL_DIR = Path(__file__).resolve().parent / "artifacts" / "tiny-chat-model-v2"
+MODEL_DIR = (
+    Path(__file__).resolve().parent
+    / "artifacts"
+    / "tiny-chat-model-sns-v2"
+)
 
 
 def main():
@@ -12,14 +16,19 @@ def main():
     model = GPT2LMHeadModel.from_pretrained(str(MODEL_DIR))
     model.eval()
 
+    print("모델 경로:", MODEL_DIR)
+    print("모델 어휘 크기:", model.config.vocab_size)
+    print("토크나이저 어휘 크기:", tokenizer.get_vocab_size())
+
+    for token in ("<user>", "<assistant>", "<eos>", "<pad>"):
+        print(token, tokenizer.token_to_id(token))
+
     cases = [
-        ("학습에 사용한 질문", "안녕!"),
-        ("처음 보는 질문", "안녕하세요!"),
-        ("학습에 사용한 계산", "1시간 20분은 몇 분이야? 계산도 보여줘."),
-        ("처음 보는 계산", "1시간 30분은 몇 분이야? 계산도 보여줘."),
-        ("새로운 분 값", "1시간 25분은 몇 분이야? 계산도 보여줘."),
-        ("새로운 시간·분 조합", "2시간 30분은 몇 분이야? 계산도 보여줘."),
-    ]
+    ("인사", "안녕!"),
+    ("일상 대화", "오늘 날씨가 좋아서 산책하고 왔어."),
+    ("감정 반응", "오늘 좀 피곤하네."),
+    ("취향 대화", "주말에 영화 보려고 하는데 너는 영화 좋아해?"),
+]
 
     for label, question in cases:
         # 학습 때와 같은 형식으로 답변 시작 지점까지 입력합니다.

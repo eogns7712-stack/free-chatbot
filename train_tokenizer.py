@@ -25,7 +25,7 @@ def main():
     tokenizer.decoder = decoders.ByteLevel()
 
     trainer = trainers.BpeTrainer(
-        vocab_size=512,
+        vocab_size=386,
         min_frequency=1,
         initial_alphabet=pre_tokenizers.ByteLevel.alphabet(),
         special_tokens=SPECIAL_TOKENS,
