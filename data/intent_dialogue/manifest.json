@@ -1,0 +1,392 @@
+[
+  {
+    "split": "train",
+    "line": 1,
+    "topic": "greeting",
+    "question": "안녕!"
+  },
+  {
+    "split": "train",
+    "line": 2,
+    "topic": "greeting",
+    "question": "안녕하세요."
+  },
+  {
+    "split": "train",
+    "line": 3,
+    "topic": "greeting",
+    "question": "반가워."
+  },
+  {
+    "split": "train",
+    "line": 4,
+    "topic": "greeting",
+    "question": "처음 인사해 봐."
+  },
+  {
+    "split": "train",
+    "line": 5,
+    "topic": "greeting",
+    "question": "좋은 아침이야."
+  },
+  {
+    "split": "train",
+    "line": 6,
+    "topic": "greeting",
+    "question": "오랜만이네."
+  },
+  {
+    "split": "train",
+    "line": 7,
+    "topic": "greeting",
+    "question": "나 왔어."
+  },
+  {
+    "split": "train",
+    "line": 8,
+    "topic": "greeting",
+    "question": "하이!"
+  },
+  {
+    "split": "train",
+    "line": 9,
+    "topic": "greeting",
+    "question": "잠깐 이야기할래?"
+  },
+  {
+    "split": "train",
+    "line": 10,
+    "topic": "greeting",
+    "question": "오늘 처음 접속했어. 안녕."
+  },
+  {
+    "split": "train",
+    "line": 11,
+    "topic": "tired",
+    "question": "오늘 좀 피곤하네."
+  },
+  {
+    "split": "train",
+    "line": 12,
+    "topic": "tired",
+    "question": "오늘 너무 지쳤어."
+  },
+  {
+    "split": "train",
+    "line": 13,
+    "topic": "tired",
+    "question": "잠을 못 자서 졸려."
+  },
+  {
+    "split": "train",
+    "line": 14,
+    "topic": "tired",
+    "question": "하루 종일 일해서 힘이 없어."
+  },
+  {
+    "split": "train",
+    "line": 15,
+    "topic": "tired",
+    "question": "공부를 오래 했더니 피곤해."
+  },
+  {
+    "split": "train",
+    "line": 16,
+    "topic": "tired",
+    "question": "야근하고 왔어. 너무 힘들다."
+  },
+  {
+    "split": "train",
+    "line": 17,
+    "topic": "tired",
+    "question": "기운이 없어서 아무것도 하기 싫어."
+  },
+  {
+    "split": "train",
+    "line": 18,
+    "topic": "tired",
+    "question": "오늘은 일찍 자고 싶어."
+  },
+  {
+    "split": "train",
+    "line": 19,
+    "topic": "tired",
+    "question": "많이 걸었더니 지쳤네."
+  },
+  {
+    "split": "train",
+    "line": 20,
+    "topic": "tired",
+    "question": "아침부터 바빠서 녹초야."
+  },
+  {
+    "split": "train",
+    "line": 21,
+    "topic": "walk",
+    "question": "오늘 날씨가 좋아서 산책하고 왔어."
+  },
+  {
+    "split": "train",
+    "line": 22,
+    "topic": "walk",
+    "question": "공원 한 바퀴 걷고 왔어."
+  },
+  {
+    "split": "train",
+    "line": 23,
+    "topic": "walk",
+    "question": "집 근처를 천천히 걸었어."
+  },
+  {
+    "split": "train",
+    "line": 24,
+    "topic": "walk",
+    "question": "햇볕이 좋아서 밖에서 걸었어."
+  },
+  {
+    "split": "train",
+    "line": 25,
+    "topic": "walk",
+    "question": "산책하면서 꽃을 봤어."
+  },
+  {
+    "split": "train",
+    "line": 26,
+    "topic": "walk",
+    "question": "저녁 먹고 동네 산책했어."
+  },
+  {
+    "split": "train",
+    "line": 27,
+    "topic": "walk",
+    "question": "강아지랑 산책 다녀왔어."
+  },
+  {
+    "split": "train",
+    "line": 28,
+    "topic": "walk",
+    "question": "강변을 따라 걸으니 좋더라."
+  },
+  {
+    "split": "train",
+    "line": 29,
+    "topic": "walk",
+    "question": "친구랑 걸으면서 수다 떨었어."
+  },
+  {
+    "split": "train",
+    "line": 30,
+    "topic": "walk",
+    "question": "오랜만에 밖에 나가서 좀 걸었어."
+  },
+  {
+    "split": "train",
+    "line": 31,
+    "topic": "movie",
+    "question": "주말에 영화 보려고 해."
+  },
+  {
+    "split": "train",
+    "line": 32,
+    "topic": "movie",
+    "question": "영화 좋아해?"
+  },
+  {
+    "split": "train",
+    "line": 33,
+    "topic": "movie",
+    "question": "재미있는 영화 보고 싶다."
+  },
+  {
+    "split": "train",
+    "line": 34,
+    "topic": "movie",
+    "question": "오늘 저녁에 영화 볼까 해."
+  },
+  {
+    "split": "train",
+    "line": 35,
+    "topic": "movie",
+    "question": "친구랑 영화관 가기로 했어."
+  },
+  {
+    "split": "train",
+    "line": 36,
+    "topic": "movie",
+    "question": "집에서 코미디 영화 보려고."
+  },
+  {
+    "split": "train",
+    "line": 37,
+    "topic": "movie",
+    "question": "슬픈 영화 보고 울었어."
+  },
+  {
+    "split": "train",
+    "line": 38,
+    "topic": "movie",
+    "question": "액션 영화가 취향이야."
+  },
+  {
+    "split": "train",
+    "line": 39,
+    "topic": "movie",
+    "question": "영화 한 편 봤는데 정말 재밌었어."
+  },
+  {
+    "split": "train",
+    "line": 40,
+    "topic": "movie",
+    "question": "주말에 영화 보려고 하는데 너는 영화 좋아해?"
+  },
+  {
+    "split": "train",
+    "line": 41,
+    "topic": "plant",
+    "question": "집에 화분 분갈이 해야겠다."
+  },
+  {
+    "split": "train",
+    "line": 42,
+    "topic": "plant",
+    "question": "화분이 많이 자라서 분갈이를 하려고 해."
+  },
+  {
+    "split": "train",
+    "line": 43,
+    "topic": "plant",
+    "question": "식물이 커서 화분이 작아졌어."
+  },
+  {
+    "split": "train",
+    "line": 44,
+    "topic": "plant",
+    "question": "이번 주말에는 화분을 옮겨 심을 거야."
+  },
+  {
+    "split": "train",
+    "line": 45,
+    "topic": "plant",
+    "question": "새 화분을 사 왔어."
+  },
+  {
+    "split": "train",
+    "line": 46,
+    "topic": "plant",
+    "question": "집에서 키우는 식물이 쑥쑥 자라."
+  },
+  {
+    "split": "train",
+    "line": 47,
+    "topic": "plant",
+    "question": "분갈이하려고 흙을 준비했어."
+  },
+  {
+    "split": "train",
+    "line": 48,
+    "topic": "plant",
+    "question": "작은 화분을 큰 걸로 바꿀까 해."
+  },
+  {
+    "split": "train",
+    "line": 49,
+    "topic": "plant",
+    "question": "키우는 화분에 새잎이 났어."
+  },
+  {
+    "split": "train",
+    "line": 50,
+    "topic": "plant",
+    "question": "분갈이 끝냈어."
+  },
+  {
+    "split": "validation",
+    "line": 1,
+    "topic": "greeting",
+    "question": "안뇽, 반갑다!"
+  },
+  {
+    "split": "validation",
+    "line": 2,
+    "topic": "greeting",
+    "question": "좋은 저녁! 잠깐 얘기하자."
+  },
+  {
+    "split": "validation",
+    "line": 3,
+    "topic": "greeting",
+    "question": "여기서 처음 만나네. 잘 부탁해."
+  },
+  {
+    "split": "validation",
+    "line": 4,
+    "topic": "tired",
+    "question": "하루가 너무 길었어. 이제 힘이 다 빠졌네."
+  },
+  {
+    "split": "validation",
+    "line": 5,
+    "topic": "tired",
+    "question": "어제 늦게 자서 지금 눈이 감겨."
+  },
+  {
+    "split": "validation",
+    "line": 6,
+    "topic": "tired",
+    "question": "과제하느라 진이 다 빠졌어."
+  },
+  {
+    "split": "validation",
+    "line": 7,
+    "topic": "walk",
+    "question": "하늘이 맑길래 운동화 신고 동네 한 바퀴 돌았어."
+  },
+  {
+    "split": "validation",
+    "line": 8,
+    "topic": "walk",
+    "question": "점심시간에 나무 많은 길을 걷고 왔어."
+  },
+  {
+    "split": "validation",
+    "line": 9,
+    "topic": "walk",
+    "question": "오늘 반려견 데리고 공원 다녀왔어."
+  },
+  {
+    "split": "validation",
+    "line": 10,
+    "topic": "movie",
+    "question": "이번 토요일에 극장에 갈 생각이야."
+  },
+  {
+    "split": "validation",
+    "line": 11,
+    "topic": "movie",
+    "question": "웃긴 작품 한 편 틀어 놓고 쉬고 싶네."
+  },
+  {
+    "split": "validation",
+    "line": 12,
+    "topic": "movie",
+    "question": "방금 본 작품의 결말이 너무 슬펐어."
+  },
+  {
+    "split": "validation",
+    "line": 13,
+    "topic": "plant",
+    "question": "뿌리가 꽉 찬 것 같아서 식물을 넓은 화분으로 옮길까 해."
+  },
+  {
+    "split": "validation",
+    "line": 14,
+    "topic": "plant",
+    "question": "베란다 식물이 커져서 새집이 필요하겠어."
+  },
+  {
+    "split": "validation",
+    "line": 15,
+    "topic": "plant",
+    "question": "어제 화분에 흙을 새로 넣고 옮겨 심었어."
+  }
+]

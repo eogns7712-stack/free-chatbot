@@ -1,0 +1,57 @@
+{
+  "train_count": 5000,
+  "validation_count": 450,
+  "batch_size": 4,
+  "max_epochs": 5,
+  "learning_rate": 0.0003,
+  "seed": 42,
+  "device": "cpu",
+  "threads": 4,
+  "parameters": 1321728,
+  "context_length": 128,
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "train_sha256": "fb969d5cbcedbfb59fd142f15fe6a7e141b83b1a16f59c65068230043040215e",
+  "validation_sha256": "391757155978640f14c3cd96ee9dd36a651e6ec3796f56aba4d5aaeaf5011402",
+  "history": [
+    {
+      "epoch": 1,
+      "step": 1250,
+      "epoch_complete": true,
+      "train_loss": 6.664021864425019,
+      "validation_loss": 6.35358757100052
+    },
+    {
+      "epoch": 2,
+      "step": 2500,
+      "epoch_complete": true,
+      "train_loss": 6.185847886065512,
+      "validation_loss": 6.042694623503135
+    },
+    {
+      "epoch": 3,
+      "step": 3750,
+      "epoch_complete": true,
+      "train_loss": 5.955623356573325,
+      "validation_loss": 5.935549517132222
+    },
+    {
+      "epoch": 4,
+      "step": 5000,
+      "epoch_complete": true,
+      "train_loss": 5.810131439914647,
+      "validation_loss": 5.83866368262382
+    },
+    {
+      "epoch": 5,
+      "step": 6250,
+      "epoch_complete": true,
+      "train_loss": 5.688258143213971,
+      "validation_loss": 5.780901005198894
+    }
+  ],
+  "best_validation_loss": 5.780901005198894,
+  "best_step": 6250,
+  "stop_reason": "max_epochs",
+  "steps": 6250,
+  "elapsed_seconds": 672.4967021999764
+}

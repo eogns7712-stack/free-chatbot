@@ -1,0 +1,12 @@
+{
+  "train": {
+    "count": 50,
+    "min_tokens": 16,
+    "max_tokens": 36
+  },
+  "validation": {
+    "count": 15,
+    "min_tokens": 20,
+    "max_tokens": 47
+  }
+}

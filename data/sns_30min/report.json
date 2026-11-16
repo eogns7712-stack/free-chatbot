@@ -1,0 +1,93 @@
+{
+  "counts": {
+    "train": 5000,
+    "validation": 450
+  },
+  "max_tokens": 128,
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "topics": [
+    {
+      "file": "[라벨]한국어SNS_train/여가생활.json",
+      "scanned": 2542,
+      "not_two_participants": 407,
+      "mask_or_blocked_text": 1458,
+      "short_or_over_limit_prefix": 50,
+      "train": 556,
+      "validation": 50
+    },
+    {
+      "file": "[라벨]한국어SNS_train/주거와생활.json",
+      "scanned": 1684,
+      "mask_or_blocked_text": 806,
+      "validation": 50,
+      "train": 556,
+      "not_two_participants": 195,
+      "short_or_over_limit_prefix": 55
+    },
+    {
+      "file": "[라벨]한국어SNS_train/식음료.json",
+      "scanned": 1732,
+      "mask_or_blocked_text": 721,
+      "train": 556,
+      "not_two_participants": 179,
+      "validation": 50,
+      "short_or_over_limit_prefix": 26
+    },
+    {
+      "file": "[라벨]한국어SNS_train/시사교육.json",
+      "scanned": 1759,
+      "train": 556,
+      "mask_or_blocked_text": 868,
+      "not_two_participants": 201,
+      "short_or_over_limit_prefix": 50,
+      "validation": 50
+    },
+    {
+      "file": "[라벨]한국어SNS_train/미용과건강.json",
+      "scanned": 1400,
+      "mask_or_blocked_text": 581,
+      "train": 556,
+      "not_two_participants": 134,
+      "validation": 50,
+      "short_or_over_limit_prefix": 40
+    },
+    {
+      "file": "[라벨]한국어SNS_train/일과직업.json",
+      "scanned": 1692,
+      "train": 555,
+      "mask_or_blocked_text": 760,
+      "not_two_participants": 235,
+      "short_or_over_limit_prefix": 48,
+      "validation": 50
+    },
+    {
+      "file": "[라벨]한국어SNS_train/행사.json",
+      "scanned": 2034,
+      "mask_or_blocked_text": 1100,
+      "not_two_participants": 233,
+      "short_or_over_limit_prefix": 50,
+      "train": 555,
+      "validation": 50
+    },
+    {
+      "file": "[라벨]한국어SNS_train/상거래(쇼핑).json",
+      "scanned": 1806,
+      "mask_or_blocked_text": 939,
+      "train": 555,
+      "short_or_over_limit_prefix": 48,
+      "not_two_participants": 205,
+      "validation": 50
+    },
+    {
+      "file": "[라벨]한국어SNS_train/개인및관계.json",
+      "scanned": 2207,
+      "mask_or_blocked_text": 1292,
+      "not_two_participants": 231,
+      "train": 555,
+      "short_or_over_limit_prefix": 64,
+      "validation": 50
+    }
+  ],
+  "selection": "주제별 앞부분에서 조건 통과 대화 추출. 무작위 대표 표본이 아님.",
+  "split": "SHA256 원본 대화 ID modulo 10; 검증 bucket 0"
+}

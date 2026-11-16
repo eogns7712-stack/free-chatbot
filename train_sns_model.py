@@ -9,15 +9,15 @@ from tokenizers import Tokenizer
 from transformers import GPT2Config, GPT2LMHeadModel
 
 ROOT = Path(__file__).resolve().parent
-DATA_DIR = ROOT / "data" / "sns_auto"
 TOKENIZER_PATH = (
     ROOT / "artifacts" / "sns-tokenizer-v1" / "tokenizer.json"
 )
-MODEL_DIR = ROOT / "artifacts" / "tiny-chat-model-sns-v3"
+DATA_DIR = ROOT / "data" / "intent_dialogue"
+MODEL_DIR = ROOT / "artifacts" / "intent-dialogue-v1"
 
-EPOCHS = 3
-CONTEXT_LENGTH = 256
+EPOCHS = 30
 LEARNING_RATE = 0.0003
+CONTEXT_LENGTH = 256
 SEED = 42
 
 

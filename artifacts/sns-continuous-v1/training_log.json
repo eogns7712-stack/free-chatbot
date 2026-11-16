@@ -1,0 +1,89 @@
+{
+  "epoch": 10,
+  "step": 11250,
+  "cursor": 0,
+  "loss_sum": 0.0,
+  "token_count": 0,
+  "best_loss": 5.635256012298764,
+  "best_model": "models/step-00007500",
+  "last_validation_step": 11250,
+  "history": [
+    {
+      "epoch": 0,
+      "step": 0,
+      "train_loss": null,
+      "validation_loss": 5.780901005198894
+    },
+    {
+      "epoch": 1,
+      "step": 1250,
+      "epoch_complete": true,
+      "train_loss": 5.645960007833313,
+      "validation_loss": 5.748557542412134
+    },
+    {
+      "epoch": 2,
+      "step": 2500,
+      "epoch_complete": true,
+      "train_loss": 5.510033740128252,
+      "validation_loss": 5.6985176977154754
+    },
+    {
+      "epoch": 3,
+      "step": 3750,
+      "epoch_complete": true,
+      "train_loss": 5.397046458563844,
+      "validation_loss": 5.670675913390087
+    },
+    {
+      "epoch": 4,
+      "step": 5000,
+      "epoch_complete": true,
+      "train_loss": 5.294836132591007,
+      "validation_loss": 5.65042322778896
+    },
+    {
+      "epoch": 5,
+      "step": 6250,
+      "epoch_complete": true,
+      "train_loss": 5.19978880989531,
+      "validation_loss": 5.639834396840221
+    },
+    {
+      "epoch": 6,
+      "step": 7500,
+      "epoch_complete": true,
+      "train_loss": 5.110658692527152,
+      "validation_loss": 5.635256012298764
+    },
+    {
+      "epoch": 7,
+      "step": 8750,
+      "epoch_complete": true,
+      "train_loss": 5.0265037320381305,
+      "validation_loss": 5.641371962248728
+    },
+    {
+      "epoch": 8,
+      "step": 10000,
+      "epoch_complete": true,
+      "train_loss": 4.948196143751923,
+      "validation_loss": 5.65481691852446
+    },
+    {
+      "epoch": 9,
+      "step": 11250,
+      "epoch_complete": true,
+      "train_loss": 4.869092878780684,
+      "validation_loss": 5.675317921799706
+    }
+  ],
+  "initial_model": "artifacts\\sns-30min-v1\\latest",
+  "signature": {
+    "train_sha256": "fb969d5cbcedbfb59fd142f15fe6a7e141b83b1a16f59c65068230043040215e",
+    "validation_sha256": "391757155978640f14c3cd96ee9dd36a651e6ec3796f56aba4d5aaeaf5011402",
+    "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+    "batch_size": 4,
+    "learning_rate": 0.0003
+  }
+}
