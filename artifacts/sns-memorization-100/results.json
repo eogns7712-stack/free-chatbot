@@ -1,0 +1,1112 @@
+{
+  "epoch": 100,
+  "seed": 42,
+  "learning_rate": 0.0003,
+  "text_matches": 98,
+  "token_matches": 98,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 7.895918395434875
+    },
+    {
+      "epoch": 2,
+      "train_loss": 6.565584596704063
+    },
+    {
+      "epoch": 3,
+      "train_loss": 6.1579290204044845
+    },
+    {
+      "epoch": 4,
+      "train_loss": 6.023770481575537
+    },
+    {
+      "epoch": 5,
+      "train_loss": 5.885435137129922
+    },
+    {
+      "epoch": 6,
+      "train_loss": 5.711698185313832
+    },
+    {
+      "epoch": 7,
+      "train_loss": 5.524817237417206
+    },
+    {
+      "epoch": 8,
+      "train_loss": 5.34405427075028
+    },
+    {
+      "epoch": 9,
+      "train_loss": 5.154803634268968
+    },
+    {
+      "epoch": 10,
+      "train_loss": 4.991217890851288
+    },
+    {
+      "epoch": 11,
+      "train_loss": 4.816392419571516
+    },
+    {
+      "epoch": 12,
+      "train_loss": 4.6470320835285595
+    },
+    {
+      "epoch": 13,
+      "train_loss": 4.492717519723071
+    },
+    {
+      "epoch": 14,
+      "train_loss": 4.3187974750127
+    },
+    {
+      "epoch": 15,
+      "train_loss": 4.161706867687906
+    },
+    {
+      "epoch": 16,
+      "train_loss": 3.997924029537574
+    },
+    {
+      "epoch": 17,
+      "train_loss": 3.836238916510927
+    },
+    {
+      "epoch": 18,
+      "train_loss": 3.662731292428117
+    },
+    {
+      "epoch": 19,
+      "train_loss": 3.5008109103963245
+    },
+    {
+      "epoch": 20,
+      "train_loss": 3.3538947758949273
+    },
+    {
+      "epoch": 21,
+      "train_loss": 3.203048366874891
+    },
+    {
+      "epoch": 22,
+      "train_loss": 3.0512715404352986
+    },
+    {
+      "epoch": 23,
+      "train_loss": 2.8717523217614866
+    },
+    {
+      "epoch": 24,
+      "train_loss": 2.7190850513995644
+    },
+    {
+      "epoch": 25,
+      "train_loss": 2.5782266214107326
+    },
+    {
+      "epoch": 26,
+      "train_loss": 2.414990147561517
+    },
+    {
+      "epoch": 27,
+      "train_loss": 2.293258082196582
+    },
+    {
+      "epoch": 28,
+      "train_loss": 2.164450419023581
+    },
+    {
+      "epoch": 29,
+      "train_loss": 2.0091884700396587
+    },
+    {
+      "epoch": 30,
+      "train_loss": 1.8912913297961604
+    },
+    {
+      "epoch": 31,
+      "train_loss": 1.764505109631461
+    },
+    {
+      "epoch": 32,
+      "train_loss": 1.6428306221879247
+    },
+    {
+      "epoch": 33,
+      "train_loss": 1.5332651620189155
+    },
+    {
+      "epoch": 34,
+      "train_loss": 1.408118947523489
+    },
+    {
+      "epoch": 35,
+      "train_loss": 1.3105391297879772
+    },
+    {
+      "epoch": 36,
+      "train_loss": 1.210800768930328
+    },
+    {
+      "epoch": 37,
+      "train_loss": 1.1212459576990272
+    },
+    {
+      "epoch": 38,
+      "train_loss": 1.0453790623764458
+    },
+    {
+      "epoch": 39,
+      "train_loss": 0.948150723572823
+    },
+    {
+      "epoch": 40,
+      "train_loss": 0.8874272409823932
+    },
+    {
+      "epoch": 41,
+      "train_loss": 0.8096855302637935
+    },
+    {
+      "epoch": 42,
+      "train_loss": 0.7412594955137916
+    },
+    {
+      "epoch": 43,
+      "train_loss": 0.6779985827943834
+    },
+    {
+      "epoch": 44,
+      "train_loss": 0.630837785595825
+    },
+    {
+      "epoch": 45,
+      "train_loss": 0.5651997956838316
+    },
+    {
+      "epoch": 46,
+      "train_loss": 0.5280737686103454
+    },
+    {
+      "epoch": 47,
+      "train_loss": 0.488923503020048
+    },
+    {
+      "epoch": 48,
+      "train_loss": 0.4325856565291645
+    },
+    {
+      "epoch": 49,
+      "train_loss": 0.4143488505890103
+    },
+    {
+      "epoch": 50,
+      "train_loss": 0.386925517892275
+    },
+    {
+      "epoch": 51,
+      "train_loss": 0.3563249729092877
+    },
+    {
+      "epoch": 52,
+      "train_loss": 0.318132071063636
+    },
+    {
+      "epoch": 53,
+      "train_loss": 0.29790529556505224
+    },
+    {
+      "epoch": 54,
+      "train_loss": 0.2682665839718912
+    },
+    {
+      "epoch": 55,
+      "train_loss": 0.25449826920729474
+    },
+    {
+      "epoch": 56,
+      "train_loss": 0.2255951011453876
+    },
+    {
+      "epoch": 57,
+      "train_loss": 0.21723680075395033
+    },
+    {
+      "epoch": 58,
+      "train_loss": 0.19051500368736668
+    },
+    {
+      "epoch": 59,
+      "train_loss": 0.18177641184171978
+    },
+    {
+      "epoch": 60,
+      "train_loss": 0.17191333020471766
+    },
+    {
+      "epoch": 61,
+      "train_loss": 0.17460873215035957
+    },
+    {
+      "epoch": 62,
+      "train_loss": 0.1618306030552268
+    },
+    {
+      "epoch": 63,
+      "train_loss": 0.1595041966201488
+    },
+    {
+      "epoch": 64,
+      "train_loss": 0.1294863248227124
+    },
+    {
+      "epoch": 65,
+      "train_loss": 0.1176229190704394
+    },
+    {
+      "epoch": 66,
+      "train_loss": 0.10888487462272337
+    },
+    {
+      "epoch": 67,
+      "train_loss": 0.09693639103186205
+    },
+    {
+      "epoch": 68,
+      "train_loss": 0.10759564012542398
+    },
+    {
+      "epoch": 69,
+      "train_loss": 0.10627929475688422
+    },
+    {
+      "epoch": 70,
+      "train_loss": 0.13134204243399633
+    },
+    {
+      "epoch": 71,
+      "train_loss": 0.09810007611221112
+    },
+    {
+      "epoch": 72,
+      "train_loss": 0.09056142039498796
+    },
+    {
+      "epoch": 73,
+      "train_loss": 0.10775747742454762
+    },
+    {
+      "epoch": 74,
+      "train_loss": 0.08200800784531978
+    },
+    {
+      "epoch": 75,
+      "train_loss": 0.08120460462375782
+    },
+    {
+      "epoch": 76,
+      "train_loss": 0.07373384556925024
+    },
+    {
+      "epoch": 77,
+      "train_loss": 0.06639885545451657
+    },
+    {
+      "epoch": 78,
+      "train_loss": 0.0631350969034845
+    },
+    {
+      "epoch": 79,
+      "train_loss": 0.048622781686784695
+    },
+    {
+      "epoch": 80,
+      "train_loss": 0.04919823816163746
+    },
+    {
+      "epoch": 81,
+      "train_loss": 0.04866639917133419
+    },
+    {
+      "epoch": 82,
+      "train_loss": 0.04452252304239624
+    },
+    {
+      "epoch": 83,
+      "train_loss": 0.043301744485438116
+    },
+    {
+      "epoch": 84,
+      "train_loss": 0.03872170795329138
+    },
+    {
+      "epoch": 85,
+      "train_loss": 0.04203610735739233
+    },
+    {
+      "epoch": 86,
+      "train_loss": 0.041754444158848665
+    },
+    {
+      "epoch": 87,
+      "train_loss": 0.04938348771139493
+    },
+    {
+      "epoch": 88,
+      "train_loss": 0.0382476948966879
+    },
+    {
+      "epoch": 89,
+      "train_loss": 0.03152806956339098
+    },
+    {
+      "epoch": 90,
+      "train_loss": 0.03398442423742815
+    },
+    {
+      "epoch": 91,
+      "train_loss": 0.08468430278089872
+    },
+    {
+      "epoch": 92,
+      "train_loss": 0.056611999120927785
+    },
+    {
+      "epoch": 93,
+      "train_loss": 0.04305292779061424
+    },
+    {
+      "epoch": 94,
+      "train_loss": 0.04386776564694491
+    },
+    {
+      "epoch": 95,
+      "train_loss": 0.04475032361993394
+    },
+    {
+      "epoch": 96,
+      "train_loss": 0.04915296232119709
+    },
+    {
+      "epoch": 97,
+      "train_loss": 0.07224925452717926
+    },
+    {
+      "epoch": 98,
+      "train_loss": 0.04131296241176389
+    },
+    {
+      "epoch": 99,
+      "train_loss": 0.034608320702102596
+    },
+    {
+      "epoch": 100,
+      "train_loss": 0.04813065019156331
+    }
+  ],
+  "results": [
+    {
+      "question": "넷플봅니다\n유후~~",
+      "reference": "오늘은 뭘볼랑가\n볼라한거 다봣는데",
+      "generated": "오늘은 뭘볼랑가\n볼라한거 다봣는데",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "집에 화분 분갈이 해야겠다",
+      "reference": "왜융????\n너무 많이 자랐는가??",
+      "generated": "왜융????\n너무 많이 자랐는가??",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "인건가요\nㅋㅋㅋ",
+      "reference": "탈출이다아\nYes",
+      "generated": "탈출이다아\nYes",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "집떠나와.. 버스지하철타고..\n언니 출장가는데 아침에 생리터졌다 응원 함 해줘라",
+      "reference": "ㅋㅋㅋ힘내라.....약은 챙겨가냐\n팀장님이랑 뭐 보고있었는데\n넘겼는데 갑자기",
+      "generated": "ㅋㅋㅋ힘내라.....약은 챙겨가냐\n팀장님이랑 뭐 보고있었는데\n넘겼는데 갑자기",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "물들어올때 노젓는 느낌\n소속사에서도",
+      "reference": "맞아옄ㅋㅋ 이럴때해야지",
+      "generated": "맞아옄ㅋㅋ 이럴때해야지",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "강태 왜이렇게 문영이 애가르치듯 굴지\n뭐해야돼 알았어?\n오글거려서 못보겠음니다",
+      "reference": "봐봐 ㅠ\n개 재밌는데 나는 ,,\n문영이가 감정을 몰라서 그러는 거 아님 ??\n몇회에서 하차함 ??",
+      "generated": "봐봐 ㅠ\n개 재밌는데 나는 ,,\n문영이가 감정을 몰라서 그러는 거 아님 ??\n몇회에서 하차함 ??",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "빵 사러 나가보니\n날씨 넘 좋아서\n옷다시 입고",
+      "reference": "ㅋㅋㅋ\n다시 나왔어??",
+      "generated": "ㅋㅋㅋ\n다시 나왔어??",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "홈트는 계속하고??",
+      "reference": "ㅇㅇㅇ 근데 공복으로 안 할 거",
+      "generated": "ㅇㅇㅇ 근데 공복으로 안 할 거",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "머리색 뭐하지..",
+      "reference": "ㅋㅋㅋ\n오 메이플 여전히 하네",
+      "generated": "ㅋㅋㅋ\n오 메이플 여전히 하네",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "너도 옵치 될껄?\n나도 최하옵 급이라\n다른프로그램 같이 켜놓으면 렉걸리는데\n게임할때 카톡이랑 디스코드 싹다 끄고 하면 렉안걸령",
+      "reference": "난 그것도 안될 것 같운 이 느낌적인 느낌\n아 진짜???",
+      "generated": "난 그것도 안될 것 같운 이 느낌적인 느낌\n아 진짜???",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "우주 우는 연기랑 원망증오하는 연기는\n엄청 잘하더라구여\nㅋㅋㅋ",
+      "reference": "정말\n울컥함ㅜㅜ\n기차에서 울뻔",
+      "generated": "정말\n울컥함ㅜㅜ\n기차에서 울뻔",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "맞아.. 여기\n다비싼곳이야",
+      "reference": "너 넷플릭스\n스위트홈 봤어?",
+      "generated": "너 넷플릭스\n스위트홈 봤어?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "아까 도와준 사람이\n시리우스 블랙\n아님?",
+      "reference": "아님 아님 해리아빠 친구",
+      "generated": "아님 아님 해리아빠 친구",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "근데 쌍둥이 그룹 안에 또 쌍둥이",
+      "reference": "동명이는\n원위에있어?",
+      "generated": "동명이는\n원위에있어?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "지금 유튜브에\n노동요듣는중",
+      "reference": "앜ㅋㅋㅋ그거\n완전신남",
+      "generated": "앜ㅋㅋㅋ그거\n완전신남",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "근데 뒷광고가\n그렇게 잘못된 건가 싶기도함",
+      "reference": "괜찮아하는 사람도 있는데\n되게 경멸하는사람도 있드라",
+      "generated": "괜찮아하는 사람도 있는데\n되게 경멸하는사람도 있드라",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "나오늘 8시에 박효신콘서트 티켓팅 햇엇는디",
+      "reference": "아 그거 했었어???",
+      "generated": "아 그거 했었어???",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "아니 슈가\n슈가몬데",
+      "reference": "슈가\n사이버로 나옴",
+      "generated": "슈가\n사이버로 나옴",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "나보다\n어쩔때보면\n항마력 더 조아",
+      "reference": "나\n많이늘은거같아...\n항마력...",
+      "generated": "나\n많이늘은거같아...\n항마력...",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "응응 성공못하면...",
+      "reference": "이번주랑 다음주는 이미 다 매진이야?",
+      "generated": "이번주랑 다음주는 이미 다 매진이야?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "딸꾹질\n잘 안하는데",
+      "reference": "팝콘각이얏따\n아주",
+      "generated": "팝콘각이얏따\n아주",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "머말하고나서\n열한시 쫌 넘어서 산책\n열한시 반 귀가",
+      "reference": "ㅋㅋㅋ엉엉엉\n12시 취침..",
+      "generated": "ㅋㅋㅋ엉엉엉\n12시 취침..",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "저번에\n파리바게뜨 테이크아웃으로\n주문하면\n3처넌인가\n할인해준다는거 봤거든",
+      "reference": "오\n우왕\n이벤트로?",
+      "generated": "오\n우왕\n이벤트로?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "새벽에 갑자기 날뛰는 팬덤 한줌단놈들중에 사재기 아닌 놈들이 없다",
+      "reference": "마져........\n아니 팬덤 한줌이면서ㅠㅠㅠ\n그리고 팬덤도 없는",
+      "generated": "마져........\n아니 팬덤 한줌이면서ㅠㅠㅠ\n그리고 팬덤도 없는",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "이제 뭐먹게?ㅎㅎ",
+      "reference": "먹을게 없음ㅠㅠ\n피씨방에 8천만원 쓴 26살",
+      "generated": "먹을게 없음ㅠㅠ\n피씨방에 8천만원 쓴 26살",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "어 꽁트 썼니!?",
+      "reference": "응응!! 지금 1200자 넘었는데 2000자짜리가 보통이니까 약 1800~2000자 사이로 쓰려고!",
+      "generated": "응응!! 지금 1200자 넘었는데 2000자짜리가 보통이니까 약 1800~2000자 사이로 쓰려고!",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "이판\n발판밑으로 들어가면\n빠르거든",
+      "reference": "어어맞제\n발판\n밑이 더 빠르더라\n위가 더 빠른줄알앗는데",
+      "generated": "어어맞제\n발판\n밑이 더 빠르더라\n위가 더 빠른줄알앗는데",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "오늘 게임 엄청 졌어ㅡㅡ\n지금 한 10연패?? 이게 말이 되냐구!!\nㅡㅡ",
+      "reference": "어휴 너는 엄청 잘 하잖아!!!!",
+      "generated": "어휴 너는 엄청 잘 하잖아!!!!",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "로렉스가그래서\n좀\n저는이제 불편하다고\n느끼네요\n1300짜리차는데\n지하철버스타니",
+      "reference": "그랜져 타면 오메가 차도됨?",
+      "generated": "그랜져 타면 오메가 차도됨?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "(캠핑가서 밤에 마피아 할때 승관이 도겸한테 호시믿지말고 자기 믿으라고 하는 말)\n그만큼!!! 무해하다!!!",
+      "reference": "와 심지어 나 그거 아직 안봄",
+      "generated": "와 심지어 나 그거 아직 안봄",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "엑소나온다\n엠넷\n죽었니...?",
+      "reference": "죽었다가\n지금 부활했다\n뭔가 황당하다\n눈떴는데 왜 12시지",
+      "generated": "죽었다가\n지금 부활했다\n뭔가 황당하다\n눈떴는데 왜 12시지",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "로판 읽었던거\n아니 로설\n좀 실망함",
+      "reference": "왜?? 왜 실망했는데",
+      "generated": "왜?? 왜 실망했는데",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "햇님 일미간장게장 영상봤너\n역시 조회수 2배군\n게장이란,,",
+      "reference": "ㅋㅋㅋ게장의 유혹\n사람들 역시나 게장에 환장하네\n진짜 부럽게 쌓아먹더라...",
+      "generated": "ㅋㅋㅋ게장의 유혹\n사람들 역시나 게장에 환장하네\n진짜 부럽게 쌓아먹더라...",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "재밌더라 진짜ㅋㅋㅋ\n할리우드 나도 볼라구",
+      "reference": "ㅋㅋ 아니 이정도\\로 야할줄 몰랏어...\n할리우드도 야해...\n근데 겁나 잼잇어",
+      "generated": "ㅋㅋ 아니 이정도\\로 야할줄 몰랏어...\n할리우드도 야해...\n근데 겁나 잼잇어",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "서울 놀러가고 싶다 ㅋ\n워커힐 갔을 때 좋았는데",
+      "reference": "워커힐 이제 가격 겁나 오름",
+      "generated": "워커힐 이제 가격 겁나 오름",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "원더우먼..잼섯는데\n너 1편봣어?",
+      "reference": "아니 사실 안봄 ㅋ ㅋ ㅋ ㅋ ㅋ",
+      "generated": "아니 사실 안봄 ㅋ ㅋ ㅋ ㅋ ㅋ",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "라이브보는데 볼만하다?",
+      "reference": "라이브?\n드라마?",
+      "generated": "라이브?\n드라마?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "집에서 혼자 웃다\n노래 부르다",
+      "reference": "나두야\n나 혼자 노래부르는데\n목소리가 잠겨서 그런가 말을 안 해서\n노래가 반만 나와서",
+      "generated": "나두야\n나 혼자 노래부르는데\n목소리가 잠겨서 그런가 말을 안 해서\n노래가 반만 나와서",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "영블러드 방청객안잡히는 풀버전\n나오기전까지\n그중간에 열광하는 남자 2명때메 ㅉ짜증났었는데\n이것도 빨리 음원이랑 풀버전바로나왔음ㄴ",
+      "reference": "ㅋㅋㅋ개웃곀ㅋㅋㅋ\n풀버전 나오는지도몰랐어나는",
+      "generated": "ㅋㅋㅋ개웃곀ㅋㅋㅋ\n풀버전 나오는지도몰랐어나는",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "나 이사베 영상 처음봤은데\n매력있넼ㅋㅋㅋ\n실력도 쩔어",
+      "reference": "마자 화장 개잘해 ㅋㅋㅋ\n약간 조금 오글거릴때잇는데\n화장잘해서 본다",
+      "generated": "마자 화장 개잘해 ㅋㅋㅋ\n약간 조금 오글거릴때잇는데\n화장잘해서 본다",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "뺑반 별로 재미없어 보지마",
+      "reference": "뺑반 재밌다고 그랬는데\n별로구나?",
+      "generated": "뺑반 재밌다고 그랬는데\n별로구나?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "나는 걍 뽑을때마다\n쟁여두는 편\n마일리지 100되면 바꾸고\n100되면 바꾸고",
+      "reference": "358있어\n아니\nㄴㅓ도\n마일리지나 메달샵에\n에소안뜸?",
+      "generated": "358있어\n아니\nㄴㅓ도\n마일리지나 메달샵에\n에\n아니 아나\n1등이라고 안했으니까 ˗",
+      "text_match": false,
+      "token_match_including_eos": false
+    },
+    {
+      "question": "에스에프에이 내년에 들어갈거라고 잘쪼고 있으라고 했어\n몇일전에",
+      "reference": "영상에서 그랫어??",
+      "generated": "영상에서 그랫어??",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "진짜재미있었어ㅜㅜㅜ\n역시 1층이쵝오다\n솔콘그라운드\n기다려라너네",
+      "reference": "오냐~\n내일 볼 자리는 어뗘?\n대충 훑어봐써?",
+      "generated": "오냐~\n내일 볼 자리는 어뗘?\n대충 훑어봐써?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "아까 만도 분할매도로\n다 날리고 하나만 남겨뒀는데\n역대급 잘한 행동인듯",
+      "reference": "왜 잘한 행동인디?\n떨어짐?",
+      "generated": "왜 잘한 행동인디?\n떨어짐?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "로또 당첨되면 연어 사주께\n기다려봐\n로또 당첨되면 참치 해체쇼 데려가서 참치도 사줄게",
+      "reference": "모든 로또 가능인거지?\n5등 되어도 사주는 거쥐?\n1등이라고 안했으니까 ˗ˏˋ ♡ ˎˊ˗",
+      "generated": "모든 로또 가능인거지?\n5등 되어도 사주는 거쥐?\n1등이라고 안했으니까 ˗ˏˋ ♡ ˎˊ˗",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "나도 보면서 하",
+      "reference": "나아직 4화\nㅎㅎ",
+      "generated": "나아직 4화\nㅎㅎ",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "멜론dj로 틀어주는 노래만 들을 수 있음",
+      "reference": "아싫어요\n걸그룹노래만들을거예요ㅠ\n저하늘위로번지..",
+      "generated": "아싫어요\n걸그룹노래만들을거예요ㅠ\n저하늘위로번지..",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "6/27에 신규등록 해야겠다\n여기가 샤워시설 제일 낫고 가격도 싸다\n가임기 그거 10퍼도 잇고",
+      "reference": "ㅋㅋ오 그래서 너네는 얼마야?",
+      "generated": "ㅋㅋ오 그래서 너네는 얼마야?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "우리 자리 s3 앉으면 될 것 같어\n보니까 저기가 선수벤치 뒷편이래",
+      "reference": "헉\n맞아\n나도 방금 알앗어",
+      "generated": "헉\n맞아\n나도 방금 알앗어",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "나\n넷플\n베이비 시작했어",
+      "reference": "엥 대박\n나도 그거 볼려다말앗는데\n그거 재밋냐??????!!!!!!!!!!!!!!!!!",
+      "generated": "엥 대박\n나도 그거 볼려다말앗는데\n그거 재밋냐??????!!!!!!!!!!!!!!!!!",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "어릴때 음료수 cm송\n잘 만든거같어 ㅋㅋ",
+      "reference": "오 그러게\n생각나는거뭐있어 ?",
+      "generated": "오 그러게\n생각나는거뭐있어 ?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "걍 전체가 폭삭 말라버려써...\n죠륵..",
+      "reference": "ㅋㅋㅋ그럼 쟈근 화분에 새로운걸 심어보렴ㅋㅋㅋ",
+      "generated": "ㅋㅋㅋ그럼 쟈근 화분에 새로운걸 심어보렴ㅋㅋㅋ",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "처음 간 디즈니가 제일\n감동이었다",
+      "reference": "ㅠㅠ인정 진짜...",
+      "generated": "ㅠㅠ인정 진짜...",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "여기 꽃이 너무 마나서\n향엄청나",
+      "reference": "나도 담에 저기서 사야겟강\nㅎ언니쥬께\n사진 잘찍었네",
+      "generated": "나도 담에 저기서 사야겟강\nㅎ언니쥬께\n사진 잘찍었네",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "근데 그럼 모하냐고",
+      "reference": "4시부터 마신대\n술을요",
+      "generated": "4시부터 마신대\n술을요",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "자기야\n아홉살인생 봤어?",
+      "reference": "당연히 봤지\n혹시 거기 주인공 아역이야?",
+      "generated": "당연히 봤지\n혹시 거기 주인공 아역이야?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "야야 저 달글 완전\n취저 오짐~~ 하앙~~~\n럽힙 = 넘 좋아하는 스타일이지만 평소 못입음 저달글 = 말모 취향저격",
+      "reference": "오 심플 청순섹시 힙\n이군",
+      "generated": "오 심플 청순섹시 힙\n이군",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "사람이 아나콘다 입안에\n장비착용하고\n들가는데",
+      "reference": "그래서 들어갓어?\n아니 아나콘다",
+      "generated": "그래서 들어갓어?\n아니 아나콘다",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "잠시만야\n저 성형좀\nㅋㅋ",
+      "reference": "조용한눈도전?\nㅋㅋ",
+      "generated": "",
+      "text_match": false,
+      "token_match_including_eos": false
+    },
+    {
+      "question": "9번봐\n아ㅔ메리카셰프",
+      "reference": "왜유!\n누구나왓?",
+      "generated": "왜유!\n누구나왓?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "상추 먹는 미루\n신기해 고양이가 상추먹는거 첨봐",
+      "reference": "고양이들중에.\n풀 좋아하는 애들 많데",
+      "generated": "고양이들중에.\n풀 좋아하는 애들 많데",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "사실 지금 최애를\n넘 가까이서 봐서\n부담스러\n난 그냥 무대보는게 조아",
+      "reference": "그래도 계탄거아니냐",
+      "generated": "그래도 계탄거아니냐",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "안산에 친구 잇거든\n어이없네",
+      "reference": "ㅋ\n친구보러오는거임?\n어이없네",
+      "generated": "ㅋ\n친구보러오는거임?\n어이없네",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "27분에 뚫은거대로 됬으면\n예매 됬을거같은데\n쫌전에 보니까\n표 하나씩 막 남아있던데 아오",
+      "reference": "근데 자리가 앖는데?\n한자리 남아있고",
+      "generated": "근데 자리가 앖는데?\n한자리 남아있고",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "요샌 순천시카톡도\n이벤트 없네유 ㅠㅠ",
+      "reference": "구니까,,,ㅠ ,,,,\n왜 안하쥐.. 돈 없나",
+      "generated": "구니까,,,ㅠ ,,,,\n왜 안하쥐.. 돈 없나",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "게임 때문에 그래픽 카드 올리기는 그래서 고민 좀 해보고...",
+      "reference": "그게 하드에 깔면 확실히\n렉이 좀 있다는데\n씨드라이브에 깐 걸로 해결 됐음 좋겠다",
+      "generated": "그게 하드에 깔면 확실히\n렉이 좀 있다는데\n씨드라이브에 깐 걸로 해결 됐음 좋겠다",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "내새꾸 심심해요?",
+      "reference": "그냥 드라마 보시는거 같이 조금 보고있어요...",
+      "generated": "그냥 드라마 보시는거 같이 조금 보고있어요...",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "확실히 넷플릭스는 유일무이한것같다 ㅋㅋㅋ\n일단 오리지널 제작콘텐츠 있는게..큰듯",
+      "reference": "ㅁㅈㅋㅋㅋ 아무리 와챠랑 티빙 이런거 나온다고해도\n넷플은 일단 가져갈듯\n계속 구독하는거로 ㅠ",
+      "generated": "ㅁㅈㅋㅋㅋ 아무리 와챠랑 티빙 이런거 나온다고해도\n넷플은 일단 가져갈듯\n계속 구독하는거로 ㅠ",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "나는 헤링본 막 조아하진않아서\n근데 니 헤링본맨이자나",
+      "reference": "아마자 나는 헤링본처돌이~~",
+      "generated": "아마자 나는 헤링본처돌이~~",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "ㅁㅈㅁㅈ..진짜 빱이 편지본 보면서 감탄해..\n어쩜 저렇게 만들까..\n비하인드 스태프는 빱이랑 일해본게 이번이 처음이고 편집도 처음이라던데\n진짜 잘하구",
+      "reference": "지리네\n나두 편집 배워야지",
+      "generated": "지리네\n나두 편집 배워야지",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "너노트북에\n배경화면 ㅋㅋ\n남자로되있던데\n누구냐",
+      "reference": "우리\n태오오빠지",
+      "generated": "우리\n태오오빠지",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "그 스파이더맨에서 해피가 방패 던질때\n너무 힘없이 떨어지는거 기억나?",
+      "reference": "웅 기억나징!!!!\n그거왜?!?!!!",
+      "generated": "웅 기억나징!!!!\n그거왜?!?!!!",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "2분이나 겜이잡히지않네요\n이게게임인가?",
+      "reference": "ㅋㅋㅋ전맥날시켯네요 상하이 상하이\n다먹고\n방문할게요",
+      "generated": "ㅋㅋㅋ전맥날시켯네요 상하이 상하이\n다먹고\n방문할게요",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "잘 갔다왔옹?!??",
+      "reference": "응!!잘 댕겨왔오\n가서 노래 듣고왔징",
+      "generated": "응!!잘 댕겨왔오\n가서 노래 듣고왔징",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "내년 여름에도\n공포영화잼난거 마니햇움 좋겟다",
+      "reference": "그러게~\n우린 공포영화먀니아인데 ㅋㅋ",
+      "generated": "그러게~\n우린 공포영화먀니아인데 ㅋㅋ",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "요새 티비 재밌는거 보는거 있어?",
+      "reference": "나 골목식당 완전 재밌게봐",
+      "generated": "나 골목식당 완전 재밌게봐",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "아 근데 샤먼킹 리메이크하려면 뭔가\n결말부분 다시 다듬어야 할거 같은데 ㅋㅋㅋ",
+      "reference": "흐음\n다듬지않을까",
+      "generated": "흐음\n다듬지않을까",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "일본 캐릭터 코스프레한 거 본적있어?",
+      "reference": "음 인터넷에 돌아다니는 이미지는 본 것 같아\n왜 관심있나?",
+      "generated": "음 인터넷에 돌아다니는 이미지는 본 것 같아\n왜 관심있나?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "그뭐냐 우리\n투명카약 타러갈래?",
+      "reference": "카약ㅋㅋ\n쇠소깍에???",
+      "generated": "카약ㅋㅋ\n쇠소깍에???",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "저 실4됐네요 ㅋ\nㅌㅋㅋㅋ",
+      "reference": "저안자고\n기다렷움\nㅋㅋ\n로그인ㄱ",
+      "generated": "저안자고\n기다렷움\nㅋㅋ\n로그인ㄱ",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "무튼 두세트함\n그냥 자살하고싶었음\n어깨랑 팔진짜 아작",
+      "reference": "저 오늘부터\n도전해볽요",
+      "generated": "저 오늘부터\n도전해볽요",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "엉\n컴꺼져서..\n다시키는중",
+      "reference": ".,\n천천히들엉하\n어와",
+      "generated": ".,\n천천히들엉하\n어와",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "이제 모바일게임 시작하시는건가요",
+      "reference": "기대댄댜,,,,\n패드 산다~~~!!!",
+      "generated": "기대댄댜,,,,\n패드 산다~~~!!!",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "이 회사 담주 금욜 강제로 야구장 가야된대",
+      "reference": "헐 야구장!!!!!!\n재밌겠다ㅠㅠㅠ",
+      "generated": "헐 야구장!!!!!!\n재밌겠다ㅠㅠㅠ",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "그노래 중독성은 있지만\n내가 너처럼 좋아하지는 못함\n각자 귀에 때리는 노래가 있나봐",
+      "reference": "ㅋㅋㅋ\n그 상황이 웃겼는데\n몰라 내 귀를 때려버림",
+      "generated": "ㅋㅋㅋ\n그 상황이 웃겼는데\n몰라 내 귀를 때려버림",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "난 개꿈마다 내장기 털릴까봐 도망가는꿈임 항상",
+      "reference": "존뭌ㅋㅋㅋ아 무서워",
+      "generated": "존뭌ㅋㅋㅋ아 무서워",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "근데 티켓이 몇등까지한테까지\n오는지 모르겟네\n출전권",
+      "reference": "아시아??\n아니아니\n올리픽??",
+      "generated": "아시아??\n아니아니\n올리픽??",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "몸따스하고 크리스마스한곳",
+      "reference": "ㅋㅋㅋ그니까\n만화카페틀어박히냐...\n아 정말 한국 놀거리 없다",
+      "generated": "ㅋㅋㅋ그니까\n만화카페틀어박히냐...\n아 정말 한국 놀거리 없다",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "부부의 세계 보는 중ㅎㅎ",
+      "reference": "꺄 ㅎㅎ\n몇화봐용 ?",
+      "generated": "꺄 ㅎㅎ\n몇화봐용 ?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "스키타고싶다\n잘 못타지만\n스키장 가고싶다 ㅠㅠ",
+      "reference": "하지만 이시국에 가면..아시죠?\n뉴스나옵니다~~~",
+      "generated": "하지만 이시국에 가면..아시죠?\n뉴스나옵니다~~~",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "다룰 줄 아는 악기 있어?",
+      "reference": "음 딱히 없긴한데\n리코더 불수있어\n예전에 학교다닐 때 배웠거든",
+      "generated": "음 딱히 없긴한데\n리코더 불수있어\n예전에 학교다닐 때 배웠거든",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "이번 컴백하고 새로나온 이모티콘 무조건 사야지",
+      "reference": "컨셉이 진짜 사탄이면",
+      "generated": "컨셉이 진짜 사탄이면",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "절 구경가고싶다~",
+      "reference": "절 좋아해? 종교가 불교야?",
+      "generated": "절 좋아해? 종교가 불교야?",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "1엔 송금은 모죠?",
+      "reference": "ㅋㅋㅋ\n라인페이 등급 올릴라고 송금했어",
+      "generated": "ㅋㅋㅋ\n라인페이 등급 올릴라고 송금했어",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "님 우리카페 원래 ,,, 하루에\n가입인사글이 이렇게 많이 올라왔어요?",
+      "reference": "네ㅇㅇ 원래 저래올라와여",
+      "generated": "네ㅇㅇ 원래 저래올라와여",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "ㅎㅎㅎ아직 게임붕이야?",
+      "reference": "웅ㅎㅎㅎ 잘란되네\n지는게 더 마나 ㅠ",
+      "generated": "웅ㅎㅎㅎ 잘란되네\n지는게 더 마나 ㅠ",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "진자\n개ㅓㄹ렘\n야 우리한달사는거\n꼭하자",
+      "reference": "ㅇㅇ..\n내가요즘\n유튜브보는애잇는데",
+      "generated": "ㅇㅇ..\n내가요즘\n유튜브보는애잇는데",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "선물좀 얻어..오시믄..\n저도 안양것으로... 보답드리겠슴미다...",
+      "reference": "ㅋㅋㅋ엉 한강에 미뇽 나온다는 얘기가 2017년에 한창 있길래...\n네 제가 한강 선물 보내두리죠",
+      "generated": "ㅋㅋㅋ엉 한강에 미뇽 나온다는 얘기가 2017년에 한창 있길래...\n네 제가 한강 선물 보내두리죠",
+      "text_match": true,
+      "token_match_including_eos": true
+    },
+    {
+      "question": "언니\n바질 이름좀 지어줘\n바뿌 에드워드 스바시바 바람 이렇게 네개뿐이야",
+      "reference": "바람은머여\n쑥쑥이",
+      "generated": "바람은머여\n쑥쑥이",
+      "text_match": true,
+      "token_match_including_eos": true
+    }
+  ],
+  "purpose": "학습 예제 재현 검사. 일반 대화 성능 평가와 구분."
+}

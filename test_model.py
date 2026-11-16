@@ -7,7 +7,7 @@ from transformers import GPT2LMHeadModel
 MODEL_DIR = (
     Path(__file__).resolve().parent
     / "artifacts"
-    / "tiny-chat-model-sns-v2"
+    / "sns-memorization-100"
 )
 
 
@@ -28,6 +28,7 @@ def main():
     ("일상 대화", "오늘 날씨가 좋아서 산책하고 왔어."),
     ("감정 반응", "오늘 좀 피곤하네."),
     ("취향 대화", "주말에 영화 보려고 하는데 너는 영화 좋아해?"),
+    ("변형 질문", "화분이 많이 자라서 분갈이를 하려고 해."),
 ]
 
     for label, question in cases:
@@ -45,7 +46,9 @@ def main():
                 input_ids=inputs,
                 attention_mask=torch.ones_like(inputs),
                 max_new_tokens=48,
-                do_sample=False,
+                do_sample=True,
+                temperature=0.8,
+                top_p=0.9,
             )
 
         reply_ids = output[0, len(prompt_ids):].tolist()

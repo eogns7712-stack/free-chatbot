@@ -10,8 +10,10 @@ from transformers import GPT2Config, GPT2LMHeadModel
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data" / "sns_auto"
-TOKENIZER_PATH = ROOT / "artifacts" / "tokenizer.json"
-MODEL_DIR = ROOT / "artifacts" / "tiny-chat-model-sns-v2"
+TOKENIZER_PATH = (
+    ROOT / "artifacts" / "sns-tokenizer-v1" / "tokenizer.json"
+)
+MODEL_DIR = ROOT / "artifacts" / "tiny-chat-model-sns-v3"
 
 EPOCHS = 3
 CONTEXT_LENGTH = 256

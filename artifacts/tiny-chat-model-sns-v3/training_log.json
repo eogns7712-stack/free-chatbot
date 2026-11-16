@@ -1,0 +1,29 @@
+{
+  "initial_validation_loss": 8.30297719997892,
+  "best_epoch": 3,
+  "best_validation_loss": 6.468403743397318,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 6.944175611103691,
+      "validation_loss": 6.623022160631545
+    },
+    {
+      "epoch": 2,
+      "train_loss": 6.5393032445517685,
+      "validation_loss": 6.530511882667233
+    },
+    {
+      "epoch": 3,
+      "train_loss": 6.417870102875799,
+      "validation_loss": 6.468403743397318
+    }
+  ],
+  "train_count": 1644,
+  "validation_count": 156,
+  "seed": 42,
+  "learning_rate": 0.0003,
+  "context_length": 256,
+  "vocab_size": 4000,
+  "device": "cpu"
+}
