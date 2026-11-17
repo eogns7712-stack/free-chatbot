@@ -1,0 +1,65 @@
+{
+  "objective": "all_real_tokens",
+  "selection_metric": "response_validation_loss",
+  "initialization": "random",
+  "train_count": 5000,
+  "validation_count": 450,
+  "batch_size": 4,
+  "max_epochs": 5,
+  "learning_rate": 0.0003,
+  "seed": 42,
+  "device": "cpu",
+  "threads": 4,
+  "parameters": 1321728,
+  "context_length": 128,
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "train_sha256": "fb969d5cbcedbfb59fd142f15fe6a7e141b83b1a16f59c65068230043040215e",
+  "validation_sha256": "391757155978640f14c3cd96ee9dd36a651e6ec3796f56aba4d5aaeaf5011402",
+  "history": [
+    {
+      "epoch": 1,
+      "step": 1250,
+      "epoch_complete": true,
+      "train_loss": 6.235416618403286,
+      "response_validation_loss": 6.099194686902472,
+      "fulltext_validation_loss": 5.820952628978876
+    },
+    {
+      "epoch": 2,
+      "step": 2500,
+      "epoch_complete": true,
+      "train_loss": 5.692224874508825,
+      "response_validation_loss": 5.8711816133421095,
+      "fulltext_validation_loss": 5.591770650921507
+    },
+    {
+      "epoch": 3,
+      "step": 3750,
+      "epoch_complete": true,
+      "train_loss": 5.4962619767183085,
+      "response_validation_loss": 5.739833471623856,
+      "fulltext_validation_loss": 5.456639051236847
+    },
+    {
+      "epoch": 4,
+      "step": 5000,
+      "epoch_complete": true,
+      "train_loss": 5.353104723124349,
+      "response_validation_loss": 5.636006299584258,
+      "fulltext_validation_loss": 5.358309060639299
+    },
+    {
+      "epoch": 5,
+      "step": 6250,
+      "epoch_complete": true,
+      "train_loss": 5.228677952667098,
+      "response_validation_loss": 5.556386598534879,
+      "fulltext_validation_loss": 5.276924393510449
+    }
+  ],
+  "best_validation_loss": 5.556386598534879,
+  "best_step": 6250,
+  "stop_reason": "max_epochs",
+  "steps": 6250,
+  "elapsed_seconds": 701.9462217999389
+}

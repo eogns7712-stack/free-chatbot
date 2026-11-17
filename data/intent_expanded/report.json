@@ -1,0 +1,17 @@
+{
+  "train_count": 500,
+  "existing_count": 50,
+  "external_count": 450,
+  "validation_count": 15,
+  "test_count": 30,
+  "source_url": "https://github.com/songys/Chatbot_data",
+  "source_csv_sha256": "287eb129695b577321c80ad397bb3c2279164d4ca577874d129fd3db5b30afe2",
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "selection_seed": 42,
+  "question_similarity_filter": ".85 SequenceMatcher against held-out questions and original 50",
+  "limitations": [
+    "450개는 규칙 기반 선별이며 전체 의미 적절성을 사람이 검수한 것은 아님.",
+    "기존 15개는 반복 사용한 모델 선택용 검증 세트. 새 30개는 첫 확인 이후 다시 최종 블라인드 평가로 간주하지 않음.",
+    "공개 원본의 일상(label 0)을 선택했으며 모든 자유주제나 다중 턴을 다루지 않음."
+  ]
+}

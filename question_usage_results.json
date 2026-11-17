@@ -1,0 +1,30 @@
+[
+  {
+    "type": "training_question",
+    "question": "넷플봅니다\n유후~~",
+    "reference": "오늘은 뭘볼랑가\n볼라한거 다봣는데",
+    "generated": "오\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나"
+  },
+  {
+    "type": "training_question",
+    "question": "집에 화분 분갈이 해야겠다",
+    "reference": "왜융????\n너무 많이 자랐는가??",
+    "generated": "오\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나"
+  },
+  {
+    "type": "training_question",
+    "question": "에라이",
+    "reference": "ㅋㅋㅋ진짜 어이없는데서 터졌네\n헐\n헐",
+    "generated": "ㅋㅋㅋ\nㅋㅋㅋ\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나\n나"
+  },
+  {
+    "type": "다른 질문",
+    "question": "오늘은 어떤 영화를 볼까?",
+    "generated": "응~\n나 지금 안주일에 가고"
+  },
+  {
+    "type": "질문 없이 답변 시작",
+    "question": null,
+    "generated": "ㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ\nㅋㅋㅋ"
+  }
+]
