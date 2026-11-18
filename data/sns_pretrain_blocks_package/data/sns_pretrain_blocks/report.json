@@ -1,0 +1,104 @@
+{
+  "status": "complete",
+  "dtype": "<u2",
+  "block_size": 128,
+  "overlap": 1,
+  "pad_token_id": 0,
+  "vocab_size": 4000,
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "source_zip": "(비식별화완료)[라벨]한국어SNS_train.zip",
+  "splits": {
+    "train": {
+      "blocks": 63514,
+      "prediction_targets": 5302204,
+      "dialogues": 50000,
+      "unique_serialized_tokens": 5352204
+    },
+    "validation": {
+      "blocks": 6366,
+      "prediction_targets": 529070,
+      "dialogues": 5000,
+      "unique_serialized_tokens": 534070
+    }
+  },
+  "topics": [
+    {
+      "source_json": "[라벨]한국어SNS_train/여가생활.json",
+      "scanned": 23056,
+      "not_two_speakers": 3610,
+      "filtered_text": 13083,
+      "train": 5556,
+      "validation": 556
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/주거와생활.json",
+      "scanned": 15260,
+      "filtered_text": 7368,
+      "validation": 556,
+      "train": 5556,
+      "not_two_speakers": 1643
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/식음료.json",
+      "scanned": 15068,
+      "filtered_text": 7288,
+      "train": 5556,
+      "not_two_speakers": 1527,
+      "validation": 556
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/시사교육.json",
+      "scanned": 15987,
+      "train": 5556,
+      "filtered_text": 7829,
+      "not_two_speakers": 1827,
+      "validation": 556
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/미용과건강.json",
+      "scanned": 13383,
+      "filtered_text": 5724,
+      "train": 5556,
+      "not_two_speakers": 1379,
+      "validation": 556
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/일과직업.json",
+      "scanned": 15783,
+      "train": 5555,
+      "filtered_text": 7393,
+      "not_two_speakers": 2129,
+      "validation": 555
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/행사.json",
+      "scanned": 19389,
+      "filtered_text": 10744,
+      "not_two_speakers": 2447,
+      "train": 5555,
+      "validation": 555
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/상거래(쇼핑).json",
+      "scanned": 17330,
+      "filtered_text": 9183,
+      "train": 5555,
+      "not_two_speakers": 1877,
+      "validation": 555
+    },
+    {
+      "source_json": "[라벨]한국어SNS_train/개인및관계.json",
+      "scanned": 20467,
+      "filtered_text": 12091,
+      "not_two_speakers": 2035,
+      "train": 5555,
+      "validation": 555
+    }
+  ],
+  "limitations": [
+    "원본 주제별 앞부분의 조건 통과 대화이며 무작위 대표 표본이 아님.",
+    "문장과 대화 흐름을 모두 쓰는 언어모델 학습용. 역할이 블록 첫머리에 없을 수도 있음.",
+    "패딩을 제외한 모든 토큰을 학습하며, 서로 다른 대화를 같은 블록에 합치지 않음.",
+    "자동 필터로 의미 적절성과 사실성은 보장하지 못함."
+  ]
+}

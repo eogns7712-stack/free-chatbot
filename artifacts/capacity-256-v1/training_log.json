@@ -1,0 +1,80 @@
+{
+  "epoch": 2,
+  "step": 24235,
+  "cursor": 33424,
+  "loss_sum": 13138990.013970852,
+  "token_count": 2799953,
+  "best_loss": 4.60484762303483,
+  "best_model": "models/step-00024235",
+  "last_validation_step": 24235,
+  "history": [
+    {
+      "epoch": 0,
+      "step": 0,
+      "train_loss": null,
+      "validation_loss": 8.345804328854815
+    },
+    {
+      "epoch": 1,
+      "step": 3000,
+      "epoch_complete": false,
+      "train_loss": 5.7384425028582395,
+      "validation_loss": 5.3536137772236145
+    },
+    {
+      "epoch": 1,
+      "step": 6000,
+      "epoch_complete": false,
+      "train_loss": 5.47677783725449,
+      "validation_loss": 5.064755929267942
+    },
+    {
+      "epoch": 1,
+      "step": 9000,
+      "epoch_complete": false,
+      "train_loss": 5.324133749808814,
+      "validation_loss": 4.912909491465476
+    },
+    {
+      "epoch": 1,
+      "step": 12000,
+      "epoch_complete": false,
+      "train_loss": 5.217938723630009,
+      "validation_loss": 4.806579385890737
+    },
+    {
+      "epoch": 1,
+      "step": 15879,
+      "epoch_complete": true,
+      "train_loss": 5.1192114657917696,
+      "validation_loss": 4.7258102522394525
+    },
+    {
+      "epoch": 2,
+      "step": 20077,
+      "epoch_complete": false,
+      "train_loss": 4.712714025194349,
+      "validation_loss": 4.66011498049299
+    },
+    {
+      "epoch": 2,
+      "step": 24235,
+      "epoch_complete": false,
+      "train_loss": 4.69257520178762,
+      "validation_loss": 4.60484762303483
+    }
+  ],
+  "initial_model": "random",
+  "signature": {
+    "train_sha256": "f29bb655fa98da1f08702003e86445ebeaeb95a632444b7453f4d3e1ff78de8e",
+    "validation_sha256": "ee7bc1788982efedd822a9031d3867352370e76a6ab969122a6ae6ca5d1be16c",
+    "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+    "report_sha256": "6aac3bb8afdfa7b5bb7ad6e23206868833ac16bda0e64e7a61dbc19813b131af",
+    "validation_limit": 1024,
+    "model_width": 256,
+    "model_heads": 8,
+    "objective": "fulltext_all_real_tokens",
+    "batch_size": 4,
+    "learning_rate": 0.0003
+  }
+}

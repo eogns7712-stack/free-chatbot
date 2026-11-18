@@ -8,9 +8,9 @@ from transformers import GPT2LMHeadModel
 MODEL_DIR = (
     Path(__file__).resolve().parent
     / "artifacts"
-    / "sns-continuous-v1"
+    / "sns-pretrain-blocks-v1"
     / "models"
-    / "step-00007500"
+    / "step-00063516"
 )
 
 def main():

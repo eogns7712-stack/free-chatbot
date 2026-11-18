@@ -1,0 +1,13 @@
+{
+  "train_count": 600,
+  "original_count": 500,
+  "corrected_answers": 18,
+  "added_pairs": 100,
+  "new_pairs_per_topic": 20,
+  "validation_count": 15,
+  "test_count": 30,
+  "source_train_sha256": "235148cdec83d6a49b948440e70f2999b1d055546465e70d1b87dbc5ae64c332",
+  "note": "18개 수정과 100개 보강을 함께 적용한 데이터 구성 실험. 기존 미검토 401개의 의미 품질 검수 완료를 뜻하지 않음.",
+  "max_tokens": 47,
+  "new_question_similarity_filter_passed": true
+}

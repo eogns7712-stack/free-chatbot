@@ -1,0 +1,74 @@
+{
+  "sns_auto/train": {
+    "dialogues": 1644,
+    "serialized_tokens": 96615,
+    "fulltext_prediction_targets": 94971,
+    "assistant_prediction_targets": 41849,
+    "max_length": 103,
+    "mean_length": 58.77,
+    "characters": 130715
+  },
+  "sns_auto/validation": {
+    "dialogues": 156,
+    "serialized_tokens": 9795,
+    "fulltext_prediction_targets": 9639,
+    "assistant_prediction_targets": 4089,
+    "max_length": 96,
+    "mean_length": 62.79,
+    "characters": 12786
+  },
+  "sns_30min/train": {
+    "dialogues": 5000,
+    "serialized_tokens": 394505,
+    "fulltext_prediction_targets": 389505,
+    "assistant_prediction_targets": 172922,
+    "max_length": 128,
+    "mean_length": 78.9,
+    "characters": 530924
+  },
+  "sns_30min/validation": {
+    "dialogues": 450,
+    "serialized_tokens": 36118,
+    "fulltext_prediction_targets": 35668,
+    "assistant_prediction_targets": 15469,
+    "max_length": 128,
+    "mean_length": 80.26,
+    "characters": 48101
+  },
+  "intent_dialogue/train": {
+    "dialogues": 50,
+    "serialized_tokens": 1368,
+    "fulltext_prediction_targets": 1318,
+    "assistant_prediction_targets": 808,
+    "max_length": 36,
+    "mean_length": 27.36,
+    "characters": 1891
+  },
+  "intent_dialogue/validation": {
+    "dialogues": 15,
+    "serialized_tokens": 495,
+    "fulltext_prediction_targets": 480,
+    "assistant_prediction_targets": 259,
+    "max_length": 47,
+    "mean_length": 33.0,
+    "characters": 689
+  },
+  "intent_expanded/train": {
+    "dialogues": 500,
+    "serialized_tokens": 10313,
+    "fulltext_prediction_targets": 9813,
+    "assistant_prediction_targets": 5416,
+    "max_length": 43,
+    "mean_length": 20.63,
+    "characters": 13230
+  },
+  "intent_expanded/validation": {
+    "dialogues": 15,
+    "serialized_tokens": 495,
+    "fulltext_prediction_targets": 480,
+    "assistant_prediction_targets": 259,
+    "max_length": 47,
+    "mean_length": 33.0,
+    "characters": 689
+  }
+}

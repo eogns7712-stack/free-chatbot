@@ -1,0 +1,20 @@
+[
+  {
+    "width": 128,
+    "layers": 4,
+    "heads": 4,
+    "parameters": 1321728,
+    "seconds_per_step": 0.14361424499657005,
+    "estimated_steps_in_20min": 8355,
+    "note": "가상 입력 학습 연산. 데이터 읽기·검증·저장 시간은 별도."
+  },
+  {
+    "width": 256,
+    "layers": 4,
+    "heads": 8,
+    "parameters": 4216320,
+    "seconds_per_step": 0.30800446500070394,
+    "estimated_steps_in_20min": 3896,
+    "note": "가상 입력 학습 연산. 데이터 읽기·검증·저장 시간은 별도."
+  }
+]
