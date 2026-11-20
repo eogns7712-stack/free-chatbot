@@ -1,0 +1,5188 @@
+[
+  {
+    "train_line": 1,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "이사 짐을 옮겼더니 온종일 쉬고 싶네."
+  },
+  {
+    "train_line": 2,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "오늘은 화분 옮기는 일까지 마무리했어."
+  },
+  {
+    "train_line": 3,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3867,
+    "label": 0,
+    "question": "입냄새 안나나?",
+    "original_train_line": 429,
+    "revised": false
+  },
+  {
+    "train_line": 4,
+    "source": "songys/Chatbot_data",
+    "csv_line": 52,
+    "label": 0,
+    "question": "감 말랭이 먹어야지",
+    "original_train_line": 425,
+    "revised": false
+  },
+  {
+    "train_line": 5,
+    "source": "songys/Chatbot_data",
+    "csv_line": 244,
+    "label": 0,
+    "question": "공황장애 생겼어.",
+    "original_train_line": 304,
+    "revised": false
+  },
+  {
+    "train_line": 6,
+    "source": "songys/Chatbot_data",
+    "csv_line": 66,
+    "label": 0,
+    "question": "갑자기 눈물 나",
+    "original_train_line": 466,
+    "revised": false
+  },
+  {
+    "train_line": 7,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5157,
+    "label": 0,
+    "question": "혼자 있으니까 혼자 할게 많네",
+    "original_train_line": 131,
+    "revised": false
+  },
+  {
+    "train_line": 8,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5124,
+    "label": 0,
+    "question": "현금영수증 또 까먹었다",
+    "original_train_line": 213,
+    "revised": false
+  },
+  {
+    "train_line": 9,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2248,
+    "label": 0,
+    "question": "빵 한 개만 먹어야지",
+    "original_train_line": 477,
+    "revised": false
+  },
+  {
+    "train_line": 10,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1218,
+    "label": 0,
+    "question": "대출 이자 왜 이렇게 많이 나오지?",
+    "original_train_line": 315,
+    "revised": false
+  },
+  {
+    "train_line": 11,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3026,
+    "label": 0,
+    "question": "어둠에서 나와야 할 듯",
+    "original_train_line": 93,
+    "revised": false
+  },
+  {
+    "train_line": 12,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1772,
+    "label": 0,
+    "question": "무한리필 괜찮지 않아?",
+    "original_train_line": 266,
+    "revised": false
+  },
+  {
+    "train_line": 13,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "오늘은 평소보다 짧게 산책했어."
+  },
+  {
+    "train_line": 14,
+    "source": "existing_50",
+    "source_line": 48,
+    "question": "작은 화분을 큰 걸로 바꿀까 해.",
+    "original_train_line": 481,
+    "revised": false
+  },
+  {
+    "train_line": 15,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3314,
+    "label": 0,
+    "question": "오늘 좀 건조한 거 같애",
+    "original_train_line": 236,
+    "revised": false
+  },
+  {
+    "train_line": 16,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2337,
+    "label": 0,
+    "question": "상 받으면 좋겠지?",
+    "original_train_line": 189,
+    "revised": false
+  },
+  {
+    "train_line": 17,
+    "source": "existing_50",
+    "source_line": 23,
+    "question": "집 근처를 천천히 걸었어.",
+    "original_train_line": 440,
+    "revised": false
+  },
+  {
+    "train_line": 18,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4878,
+    "label": 0,
+    "question": "평가 좀 해줘",
+    "original_train_line": 397,
+    "revised": false
+  },
+  {
+    "train_line": 19,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "비가 그쳐서 우산 없이 동네를 걸었어."
+  },
+  {
+    "train_line": 20,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2765,
+    "label": 0,
+    "question": "식욕이 없어",
+    "original_train_line": 347,
+    "revised": false
+  },
+  {
+    "train_line": 21,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "식물 구경하러 화원에 다녀왔어."
+  },
+  {
+    "train_line": 22,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2148,
+    "label": 0,
+    "question": "부모님 선물은 뭐가 좋음?",
+    "original_train_line": 426,
+    "revised": false
+  },
+  {
+    "train_line": 23,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2324,
+    "label": 0,
+    "question": "살이 안 쪄",
+    "original_train_line": 326,
+    "revised": false
+  },
+  {
+    "train_line": 24,
+    "source": "existing_50",
+    "source_line": 16,
+    "question": "야근하고 왔어. 너무 힘들다.",
+    "original_train_line": 482,
+    "revised": false
+  },
+  {
+    "train_line": 25,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2408,
+    "label": 0,
+    "question": "생각할 시간 조차 없어",
+    "original_train_line": 279,
+    "revised": false
+  },
+  {
+    "train_line": 26,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2887,
+    "label": 0,
+    "question": "아이고 소리가 절로 나온다",
+    "original_train_line": 420,
+    "revised": false
+  },
+  {
+    "train_line": 27,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "작은 모종을 처음으로 집에 들였어."
+  },
+  {
+    "train_line": 28,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5027,
+    "label": 0,
+    "question": "한자 공부해야지",
+    "original_train_line": 340,
+    "revised": false
+  },
+  {
+    "train_line": 29,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1485,
+    "label": 0,
+    "question": "마음이 자꾸 급해져",
+    "original_train_line": 231,
+    "revised": false
+  },
+  {
+    "train_line": 30,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3879,
+    "label": 0,
+    "question": "잇몸이 시려",
+    "original_train_line": 60,
+    "revised": false
+  },
+  {
+    "train_line": 31,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3934,
+    "label": 0,
+    "question": "자신감을 갖고 싶어",
+    "original_train_line": 317,
+    "revised": false
+  },
+  {
+    "train_line": 32,
+    "source": "existing_50",
+    "source_line": 49,
+    "question": "키우는 화분에 새잎이 났어.",
+    "original_train_line": 242,
+    "revised": false
+  },
+  {
+    "train_line": 33,
+    "source": "existing_50",
+    "source_line": 10,
+    "question": "오늘 처음 접속했어. 안녕.",
+    "original_train_line": 305,
+    "revised": false
+  },
+  {
+    "train_line": 34,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2340,
+    "label": 0,
+    "question": "상관 없는 이야기만 해",
+    "original_train_line": 254,
+    "revised": true,
+    "revision_reason": "상관없는 답변에 대한 불만을 반영하지 못함",
+    "original_answer": "잊어버리세요."
+  },
+  {
+    "train_line": 35,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1536,
+    "label": 0,
+    "question": "말을 해놓고 후회돼 죽겠어",
+    "original_train_line": 13,
+    "revised": true,
+    "revision_reason": "말실수를 후회하는 사용자에게 후회가 계속될 것이라고 단정함",
+    "original_answer": "두고두고 후회하겠네요."
+  },
+  {
+    "train_line": 36,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5037,
+    "label": 0,
+    "question": "할줄 아는 게 없어",
+    "original_train_line": 372,
+    "revised": false
+  },
+  {
+    "train_line": 37,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3332,
+    "label": 0,
+    "question": "오늘도 그냥 그냥 다갔네.",
+    "original_train_line": 346,
+    "revised": false
+  },
+  {
+    "train_line": 38,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5165,
+    "label": 0,
+    "question": "혼자라서 너무 좋아",
+    "original_train_line": 488,
+    "revised": false
+  },
+  {
+    "train_line": 39,
+    "source": "songys/Chatbot_data",
+    "csv_line": 580,
+    "label": 0,
+    "question": "나 회사에서 인정받고 싶어",
+    "original_train_line": 445,
+    "revised": false
+  },
+  {
+    "train_line": 40,
+    "source": "songys/Chatbot_data",
+    "csv_line": 390,
+    "label": 0,
+    "question": "기프트콘 선물 괜찮을까?",
+    "original_train_line": 22,
+    "revised": false
+  },
+  {
+    "train_line": 41,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2138,
+    "label": 0,
+    "question": "봉사도 하고 사랑을 베풀고 싶어",
+    "original_train_line": 139,
+    "revised": false
+  },
+  {
+    "train_line": 42,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1043,
+    "label": 0,
+    "question": "농담처럼 진담하는 사람",
+    "original_train_line": 436,
+    "revised": false
+  },
+  {
+    "train_line": 43,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2319,
+    "label": 0,
+    "question": "살 좀 빼야되는데",
+    "original_train_line": 89,
+    "revised": false
+  },
+  {
+    "train_line": 44,
+    "source": "existing_50",
+    "source_line": 36,
+    "question": "집에서 코미디 영화 보려고.",
+    "original_train_line": 424,
+    "revised": false
+  },
+  {
+    "train_line": 45,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1130,
+    "label": 0,
+    "question": "다른 학과 간다",
+    "original_train_line": 252,
+    "revised": false
+  },
+  {
+    "train_line": 46,
+    "source": "songys/Chatbot_data",
+    "csv_line": 840,
+    "label": 0,
+    "question": "내가 말하면 왜 비난만 할까",
+    "original_train_line": 146,
+    "revised": false
+  },
+  {
+    "train_line": 47,
+    "source": "existing_50",
+    "source_line": 19,
+    "question": "많이 걸었더니 지쳤네.",
+    "original_train_line": 133,
+    "revised": false
+  },
+  {
+    "train_line": 48,
+    "source": "songys/Chatbot_data",
+    "csv_line": 12,
+    "label": 0,
+    "question": "SNS보면 나만 빼고 다 행복해보여",
+    "original_train_line": 330,
+    "revised": false
+  },
+  {
+    "train_line": 49,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1380,
+    "label": 0,
+    "question": "드론 조종사 자격증 따면 재밌을 거 같아",
+    "original_train_line": 316,
+    "revised": false
+  },
+  {
+    "train_line": 50,
+    "source": "songys/Chatbot_data",
+    "csv_line": 897,
+    "label": 0,
+    "question": "내일 발표 준비하고 있어",
+    "original_train_line": 308,
+    "revised": false
+  },
+  {
+    "train_line": 51,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1326,
+    "label": 0,
+    "question": "동료가 너무 게을러",
+    "original_train_line": 437,
+    "revised": false
+  },
+  {
+    "train_line": 52,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3708,
+    "label": 0,
+    "question": "이번에는 분명하게 말해야지",
+    "original_train_line": 241,
+    "revised": false
+  },
+  {
+    "train_line": 53,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1776,
+    "label": 0,
+    "question": "문신하고 싶은데 후회할까?",
+    "original_train_line": 418,
+    "revised": false
+  },
+  {
+    "train_line": 54,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1213,
+    "label": 0,
+    "question": "대체불가한 사람이 되고 싶어",
+    "original_train_line": 298,
+    "revised": false
+  },
+  {
+    "train_line": 55,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1774,
+    "label": 0,
+    "question": "문 여는 소리같은게 나서 무서움",
+    "original_train_line": 183,
+    "revised": false
+  },
+  {
+    "train_line": 56,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1149,
+    "label": 0,
+    "question": "다이어트해야 되는데",
+    "original_train_line": 219,
+    "revised": false
+  },
+  {
+    "train_line": 57,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1964,
+    "label": 0,
+    "question": "밥 먹다 흘렸어",
+    "original_train_line": 413,
+    "revised": false
+  },
+  {
+    "train_line": 58,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2854,
+    "label": 0,
+    "question": "아무 생각 없이 놀고 먹고 싶어",
+    "original_train_line": 294,
+    "revised": false
+  },
+  {
+    "train_line": 59,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3705,
+    "label": 0,
+    "question": "이번 크리스마스에 눈이 올까",
+    "original_train_line": 84,
+    "revised": false
+  },
+  {
+    "train_line": 60,
+    "source": "existing_50",
+    "source_line": 29,
+    "question": "친구랑 걸으면서 수다 떨었어.",
+    "original_train_line": 384,
+    "revised": false
+  },
+  {
+    "train_line": 61,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1370,
+    "label": 0,
+    "question": "드라마 볼 게 없어",
+    "original_train_line": 320,
+    "revised": false
+  },
+  {
+    "train_line": 62,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "오르막길이 많아서 산책이 운동처럼 됐어."
+  },
+  {
+    "train_line": 63,
+    "source": "existing_50",
+    "source_line": 32,
+    "question": "영화 좋아해?",
+    "original_train_line": 119,
+    "revised": false
+  },
+  {
+    "train_line": 64,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3149,
+    "label": 0,
+    "question": "여름에는 냉면이지",
+    "original_train_line": 395,
+    "revised": false
+  },
+  {
+    "train_line": 65,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "아직 깨어 있어? 잠깐 이야기하고 싶다."
+  },
+  {
+    "train_line": 66,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4347,
+    "label": 0,
+    "question": "집 아예 샀어",
+    "original_train_line": 187,
+    "revised": false
+  },
+  {
+    "train_line": 67,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2919,
+    "label": 0,
+    "question": "아침에 일어나는 거 힘들다",
+    "original_train_line": 76,
+    "revised": false
+  },
+  {
+    "train_line": 68,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1481,
+    "label": 0,
+    "question": "마음이 싱숭생숭해서 자꾸 여기다 쓰게되넹",
+    "original_train_line": 379,
+    "revised": false
+  },
+  {
+    "train_line": 69,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3736,
+    "label": 0,
+    "question": "이제 그만하고 쉬고 싶다",
+    "original_train_line": 117,
+    "revised": false
+  },
+  {
+    "train_line": 70,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "안녕, 오늘은 짧게만 이야기할 수 있어."
+  },
+  {
+    "train_line": 71,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "주말 영화 약속이 취소돼서 집에서 보려고."
+  },
+  {
+    "train_line": 72,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "배우 연기가 좋아서 끝까지 몰입했어."
+  },
+  {
+    "train_line": 73,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "너무 긴 영화는 한 번에 보기 힘들어."
+  },
+  {
+    "train_line": 74,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "공원 벤치에 앉아서 걷다가 쉬었어."
+  },
+  {
+    "train_line": 75,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4497,
+    "label": 0,
+    "question": "체육복 안 가져 왔다",
+    "original_train_line": 336,
+    "revised": false
+  },
+  {
+    "train_line": 76,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2658,
+    "label": 0,
+    "question": "스케일링 하러 가야지",
+    "original_train_line": 463,
+    "revised": false
+  },
+  {
+    "train_line": 77,
+    "source": "existing_50",
+    "source_line": 41,
+    "question": "집에 화분 분갈이 해야겠다.",
+    "original_train_line": 434,
+    "revised": false
+  },
+  {
+    "train_line": 78,
+    "source": "existing_50",
+    "source_line": 20,
+    "question": "아침부터 바빠서 녹초야.",
+    "original_train_line": 208,
+    "revised": false
+  },
+  {
+    "train_line": 79,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3338,
+    "label": 0,
+    "question": "오늘도 퇴근길 엄청 막히네",
+    "original_train_line": 255,
+    "revised": false
+  },
+  {
+    "train_line": 80,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3501,
+    "label": 0,
+    "question": "용돈 올려줬으면",
+    "original_train_line": 202,
+    "revised": false
+  },
+  {
+    "train_line": 81,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4158,
+    "label": 0,
+    "question": "제사를 너무 많이 해",
+    "original_train_line": 180,
+    "revised": false
+  },
+  {
+    "train_line": 82,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1984,
+    "label": 0,
+    "question": "방탈출 게임 갔다왔어.",
+    "original_train_line": 16,
+    "revised": false
+  },
+  {
+    "train_line": 83,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5011,
+    "label": 0,
+    "question": "한강 가서 맥주 마시고 싶다.",
+    "original_train_line": 107,
+    "revised": false
+  },
+  {
+    "train_line": 84,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "걸으면서 음악을 들으니 기분이 좋아졌어."
+  },
+  {
+    "train_line": 85,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "산책은 하고 싶은데 비가 계속 오네."
+  },
+  {
+    "train_line": 86,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5232,
+    "label": 0,
+    "question": "회사에 적응 잘 하고 싶어",
+    "original_train_line": 97,
+    "revised": false
+  },
+  {
+    "train_line": 87,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3368,
+    "label": 0,
+    "question": "오랜 시간을 함께해도 이해하지 못하겠어",
+    "original_train_line": 9,
+    "revised": false
+  },
+  {
+    "train_line": 88,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3790,
+    "label": 0,
+    "question": "인턴 할까",
+    "original_train_line": 280,
+    "revised": false
+  },
+  {
+    "train_line": 89,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3862,
+    "label": 0,
+    "question": "임용 시험 기다리고 있어",
+    "original_train_line": 495,
+    "revised": false
+  },
+  {
+    "train_line": 90,
+    "source": "songys/Chatbot_data",
+    "csv_line": 317,
+    "label": 0,
+    "question": "그냥 잘못했다고 하면 될거 같은데 자꾸 변명해",
+    "original_train_line": 496,
+    "revised": false
+  },
+  {
+    "train_line": 91,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2105,
+    "label": 0,
+    "question": "보이스피싱인듯",
+    "original_train_line": 295,
+    "revised": false
+  },
+  {
+    "train_line": 92,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1204,
+    "label": 0,
+    "question": "대리효도 짜증",
+    "original_train_line": 313,
+    "revised": false
+  },
+  {
+    "train_line": 93,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2666,
+    "label": 0,
+    "question": "스키장 간다!",
+    "original_train_line": 421,
+    "revised": false
+  },
+  {
+    "train_line": 94,
+    "source": "songys/Chatbot_data",
+    "csv_line": 452,
+    "label": 0,
+    "question": "꿈이 없어",
+    "original_train_line": 67,
+    "revised": false
+  },
+  {
+    "train_line": 95,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3196,
+    "label": 0,
+    "question": "연금 받을 수 있을까",
+    "original_train_line": 480,
+    "revised": false
+  },
+  {
+    "train_line": 96,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1260,
+    "label": 0,
+    "question": "도서관 가야지",
+    "original_train_line": 461,
+    "revised": false
+  },
+  {
+    "train_line": 97,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1429,
+    "label": 0,
+    "question": "라면 맛있게 끓이는 법 알려줘",
+    "original_train_line": 199,
+    "revised": false
+  },
+  {
+    "train_line": 98,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "오늘은 평소보다 일찍 누워야겠어."
+  },
+  {
+    "train_line": 99,
+    "source": "songys/Chatbot_data",
+    "csv_line": 174,
+    "label": 0,
+    "question": "계속 속이 진짜 안 좋아",
+    "original_train_line": 172,
+    "revised": false
+  },
+  {
+    "train_line": 100,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2630,
+    "label": 0,
+    "question": "술 먹을 줄 알아?",
+    "original_train_line": 493,
+    "revised": false
+  },
+  {
+    "train_line": 101,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "오늘 발표를 마치니 긴장이 풀려서 힘이 빠져."
+  },
+  {
+    "train_line": 102,
+    "source": "songys/Chatbot_data",
+    "csv_line": 633,
+    "label": 0,
+    "question": "나만 설레는 거야",
+    "original_train_line": 453,
+    "revised": false
+  },
+  {
+    "train_line": 103,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2874,
+    "label": 0,
+    "question": "아부쟁이가 부러워",
+    "original_train_line": 120,
+    "revised": false
+  },
+  {
+    "train_line": 104,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4057,
+    "label": 0,
+    "question": "전공 수업 노잼",
+    "original_train_line": 410,
+    "revised": false
+  },
+  {
+    "train_line": 105,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3446,
+    "label": 0,
+    "question": "왜 이렇게 태어났을까?",
+    "original_train_line": 377,
+    "revised": false
+  },
+  {
+    "train_line": 106,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1257,
+    "label": 0,
+    "question": "도대체 중간이 없어",
+    "original_train_line": 173,
+    "revised": false
+  },
+  {
+    "train_line": 107,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1062,
+    "label": 0,
+    "question": "누워 있는데 잠이 안 와",
+    "original_train_line": 148,
+    "revised": false
+  },
+  {
+    "train_line": 108,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2116,
+    "label": 0,
+    "question": "복 받겠지?",
+    "original_train_line": 101,
+    "revised": false
+  },
+  {
+    "train_line": 109,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3784,
+    "label": 0,
+    "question": "인정받으려면 어떻게 해야 하나",
+    "original_train_line": 169,
+    "revised": false
+  },
+  {
+    "train_line": 110,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "어제 본 영화가 재미있어서 친구에게 추천했어."
+  },
+  {
+    "train_line": 111,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2879,
+    "label": 0,
+    "question": "아빠가 술 좀 그만 먹었으면",
+    "original_train_line": 341,
+    "revised": false
+  },
+  {
+    "train_line": 112,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "줄기가 길어져서 지지대를 세워 줬어."
+  },
+  {
+    "train_line": 113,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2,
+    "label": 0,
+    "question": "12시 땡!",
+    "original_train_line": 201,
+    "revised": false
+  },
+  {
+    "train_line": 114,
+    "source": "songys/Chatbot_data",
+    "csv_line": 940,
+    "label": 0,
+    "question": "너 이러면 미워한다",
+    "original_train_line": 452,
+    "revised": false
+  },
+  {
+    "train_line": 115,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2251,
+    "label": 0,
+    "question": "빽 선물 받았어",
+    "original_train_line": 141,
+    "revised": false
+  },
+  {
+    "train_line": 116,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3821,
+    "label": 0,
+    "question": "일상에서 떠나고 싶어",
+    "original_train_line": 75,
+    "revised": false
+  },
+  {
+    "train_line": 117,
+    "source": "songys/Chatbot_data",
+    "csv_line": 400,
+    "label": 0,
+    "question": "긴 머리 관리하는 거 힘들다",
+    "original_train_line": 23,
+    "revised": false
+  },
+  {
+    "train_line": 118,
+    "source": "songys/Chatbot_data",
+    "csv_line": 240,
+    "label": 0,
+    "question": "공시생이야",
+    "original_train_line": 193,
+    "revised": false
+  },
+  {
+    "train_line": 119,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2067,
+    "label": 0,
+    "question": "베트남에서 사업해볼까?",
+    "original_train_line": 325,
+    "revised": false
+  },
+  {
+    "train_line": 120,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3578,
+    "label": 0,
+    "question": "월급 받아서 주택청약 들었어",
+    "original_train_line": 15,
+    "revised": false
+  },
+  {
+    "train_line": 121,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4515,
+    "label": 0,
+    "question": "추천 메뉴",
+    "original_train_line": 417,
+    "revised": true,
+    "revision_reason": "메뉴 추천을 요청했지만 메뉴를 제시하지 않음",
+    "original_answer": "색다른걸 드셔보세요."
+  },
+  {
+    "train_line": 122,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3851,
+    "label": 0,
+    "question": "일하는데 실수를 많이 해",
+    "original_train_line": 259,
+    "revised": false
+  },
+  {
+    "train_line": 123,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4104,
+    "label": 0,
+    "question": "전화해도 되겠지",
+    "original_train_line": 43,
+    "revised": false
+  },
+  {
+    "train_line": 124,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4790,
+    "label": 0,
+    "question": "키 컸으면",
+    "original_train_line": 149,
+    "revised": false
+  },
+  {
+    "train_line": 125,
+    "source": "songys/Chatbot_data",
+    "csv_line": 316,
+    "label": 0,
+    "question": "그냥 자는 거 아니지?",
+    "original_train_line": 108,
+    "revised": false
+  },
+  {
+    "train_line": 126,
+    "source": "existing_50",
+    "source_line": 35,
+    "question": "친구랑 영화관 가기로 했어.",
+    "original_train_line": 263,
+    "revised": false
+  },
+  {
+    "train_line": 127,
+    "source": "songys/Chatbot_data",
+    "csv_line": 33,
+    "label": 0,
+    "question": "가족들이랑 서먹해졌어",
+    "original_train_line": 87,
+    "revised": false
+  },
+  {
+    "train_line": 128,
+    "source": "existing_50",
+    "source_line": 11,
+    "question": "오늘 좀 피곤하네.",
+    "original_train_line": 270,
+    "revised": false
+  },
+  {
+    "train_line": 129,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1673,
+    "label": 0,
+    "question": "면세에서 뭐 사지",
+    "original_train_line": 179,
+    "revised": false
+  },
+  {
+    "train_line": 130,
+    "source": "existing_50",
+    "source_line": 3,
+    "question": "반가워.",
+    "original_train_line": 132,
+    "revised": false
+  },
+  {
+    "train_line": 131,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "액션보다 잔잔한 이야기를 보는 게 좋아."
+  },
+  {
+    "train_line": 132,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3834,
+    "label": 0,
+    "question": "일을 해도 안 늘어",
+    "original_train_line": 464,
+    "revised": false
+  },
+  {
+    "train_line": 133,
+    "source": "songys/Chatbot_data",
+    "csv_line": 784,
+    "label": 0,
+    "question": "낭만이라고는 없어가지구",
+    "original_train_line": 444,
+    "revised": false
+  },
+  {
+    "train_line": 134,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3257,
+    "label": 0,
+    "question": "영화관 알바하면 좋겠다.",
+    "original_train_line": 396,
+    "revised": false
+  },
+  {
+    "train_line": 135,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2208,
+    "label": 0,
+    "question": "비밀번호 기억안 나",
+    "original_train_line": 473,
+    "revised": false
+  },
+  {
+    "train_line": 136,
+    "source": "existing_50",
+    "source_line": 50,
+    "question": "분갈이 끝냈어.",
+    "original_train_line": 447,
+    "revised": false
+  },
+  {
+    "train_line": 137,
+    "source": "songys/Chatbot_data",
+    "csv_line": 757,
+    "label": 0,
+    "question": "남친 때문에 살찐 듯",
+    "original_train_line": 427,
+    "revised": true,
+    "revision_reason": "연인의 생각과 반응을 근거 없이 단정함",
+    "original_answer": "연인은 살쪄도 잘 알아차리지 못하고 알아차려도 싫어하지 않을 거예요."
+  },
+  {
+    "train_line": 138,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "산책을 마치고 집에 오니 마음이 차분해졌어."
+  },
+  {
+    "train_line": 139,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "이런 채팅은 처음이라 무슨 말을 해야 할지 모르겠네."
+  },
+  {
+    "train_line": 140,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3805,
+    "label": 0,
+    "question": "인형 좋아할까?",
+    "original_train_line": 287,
+    "revised": false
+  },
+  {
+    "train_line": 141,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1529,
+    "label": 0,
+    "question": "말실수했다",
+    "original_train_line": 456,
+    "revised": false
+  },
+  {
+    "train_line": 142,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4697,
+    "label": 0,
+    "question": "카드가 못찾겠다.",
+    "original_train_line": 52,
+    "revised": false
+  },
+  {
+    "train_line": 143,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4131,
+    "label": 0,
+    "question": "점점 좋아져",
+    "original_train_line": 491,
+    "revised": true,
+    "revision_reason": "무엇이 좋아지는지 불명확한데 연애 상황을 지정함",
+    "original_answer": "이상형은 아니지만 호감가는 사람이 있어요."
+  },
+  {
+    "train_line": 144,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2228,
+    "label": 0,
+    "question": "비타민 사서 먹어야겠다.",
+    "original_train_line": 318,
+    "revised": false
+  },
+  {
+    "train_line": 145,
+    "source": "existing_50",
+    "source_line": 40,
+    "question": "주말에 영화 보려고 하는데 너는 영화 좋아해?",
+    "original_train_line": 178,
+    "revised": false
+  },
+  {
+    "train_line": 146,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1163,
+    "label": 0,
+    "question": "단체생활 해야 되는거 싫다",
+    "original_train_line": 356,
+    "revised": false
+  },
+  {
+    "train_line": 147,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "분갈이하다가 바닥에 흙을 많이 쏟았어."
+  },
+  {
+    "train_line": 148,
+    "source": "songys/Chatbot_data",
+    "csv_line": 915,
+    "label": 0,
+    "question": "낼 바쁘넹",
+    "original_train_line": 238,
+    "revised": false
+  },
+  {
+    "train_line": 149,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4318,
+    "label": 0,
+    "question": "진급에서 나만 누락됐어",
+    "original_train_line": 69,
+    "revised": false
+  },
+  {
+    "train_line": 150,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4186,
+    "label": 0,
+    "question": "조카 입학 선물 뭐 사냐",
+    "original_train_line": 165,
+    "revised": false
+  },
+  {
+    "train_line": 151,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2611,
+    "label": 0,
+    "question": "숙취 장난 아니야",
+    "original_train_line": 212,
+    "revised": false
+  },
+  {
+    "train_line": 152,
+    "source": "songys/Chatbot_data",
+    "csv_line": 717,
+    "label": 0,
+    "question": "남자 화장하는 거 어때",
+    "original_train_line": 194,
+    "revised": false
+  },
+  {
+    "train_line": 153,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3629,
+    "label": 0,
+    "question": "의심가는 사람이 있는데",
+    "original_train_line": 156,
+    "revised": false
+  },
+  {
+    "train_line": 154,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "영화 줄거리는 좋은데 전개가 조금 느렸어."
+  },
+  {
+    "train_line": 155,
+    "source": "songys/Chatbot_data",
+    "csv_line": 467,
+    "label": 0,
+    "question": "나 괜찮지 않니",
+    "original_train_line": 106,
+    "revised": false
+  },
+  {
+    "train_line": 156,
+    "source": "songys/Chatbot_data",
+    "csv_line": 44,
+    "label": 0,
+    "question": "간만에 휴식 중",
+    "original_train_line": 46,
+    "revised": false
+  },
+  {
+    "train_line": 157,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2278,
+    "label": 0,
+    "question": "사람은 진짜 다른 가봐",
+    "original_train_line": 190,
+    "revised": false
+  },
+  {
+    "train_line": 158,
+    "source": "songys/Chatbot_data",
+    "csv_line": 466,
+    "label": 0,
+    "question": "나 결정했어",
+    "original_train_line": 61,
+    "revised": false
+  },
+  {
+    "train_line": 159,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2561,
+    "label": 0,
+    "question": "손톱이나 짧게 깎아야지",
+    "original_train_line": 404,
+    "revised": false
+  },
+  {
+    "train_line": 160,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3379,
+    "label": 0,
+    "question": "오토바이 사고 싶어",
+    "original_train_line": 159,
+    "revised": false
+  },
+  {
+    "train_line": 161,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1200,
+    "label": 0,
+    "question": "대리님은 갈구는게 취미인 듯",
+    "original_train_line": 267,
+    "revised": false
+  },
+  {
+    "train_line": 162,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1013,
+    "label": 0,
+    "question": "노트북 사줘",
+    "original_train_line": 185,
+    "revised": false
+  },
+  {
+    "train_line": 163,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3950,
+    "label": 0,
+    "question": "자존감이 바닥이야",
+    "original_train_line": 91,
+    "revised": false
+  },
+  {
+    "train_line": 164,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3062,
+    "label": 0,
+    "question": "어제 술마시고 나서 기억 안나",
+    "original_train_line": 222,
+    "revised": false
+  },
+  {
+    "train_line": 165,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1989,
+    "label": 0,
+    "question": "방학은 너무 심심해",
+    "original_train_line": 64,
+    "revised": false
+  },
+  {
+    "train_line": 166,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4510,
+    "label": 0,
+    "question": "추석에 집에 가기 싫어",
+    "original_train_line": 392,
+    "revised": true,
+    "revision_reason": "귀향을 꺼리는 이유를 확인하지 않고 가지 말라고 단정함",
+    "original_answer": "가지 마세요."
+  },
+  {
+    "train_line": 167,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2900,
+    "label": 0,
+    "question": "아주 잊기로 독하게 마음 먹고 신나게 놀고 있습니다",
+    "original_train_line": 450,
+    "revised": false
+  },
+  {
+    "train_line": 168,
+    "source": "songys/Chatbot_data",
+    "csv_line": 288,
+    "label": 0,
+    "question": "군대 갔다 올 때까지 기다릴 수 있을까",
+    "original_train_line": 489,
+    "revised": false
+  },
+  {
+    "train_line": 169,
+    "source": "songys/Chatbot_data",
+    "csv_line": 691,
+    "label": 0,
+    "question": "난방이 안돼나 추워",
+    "original_train_line": 327,
+    "revised": false
+  },
+  {
+    "train_line": 170,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1223,
+    "label": 0,
+    "question": "대학 가고 싶다.",
+    "original_train_line": 439,
+    "revised": false
+  },
+  {
+    "train_line": 171,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1476,
+    "label": 0,
+    "question": "마음의 평화가 필요해",
+    "original_train_line": 381,
+    "revised": false
+  },
+  {
+    "train_line": 172,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "반가워! 오늘은 신나는 일이 있었어."
+  },
+  {
+    "train_line": 173,
+    "source": "existing_50",
+    "source_line": 39,
+    "question": "영화 한 편 봤는데 정말 재밌었어.",
+    "original_train_line": 111,
+    "revised": false
+  },
+  {
+    "train_line": 174,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4850,
+    "label": 0,
+    "question": "파도가 엄청 세",
+    "original_train_line": 286,
+    "revised": false
+  },
+  {
+    "train_line": 175,
+    "source": "songys/Chatbot_data",
+    "csv_line": 815,
+    "label": 0,
+    "question": "내 자존감",
+    "original_train_line": 188,
+    "revised": false
+  },
+  {
+    "train_line": 176,
+    "source": "songys/Chatbot_data",
+    "csv_line": 772,
+    "label": 0,
+    "question": "남편이 왜 애키우는거 안 도와줄까",
+    "original_train_line": 150,
+    "revised": false
+  },
+  {
+    "train_line": 177,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1495,
+    "label": 0,
+    "question": "막말 할거 같은데",
+    "original_train_line": 362,
+    "revised": false
+  },
+  {
+    "train_line": 178,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2751,
+    "label": 0,
+    "question": "시험 보기 전날",
+    "original_train_line": 428,
+    "revised": false
+  },
+  {
+    "train_line": 179,
+    "source": "songys/Chatbot_data",
+    "csv_line": 507,
+    "label": 0,
+    "question": "나 서류에서 광탈했어",
+    "original_train_line": 256,
+    "revised": false
+  },
+  {
+    "train_line": 180,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "아까 대화를 끊어서 미안해. 다시 왔어."
+  },
+  {
+    "train_line": 181,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5167,
+    "label": 0,
+    "question": "혼자서도 잘해요",
+    "original_train_line": 177,
+    "revised": false
+  },
+  {
+    "train_line": 182,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2661,
+    "label": 0,
+    "question": "스키 배워보고 싶다.",
+    "original_train_line": 20,
+    "revised": false
+  },
+  {
+    "train_line": 183,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4007,
+    "label": 0,
+    "question": "장학금 받고 싶다",
+    "original_train_line": 29,
+    "revised": false
+  },
+  {
+    "train_line": 184,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5068,
+    "label": 0,
+    "question": "핸드폰 배터리 나감",
+    "original_train_line": 228,
+    "revised": false
+  },
+  {
+    "train_line": 185,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1351,
+    "label": 0,
+    "question": "둔한 편인데 이것만 예민해",
+    "original_train_line": 144,
+    "revised": false
+  },
+  {
+    "train_line": 186,
+    "source": "songys/Chatbot_data",
+    "csv_line": 830,
+    "label": 0,
+    "question": "내가 그사람이랑 진짜 결혼해도 될까",
+    "original_train_line": 310,
+    "revised": false
+  },
+  {
+    "train_line": 187,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "화분 흙을 갈아 주려고 준비물을 꺼냈어."
+  },
+  {
+    "train_line": 188,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1358,
+    "label": 0,
+    "question": "뒤척이다 늦잠 자게 되네",
+    "original_train_line": 216,
+    "revised": false
+  },
+  {
+    "train_line": 189,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2491,
+    "label": 0,
+    "question": "세상이 너무 무서워",
+    "original_train_line": 114,
+    "revised": false
+  },
+  {
+    "train_line": 190,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "다시 이야기하러 왔는데 기억나?"
+  },
+  {
+    "train_line": 191,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4164,
+    "label": 0,
+    "question": "제주도 놀러 가고 싶어요.",
+    "original_train_line": 412,
+    "revised": false
+  },
+  {
+    "train_line": 192,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "새잎이 펴지는 걸 매일 구경하고 있어."
+  },
+  {
+    "train_line": 193,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2286,
+    "label": 0,
+    "question": "사소한 걸로 트집잡는 사람 어떡해?",
+    "original_train_line": 403,
+    "revised": false
+  },
+  {
+    "train_line": 194,
+    "source": "songys/Chatbot_data",
+    "csv_line": 873,
+    "label": 0,
+    "question": "내가 주제를 몰랐던 거지",
+    "original_train_line": 314,
+    "revised": false
+  },
+  {
+    "train_line": 195,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1872,
+    "label": 0,
+    "question": "미세먼지 최악인데",
+    "original_train_line": 432,
+    "revised": false
+  },
+  {
+    "train_line": 196,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3690,
+    "label": 0,
+    "question": "이력서 쓰고 있어.",
+    "original_train_line": 12,
+    "revised": false
+  },
+  {
+    "train_line": 197,
+    "source": "existing_50",
+    "source_line": 13,
+    "question": "잠을 못 자서 졸려.",
+    "original_train_line": 498,
+    "revised": false
+  },
+  {
+    "train_line": 198,
+    "source": "existing_50",
+    "source_line": 37,
+    "question": "슬픈 영화 보고 울었어.",
+    "original_train_line": 401,
+    "revised": false
+  },
+  {
+    "train_line": 199,
+    "source": "existing_50",
+    "source_line": 1,
+    "question": "안녕!",
+    "original_train_line": 309,
+    "revised": false
+  },
+  {
+    "train_line": 200,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3095,
+    "label": 0,
+    "question": "엄마가 나만 시켜",
+    "original_train_line": 24,
+    "revised": false
+  },
+  {
+    "train_line": 201,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4062,
+    "label": 0,
+    "question": "전과해도 잘 할 수 있겠지?",
+    "original_train_line": 14,
+    "revised": false
+  },
+  {
+    "train_line": 202,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "오늘 일정이 꽉 차서 숨 돌릴 틈이 없었어."
+  },
+  {
+    "train_line": 203,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4693,
+    "label": 0,
+    "question": "칭찬 좀 해봐",
+    "original_train_line": 126,
+    "revised": false
+  },
+  {
+    "train_line": 204,
+    "source": "songys/Chatbot_data",
+    "csv_line": 131,
+    "label": 0,
+    "question": "게임 지겨워",
+    "original_train_line": 475,
+    "revised": false
+  },
+  {
+    "train_line": 205,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "누구한테 말 걸고 싶어서 왔어."
+  },
+  {
+    "train_line": 206,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4902,
+    "label": 0,
+    "question": "폰을 오래했나 눈이 너무 뻑뻑해",
+    "original_train_line": 163,
+    "revised": false
+  },
+  {
+    "train_line": 207,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "쉬려고 앉았는데 자꾸 해야 할 일이 떠올라."
+  },
+  {
+    "train_line": 208,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4746,
+    "label": 0,
+    "question": "컴터가 맛이 갔어",
+    "original_train_line": 53,
+    "revised": false
+  },
+  {
+    "train_line": 209,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1483,
+    "label": 0,
+    "question": "마음이 울적해",
+    "original_train_line": 88,
+    "revised": false
+  },
+  {
+    "train_line": 210,
+    "source": "songys/Chatbot_data",
+    "csv_line": 589,
+    "label": 0,
+    "question": "나는 왜 이 모양일까",
+    "original_train_line": 184,
+    "revised": false
+  },
+  {
+    "train_line": 211,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3727,
+    "label": 0,
+    "question": "이상한 말을 해",
+    "original_train_line": 54,
+    "revised": false
+  },
+  {
+    "train_line": 212,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4084,
+    "label": 0,
+    "question": "전학가도 잘 할 수 있겠지?",
+    "original_train_line": 155,
+    "revised": false
+  },
+  {
+    "train_line": 213,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1447,
+    "label": 0,
+    "question": "로또 번호 알려줘",
+    "original_train_line": 246,
+    "revised": false
+  },
+  {
+    "train_line": 214,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4107,
+    "label": 0,
+    "question": "절망적이야",
+    "original_train_line": 70,
+    "revised": false
+  },
+  {
+    "train_line": 215,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2316,
+    "label": 0,
+    "question": "살 때문에 교복이 잘 안들어가",
+    "original_train_line": 40,
+    "revised": false
+  },
+  {
+    "train_line": 216,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "늦은 시간인데 내일 준비할 일이 남았어."
+  },
+  {
+    "train_line": 217,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2093,
+    "label": 0,
+    "question": "병원 가기 싫어",
+    "original_train_line": 191,
+    "revised": false
+  },
+  {
+    "train_line": 218,
+    "source": "songys/Chatbot_data",
+    "csv_line": 374,
+    "label": 0,
+    "question": "기분 전환이 필요해",
+    "original_train_line": 342,
+    "revised": false
+  },
+  {
+    "train_line": 219,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5118,
+    "label": 0,
+    "question": "헬스장에 사람이 엄청 많음",
+    "original_train_line": 283,
+    "revised": false
+  },
+  {
+    "train_line": 220,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4413,
+    "label": 0,
+    "question": "차 기름값이 또 올랐네",
+    "original_train_line": 248,
+    "revised": false
+  },
+  {
+    "train_line": 221,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4047,
+    "label": 0,
+    "question": "적금 들어야 하나",
+    "original_train_line": 292,
+    "revised": false
+  },
+  {
+    "train_line": 222,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4061,
+    "label": 0,
+    "question": "전과하고 재미있게 학교 다니고 싶다.",
+    "original_train_line": 27,
+    "revised": false
+  },
+  {
+    "train_line": 223,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3125,
+    "label": 0,
+    "question": "업무 지적을 너무 많이 받아",
+    "original_train_line": 367,
+    "revised": false
+  },
+  {
+    "train_line": 224,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2899,
+    "label": 0,
+    "question": "아이스크림이 오랜만에 사먹는데 너무 비싸",
+    "original_train_line": 77,
+    "revised": false
+  },
+  {
+    "train_line": 225,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2845,
+    "label": 0,
+    "question": "아날로그가 좋아",
+    "original_train_line": 142,
+    "revised": false
+  },
+  {
+    "train_line": 226,
+    "source": "songys/Chatbot_data",
+    "csv_line": 258,
+    "label": 0,
+    "question": "과일 잘 안 먹게 돼",
+    "original_train_line": 210,
+    "revised": false
+  },
+  {
+    "train_line": 227,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4495,
+    "label": 0,
+    "question": "체육대회한데",
+    "original_train_line": 171,
+    "revised": false
+  },
+  {
+    "train_line": 228,
+    "source": "existing_50",
+    "source_line": 46,
+    "question": "집에서 키우는 식물이 쑥쑥 자라.",
+    "original_train_line": 3,
+    "revised": false
+  },
+  {
+    "train_line": 229,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2608,
+    "label": 0,
+    "question": "숙제 안 한 듯",
+    "original_train_line": 365,
+    "revised": false
+  },
+  {
+    "train_line": 230,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "장거리 이동을 하고 와서 지쳤다."
+  },
+  {
+    "train_line": 231,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "오늘 하루는 어땠냐고 물어봐 줄래?"
+  },
+  {
+    "train_line": 232,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2678,
+    "label": 0,
+    "question": "스터디 카페 왔어",
+    "original_train_line": 157,
+    "revised": false
+  },
+  {
+    "train_line": 233,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4818,
+    "label": 0,
+    "question": "텔레비전 볼 게 없어",
+    "original_train_line": 78,
+    "revised": false
+  },
+  {
+    "train_line": 234,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4415,
+    "label": 0,
+    "question": "차 막힌다",
+    "original_train_line": 181,
+    "revised": false
+  },
+  {
+    "train_line": 235,
+    "source": "songys/Chatbot_data",
+    "csv_line": 392,
+    "label": 0,
+    "question": "기프트콘 주면 좋아할까?",
+    "original_train_line": 140,
+    "revised": false
+  },
+  {
+    "train_line": 236,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1638,
+    "label": 0,
+    "question": "먹을까 참을까",
+    "original_train_line": 214,
+    "revised": false
+  },
+  {
+    "train_line": 237,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2043,
+    "label": 0,
+    "question": "버스탈까 택시탈까",
+    "original_train_line": 376,
+    "revised": false
+  },
+  {
+    "train_line": 238,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3084,
+    "label": 0,
+    "question": "얼평해달라는 사람 어떻게 생각해?",
+    "original_train_line": 419,
+    "revised": false
+  },
+  {
+    "train_line": 239,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3346,
+    "label": 0,
+    "question": "오늘은 내가 기분이가 좋아",
+    "original_train_line": 73,
+    "revised": false
+  },
+  {
+    "train_line": 240,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "기대 없이 본 영화가 의외로 좋았어."
+  },
+  {
+    "train_line": 241,
+    "source": "existing_50",
+    "source_line": 38,
+    "question": "액션 영화가 취향이야.",
+    "original_train_line": 63,
+    "revised": false
+  },
+  {
+    "train_line": 242,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4029,
+    "label": 0,
+    "question": "재테크 하는 방법 알려줘",
+    "original_train_line": 408,
+    "revised": false
+  },
+  {
+    "train_line": 243,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4273,
+    "label": 0,
+    "question": "증거도 없으면서 나만 의심해",
+    "original_train_line": 18,
+    "revised": true,
+    "revision_reason": "근거 없는 의심을 받는 사용자에게 책임을 돌리는 표현",
+    "original_answer": "평소의 행실을 되돌아보세요."
+  },
+  {
+    "train_line": 244,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "엔딩 크레딧까지 앉아서 보고 나왔어."
+  },
+  {
+    "train_line": 245,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "화분 받침을 씻었더니 주변이 깔끔해졌어."
+  },
+  {
+    "train_line": 246,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "밤에 산책하니 동네가 조용해서 좋았어."
+  },
+  {
+    "train_line": 247,
+    "source": "existing_50",
+    "source_line": 42,
+    "question": "화분이 많이 자라서 분갈이를 하려고 해.",
+    "original_train_line": 34,
+    "revised": false
+  },
+  {
+    "train_line": 248,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4119,
+    "label": 0,
+    "question": "점심 때 은행 갔다와야지",
+    "original_train_line": 262,
+    "revised": false
+  },
+  {
+    "train_line": 249,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4826,
+    "label": 0,
+    "question": "퇴근길 엄청 막히네",
+    "original_train_line": 130,
+    "revised": false
+  },
+  {
+    "train_line": 250,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2134,
+    "label": 0,
+    "question": "봄이 왔어",
+    "original_train_line": 448,
+    "revised": false
+  },
+  {
+    "train_line": 251,
+    "source": "songys/Chatbot_data",
+    "csv_line": 841,
+    "label": 0,
+    "question": "내가 멍청한거지",
+    "original_train_line": 138,
+    "revised": false
+  },
+  {
+    "train_line": 252,
+    "source": "songys/Chatbot_data",
+    "csv_line": 184,
+    "label": 0,
+    "question": "고데기 망했어",
+    "original_train_line": 19,
+    "revised": false
+  },
+  {
+    "train_line": 253,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "우리 편하게 말 놓고 대화해도 될까?"
+  },
+  {
+    "train_line": 254,
+    "source": "songys/Chatbot_data",
+    "csv_line": 78,
+    "label": 0,
+    "question": "같이 수영장 가기로 했어",
+    "original_train_line": 145,
+    "revised": false
+  },
+  {
+    "train_line": 255,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "혼자 걸으니까 생각을 정리하기 좋더라."
+  },
+  {
+    "train_line": 256,
+    "source": "songys/Chatbot_data",
+    "csv_line": 271,
+    "label": 0,
+    "question": "괜히 아까운 시간 버렸다",
+    "original_train_line": 442,
+    "revised": false
+  },
+  {
+    "train_line": 257,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2714,
+    "label": 0,
+    "question": "시간 진짜 빨리감",
+    "original_train_line": 5,
+    "revised": false
+  },
+  {
+    "train_line": 258,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1631,
+    "label": 0,
+    "question": "먹고 자도 되나",
+    "original_train_line": 38,
+    "revised": false
+  },
+  {
+    "train_line": 259,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1767,
+    "label": 0,
+    "question": "무슨 매주 결혼식이야",
+    "original_train_line": 269,
+    "revised": false
+  },
+  {
+    "train_line": 260,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "할 일은 남았는데 집중력이 떨어진다."
+  },
+  {
+    "train_line": 261,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4381,
+    "label": 0,
+    "question": "집을 왜 물어보지",
+    "original_train_line": 154,
+    "revised": false
+  },
+  {
+    "train_line": 262,
+    "source": "songys/Chatbot_data",
+    "csv_line": 76,
+    "label": 0,
+    "question": "같이 놀러갈 친구가 없어",
+    "original_train_line": 358,
+    "revised": false
+  },
+  {
+    "train_line": 263,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4442,
+    "label": 0,
+    "question": "창문을 열고 나왔네",
+    "original_train_line": 203,
+    "revised": false
+  },
+  {
+    "train_line": 264,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5094,
+    "label": 0,
+    "question": "허리 아프다",
+    "original_train_line": 303,
+    "revised": false
+  },
+  {
+    "train_line": 265,
+    "source": "existing_50",
+    "source_line": 24,
+    "question": "햇볕이 좋아서 밖에서 걸었어.",
+    "original_train_line": 423,
+    "revised": false
+  },
+  {
+    "train_line": 266,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1451,
+    "label": 0,
+    "question": "롱패딩 필요할까",
+    "original_train_line": 290,
+    "revised": false
+  },
+  {
+    "train_line": 267,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "결말을 미리 알아 버려서 아쉽다."
+  },
+  {
+    "train_line": 268,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1716,
+    "label": 0,
+    "question": "모임에서 만났어",
+    "original_train_line": 134,
+    "revised": true,
+    "revision_reason": "모임에서 만났다는 말에 맞지 않는 관용구로 응답",
+    "original_answer": "꿩 먹고 알 먹고네요."
+  },
+  {
+    "train_line": 269,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3030,
+    "label": 0,
+    "question": "어디서부터 잘못된 걸까",
+    "original_train_line": 162,
+    "revised": false
+  },
+  {
+    "train_line": 270,
+    "source": "songys/Chatbot_data",
+    "csv_line": 888,
+    "label": 0,
+    "question": "내일 날씨 어때?",
+    "original_train_line": 268,
+    "revised": false
+  },
+  {
+    "train_line": 271,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "점심 먹고 나니까 잠깐 졸리네."
+  },
+  {
+    "train_line": 272,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3883,
+    "label": 0,
+    "question": "자격증 공부해야지",
+    "original_train_line": 281,
+    "revised": false
+  },
+  {
+    "train_line": 273,
+    "source": "songys/Chatbot_data",
+    "csv_line": 83,
+    "label": 0,
+    "question": "개강옷 예쁘게 입어 볼까",
+    "original_train_line": 21,
+    "revised": false
+  },
+  {
+    "train_line": 274,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4685,
+    "label": 0,
+    "question": "친척들 만나는 거 싫어",
+    "original_train_line": 467,
+    "revised": false
+  },
+  {
+    "train_line": 275,
+    "source": "songys/Chatbot_data",
+    "csv_line": 524,
+    "label": 0,
+    "question": "나 오늘 따라 잘생겨 보이네",
+    "original_train_line": 386,
+    "revised": false
+  },
+  {
+    "train_line": 276,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1176,
+    "label": 0,
+    "question": "담뱃값이 왜 이렇게 비싸",
+    "original_train_line": 337,
+    "revised": false
+  },
+  {
+    "train_line": 277,
+    "source": "existing_50",
+    "source_line": 9,
+    "question": "잠깐 이야기할래?",
+    "original_train_line": 121,
+    "revised": false
+  },
+  {
+    "train_line": 278,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3103,
+    "label": 0,
+    "question": "엄마가 언니랑 차별해",
+    "original_train_line": 469,
+    "revised": false
+  },
+  {
+    "train_line": 279,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1342,
+    "label": 0,
+    "question": "동호회 나가지 말까",
+    "original_train_line": 415,
+    "revised": false
+  },
+  {
+    "train_line": 280,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "친구한테 작은 화분을 선물 받았어."
+  },
+  {
+    "train_line": 281,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5272,
+    "label": 0,
+    "question": "휴지도 떨어졌네.",
+    "original_train_line": 42,
+    "revised": false
+  },
+  {
+    "train_line": 282,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4083,
+    "label": 0,
+    "question": "전학가게 됐어",
+    "original_train_line": 497,
+    "revised": false
+  },
+  {
+    "train_line": 283,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1723,
+    "label": 0,
+    "question": "목돈 만들기",
+    "original_train_line": 289,
+    "revised": false
+  },
+  {
+    "train_line": 284,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3482,
+    "label": 0,
+    "question": "요즘 자꾸 까먹어",
+    "original_train_line": 459,
+    "revised": false
+  },
+  {
+    "train_line": 285,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "공포 영화는 무서워서 중간에 껐어."
+  },
+  {
+    "train_line": 286,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3282,
+    "label": 0,
+    "question": "오늘 날씨 좋아서 놀러가고 싶어",
+    "original_train_line": 258,
+    "revised": false
+  },
+  {
+    "train_line": 287,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1177,
+    "label": 0,
+    "question": "답 없는 내 인생",
+    "original_train_line": 245,
+    "revised": false
+  },
+  {
+    "train_line": 288,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4401,
+    "label": 0,
+    "question": "짝사랑하는 사람한테 선물 주면 부담될까",
+    "original_train_line": 319,
+    "revised": false
+  },
+  {
+    "train_line": 289,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1470,
+    "label": 0,
+    "question": "마음에 안 드는 짓만 해",
+    "original_train_line": 357,
+    "revised": false
+  },
+  {
+    "train_line": 290,
+    "source": "songys/Chatbot_data",
+    "csv_line": 917,
+    "label": 0,
+    "question": "냄새나면 어쩌지",
+    "original_train_line": 161,
+    "revised": false
+  },
+  {
+    "train_line": 291,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1400,
+    "label": 0,
+    "question": "떠나요~ 제주도~",
+    "original_train_line": 348,
+    "revised": false
+  },
+  {
+    "train_line": 292,
+    "source": "songys/Chatbot_data",
+    "csv_line": 462,
+    "label": 0,
+    "question": "나 같은 사람은 동물 키우면 안되겠지",
+    "original_train_line": 278,
+    "revised": true,
+    "revision_reason": "사용자에 대한 부정적 판단을 근거 없이 확정함",
+    "original_answer": "잘 아시네요."
+  },
+  {
+    "train_line": 293,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3583,
+    "label": 0,
+    "question": "월급에 비해 근무시간이 너무 긴 거 같애",
+    "original_train_line": 422,
+    "revised": false
+  },
+  {
+    "train_line": 294,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3016,
+    "label": 0,
+    "question": "양말 구멍 났다",
+    "original_train_line": 112,
+    "revised": false
+  },
+  {
+    "train_line": 295,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1300,
+    "label": 0,
+    "question": "돈 빌려줬는데 잠수탔어",
+    "original_train_line": 152,
+    "revised": false
+  },
+  {
+    "train_line": 296,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1596,
+    "label": 0,
+    "question": "머리 안감았더니 떡졌어",
+    "original_train_line": 332,
+    "revised": false
+  },
+  {
+    "train_line": 297,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1701,
+    "label": 0,
+    "question": "모기가 너무 많아.",
+    "original_train_line": 80,
+    "revised": false
+  },
+  {
+    "train_line": 298,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2755,
+    "label": 0,
+    "question": "시험 없어지면 좋겠다.",
+    "original_train_line": 250,
+    "revised": false
+  },
+  {
+    "train_line": 299,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "해 질 무렵 호수 둘레를 한 바퀴 돌았어."
+  },
+  {
+    "train_line": 300,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4899,
+    "label": 0,
+    "question": "폰 케이스 사줄까?",
+    "original_train_line": 443,
+    "revised": false
+  },
+  {
+    "train_line": 301,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "채팅이 잘 되는지 확인하려고 인사해 봐."
+  },
+  {
+    "train_line": 302,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1900,
+    "label": 0,
+    "question": "바라는게 없어",
+    "original_train_line": 458,
+    "revised": false
+  },
+  {
+    "train_line": 303,
+    "source": "songys/Chatbot_data",
+    "csv_line": 934,
+    "label": 0,
+    "question": "너 말 잘하니",
+    "original_train_line": 405,
+    "revised": false
+  },
+  {
+    "train_line": 304,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3401,
+    "label": 0,
+    "question": "와 소름 돋아",
+    "original_train_line": 200,
+    "revised": false
+  },
+  {
+    "train_line": 305,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4748,
+    "label": 0,
+    "question": "컴퓨터 백업해야지",
+    "original_train_line": 457,
+    "revised": false
+  },
+  {
+    "train_line": 306,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3219,
+    "label": 0,
+    "question": "연애 상담 해줄래?",
+    "original_train_line": 195,
+    "revised": false
+  },
+  {
+    "train_line": 307,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3114,
+    "label": 0,
+    "question": "엄마한테 또 화냈어",
+    "original_train_line": 487,
+    "revised": false
+  },
+  {
+    "train_line": 308,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "걸어서 장을 보고 왔더니 제법 많이 움직였네."
+  },
+  {
+    "train_line": 309,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1192,
+    "label": 0,
+    "question": "대기업 취직 어려울까",
+    "original_train_line": 206,
+    "revised": false
+  },
+  {
+    "train_line": 310,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3081,
+    "label": 0,
+    "question": "얼어 죽는 줄",
+    "original_train_line": 360,
+    "revised": false
+  },
+  {
+    "train_line": 311,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4150,
+    "label": 0,
+    "question": "정신차리라고 한 마디 해줘",
+    "original_train_line": 247,
+    "revised": false
+  },
+  {
+    "train_line": 312,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3859,
+    "label": 0,
+    "question": "임용 결과 발표 기다리고 있어",
+    "original_train_line": 361,
+    "revised": false
+  },
+  {
+    "train_line": 313,
+    "source": "songys/Chatbot_data",
+    "csv_line": 878,
+    "label": 0,
+    "question": "내가 호구냐구",
+    "original_train_line": 352,
+    "revised": false
+  },
+  {
+    "train_line": 314,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4041,
+    "label": 0,
+    "question": "저녁으로 뭐 먹을까",
+    "original_train_line": 86,
+    "revised": false
+  },
+  {
+    "train_line": 315,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "너무 지쳐서 친구 약속을 미룰까 고민돼."
+  },
+  {
+    "train_line": 316,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4162,
+    "label": 0,
+    "question": "제주도 가고 싶어",
+    "original_train_line": 48,
+    "revised": false
+  },
+  {
+    "train_line": 317,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4070,
+    "label": 0,
+    "question": "전남친이 자꾸 생각나",
+    "original_train_line": 8,
+    "revised": false
+  },
+  {
+    "train_line": 318,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2973,
+    "label": 0,
+    "question": "알바하는데 같이 일하는 사람 좋아져",
+    "original_train_line": 359,
+    "revised": false
+  },
+  {
+    "train_line": 319,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "식물 옆에 의자를 두고 쉬는 시간이 좋아."
+  },
+  {
+    "train_line": 320,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2833,
+    "label": 0,
+    "question": "씻기도 귀찮다",
+    "original_train_line": 339,
+    "revised": false
+  },
+  {
+    "train_line": 321,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3024,
+    "label": 0,
+    "question": "얘는 싸우기만 하면 연락이 안돼",
+    "original_train_line": 407,
+    "revised": false
+  },
+  {
+    "train_line": 322,
+    "source": "existing_50",
+    "source_line": 26,
+    "question": "저녁 먹고 동네 산책했어.",
+    "original_train_line": 227,
+    "revised": false
+  },
+  {
+    "train_line": 323,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1680,
+    "label": 0,
+    "question": "면접 준비 어떻게 하지",
+    "original_train_line": 39,
+    "revised": false
+  },
+  {
+    "train_line": 324,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1825,
+    "label": 0,
+    "question": "뭐가 중요한지 모르겠어",
+    "original_train_line": 334,
+    "revised": false
+  },
+  {
+    "train_line": 325,
+    "source": "songys/Chatbot_data",
+    "csv_line": 635,
+    "label": 0,
+    "question": "나만 애기봐",
+    "original_train_line": 237,
+    "revised": false
+  },
+  {
+    "train_line": 326,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2749,
+    "label": 0,
+    "question": "시험 끝나고 만나고 싶어",
+    "original_train_line": 373,
+    "revised": false
+  },
+  {
+    "train_line": 327,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4371,
+    "label": 0,
+    "question": "집앞에서 전남친 만남",
+    "original_train_line": 94,
+    "revised": false
+  },
+  {
+    "train_line": 328,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "옛날에 좋아했던 영화를 다시 봤어."
+  },
+  {
+    "train_line": 329,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "추워서 오래 걷지는 못했지만 밖에 다녀왔어."
+  },
+  {
+    "train_line": 330,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4226,
+    "label": 0,
+    "question": "주말에 뭐 하고 놀까?",
+    "original_train_line": 230,
+    "revised": false
+  },
+  {
+    "train_line": 331,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3544,
+    "label": 0,
+    "question": "운동하다 다칠뻔",
+    "original_train_line": 468,
+    "revised": false
+  },
+  {
+    "train_line": 332,
+    "source": "existing_50",
+    "source_line": 47,
+    "question": "분갈이하려고 흙을 준비했어.",
+    "original_train_line": 351,
+    "revised": false
+  },
+  {
+    "train_line": 333,
+    "source": "songys/Chatbot_data",
+    "csv_line": 61,
+    "label": 0,
+    "question": "감정이 쓰레기통처럼 엉망진창이야",
+    "original_train_line": 99,
+    "revised": false
+  },
+  {
+    "train_line": 334,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "다음에는 가족이랑 같은 길을 걸어 보고 싶어."
+  },
+  {
+    "train_line": 335,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1186,
+    "label": 0,
+    "question": "답하기 싫은가봐",
+    "original_train_line": 56,
+    "revised": false
+  },
+  {
+    "train_line": 336,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "존댓말로 대화하고 싶어요. 반갑습니다."
+  },
+  {
+    "train_line": 337,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1742,
+    "label": 0,
+    "question": "몸이 무거워",
+    "original_train_line": 207,
+    "revised": false
+  },
+  {
+    "train_line": 338,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4243,
+    "label": 0,
+    "question": "주행 연습 끝났어",
+    "original_train_line": 32,
+    "revised": false
+  },
+  {
+    "train_line": 339,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4432,
+    "label": 0,
+    "question": "찰랑찰랑한 머릿결 갖고 싶다",
+    "original_train_line": 51,
+    "revised": false
+  },
+  {
+    "train_line": 340,
+    "source": "songys/Chatbot_data",
+    "csv_line": 35,
+    "label": 0,
+    "question": "가족들이랑 여행 갈거야",
+    "original_train_line": 331,
+    "revised": false
+  },
+  {
+    "train_line": 341,
+    "source": "existing_50",
+    "source_line": 6,
+    "question": "오랜만이네.",
+    "original_train_line": 335,
+    "revised": false
+  },
+  {
+    "train_line": 342,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "식물 이름표를 만들어 화분에 꽂아 뒀어."
+  },
+  {
+    "train_line": 343,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3470,
+    "label": 0,
+    "question": "요리하는게 재밌어",
+    "original_train_line": 479,
+    "revised": false
+  },
+  {
+    "train_line": 344,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3590,
+    "label": 0,
+    "question": "월세 너무 아까워",
+    "original_train_line": 211,
+    "revised": false
+  },
+  {
+    "train_line": 345,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3072,
+    "label": 0,
+    "question": "얼굴 보니까 떨리더라",
+    "original_train_line": 402,
+    "revised": false
+  },
+  {
+    "train_line": 346,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4253,
+    "label": 0,
+    "question": "중2병 이라더니 진짜 속썩일 줄이야",
+    "original_train_line": 182,
+    "revised": false
+  },
+  {
+    "train_line": 347,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "혼자 영화관에 가 보는 건 처음이야."
+  },
+  {
+    "train_line": 348,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4537,
+    "label": 0,
+    "question": "출근하기 너무 오래 걸려",
+    "original_train_line": 409,
+    "revised": false
+  },
+  {
+    "train_line": 349,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4862,
+    "label": 0,
+    "question": "패키지여행이 좋을까 자유여행이 좋을까",
+    "original_train_line": 50,
+    "revised": false
+  },
+  {
+    "train_line": 350,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2515,
+    "label": 0,
+    "question": "소개팅으로 잘되기도 하나?",
+    "original_train_line": 49,
+    "revised": false
+  },
+  {
+    "train_line": 351,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4842,
+    "label": 0,
+    "question": "티 안 나게 나 싫어해",
+    "original_train_line": 98,
+    "revised": true,
+    "revision_reason": "상대의 성격을 여우라고 단정함",
+    "original_answer": "여우인가봐요."
+  },
+  {
+    "train_line": 352,
+    "source": "songys/Chatbot_data",
+    "csv_line": 629,
+    "label": 0,
+    "question": "나만 뒤처지는 느낌이야",
+    "original_train_line": 209,
+    "revised": false
+  },
+  {
+    "train_line": 353,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3701,
+    "label": 0,
+    "question": "이번 달에 결혼식 너무 많아",
+    "original_train_line": 355,
+    "revised": false
+  },
+  {
+    "train_line": 354,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4664,
+    "label": 0,
+    "question": "친구랑 잘 노는 방법",
+    "original_train_line": 125,
+    "revised": false
+  },
+  {
+    "train_line": 355,
+    "source": "songys/Chatbot_data",
+    "csv_line": 750,
+    "label": 0,
+    "question": "남자친구가 홧김에 욕함",
+    "original_train_line": 243,
+    "revised": false
+  },
+  {
+    "train_line": 356,
+    "source": "existing_50",
+    "source_line": 44,
+    "question": "이번 주말에는 화분을 옮겨 심을 거야.",
+    "original_train_line": 296,
+    "revised": false
+  },
+  {
+    "train_line": 357,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4969,
+    "label": 0,
+    "question": "하루종일 속상해",
+    "original_train_line": 293,
+    "revised": false
+  },
+  {
+    "train_line": 358,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "서서 일하는 날이라 다리가 무겁네."
+  },
+  {
+    "train_line": 359,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3186,
+    "label": 0,
+    "question": "여행 계획 세워야지",
+    "original_train_line": 400,
+    "revised": false
+  },
+  {
+    "train_line": 360,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4600,
+    "label": 0,
+    "question": "친구가 나한테 집착해",
+    "original_train_line": 110,
+    "revised": false
+  },
+  {
+    "train_line": 361,
+    "source": "songys/Chatbot_data",
+    "csv_line": 319,
+    "label": 0,
+    "question": "그냥 할까?",
+    "original_train_line": 416,
+    "revised": true,
+    "revision_reason": "무엇을 할지 모르는 상태에서 실행을 권함",
+    "original_answer": "실천이 말보다 낫죠."
+  },
+  {
+    "train_line": 362,
+    "source": "existing_50",
+    "source_line": 33,
+    "question": "재미있는 영화 보고 싶다.",
+    "original_train_line": 343,
+    "revised": false
+  },
+  {
+    "train_line": 363,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "오늘 처음으로 쉬는 시간이 나서 왔어."
+  },
+  {
+    "train_line": 364,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3250,
+    "label": 0,
+    "question": "영어 잘 했으면 좋겠다",
+    "original_train_line": 122,
+    "revised": false
+  },
+  {
+    "train_line": 365,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3111,
+    "label": 0,
+    "question": "엄마아빠 노후가 걱정돼",
+    "original_train_line": 264,
+    "revised": false
+  },
+  {
+    "train_line": 366,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2091,
+    "label": 0,
+    "question": "별이 안 보여",
+    "original_train_line": 398,
+    "revised": false
+  },
+  {
+    "train_line": 367,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4907,
+    "label": 0,
+    "question": "프로젝트 끝났으면 좋겠다",
+    "original_train_line": 170,
+    "revised": false
+  },
+  {
+    "train_line": 368,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1981,
+    "label": 0,
+    "question": "방법도 안 말해주고 그냥 열심히 하래",
+    "original_train_line": 17,
+    "revised": true,
+    "revision_reason": "방법을 묻는 맥락에 다시 노력만 요구함",
+    "original_answer": "모르는걸 알려면 노력해야죠."
+  },
+  {
+    "train_line": 369,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4753,
+    "label": 0,
+    "question": "케익 만들어서 선물할까?",
+    "original_train_line": 35,
+    "revised": false
+  },
+  {
+    "train_line": 370,
+    "source": "existing_50",
+    "source_line": 34,
+    "question": "오늘 저녁에 영화 볼까 해.",
+    "original_train_line": 378,
+    "revised": false
+  },
+  {
+    "train_line": 371,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "키우는 식물 사진을 찍어서 성장 기록을 남겨."
+  },
+  {
+    "train_line": 372,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "주말에도 못 쉬어서 월요일부터 지치네."
+  },
+  {
+    "train_line": 373,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2141,
+    "label": 0,
+    "question": "부담스러운 기대 좀 떨쳐낼 없을까?",
+    "original_train_line": 363,
+    "revised": false
+  },
+  {
+    "train_line": 374,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3313,
+    "label": 0,
+    "question": "오늘 점심은",
+    "original_train_line": 37,
+    "revised": false
+  },
+  {
+    "train_line": 375,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5179,
+    "label": 0,
+    "question": "화분에 뭐 심어볼까",
+    "original_train_line": 4,
+    "revised": false
+  },
+  {
+    "train_line": 376,
+    "source": "songys/Chatbot_data",
+    "csv_line": 406,
+    "label": 0,
+    "question": "길에서 담배 피우는 사람 싫어",
+    "original_train_line": 499,
+    "revised": false
+  },
+  {
+    "train_line": 377,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "충분히 쉬고 나니까 기운이 좀 돌아왔어."
+  },
+  {
+    "train_line": 378,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1128,
+    "label": 0,
+    "question": "다른 사람의 시선이 너무 신경쓰여",
+    "original_train_line": 118,
+    "revised": false
+  },
+  {
+    "train_line": 379,
+    "source": "existing_50",
+    "source_line": 14,
+    "question": "하루 종일 일해서 힘이 없어.",
+    "original_train_line": 476,
+    "revised": false
+  },
+  {
+    "train_line": 380,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3209,
+    "label": 0,
+    "question": "연락 하지 말라고",
+    "original_train_line": 302,
+    "revised": false
+  },
+  {
+    "train_line": 381,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3895,
+    "label": 0,
+    "question": "자기 소개서 오글거려",
+    "original_train_line": 11,
+    "revised": false
+  },
+  {
+    "train_line": 382,
+    "source": "existing_50",
+    "source_line": 15,
+    "question": "공부를 오래 했더니 피곤해.",
+    "original_train_line": 174,
+    "revised": false
+  },
+  {
+    "train_line": 383,
+    "source": "existing_50",
+    "source_line": 17,
+    "question": "기운이 없어서 아무것도 하기 싫어.",
+    "original_train_line": 483,
+    "revised": false
+  },
+  {
+    "train_line": 384,
+    "source": "songys/Chatbot_data",
+    "csv_line": 202,
+    "label": 0,
+    "question": "골프 못 치는데",
+    "original_train_line": 116,
+    "revised": false
+  },
+  {
+    "train_line": 385,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "안녕, 나는 민수라고 해."
+  },
+  {
+    "train_line": 386,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1259,
+    "label": 0,
+    "question": "도서관 가서 공부해야지",
+    "original_train_line": 62,
+    "revised": false
+  },
+  {
+    "train_line": 387,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1696,
+    "label": 0,
+    "question": "명품 이제 사지 말아야겠어",
+    "original_train_line": 232,
+    "revised": false
+  },
+  {
+    "train_line": 388,
+    "source": "existing_50",
+    "source_line": 31,
+    "question": "주말에 영화 보려고 해.",
+    "original_train_line": 265,
+    "revised": false
+  },
+  {
+    "train_line": 389,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "퇴근했는데 아무 말도 안 하고 쉬고 싶어."
+  },
+  {
+    "train_line": 390,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2907,
+    "label": 0,
+    "question": "아직도 안 끝났어",
+    "original_train_line": 438,
+    "revised": false
+  },
+  {
+    "train_line": 391,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "계단을 많이 올라서 잠깐 앉아 있으려고."
+  },
+  {
+    "train_line": 392,
+    "source": "songys/Chatbot_data",
+    "csv_line": 362,
+    "label": 0,
+    "question": "기대했는데",
+    "original_train_line": 344,
+    "revised": true,
+    "revision_reason": "무엇을 기대했는지 모르는데 베풂과 보답 이야기로 단정함",
+    "original_answer": "기쁜 마음으로 베풀고 보답을 바라지 마세요."
+  },
+  {
+    "train_line": 393,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "출근하기 전에 잠깐 들렀어. 잘 있었어?"
+  },
+  {
+    "train_line": 394,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "영화 음악이 좋아서 계속 찾아 듣고 있어."
+  },
+  {
+    "train_line": 395,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1345,
+    "label": 0,
+    "question": "되게 건조하네",
+    "original_train_line": 366,
+    "revised": false
+  },
+  {
+    "train_line": 396,
+    "source": "songys/Chatbot_data",
+    "csv_line": 962,
+    "label": 0,
+    "question": "너무 많이 먹었어",
+    "original_train_line": 103,
+    "revised": false
+  },
+  {
+    "train_line": 397,
+    "source": "songys/Chatbot_data",
+    "csv_line": 199,
+    "label": 0,
+    "question": "고의는 아닌데 실수를 한 거 같아",
+    "original_train_line": 354,
+    "revised": false
+  },
+  {
+    "train_line": 398,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "골목길을 걷다가 처음 보는 가게를 발견했어."
+  },
+  {
+    "train_line": 399,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3755,
+    "label": 0,
+    "question": "이직해도 될까",
+    "original_train_line": 494,
+    "revised": false
+  },
+  {
+    "train_line": 400,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3040,
+    "label": 0,
+    "question": "어떻게해 늦잠 잤어",
+    "original_train_line": 435,
+    "revised": false
+  },
+  {
+    "train_line": 401,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3310,
+    "label": 0,
+    "question": "오늘 저녁 뭐 먹을까",
+    "original_train_line": 109,
+    "revised": false
+  },
+  {
+    "train_line": 402,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3871,
+    "label": 0,
+    "question": "입소문 난 맛집 다녀왔어",
+    "original_train_line": 485,
+    "revised": false
+  },
+  {
+    "train_line": 403,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1583,
+    "label": 0,
+    "question": "맨몸으로 결혼하기 가능?",
+    "original_train_line": 311,
+    "revised": false
+  },
+  {
+    "train_line": 404,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1523,
+    "label": 0,
+    "question": "말 예쁘게 하고 싶어",
+    "original_train_line": 478,
+    "revised": false
+  },
+  {
+    "train_line": 405,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3336,
+    "label": 0,
+    "question": "오늘도 또 이렇게 가는구나",
+    "original_train_line": 136,
+    "revised": false
+  },
+  {
+    "train_line": 406,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1503,
+    "label": 0,
+    "question": "만나기만 하면 싸워",
+    "original_train_line": 85,
+    "revised": true,
+    "revision_reason": "관계의 상황을 모르는 상태에서 만나지 말라고 바로 결론 냄",
+    "original_answer": "만나지 마세요."
+  },
+  {
+    "train_line": 407,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "분갈이할 때 쓰려고 작은 삽을 샀어."
+  },
+  {
+    "train_line": 408,
+    "source": "songys/Chatbot_data",
+    "csv_line": 596,
+    "label": 0,
+    "question": "나는 친구라고 믿었는데",
+    "original_train_line": 244,
+    "revised": false
+  },
+  {
+    "train_line": 409,
+    "source": "songys/Chatbot_data",
+    "csv_line": 765,
+    "label": 0,
+    "question": "남친이 입이 험해",
+    "original_train_line": 338,
+    "revised": false
+  },
+  {
+    "train_line": 410,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2966,
+    "label": 0,
+    "question": "알바 생각보다 힘들다.",
+    "original_train_line": 66,
+    "revised": false
+  },
+  {
+    "train_line": 411,
+    "source": "existing_50",
+    "source_line": 5,
+    "question": "좋은 아침이야.",
+    "original_train_line": 65,
+    "revised": false
+  },
+  {
+    "train_line": 412,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1868,
+    "label": 0,
+    "question": "미세먼지 또 나쁨",
+    "original_train_line": 393,
+    "revised": false
+  },
+  {
+    "train_line": 413,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1001,
+    "label": 0,
+    "question": "노래방 가면 어색할까",
+    "original_train_line": 273,
+    "revised": false
+  },
+  {
+    "train_line": 414,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "친구랑 산책하다가 길을 잘못 들었어."
+  },
+  {
+    "train_line": 415,
+    "source": "existing_50",
+    "source_line": 22,
+    "question": "공원 한 바퀴 걷고 왔어.",
+    "original_train_line": 36,
+    "revised": false
+  },
+  {
+    "train_line": 416,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5088,
+    "label": 0,
+    "question": "행운을 빌어줘",
+    "original_train_line": 249,
+    "revised": false
+  },
+  {
+    "train_line": 417,
+    "source": "songys/Chatbot_data",
+    "csv_line": 418,
+    "label": 0,
+    "question": "김치볶음밥이나 만들어 먹어야지",
+    "original_train_line": 375,
+    "revised": false
+  },
+  {
+    "train_line": 418,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1413,
+    "label": 0,
+    "question": "또 어떻게 버티지?",
+    "original_train_line": 44,
+    "revised": false
+  },
+  {
+    "train_line": 419,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4308,
+    "label": 0,
+    "question": "직장에서 따돌림 당함",
+    "original_train_line": 41,
+    "revised": false
+  },
+  {
+    "train_line": 420,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3619,
+    "label": 0,
+    "question": "은퇴후가 걱정이야",
+    "original_train_line": 291,
+    "revised": false
+  },
+  {
+    "train_line": 421,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1663,
+    "label": 0,
+    "question": "며칠 전에 다시 만났는데",
+    "original_train_line": 124,
+    "revised": false
+  },
+  {
+    "train_line": 422,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2716,
+    "label": 0,
+    "question": "시간이 너무 안 가 지루해",
+    "original_train_line": 30,
+    "revised": false
+  },
+  {
+    "train_line": 423,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1250,
+    "label": 0,
+    "question": "덕수궁 돌담길 따라서 둘이 걸었어.",
+    "original_train_line": 123,
+    "revised": false
+  },
+  {
+    "train_line": 424,
+    "source": "existing_50",
+    "source_line": 18,
+    "question": "오늘은 일찍 자고 싶어.",
+    "original_train_line": 158,
+    "revised": false
+  },
+  {
+    "train_line": 425,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4972,
+    "label": 0,
+    "question": "하우스웨딩 하고싶다",
+    "original_train_line": 414,
+    "revised": false
+  },
+  {
+    "train_line": 426,
+    "source": "songys/Chatbot_data",
+    "csv_line": 149,
+    "label": 0,
+    "question": "결혼도 다 돈이다.",
+    "original_train_line": 500,
+    "revised": false
+  },
+  {
+    "train_line": 427,
+    "source": "existing_50",
+    "source_line": 4,
+    "question": "처음 인사해 봐.",
+    "original_train_line": 462,
+    "revised": false
+  },
+  {
+    "train_line": 428,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2435,
+    "label": 0,
+    "question": "서핑하러 가야지",
+    "original_train_line": 10,
+    "revised": false
+  },
+  {
+    "train_line": 429,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "몸은 피곤한데 계속 휴대폰만 보게 돼."
+  },
+  {
+    "train_line": 430,
+    "source": "songys/Chatbot_data",
+    "csv_line": 276,
+    "label": 0,
+    "question": "교양수업 시간에 마음에 드는 애 있어",
+    "original_train_line": 166,
+    "revised": false
+  },
+  {
+    "train_line": 431,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5024,
+    "label": 0,
+    "question": "한약 먹기 싫어",
+    "original_train_line": 307,
+    "revised": false
+  },
+  {
+    "train_line": 432,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3811,
+    "label": 0,
+    "question": "일 못하는 사수랑 일하는 거 힘드네",
+    "original_train_line": 1,
+    "revised": false
+  },
+  {
+    "train_line": 433,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "나 지금 좀 심심한데 말동무 해 줄래?"
+  },
+  {
+    "train_line": 434,
+    "source": "songys/Chatbot_data",
+    "csv_line": 771,
+    "label": 0,
+    "question": "남편이 아기를 안 돌봐줘.",
+    "original_train_line": 399,
+    "revised": false
+  },
+  {
+    "train_line": 435,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "주말 내내 손님을 맞았더니 녹초가 됐어."
+  },
+  {
+    "train_line": 436,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3930,
+    "label": 0,
+    "question": "자신감 꺽는데 뭐 있는 듯",
+    "original_train_line": 83,
+    "revised": false
+  },
+  {
+    "train_line": 437,
+    "source": "songys/Chatbot_data",
+    "csv_line": 470,
+    "label": 0,
+    "question": "나 그지임",
+    "original_train_line": 451,
+    "revised": false
+  },
+  {
+    "train_line": 438,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1980,
+    "label": 0,
+    "question": "방들이 준비 뭐하지?",
+    "original_train_line": 192,
+    "revised": false
+  },
+  {
+    "train_line": 439,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2656,
+    "label": 0,
+    "question": "스노클링 해볼까?",
+    "original_train_line": 490,
+    "revised": false
+  },
+  {
+    "train_line": 440,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4877,
+    "label": 0,
+    "question": "편하게 쉬고 싶다",
+    "original_train_line": 102,
+    "revised": false
+  },
+  {
+    "train_line": 441,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1474,
+    "label": 0,
+    "question": "마음을 정리하는 중인데 카톡 왔어",
+    "original_train_line": 312,
+    "revised": false
+  },
+  {
+    "train_line": 442,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2294,
+    "label": 0,
+    "question": "사업 해볼까?",
+    "original_train_line": 455,
+    "revised": false
+  },
+  {
+    "train_line": 443,
+    "source": "songys/Chatbot_data",
+    "csv_line": 929,
+    "label": 0,
+    "question": "너 누구니?",
+    "original_train_line": 328,
+    "revised": false
+  },
+  {
+    "train_line": 444,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4895,
+    "label": 0,
+    "question": "폰 베터리가 벌써 없어",
+    "original_train_line": 431,
+    "revised": false
+  },
+  {
+    "train_line": 445,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3689,
+    "label": 0,
+    "question": "이력서 몇 개째 쓰는건지 모르겠다",
+    "original_train_line": 153,
+    "revised": false
+  },
+  {
+    "train_line": 446,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2249,
+    "label": 0,
+    "question": "빵꾸난 양말 봤나",
+    "original_train_line": 321,
+    "revised": false
+  },
+  {
+    "train_line": 447,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3158,
+    "label": 0,
+    "question": "여자 친구랑 연락이 안돼",
+    "original_train_line": 446,
+    "revised": false
+  },
+  {
+    "train_line": 448,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2380,
+    "label": 0,
+    "question": "새신발 신고 좋은 곳 가야지",
+    "original_train_line": 55,
+    "revised": false
+  },
+  {
+    "train_line": 449,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2496,
+    "label": 0,
+    "question": "셀카 잘 찍고 싶다",
+    "original_train_line": 260,
+    "revised": false
+  },
+  {
+    "train_line": 450,
+    "source": "songys/Chatbot_data",
+    "csv_line": 356,
+    "label": 0,
+    "question": "기다리라고 말 못하겠어",
+    "original_train_line": 92,
+    "revised": false
+  },
+  {
+    "train_line": 451,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4324,
+    "label": 0,
+    "question": "진정으로 즐거운 게 뭘까?",
+    "original_train_line": 391,
+    "revised": false
+  },
+  {
+    "train_line": 452,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4681,
+    "label": 0,
+    "question": "친구한테 진짜 고마워",
+    "original_train_line": 257,
+    "revised": false
+  },
+  {
+    "train_line": 453,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "잠깐 자리 비웠다가 돌아왔어."
+  },
+  {
+    "train_line": 454,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1230,
+    "label": 0,
+    "question": "대학 다 떨어졌어",
+    "original_train_line": 369,
+    "revised": false
+  },
+  {
+    "train_line": 455,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3953,
+    "label": 0,
+    "question": "자취하는데 뭐 필요할까?",
+    "original_train_line": 449,
+    "revised": false
+  },
+  {
+    "train_line": 456,
+    "source": "songys/Chatbot_data",
+    "csv_line": 320,
+    "label": 0,
+    "question": "그냥 혼자 밥이나 먹어야지",
+    "original_train_line": 472,
+    "revised": false
+  },
+  {
+    "train_line": 457,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2322,
+    "label": 0,
+    "question": "살아서 좋은점",
+    "original_train_line": 2,
+    "revised": false
+  },
+  {
+    "train_line": 458,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4128,
+    "label": 0,
+    "question": "점심시간이라도 마음 놓고 쉬고 싶어",
+    "original_train_line": 233,
+    "revised": false
+  },
+  {
+    "train_line": 459,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "걷다가 예쁜 노을을 봐서 한참 멈춰 있었어."
+  },
+  {
+    "train_line": 460,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1846,
+    "label": 0,
+    "question": "뭔가 말해봐",
+    "original_train_line": 223,
+    "revised": false
+  },
+  {
+    "train_line": 461,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4233,
+    "label": 0,
+    "question": "주식이 떨어졌어",
+    "original_train_line": 151,
+    "revised": false
+  },
+  {
+    "train_line": 462,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "어제보다 오늘은 덜 피곤해서 다행이야."
+  },
+  {
+    "train_line": 463,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1161,
+    "label": 0,
+    "question": "단체생활 많이 힘든가",
+    "original_train_line": 175,
+    "revised": false
+  },
+  {
+    "train_line": 464,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4745,
+    "label": 0,
+    "question": "컴터 부팅하는데 시간이 오래걸려",
+    "original_train_line": 329,
+    "revised": true,
+    "revision_reason": "알려 주지 않은 강제 종료 이력을 원인처럼 제시함",
+    "original_answer": "강제종료 하고 나서 그런 경우가 종종 있어요."
+  },
+  {
+    "train_line": 465,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3927,
+    "label": 0,
+    "question": "자매가 있으면 좋은 점?",
+    "original_train_line": 394,
+    "revised": false
+  },
+  {
+    "train_line": 466,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5252,
+    "label": 0,
+    "question": "후회 안해야 할텐데",
+    "original_train_line": 137,
+    "revised": false
+  },
+  {
+    "train_line": 467,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3681,
+    "label": 0,
+    "question": "이렇게 갈 거였구나",
+    "original_train_line": 385,
+    "revised": false
+  },
+  {
+    "train_line": 468,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "밤새 보고서를 고쳤더니 머리가 멍해."
+  },
+  {
+    "train_line": 469,
+    "source": "songys/Chatbot_data",
+    "csv_line": 737,
+    "label": 0,
+    "question": "남자친구가 사진 실력 꽝",
+    "original_train_line": 454,
+    "revised": false
+  },
+  {
+    "train_line": 470,
+    "source": "existing_50",
+    "source_line": 25,
+    "question": "산책하면서 꽃을 봤어.",
+    "original_train_line": 350,
+    "revised": false
+  },
+  {
+    "train_line": 471,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4686,
+    "label": 0,
+    "question": "친한 친구랑 싸움",
+    "original_train_line": 59,
+    "revised": false
+  },
+  {
+    "train_line": 472,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3172,
+    "label": 0,
+    "question": "여자친구가 혼자 여행 가보고 싶다는데",
+    "original_train_line": 370,
+    "revised": false
+  },
+  {
+    "train_line": 473,
+    "source": "existing_50",
+    "source_line": 45,
+    "question": "새 화분을 사 왔어.",
+    "original_train_line": 486,
+    "revised": false
+  },
+  {
+    "train_line": 474,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2238,
+    "label": 0,
+    "question": "빚 때문에 죽을 것 같아",
+    "original_train_line": 6,
+    "revised": false
+  },
+  {
+    "train_line": 475,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4579,
+    "label": 0,
+    "question": "치매이면 어쩌지",
+    "original_train_line": 492,
+    "revised": false
+  },
+  {
+    "train_line": 476,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3692,
+    "label": 0,
+    "question": "이름 알려줘",
+    "original_train_line": 284,
+    "revised": true,
+    "revision_reason": "다른 이름을 가진 봇의 정체성을 그대로 주입함",
+    "original_answer": "위로봇이요."
+  },
+  {
+    "train_line": 477,
+    "source": "songys/Chatbot_data",
+    "csv_line": 508,
+    "label": 0,
+    "question": "나 소개팅한다!",
+    "original_train_line": 129,
+    "revised": false
+  },
+  {
+    "train_line": 478,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "영화 예고편을 보니 개봉일이 기다려져."
+  },
+  {
+    "train_line": 479,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3511,
+    "label": 0,
+    "question": "우리가 좋은데 왜 반대하시지",
+    "original_train_line": 240,
+    "revised": false
+  },
+  {
+    "train_line": 480,
+    "source": "songys/Chatbot_data",
+    "csv_line": 672,
+    "label": 0,
+    "question": "나한테만 왜 이런 일이 일어날까",
+    "original_train_line": 484,
+    "revised": false
+  },
+  {
+    "train_line": 481,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4240,
+    "label": 0,
+    "question": "주택 청약 가입",
+    "original_train_line": 196,
+    "revised": false
+  },
+  {
+    "train_line": 482,
+    "source": "songys/Chatbot_data",
+    "csv_line": 425,
+    "label": 0,
+    "question": "꽃 사고 싶어",
+    "original_train_line": 198,
+    "revised": false
+  },
+  {
+    "train_line": 483,
+    "source": "new_authored_100",
+    "topic": "tired",
+    "revised": false,
+    "question": "설거지하고 청소하니까 벌써 기운이 빠졌어."
+  },
+  {
+    "train_line": 484,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1301,
+    "label": 0,
+    "question": "돈 안드는 데이트 코스",
+    "original_train_line": 306,
+    "revised": false
+  },
+  {
+    "train_line": 485,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "인사만 하고 가려고 들렀어. 좋은 하루 보내."
+  },
+  {
+    "train_line": 486,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "영화 보고 나서 원작 책도 읽고 싶어졌어."
+  },
+  {
+    "train_line": 487,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "매일 이 시간에 인사하러 와도 괜찮아?"
+  },
+  {
+    "train_line": 488,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "낙엽 밟는 소리가 좋아서 천천히 걸었어."
+  },
+  {
+    "train_line": 489,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2635,
+    "label": 0,
+    "question": "술 좀 마실까",
+    "original_train_line": 322,
+    "revised": false
+  },
+  {
+    "train_line": 490,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5089,
+    "label": 0,
+    "question": "향수 뭐로 할까",
+    "original_train_line": 79,
+    "revised": false
+  },
+  {
+    "train_line": 491,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1522,
+    "label": 0,
+    "question": "말 거는게 어려워",
+    "original_train_line": 57,
+    "revised": false
+  },
+  {
+    "train_line": 492,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4271,
+    "label": 0,
+    "question": "중요한 발표 기다리고 있어",
+    "original_train_line": 441,
+    "revised": false
+  },
+  {
+    "train_line": 493,
+    "source": "existing_50",
+    "source_line": 8,
+    "question": "하이!",
+    "original_train_line": 25,
+    "revised": false
+  },
+  {
+    "train_line": 494,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1865,
+    "label": 0,
+    "question": "미래에 대한 고민",
+    "original_train_line": 387,
+    "revised": false
+  },
+  {
+    "train_line": 495,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "산책길에 고양이가 햇볕을 쬐고 있었어."
+  },
+  {
+    "train_line": 496,
+    "source": "songys/Chatbot_data",
+    "csv_line": 889,
+    "label": 0,
+    "question": "내일 날씨 좋을까?",
+    "original_train_line": 253,
+    "revised": false
+  },
+  {
+    "train_line": 497,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1660,
+    "label": 0,
+    "question": "메모하는 습관 필요해",
+    "original_train_line": 261,
+    "revised": false
+  },
+  {
+    "train_line": 498,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1206,
+    "label": 0,
+    "question": "대만 여행가고 싶어",
+    "original_train_line": 71,
+    "revised": false
+  },
+  {
+    "train_line": 499,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3383,
+    "label": 0,
+    "question": "오토바이 타고 싶은데 무서워",
+    "original_train_line": 113,
+    "revised": false
+  },
+  {
+    "train_line": 500,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1290,
+    "label": 0,
+    "question": "돈 모으고 싶어",
+    "original_train_line": 186,
+    "revised": false
+  },
+  {
+    "train_line": 501,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2565,
+    "label": 0,
+    "question": "쇼핑하고 싶다",
+    "original_train_line": 205,
+    "revised": false
+  },
+  {
+    "train_line": 502,
+    "source": "songys/Chatbot_data",
+    "csv_line": 20,
+    "label": 0,
+    "question": "가스불 켜놓고 나온거 같아",
+    "original_train_line": 299,
+    "revised": false
+  },
+  {
+    "train_line": 503,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "같이 볼 친구랑 장르 취향이 달라서 고민이야."
+  },
+  {
+    "train_line": 504,
+    "source": "existing_50",
+    "source_line": 28,
+    "question": "강변을 따라 걸으니 좋더라.",
+    "original_train_line": 220,
+    "revised": false
+  },
+  {
+    "train_line": 505,
+    "source": "existing_50",
+    "source_line": 30,
+    "question": "오랜만에 밖에 나가서 좀 걸었어.",
+    "original_train_line": 300,
+    "revised": false
+  },
+  {
+    "train_line": 506,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3974,
+    "label": 0,
+    "question": "잘하는 게 뭔지 모르겠어",
+    "original_train_line": 383,
+    "revised": true,
+    "revision_reason": "잘하는 것을 모르겠다는 고민에 모호한 지시만 제시함",
+    "original_answer": "잘 찾아보세요."
+  },
+  {
+    "train_line": 507,
+    "source": "songys/Chatbot_data",
+    "csv_line": 221,
+    "label": 0,
+    "question": "공부 때려치워야 하나",
+    "original_train_line": 135,
+    "revised": false
+  },
+  {
+    "train_line": 508,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3362,
+    "label": 0,
+    "question": "오래 살고 싶다",
+    "original_train_line": 276,
+    "revised": false
+  },
+  {
+    "train_line": 509,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1651,
+    "label": 0,
+    "question": "멋진 데 알아 냈어",
+    "original_train_line": 288,
+    "revised": false
+  },
+  {
+    "train_line": 510,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5210,
+    "label": 0,
+    "question": "환승이 될까",
+    "original_train_line": 382,
+    "revised": false
+  },
+  {
+    "train_line": 511,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4925,
+    "label": 0,
+    "question": "피부가 푸석하다",
+    "original_train_line": 127,
+    "revised": false
+  },
+  {
+    "train_line": 512,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "빈 화분에 어떤 식물을 심을지 생각 중이야."
+  },
+  {
+    "train_line": 513,
+    "source": "songys/Chatbot_data",
+    "csv_line": 433,
+    "label": 0,
+    "question": "꽃꽂이 배우니까 좋다",
+    "original_train_line": 272,
+    "revised": false
+  },
+  {
+    "train_line": 514,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2861,
+    "label": 0,
+    "question": "아무도 안 놀아줘",
+    "original_train_line": 147,
+    "revised": false
+  },
+  {
+    "train_line": 515,
+    "source": "songys/Chatbot_data",
+    "csv_line": 90,
+    "label": 0,
+    "question": "개념이 없어",
+    "original_train_line": 470,
+    "revised": false
+  },
+  {
+    "train_line": 516,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1877,
+    "label": 0,
+    "question": "미용실 가서 머리해야지",
+    "original_train_line": 406,
+    "revised": false
+  },
+  {
+    "train_line": 517,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "저녁 먹고 다시 찾아왔어."
+  },
+  {
+    "train_line": 518,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5121,
+    "label": 0,
+    "question": "현금만 써야겠다.",
+    "original_train_line": 218,
+    "revised": false
+  },
+  {
+    "train_line": 519,
+    "source": "songys/Chatbot_data",
+    "csv_line": 714,
+    "label": 0,
+    "question": "남자 보통 어디서 만나",
+    "original_train_line": 323,
+    "revised": false
+  },
+  {
+    "train_line": 520,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4990,
+    "label": 0,
+    "question": "학교에서 아싸해도 될까?",
+    "original_train_line": 217,
+    "revised": false
+  },
+  {
+    "train_line": 521,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2989,
+    "label": 0,
+    "question": "애들 총회에 왜 나를 오라고 하냐",
+    "original_train_line": 68,
+    "revised": false
+  },
+  {
+    "train_line": 522,
+    "source": "songys/Chatbot_data",
+    "csv_line": 967,
+    "label": 0,
+    "question": "너무 빨리 대답해",
+    "original_train_line": 275,
+    "revised": false
+  },
+  {
+    "train_line": 523,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1341,
+    "label": 0,
+    "question": "동호회 나가야 하나",
+    "original_train_line": 411,
+    "revised": false
+  },
+  {
+    "train_line": 524,
+    "source": "existing_50",
+    "source_line": 2,
+    "question": "안녕하세요.",
+    "original_train_line": 324,
+    "revised": false
+  },
+  {
+    "train_line": 525,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "분갈이한 화분을 창가 옆에 놓았어."
+  },
+  {
+    "train_line": 526,
+    "source": "songys/Chatbot_data",
+    "csv_line": 783,
+    "label": 0,
+    "question": "낭만이 없어",
+    "original_train_line": 235,
+    "revised": false
+  },
+  {
+    "train_line": 527,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3772,
+    "label": 0,
+    "question": "인생 잘 못 산건가",
+    "original_train_line": 58,
+    "revised": false
+  },
+  {
+    "train_line": 528,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2677,
+    "label": 0,
+    "question": "스타트업하면 위험할까",
+    "original_train_line": 333,
+    "revised": false
+  },
+  {
+    "train_line": 529,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2192,
+    "label": 0,
+    "question": "블루투스 이어폰 편하겠지",
+    "original_train_line": 225,
+    "revised": false
+  },
+  {
+    "train_line": 530,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2171,
+    "label": 0,
+    "question": "분위기 좋은 곳에서 데이트하고 싶어",
+    "original_train_line": 277,
+    "revised": false
+  },
+  {
+    "train_line": 531,
+    "source": "songys/Chatbot_data",
+    "csv_line": 155,
+    "label": 0,
+    "question": "결혼준비 돈 많이 들겠지",
+    "original_train_line": 389,
+    "revised": false
+  },
+  {
+    "train_line": 532,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5140,
+    "label": 0,
+    "question": "혼술하고 있어",
+    "original_train_line": 474,
+    "revised": false
+  },
+  {
+    "train_line": 533,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4528,
+    "label": 0,
+    "question": "춘곤증인가",
+    "original_train_line": 168,
+    "revised": false
+  },
+  {
+    "train_line": 534,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "같은 식물인데 새잎이 나니 느낌이 다르네."
+  },
+  {
+    "train_line": 535,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1647,
+    "label": 0,
+    "question": "먼지가 쌓였네",
+    "original_train_line": 176,
+    "revised": false
+  },
+  {
+    "train_line": 536,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5039,
+    "label": 0,
+    "question": "핫한 명절 선물 알려줘",
+    "original_train_line": 74,
+    "revised": false
+  },
+  {
+    "train_line": 537,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3105,
+    "label": 0,
+    "question": "엄마는 뭐하나",
+    "original_train_line": 274,
+    "revised": false
+  },
+  {
+    "train_line": 538,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5163,
+    "label": 0,
+    "question": "혼자가 편하대",
+    "original_train_line": 215,
+    "revised": false
+  },
+  {
+    "train_line": 539,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4168,
+    "label": 0,
+    "question": "조교하면서 공부할까?",
+    "original_train_line": 364,
+    "revised": false
+  },
+  {
+    "train_line": 540,
+    "source": "songys/Chatbot_data",
+    "csv_line": 817,
+    "label": 0,
+    "question": "내 잘못인 거 같은데 말을 못하겠어",
+    "original_train_line": 380,
+    "revised": false
+  },
+  {
+    "train_line": 541,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4456,
+    "label": 0,
+    "question": "책 좀 읽어야지",
+    "original_train_line": 167,
+    "revised": false
+  },
+  {
+    "train_line": 542,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5229,
+    "label": 0,
+    "question": "회사만 가면 우울해",
+    "original_train_line": 374,
+    "revised": false
+  },
+  {
+    "train_line": 543,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1749,
+    "label": 0,
+    "question": "못하는거 투성이야",
+    "original_train_line": 465,
+    "revised": false
+  },
+  {
+    "train_line": 544,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "웃긴 장면에서 관객들이 다 같이 웃었어."
+  },
+  {
+    "train_line": 545,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "친구랑 같은 영화를 봤는데 감상이 달랐어."
+  },
+  {
+    "train_line": 546,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1067,
+    "label": 0,
+    "question": "눈꺼풀이 무거워",
+    "original_train_line": 104,
+    "revised": false
+  },
+  {
+    "train_line": 547,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "토분이랑 플라스틱 화분 중에 뭘 고를지 고민이야."
+  },
+  {
+    "train_line": 548,
+    "source": "existing_50",
+    "source_line": 7,
+    "question": "나 왔어.",
+    "original_train_line": 82,
+    "revised": false
+  },
+  {
+    "train_line": 549,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1608,
+    "label": 0,
+    "question": "머리가 띵한게 한 대 맞은거 같아",
+    "original_train_line": 297,
+    "revised": false
+  },
+  {
+    "train_line": 550,
+    "source": "songys/Chatbot_data",
+    "csv_line": 112,
+    "label": 0,
+    "question": "건강검진하러 옴",
+    "original_train_line": 234,
+    "revised": false
+  },
+  {
+    "train_line": 551,
+    "source": "songys/Chatbot_data",
+    "csv_line": 97,
+    "label": 0,
+    "question": "개학하니까 좋다",
+    "original_train_line": 47,
+    "revised": false
+  },
+  {
+    "train_line": 552,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3872,
+    "label": 0,
+    "question": "입소문이 무서워",
+    "original_train_line": 72,
+    "revised": false
+  },
+  {
+    "train_line": 553,
+    "source": "existing_50",
+    "source_line": 43,
+    "question": "식물이 커서 화분이 작아졌어.",
+    "original_train_line": 197,
+    "revised": false
+  },
+  {
+    "train_line": 554,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4333,
+    "label": 0,
+    "question": "진짜 이제 한계야",
+    "original_train_line": 371,
+    "revised": false
+  },
+  {
+    "train_line": 555,
+    "source": "songys/Chatbot_data",
+    "csv_line": 753,
+    "label": 0,
+    "question": "남자친구랑 종교 문제로 다툼",
+    "original_train_line": 301,
+    "revised": false
+  },
+  {
+    "train_line": 556,
+    "source": "existing_50",
+    "source_line": 12,
+    "question": "오늘 너무 지쳤어.",
+    "original_train_line": 81,
+    "revised": false
+  },
+  {
+    "train_line": 557,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3452,
+    "label": 0,
+    "question": "왜 잠을 못 자는 걸까?",
+    "original_train_line": 388,
+    "revised": false
+  },
+  {
+    "train_line": 558,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3715,
+    "label": 0,
+    "question": "이빨 아파",
+    "original_train_line": 128,
+    "revised": false
+  },
+  {
+    "train_line": 559,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "처음 가 보는 산책로라 조금 헤맸어."
+  },
+  {
+    "train_line": 560,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4291,
+    "label": 0,
+    "question": "지는 게 진짜 싫어",
+    "original_train_line": 471,
+    "revised": false
+  },
+  {
+    "train_line": 561,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3248,
+    "label": 0,
+    "question": "영양제 챙겨 먹을 나이가 됐어",
+    "original_train_line": 45,
+    "revised": false
+  },
+  {
+    "train_line": 562,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1155,
+    "label": 0,
+    "question": "단둘이는 처음 만나는 날ㅋㅋ",
+    "original_train_line": 271,
+    "revised": false
+  },
+  {
+    "train_line": 563,
+    "source": "songys/Chatbot_data",
+    "csv_line": 182,
+    "label": 0,
+    "question": "고기 구워 먹고 싶다.",
+    "original_train_line": 353,
+    "revised": false
+  },
+  {
+    "train_line": 564,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2913,
+    "label": 0,
+    "question": "아침 챙겨 먹어야지",
+    "original_train_line": 368,
+    "revised": false
+  },
+  {
+    "train_line": 565,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1077,
+    "label": 0,
+    "question": "눈이 건조해",
+    "original_train_line": 100,
+    "revised": false
+  },
+  {
+    "train_line": 566,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4533,
+    "label": 0,
+    "question": "출근길 막혀",
+    "original_train_line": 390,
+    "revised": false
+  },
+  {
+    "train_line": 567,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3036,
+    "label": 0,
+    "question": "어떻게 하면 나를 좋아하게 만들지",
+    "original_train_line": 95,
+    "revised": false
+  },
+  {
+    "train_line": 568,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "새 화분이 생각보다 무거워서 옮기기 힘들었어."
+  },
+  {
+    "train_line": 569,
+    "source": "songys/Chatbot_data",
+    "csv_line": 107,
+    "label": 0,
+    "question": "걱정 없이 살고파",
+    "original_train_line": 345,
+    "revised": false
+  },
+  {
+    "train_line": 570,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1687,
+    "label": 0,
+    "question": "면허 따는 중",
+    "original_train_line": 221,
+    "revised": false
+  },
+  {
+    "train_line": 571,
+    "source": "existing_50",
+    "source_line": 21,
+    "question": "오늘 날씨가 좋아서 산책하고 왔어.",
+    "original_train_line": 160,
+    "revised": false
+  },
+  {
+    "train_line": 572,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "오늘은 자막 없이 볼 수 있는 한국 영화를 보고 싶어."
+  },
+  {
+    "train_line": 573,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5007,
+    "label": 0,
+    "question": "한 가지를 봐도 뻔한 것 같아",
+    "original_train_line": 349,
+    "revised": false
+  },
+  {
+    "train_line": 574,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "처음 키우는 식물이라 아직 이름도 낯설어."
+  },
+  {
+    "train_line": 575,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3466,
+    "label": 0,
+    "question": "왼손잡이가 잘못이야?",
+    "original_train_line": 164,
+    "revised": false
+  },
+  {
+    "train_line": 576,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3360,
+    "label": 0,
+    "question": "오디션 나가볼까",
+    "original_train_line": 7,
+    "revised": false
+  },
+  {
+    "train_line": 577,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2035,
+    "label": 0,
+    "question": "버스 멀미하는 것 같아",
+    "original_train_line": 285,
+    "revised": false
+  },
+  {
+    "train_line": 578,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2396,
+    "label": 0,
+    "question": "생각 없이 말했어",
+    "original_train_line": 460,
+    "revised": false
+  },
+  {
+    "train_line": 579,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3188,
+    "label": 0,
+    "question": "여행가고 싶다",
+    "original_train_line": 226,
+    "revised": false
+  },
+  {
+    "train_line": 580,
+    "source": "songys/Chatbot_data",
+    "csv_line": 4365,
+    "label": 0,
+    "question": "집안일 어려워",
+    "original_train_line": 430,
+    "revised": false
+  },
+  {
+    "train_line": 581,
+    "source": "new_authored_100",
+    "topic": "plant",
+    "revised": false,
+    "question": "식물을 잘 키우는 친구가 부럽다."
+  },
+  {
+    "train_line": 582,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1142,
+    "label": 0,
+    "question": "다시 태어나도 챗봇할래?",
+    "original_train_line": 204,
+    "revised": false
+  },
+  {
+    "train_line": 583,
+    "source": "new_authored_100",
+    "topic": "movie",
+    "revised": false,
+    "question": "다큐멘터리를 보다가 몰랐던 사실을 배웠어."
+  },
+  {
+    "train_line": 584,
+    "source": "songys/Chatbot_data",
+    "csv_line": 5271,
+    "label": 0,
+    "question": "휴지 사야지",
+    "original_train_line": 28,
+    "revised": false
+  },
+  {
+    "train_line": 585,
+    "source": "new_authored_100",
+    "topic": "greeting",
+    "revised": false,
+    "question": "만나서 반가워. 너는 뭐 하는 챗봇이야?"
+  },
+  {
+    "train_line": 586,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3911,
+    "label": 0,
+    "question": "자꾸 봐주니까 기어오른다",
+    "original_train_line": 239,
+    "revised": false
+  },
+  {
+    "train_line": 587,
+    "source": "songys/Chatbot_data",
+    "csv_line": 734,
+    "label": 0,
+    "question": "남자친구가 맞춤법을 너무 많이 틀려",
+    "original_train_line": 224,
+    "revised": false
+  },
+  {
+    "train_line": 588,
+    "source": "songys/Chatbot_data",
+    "csv_line": 17,
+    "label": 0,
+    "question": "가만 있어도 땀난다",
+    "original_train_line": 96,
+    "revised": false
+  },
+  {
+    "train_line": 589,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3813,
+    "label": 0,
+    "question": "일 좀 하고 다시 말시킬게",
+    "original_train_line": 31,
+    "revised": false
+  },
+  {
+    "train_line": 590,
+    "source": "songys/Chatbot_data",
+    "csv_line": 45,
+    "label": 0,
+    "question": "간식 뭐 먹을까",
+    "original_train_line": 33,
+    "revised": false
+  },
+  {
+    "train_line": 591,
+    "source": "songys/Chatbot_data",
+    "csv_line": 24,
+    "label": 0,
+    "question": "가장 확실한 건 뭘까?",
+    "original_train_line": 433,
+    "revised": false
+  },
+  {
+    "train_line": 592,
+    "source": "existing_50",
+    "source_line": 27,
+    "question": "강아지랑 산책 다녀왔어.",
+    "original_train_line": 90,
+    "revised": false
+  },
+  {
+    "train_line": 593,
+    "source": "new_authored_100",
+    "topic": "walk",
+    "revised": false,
+    "question": "평소 버스로 지나던 길을 직접 걸어 봤어."
+  },
+  {
+    "train_line": 594,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3959,
+    "label": 0,
+    "question": "잘 사니?",
+    "original_train_line": 105,
+    "revised": true,
+    "revision_reason": "상대에게 묻는 인사에 제삼자의 상태처럼 답함",
+    "original_answer": "잘 살고 있을 거예요."
+  },
+  {
+    "train_line": 595,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3317,
+    "label": 0,
+    "question": "오늘 처리할 일 너무 많아",
+    "original_train_line": 143,
+    "revised": false
+  },
+  {
+    "train_line": 596,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2692,
+    "label": 0,
+    "question": "스트레스 팍팍",
+    "original_train_line": 229,
+    "revised": false
+  },
+  {
+    "train_line": 597,
+    "source": "songys/Chatbot_data",
+    "csv_line": 2343,
+    "label": 0,
+    "question": "상사가 미울 때",
+    "original_train_line": 251,
+    "revised": false
+  },
+  {
+    "train_line": 598,
+    "source": "songys/Chatbot_data",
+    "csv_line": 866,
+    "label": 0,
+    "question": "내가 좋아하는 거 모르는 거 같애",
+    "original_train_line": 282,
+    "revised": false
+  },
+  {
+    "train_line": 599,
+    "source": "songys/Chatbot_data",
+    "csv_line": 3921,
+    "label": 0,
+    "question": "자꾸 함부로 대해",
+    "original_train_line": 26,
+    "revised": false
+  },
+  {
+    "train_line": 600,
+    "source": "songys/Chatbot_data",
+    "csv_line": 1311,
+    "label": 0,
+    "question": "돈없이 결혼하기 가능?",
+    "original_train_line": 115,
+    "revised": false
+  }
+]

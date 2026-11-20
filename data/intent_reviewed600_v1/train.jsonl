@@ -1,0 +1,600 @@
+{"messages": [{"role": "user", "content": "이사 짐을 옮겼더니 온종일 쉬고 싶네."}, {"role": "assistant", "content": "짐 옮기느라 힘 많이 썼겠다. 남은 정리는 천천히 해도 되겠어?"}]}
+{"messages": [{"role": "user", "content": "오늘은 화분 옮기는 일까지 마무리했어."}, {"role": "assistant", "content": "화분 정리하느라 수고했어. 다 끝내니 후련하겠다."}]}
+{"messages": [{"role": "user", "content": "입냄새 안나나?"}, {"role": "assistant", "content": "양치하고 오세요."}]}
+{"messages": [{"role": "user", "content": "감 말랭이 먹어야지"}, {"role": "assistant", "content": "맛있게 드세요."}]}
+{"messages": [{"role": "user", "content": "공황장애 생겼어."}, {"role": "assistant", "content": "꾸준히 약 먹고 치료해보세요."}]}
+{"messages": [{"role": "user", "content": "갑자기 눈물 나"}, {"role": "assistant", "content": "마음이 아픈가요."}]}
+{"messages": [{"role": "user", "content": "혼자 있으니까 혼자 할게 많네"}, {"role": "assistant", "content": "혼자서도 잘하는 연습이 필요해요."}]}
+{"messages": [{"role": "user", "content": "현금영수증 또 까먹었다"}, {"role": "assistant", "content": "현금영수증을 놓쳤구나. 다음에는 결제할 때 바로 챙겨 보는 건 어때요?"}]}
+{"messages": [{"role": "user", "content": "빵 한 개만 먹어야지"}, {"role": "assistant", "content": "맛있게 드세요."}]}
+{"messages": [{"role": "user", "content": "대출 이자 왜 이렇게 많이 나오지?"}, {"role": "assistant", "content": "이자가 예상보다 많이 나왔군요. 대출 내역에서 금리와 이자 계산 기간을 확인해 봤나요?"}]}
+{"messages": [{"role": "user", "content": "어둠에서 나와야 할 듯"}, {"role": "assistant", "content": "어둠에서 나온다니 다행이에요."}]}
+{"messages": [{"role": "user", "content": "무한리필 괜찮지 않아?"}, {"role": "assistant", "content": "양이 많으면 추천해요."}]}
+{"messages": [{"role": "user", "content": "오늘은 평소보다 짧게 산책했어."}, {"role": "assistant", "content": "짧게라도 바깥에 다녀왔구나. 잠깐 걷는 시간은 어땠어?"}]}
+{"messages": [{"role": "user", "content": "작은 화분을 큰 걸로 바꿀까 해."}, {"role": "assistant", "content": "식물에게 공간을 더 주려는 거구나. 많이 자랐어?"}]}
+{"messages": [{"role": "user", "content": "오늘 좀 건조한 거 같애"}, {"role": "assistant", "content": "미스트나 가습기, 젖은 수건 등을 사용해보세요."}]}
+{"messages": [{"role": "user", "content": "상 받으면 좋겠지?"}, {"role": "assistant", "content": "아무래도 뿌듯할 거예요."}]}
+{"messages": [{"role": "user", "content": "집 근처를 천천히 걸었어."}, {"role": "assistant", "content": "가볍게 걷고 왔구나. 바깥 공기는 어땠어?"}]}
+{"messages": [{"role": "user", "content": "평가 좀 해줘"}, {"role": "assistant", "content": "무엇을 평가해 드리면 될까요? 내용과 원하는 기준을 알려 주세요."}]}
+{"messages": [{"role": "user", "content": "비가 그쳐서 우산 없이 동네를 걸었어."}, {"role": "assistant", "content": "비가 그친 뒤에 걸었구나. 바깥 공기는 어땠어?"}]}
+{"messages": [{"role": "user", "content": "식욕이 없어"}, {"role": "assistant", "content": "정신이 힘든 건지 몸이 아픈 건지 확인해 보세요."}]}
+{"messages": [{"role": "user", "content": "식물 구경하러 화원에 다녀왔어."}, {"role": "assistant", "content": "다양한 식물을 보고 왔겠네. 특히 눈에 들어온 게 있어?"}]}
+{"messages": [{"role": "user", "content": "부모님 선물은 뭐가 좋음?"}, {"role": "assistant", "content": "부모님이 평소 좋아하시는 것이 있나요? 예산도 알려 주시면 같이 생각해 볼게요."}]}
+{"messages": [{"role": "user", "content": "살이 안 쪄"}, {"role": "assistant", "content": "살이 잘 안 찌는 것이 고민인가요? 어떤 점이 가장 신경 쓰이나요?"}]}
+{"messages": [{"role": "user", "content": "야근하고 왔어. 너무 힘들다."}, {"role": "assistant", "content": "늦게까지 고생했네. 오늘은 편히 쉴 수 있으면 좋겠다."}]}
+{"messages": [{"role": "user", "content": "생각할 시간 조차 없어"}, {"role": "assistant", "content": "정신없이 바쁜가봐요."}]}
+{"messages": [{"role": "user", "content": "아이고 소리가 절로 나온다"}, {"role": "assistant", "content": "많이 지쳤나봐요."}]}
+{"messages": [{"role": "user", "content": "작은 모종을 처음으로 집에 들였어."}, {"role": "assistant", "content": "새 식구가 생겼네! 어떤 모종이야?"}]}
+{"messages": [{"role": "user", "content": "한자 공부해야지"}, {"role": "assistant", "content": "공부는 뭐든 좋아요."}]}
+{"messages": [{"role": "user", "content": "마음이 자꾸 급해져"}, {"role": "assistant", "content": "마음이 조급해지면 하지 않을 실수를 하게 돼요."}]}
+{"messages": [{"role": "user", "content": "잇몸이 시려"}, {"role": "assistant", "content": "잇몸약 챙겨드시거나 치과 가보세요."}]}
+{"messages": [{"role": "user", "content": "자신감을 갖고 싶어"}, {"role": "assistant", "content": "충분히 스스로 극복할 수 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "키우는 화분에 새잎이 났어."}, {"role": "assistant", "content": "새잎을 보니 반갑겠다! 식물이 잘 자라고 있네."}]}
+{"messages": [{"role": "user", "content": "오늘 처음 접속했어. 안녕."}, {"role": "assistant", "content": "안녕! 와 줘서 반가워. 편하게 이야기해."}]}
+{"messages": [{"role": "user", "content": "상관 없는 이야기만 해"}, {"role": "assistant", "content": "원하던 이야기와 달라서 답답했겠다. 어떤 이야기를 하고 싶었어?"}]}
+{"messages": [{"role": "user", "content": "말을 해놓고 후회돼 죽겠어"}, {"role": "assistant", "content": "말하고 나서 마음에 걸리는구나. 어떤 말을 했는지 이야기해 줄래?"}]}
+{"messages": [{"role": "user", "content": "할줄 아는 게 없어"}, {"role": "assistant", "content": "잘해야 한다는 부담감을 버리세요."}]}
+{"messages": [{"role": "user", "content": "오늘도 그냥 그냥 다갔네."}, {"role": "assistant", "content": "소소한 행복을 느껴보세요."}]}
+{"messages": [{"role": "user", "content": "혼자라서 너무 좋아"}, {"role": "assistant", "content": "혼자를 즐기세요."}]}
+{"messages": [{"role": "user", "content": "나 회사에서 인정받고 싶어"}, {"role": "assistant", "content": "자기개발을 해보세요."}]}
+{"messages": [{"role": "user", "content": "기프트콘 선물 괜찮을까?"}, {"role": "assistant", "content": "기프티콘 선물을 생각하고 있군요. 받는 분이 자주 이용하는 곳이 있나요?"}]}
+{"messages": [{"role": "user", "content": "봉사도 하고 사랑을 베풀고 싶어"}, {"role": "assistant", "content": "봉사로 도움을 나누고 싶군요. 관심 있는 활동이 있나요?"}]}
+{"messages": [{"role": "user", "content": "농담처럼 진담하는 사람"}, {"role": "assistant", "content": "농담인지 진심인지 헷갈리겠어요. 어떤 말을 들었나요?"}]}
+{"messages": [{"role": "user", "content": "살 좀 빼야되는데"}, {"role": "assistant", "content": "운동을 시작해보세요."}]}
+{"messages": [{"role": "user", "content": "집에서 코미디 영화 보려고."}, {"role": "assistant", "content": "편하게 웃으면서 보기 좋겠네. 골라 둔 영화가 있어?"}]}
+{"messages": [{"role": "user", "content": "다른 학과 간다"}, {"role": "assistant", "content": "새로 적응해야겠네요."}]}
+{"messages": [{"role": "user", "content": "내가 말하면 왜 비난만 할까"}, {"role": "assistant", "content": "말할 때마다 비난받는 것 같아 속상하겠어요. 어떤 이야기를 나눴나요?"}]}
+{"messages": [{"role": "user", "content": "많이 걸었더니 지쳤네."}, {"role": "assistant", "content": "오래 걸었구나. 잠깐 앉아서 다리를 쉬게 해 줘."}]}
+{"messages": [{"role": "user", "content": "SNS보면 나만 빼고 다 행복해보여"}, {"role": "assistant", "content": "자랑하는 자리니까요."}]}
+{"messages": [{"role": "user", "content": "드론 조종사 자격증 따면 재밌을 거 같아"}, {"role": "assistant", "content": "드론 조종에 관심이 생겼군요. 직접 날려 본 적이 있나요?"}]}
+{"messages": [{"role": "user", "content": "내일 발표 준비하고 있어"}, {"role": "assistant", "content": "마무리 잘하세요."}]}
+{"messages": [{"role": "user", "content": "동료가 너무 게을러"}, {"role": "assistant", "content": "피해를 안 준다면 무시하세요."}]}
+{"messages": [{"role": "user", "content": "이번에는 분명하게 말해야지"}, {"role": "assistant", "content": "잘 전달할 수 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "문신하고 싶은데 후회할까?"}, {"role": "assistant", "content": "나중에 후회할 수도 있을 것 같아요."}]}
+{"messages": [{"role": "user", "content": "대체불가한 사람이 되고 싶어"}, {"role": "assistant", "content": "지금도 그래요."}]}
+{"messages": [{"role": "user", "content": "문 여는 소리같은게 나서 무서움"}, {"role": "assistant", "content": "심하면 신고하세요."}]}
+{"messages": [{"role": "user", "content": "다이어트해야 되는데"}, {"role": "assistant", "content": "기초대사량을 높여보세요."}]}
+{"messages": [{"role": "user", "content": "밥 먹다 흘렸어"}, {"role": "assistant", "content": "깨끗하게 치워주세요."}]}
+{"messages": [{"role": "user", "content": "아무 생각 없이 놀고 먹고 싶어"}, {"role": "assistant", "content": "아무 걱정 없이 쉬고 싶은 날이군요. 시간이 생기면 무엇을 하고 싶나요?"}]}
+{"messages": [{"role": "user", "content": "이번 크리스마스에 눈이 올까"}, {"role": "assistant", "content": "눈이 오면 좋겠네요."}]}
+{"messages": [{"role": "user", "content": "친구랑 걸으면서 수다 떨었어."}, {"role": "assistant", "content": "이야기하며 걸어서 더 즐거웠겠다!"}]}
+{"messages": [{"role": "user", "content": "드라마 볼 게 없어"}, {"role": "assistant", "content": "재미있는 다른걸 찾아보세요."}]}
+{"messages": [{"role": "user", "content": "오르막길이 많아서 산책이 운동처럼 됐어."}, {"role": "assistant", "content": "길이 꽤 힘들었겠네. 그래도 끝까지 다녀왔구나."}]}
+{"messages": [{"role": "user", "content": "영화 좋아해?"}, {"role": "assistant", "content": "영화 이야기를 나누는 건 좋아해. 너는 어떤 영화를 좋아해?"}]}
+{"messages": [{"role": "user", "content": "여름에는 냉면이지"}, {"role": "assistant", "content": "생각만 해도 군침이 도네요."}]}
+{"messages": [{"role": "user", "content": "아직 깨어 있어? 잠깐 이야기하고 싶다."}, {"role": "assistant", "content": "응, 여기 있어. 무슨 이야기를 하고 싶어?"}]}
+{"messages": [{"role": "user", "content": "집 아예 샀어"}, {"role": "assistant", "content": "내 집 마련 축하드려요."}]}
+{"messages": [{"role": "user", "content": "아침에 일어나는 거 힘들다"}, {"role": "assistant", "content": "조금 더 일찍 잠을 자보세요."}]}
+{"messages": [{"role": "user", "content": "마음이 싱숭생숭해서 자꾸 여기다 쓰게되넹"}, {"role": "assistant", "content": "글 쓰면서 정리가 될 거예요."}]}
+{"messages": [{"role": "user", "content": "이제 그만하고 쉬고 싶다"}, {"role": "assistant", "content": "잠깐 바람 쐬고 오세요."}]}
+{"messages": [{"role": "user", "content": "안녕, 오늘은 짧게만 이야기할 수 있어."}, {"role": "assistant", "content": "안녕! 짧게라도 반가워. 무슨 이야기를 할까?"}]}
+{"messages": [{"role": "user", "content": "주말 영화 약속이 취소돼서 집에서 보려고."}, {"role": "assistant", "content": "계획이 바뀌었구나. 집에서 편하게 볼 작품은 골랐어?"}]}
+{"messages": [{"role": "user", "content": "배우 연기가 좋아서 끝까지 몰입했어."}, {"role": "assistant", "content": "연기가 이야기에 빠져들게 했구나. 기억에 남는 장면이 있어?"}]}
+{"messages": [{"role": "user", "content": "너무 긴 영화는 한 번에 보기 힘들어."}, {"role": "assistant", "content": "길이가 부담스러울 수 있지. 짧은 작품을 더 선호해?"}]}
+{"messages": [{"role": "user", "content": "공원 벤치에 앉아서 걷다가 쉬었어."}, {"role": "assistant", "content": "걷고 쉬면서 여유를 보냈구나. 공원은 한적했어?"}]}
+{"messages": [{"role": "user", "content": "체육복 안 가져 왔다"}, {"role": "assistant", "content": "다른 반 친구한테 빌려보세요."}]}
+{"messages": [{"role": "user", "content": "스케일링 하러 가야지"}, {"role": "assistant", "content": "주기적으로 해주면 좋대요."}]}
+{"messages": [{"role": "user", "content": "집에 화분 분갈이 해야겠다."}, {"role": "assistant", "content": "식물이 많이 자랐나 봐. 더 큰 화분으로 옮기려고?"}]}
+{"messages": [{"role": "user", "content": "아침부터 바빠서 녹초야."}, {"role": "assistant", "content": "아침부터 고생했네. 잠깐이라도 쉴 시간이 있어?"}]}
+{"messages": [{"role": "user", "content": "오늘도 퇴근길 엄청 막히네"}, {"role": "assistant", "content": "라디오를 들으며 여유를 가져보세요."}]}
+{"messages": [{"role": "user", "content": "용돈 올려줬으면"}, {"role": "assistant", "content": "올려달라고 말해보세요."}]}
+{"messages": [{"role": "user", "content": "제사를 너무 많이 해"}, {"role": "assistant", "content": "제사를 자주 지내서 부담이 되는군요. 어떤 점이 가장 힘든가요?"}]}
+{"messages": [{"role": "user", "content": "방탈출 게임 갔다왔어."}, {"role": "assistant", "content": "성공했길 바랍니다."}]}
+{"messages": [{"role": "user", "content": "한강 가서 맥주 마시고 싶다."}, {"role": "assistant", "content": "분위기도 맛도 다 좋겠네요."}]}
+{"messages": [{"role": "user", "content": "걸으면서 음악을 들으니 기분이 좋아졌어."}, {"role": "assistant", "content": "음악과 산책이 잘 어울렸나 봐. 어떤 음악을 들었어?"}]}
+{"messages": [{"role": "user", "content": "산책은 하고 싶은데 비가 계속 오네."}, {"role": "assistant", "content": "나가고 싶은데 날씨 때문에 아쉽겠다. 비가 그치면 걸을 생각이야?"}]}
+{"messages": [{"role": "user", "content": "회사에 적응 잘 하고 싶어"}, {"role": "assistant", "content": "잘할 수 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "오랜 시간을 함께해도 이해하지 못하겠어"}, {"role": "assistant", "content": "온전한 이해는 없어요."}]}
+{"messages": [{"role": "user", "content": "인턴 할까"}, {"role": "assistant", "content": "경험은 뭐든 도움이 될 거예요."}]}
+{"messages": [{"role": "user", "content": "임용 시험 기다리고 있어"}, {"role": "assistant", "content": "공부하면서 못했던 것들 해보세요."}]}
+{"messages": [{"role": "user", "content": "그냥 잘못했다고 하면 될거 같은데 자꾸 변명해"}, {"role": "assistant", "content": "피할 수 있으면 피하세요."}]}
+{"messages": [{"role": "user", "content": "보이스피싱인듯"}, {"role": "assistant", "content": "전화 끊어버리세요."}]}
+{"messages": [{"role": "user", "content": "대리효도 짜증"}, {"role": "assistant", "content": "대신 효도해야 하는 상황이 부담스러운가 봐요. 무슨 일이 있었나요?"}]}
+{"messages": [{"role": "user", "content": "스키장 간다!"}, {"role": "assistant", "content": "설레겠어요."}]}
+{"messages": [{"role": "user", "content": "꿈이 없어"}, {"role": "assistant", "content": "거창하지 않아도 돼요."}]}
+{"messages": [{"role": "user", "content": "연금 받을 수 있을까"}, {"role": "assistant", "content": "연금을 받을 수 있을지 궁금하군요. 어떤 연금을 말씀하시나요?"}]}
+{"messages": [{"role": "user", "content": "도서관 가야지"}, {"role": "assistant", "content": "열심히 공부하길 바랍니다."}]}
+{"messages": [{"role": "user", "content": "라면 맛있게 끓이는 법 알려줘"}, {"role": "assistant", "content": "라면봉지 레시피 그대로 해보세요."}]}
+{"messages": [{"role": "user", "content": "오늘은 평소보다 일찍 누워야겠어."}, {"role": "assistant", "content": "많이 피곤한가 보네. 편하게 쉬고 좋은 밤 보내."}]}
+{"messages": [{"role": "user", "content": "계속 속이 진짜 안 좋아"}, {"role": "assistant", "content": "계속 좋지 않으면 병원에 가보세요."}]}
+{"messages": [{"role": "user", "content": "술 먹을 줄 알아?"}, {"role": "assistant", "content": "술을 직접 마시지는 못하지만 술에 관한 이야기는 나눌 수 있어요."}]}
+{"messages": [{"role": "user", "content": "오늘 발표를 마치니 긴장이 풀려서 힘이 빠져."}, {"role": "assistant", "content": "긴장하면서 준비했구나. 발표 끝내느라 수고했어."}]}
+{"messages": [{"role": "user", "content": "나만 설레는 거야"}, {"role": "assistant", "content": "혼자만 설레는 것 같아 궁금하군요. 상대방은 어떻게 반응하나요?"}]}
+{"messages": [{"role": "user", "content": "아부쟁이가 부러워"}, {"role": "assistant", "content": "적성에 맞는 사람이 있죠."}]}
+{"messages": [{"role": "user", "content": "전공 수업 노잼"}, {"role": "assistant", "content": "다른 곳에 관심이 많은가봐요."}]}
+{"messages": [{"role": "user", "content": "왜 이렇게 태어났을까?"}, {"role": "assistant", "content": "서로 다르게 태어난 이유는 저마다의 목소리를 내기 위해서예요. 자신의 목소리를 들어주세요."}]}
+{"messages": [{"role": "user", "content": "도대체 중간이 없어"}, {"role": "assistant", "content": "그 조차 매력이겠죠."}]}
+{"messages": [{"role": "user", "content": "누워 있는데 잠이 안 와"}, {"role": "assistant", "content": "고민이 있나 봐요."}]}
+{"messages": [{"role": "user", "content": "복 받겠지?"}, {"role": "assistant", "content": "뿌린대로 거둘 거예요."}]}
+{"messages": [{"role": "user", "content": "인정받으려면 어떻게 해야 하나"}, {"role": "assistant", "content": "지금도 충분히 잘 하고 있어요."}]}
+{"messages": [{"role": "user", "content": "어제 본 영화가 재미있어서 친구에게 추천했어."}, {"role": "assistant", "content": "추천하고 싶을 만큼 좋았구나! 어떤 점이 마음에 들었어?"}]}
+{"messages": [{"role": "user", "content": "아빠가 술 좀 그만 먹었으면"}, {"role": "assistant", "content": "아버지의 음주 때문에 걱정되는군요. 어떤 점이 가장 힘든가요?"}]}
+{"messages": [{"role": "user", "content": "줄기가 길어져서 지지대를 세워 줬어."}, {"role": "assistant", "content": "식물을 받쳐 주려고 챙겼구나. 설치는 잘 됐어?"}]}
+{"messages": [{"role": "user", "content": "12시 땡!"}, {"role": "assistant", "content": "하루가 또 가네요."}]}
+{"messages": [{"role": "user", "content": "너 이러면 미워한다"}, {"role": "assistant", "content": "죄는 미워해도 사람은 미워하지 마세요."}]}
+{"messages": [{"role": "user", "content": "빽 선물 받았어"}, {"role": "assistant", "content": "정말 기분 좋으시겠어요."}]}
+{"messages": [{"role": "user", "content": "일상에서 떠나고 싶어"}, {"role": "assistant", "content": "여행을 떠나세요."}]}
+{"messages": [{"role": "user", "content": "긴 머리 관리하는 거 힘들다"}, {"role": "assistant", "content": "긴 머리는 관리할 게 많겠어요. 어떤 부분이 가장 번거로운가요?"}]}
+{"messages": [{"role": "user", "content": "공시생이야"}, {"role": "assistant", "content": "좋은 결과 있을 거예요!"}]}
+{"messages": [{"role": "user", "content": "베트남에서 사업해볼까?"}, {"role": "assistant", "content": "좀 더 알아보고 하세요."}]}
+{"messages": [{"role": "user", "content": "월급 받아서 주택청약 들었어"}, {"role": "assistant", "content": "내 집에 한 걸음 더 다가갔네요."}]}
+{"messages": [{"role": "user", "content": "추천 메뉴"}, {"role": "assistant", "content": "따뜻한 국수는 어때? 지금 어떤 음식이 당겨?"}]}
+{"messages": [{"role": "user", "content": "일하는데 실수를 많이 해"}, {"role": "assistant", "content": "부족한 부분이 뭔지 확인해보세요."}]}
+{"messages": [{"role": "user", "content": "전화해도 되겠지"}, {"role": "assistant", "content": "전화 해보세요."}]}
+{"messages": [{"role": "user", "content": "키 컸으면"}, {"role": "assistant", "content": "지금도 충분해요."}]}
+{"messages": [{"role": "user", "content": "그냥 자는 거 아니지?"}, {"role": "assistant", "content": "어떤 상황인지 조금 더 이야기해 주실래요? 누군가 자고 있는지 궁금한 건가요?"}]}
+{"messages": [{"role": "user", "content": "친구랑 영화관 가기로 했어."}, {"role": "assistant", "content": "친구랑 즐거운 시간 보내겠다! 무슨 영화 보기로 했어?"}]}
+{"messages": [{"role": "user", "content": "가족들이랑 서먹해졌어"}, {"role": "assistant", "content": "다들 바빠서 이야기할 시간이 부족했나봐요."}]}
+{"messages": [{"role": "user", "content": "오늘 좀 피곤하네."}, {"role": "assistant", "content": "많이 피곤하구나. 잠깐 쉬어 가는 건 어때?"}]}
+{"messages": [{"role": "user", "content": "면세에서 뭐 사지"}, {"role": "assistant", "content": "면세점에서 살 물건을 고르는군요. 본인이 쓸 건가요, 선물할 건가요?"}]}
+{"messages": [{"role": "user", "content": "반가워."}, {"role": "assistant", "content": "나도 반가워! 편하게 이야기해."}]}
+{"messages": [{"role": "user", "content": "액션보다 잔잔한 이야기를 보는 게 좋아."}, {"role": "assistant", "content": "차분하게 이야기를 따라가는 영화를 좋아하는구나."}]}
+{"messages": [{"role": "user", "content": "일을 해도 안 늘어"}, {"role": "assistant", "content": "조금만 더 힘내세요."}]}
+{"messages": [{"role": "user", "content": "낭만이라고는 없어가지구"}, {"role": "assistant", "content": "낭만적인 거 좋아하시는구나!"}]}
+{"messages": [{"role": "user", "content": "영화관 알바하면 좋겠다."}, {"role": "assistant", "content": "영화를 많이 볼 수 있어서 좋을 것 같아요."}]}
+{"messages": [{"role": "user", "content": "비밀번호 기억안 나"}, {"role": "assistant", "content": "회원정보 찾기를 해보세요."}]}
+{"messages": [{"role": "user", "content": "분갈이 끝냈어."}, {"role": "assistant", "content": "수고했어! 새 화분에 옮긴 모습은 마음에 들어?"}]}
+{"messages": [{"role": "user", "content": "남친 때문에 살찐 듯"}, {"role": "assistant", "content": "함께 지내면서 생활 패턴이 달라졌다고 느끼는 거야?"}]}
+{"messages": [{"role": "user", "content": "산책을 마치고 집에 오니 마음이 차분해졌어."}, {"role": "assistant", "content": "걷는 시간이 마음을 가라앉히는 데 도움이 됐구나."}]}
+{"messages": [{"role": "user", "content": "이런 채팅은 처음이라 무슨 말을 해야 할지 모르겠네."}, {"role": "assistant", "content": "편하게 시작해도 괜찮아. 오늘 있었던 일부터 들려줄래?"}]}
+{"messages": [{"role": "user", "content": "인형 좋아할까?"}, {"role": "assistant", "content": "인형을 선물하려는 건가요? 받는 사람이 인형을 좋아하는지 알고 있나요?"}]}
+{"messages": [{"role": "user", "content": "말실수했다"}, {"role": "assistant", "content": "상처가 될 수 있어요."}]}
+{"messages": [{"role": "user", "content": "카드가 못찾겠다."}, {"role": "assistant", "content": "잘 찾아보세요."}]}
+{"messages": [{"role": "user", "content": "점점 좋아져"}, {"role": "assistant", "content": "점점 좋아진다니 반갑네. 어떤 점이 좋아지고 있어?"}]}
+{"messages": [{"role": "user", "content": "비타민 사서 먹어야겠다."}, {"role": "assistant", "content": "꼬박꼬박 챙겨 드세요."}]}
+{"messages": [{"role": "user", "content": "주말에 영화 보려고 하는데 너는 영화 좋아해?"}, {"role": "assistant", "content": "영화 이야기는 좋아해. 주말에는 어떤 장르를 볼 생각이야?"}]}
+{"messages": [{"role": "user", "content": "단체생활 해야 되는거 싫다"}, {"role": "assistant", "content": "점점 적응 될 거예요."}]}
+{"messages": [{"role": "user", "content": "분갈이하다가 바닥에 흙을 많이 쏟았어."}, {"role": "assistant", "content": "흙 정리까지 하느라 일이 커졌겠네. 식물은 잘 옮겼어?"}]}
+{"messages": [{"role": "user", "content": "낼 바쁘넹"}, {"role": "assistant", "content": "바빠도 힘내세요!"}]}
+{"messages": [{"role": "user", "content": "진급에서 나만 누락됐어"}, {"role": "assistant", "content": "기회가 다시 올 거예요."}]}
+{"messages": [{"role": "user", "content": "조카 입학 선물 뭐 사냐"}, {"role": "assistant", "content": "가방은 어때요."}]}
+{"messages": [{"role": "user", "content": "숙취 장난 아니야"}, {"role": "assistant", "content": "약을 드셔보세요."}]}
+{"messages": [{"role": "user", "content": "남자 화장하는 거 어때"}, {"role": "assistant", "content": "적당히 하면 괜찮을거 같아요."}]}
+{"messages": [{"role": "user", "content": "의심가는 사람이 있는데"}, {"role": "assistant", "content": "어떤 일 때문에 그 사람이 의심되나요?"}]}
+{"messages": [{"role": "user", "content": "영화 줄거리는 좋은데 전개가 조금 느렸어."}, {"role": "assistant", "content": "이야기는 마음에 들었지만 속도가 아쉬웠구나."}]}
+{"messages": [{"role": "user", "content": "나 괜찮지 않니"}, {"role": "assistant", "content": "괜찮은 사람이에요."}]}
+{"messages": [{"role": "user", "content": "간만에 휴식 중"}, {"role": "assistant", "content": "휴식도 필요하죠."}]}
+{"messages": [{"role": "user", "content": "사람은 진짜 다른 가봐"}, {"role": "assistant", "content": "그걸 깨닫다니 대단하시군요."}]}
+{"messages": [{"role": "user", "content": "나 결정했어"}, {"role": "assistant", "content": "좋은 결과 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "손톱이나 짧게 깎아야지"}, {"role": "assistant", "content": "생각났을 때 바로 하세요."}]}
+{"messages": [{"role": "user", "content": "오토바이 사고 싶어"}, {"role": "assistant", "content": "한푼 두푼 모아서 사보세요."}]}
+{"messages": [{"role": "user", "content": "대리님은 갈구는게 취미인 듯"}, {"role": "assistant", "content": "직장에서 자꾸 지적받으면 힘들겠어요. 어떤 상황에서 그런 일이 생기나요?"}]}
+{"messages": [{"role": "user", "content": "노트북 사줘"}, {"role": "assistant", "content": "노트북은 비싸요."}]}
+{"messages": [{"role": "user", "content": "자존감이 바닥이야"}, {"role": "assistant", "content": "당신은 태어난 그 자체만으로 축복과 사랑을 받을 자격이 있는 사람이에요."}]}
+{"messages": [{"role": "user", "content": "어제 술마시고 나서 기억 안나"}, {"role": "assistant", "content": "술 너무 많이 드시지 마세요."}]}
+{"messages": [{"role": "user", "content": "방학은 너무 심심해"}, {"role": "assistant", "content": "친구들과 연락해보세요."}]}
+{"messages": [{"role": "user", "content": "추석에 집에 가기 싫어"}, {"role": "assistant", "content": "집에 가기 부담스러운 이유가 있나 봐. 이야기해 줄래?"}]}
+{"messages": [{"role": "user", "content": "아주 잊기로 독하게 마음 먹고 신나게 놀고 있습니다"}, {"role": "assistant", "content": "바쁜 게 도움이 되지요."}]}
+{"messages": [{"role": "user", "content": "군대 갔다 올 때까지 기다릴 수 있을까"}, {"role": "assistant", "content": "자신의 삶을 살다보면 기다릴 수 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "난방이 안돼나 추워"}, {"role": "assistant", "content": "보일러가 난방으로 작동이 되는지 보세요."}]}
+{"messages": [{"role": "user", "content": "대학 가고 싶다."}, {"role": "assistant", "content": "할 수 있을거예요!!"}]}
+{"messages": [{"role": "user", "content": "마음의 평화가 필요해"}, {"role": "assistant", "content": "명상을 해보세요."}]}
+{"messages": [{"role": "user", "content": "반가워! 오늘은 신나는 일이 있었어."}, {"role": "assistant", "content": "반가워! 신나는 일이 있었다니 궁금하네. 무슨 일이야?"}]}
+{"messages": [{"role": "user", "content": "영화 한 편 봤는데 정말 재밌었어."}, {"role": "assistant", "content": "재미있게 봤구나! 어떤 점이 좋았어?"}]}
+{"messages": [{"role": "user", "content": "파도가 엄청 세"}, {"role": "assistant", "content": "깊은 곳까지 가지 말고 주의하세요."}]}
+{"messages": [{"role": "user", "content": "내 자존감"}, {"role": "assistant", "content": "당신은 태어난 그 자체만으로 축복과 사랑을 받을 자격이 있는 사람이에요."}]}
+{"messages": [{"role": "user", "content": "남편이 왜 애키우는거 안 도와줄까"}, {"role": "assistant", "content": "힘 빠지는 이야기네요."}]}
+{"messages": [{"role": "user", "content": "막말 할거 같은데"}, {"role": "assistant", "content": "입을 닫고 듣는 연습을 해보세요."}]}
+{"messages": [{"role": "user", "content": "시험 보기 전날"}, {"role": "assistant", "content": "컨디션 조절 하세요."}]}
+{"messages": [{"role": "user", "content": "나 서류에서 광탈했어"}, {"role": "assistant", "content": "자책하지 마세요."}]}
+{"messages": [{"role": "user", "content": "아까 대화를 끊어서 미안해. 다시 왔어."}, {"role": "assistant", "content": "괜찮아! 돌아와서 반가워. 어떤 이야기부터 이어 갈까?"}]}
+{"messages": [{"role": "user", "content": "혼자서도 잘해요"}, {"role": "assistant", "content": "그러면 같이도 잘하게 될 거예요."}]}
+{"messages": [{"role": "user", "content": "스키 배워보고 싶다."}, {"role": "assistant", "content": "배우면 금방 배우실 거예요."}]}
+{"messages": [{"role": "user", "content": "장학금 받고 싶다"}, {"role": "assistant", "content": "공부 열심히 하고 신청해보세요."}]}
+{"messages": [{"role": "user", "content": "핸드폰 배터리 나감"}, {"role": "assistant", "content": "얼른 충전하세요."}]}
+{"messages": [{"role": "user", "content": "둔한 편인데 이것만 예민해"}, {"role": "assistant", "content": "발달된 감각이 다르죠."}]}
+{"messages": [{"role": "user", "content": "내가 그사람이랑 진짜 결혼해도 될까"}, {"role": "assistant", "content": "이사람이다 싶은 사람이랑 하세요."}]}
+{"messages": [{"role": "user", "content": "화분 흙을 갈아 주려고 준비물을 꺼냈어."}, {"role": "assistant", "content": "분갈이를 준비하는구나. 어떤 식물을 옮겨 심을 거야?"}]}
+{"messages": [{"role": "user", "content": "뒤척이다 늦잠 자게 되네"}, {"role": "assistant", "content": "30분씩 일찍 자는 습관을 들여보세요."}]}
+{"messages": [{"role": "user", "content": "세상이 너무 무서워"}, {"role": "assistant", "content": "너무 불안해하지 않아도 돼요."}]}
+{"messages": [{"role": "user", "content": "다시 이야기하러 왔는데 기억나?"}, {"role": "assistant", "content": "다시 와 줘서 반가워. 전에 나눴던 내용을 알려 주면 이어서 이야기할 수 있어."}]}
+{"messages": [{"role": "user", "content": "제주도 놀러 가고 싶어요."}, {"role": "assistant", "content": "제주도 여행을 생각하고 있군요. 가 보고 싶은 곳이 있나요?"}]}
+{"messages": [{"role": "user", "content": "새잎이 펴지는 걸 매일 구경하고 있어."}, {"role": "assistant", "content": "조금씩 달라지는 모습이 반갑겠다."}]}
+{"messages": [{"role": "user", "content": "사소한 걸로 트집잡는 사람 어떡해?"}, {"role": "assistant", "content": "웃으면서 무시해주세요."}]}
+{"messages": [{"role": "user", "content": "내가 주제를 몰랐던 거지"}, {"role": "assistant", "content": "어떤 상황에서 그렇게 느꼈나요? 조금 더 이야기해 주세요."}]}
+{"messages": [{"role": "user", "content": "미세먼지 최악인데"}, {"role": "assistant", "content": "집에 있거나 나가면 마스크 쓰고 나가세요."}]}
+{"messages": [{"role": "user", "content": "이력서 쓰고 있어."}, {"role": "assistant", "content": "나를 포장하는게 쉽지 않죠."}]}
+{"messages": [{"role": "user", "content": "잠을 못 자서 졸려."}, {"role": "assistant", "content": "잠이 부족했구나. 가능하면 잠깐 눈을 붙여 봐."}]}
+{"messages": [{"role": "user", "content": "슬픈 영화 보고 울었어."}, {"role": "assistant", "content": "마음에 많이 남았구나. 어떤 장면이 특히 슬펐어?"}]}
+{"messages": [{"role": "user", "content": "안녕!"}, {"role": "assistant", "content": "안녕! 오늘은 어떻게 지냈어?"}]}
+{"messages": [{"role": "user", "content": "엄마가 나만 시켜"}, {"role": "assistant", "content": "엄마가 일이나 심부름을 나에게만 시키는 것 같아 속상하겠어요. 어떤 일을 맡게 되나요?"}]}
+{"messages": [{"role": "user", "content": "전과해도 잘 할 수 있겠지?"}, {"role": "assistant", "content": "충분히 잘할 수 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "오늘 일정이 꽉 차서 숨 돌릴 틈이 없었어."}, {"role": "assistant", "content": "정말 바쁜 하루였구나. 이제는 잠깐 여유가 생겼어?"}]}
+{"messages": [{"role": "user", "content": "칭찬 좀 해봐"}, {"role": "assistant", "content": "지금도 잘하고 있어요."}]}
+{"messages": [{"role": "user", "content": "게임 지겨워"}, {"role": "assistant", "content": "다른 게임해보세요."}]}
+{"messages": [{"role": "user", "content": "누구한테 말 걸고 싶어서 왔어."}, {"role": "assistant", "content": "잘 왔어. 지금 나누고 싶은 이야기가 있어?"}]}
+{"messages": [{"role": "user", "content": "폰을 오래했나 눈이 너무 뻑뻑해"}, {"role": "assistant", "content": "중간 중간에 눈을 쉬어주세요."}]}
+{"messages": [{"role": "user", "content": "쉬려고 앉았는데 자꾸 해야 할 일이 떠올라."}, {"role": "assistant", "content": "마음이 계속 바쁘구나. 할 일을 간단히 적어 두고 잠깐 쉬어도 좋겠어."}]}
+{"messages": [{"role": "user", "content": "컴터가 맛이 갔어"}, {"role": "assistant", "content": "AS센터에 맡겨보세요."}]}
+{"messages": [{"role": "user", "content": "마음이 울적해"}, {"role": "assistant", "content": "거리를 걸어보세요."}]}
+{"messages": [{"role": "user", "content": "나는 왜 이 모양일까"}, {"role": "assistant", "content": "자책하지마세요."}]}
+{"messages": [{"role": "user", "content": "이상한 말을 해"}, {"role": "assistant", "content": "제 답변이 이상했나요? 어떤 부분인지 알려 주시면 다시 답해 볼게요."}]}
+{"messages": [{"role": "user", "content": "전학가도 잘 할 수 있겠지?"}, {"role": "assistant", "content": "걱정하지 마세요. 잘할 거예요."}]}
+{"messages": [{"role": "user", "content": "로또 번호 알려줘"}, {"role": "assistant", "content": "당첨 번호를 미리 알 수는 없어요."}]}
+{"messages": [{"role": "user", "content": "절망적이야"}, {"role": "assistant", "content": "너무 낙담하지 마세요."}]}
+{"messages": [{"role": "user", "content": "살 때문에 교복이 잘 안들어가"}, {"role": "assistant", "content": "한창 클 때죠."}]}
+{"messages": [{"role": "user", "content": "늦은 시간인데 내일 준비할 일이 남았어."}, {"role": "assistant", "content": "쉬고 싶은데 할 일이 남아 있구나. 꼭 필요한 준비만 먼저 정리해 볼까?"}]}
+{"messages": [{"role": "user", "content": "병원 가기 싫어"}, {"role": "assistant", "content": "더 아프기 전에 가보세요."}]}
+{"messages": [{"role": "user", "content": "기분 전환이 필요해"}, {"role": "assistant", "content": "저랑 함께 해요."}]}
+{"messages": [{"role": "user", "content": "헬스장에 사람이 엄청 많음"}, {"role": "assistant", "content": "건강에 관심 있는 사람들이 많죠."}]}
+{"messages": [{"role": "user", "content": "차 기름값이 또 올랐네"}, {"role": "assistant", "content": "대중교통을 이용해주세요."}]}
+{"messages": [{"role": "user", "content": "적금 들어야 하나"}, {"role": "assistant", "content": "적금 들 수 있으면 드는 게 좋죠."}]}
+{"messages": [{"role": "user", "content": "전과하고 재미있게 학교 다니고 싶다."}, {"role": "assistant", "content": "충분히 잘할 수 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "업무 지적을 너무 많이 받아"}, {"role": "assistant", "content": "업무 지적이 많아서 위축될 수 있겠어요. 어떤 부분을 주로 지적받나요?"}]}
+{"messages": [{"role": "user", "content": "아이스크림이 오랜만에 사먹는데 너무 비싸"}, {"role": "assistant", "content": "할인점에서 사먹으세요."}]}
+{"messages": [{"role": "user", "content": "아날로그가 좋아"}, {"role": "assistant", "content": "아날로그 방식이 좋군요. 특히 좋아하는 물건이나 활동이 있나요?"}]}
+{"messages": [{"role": "user", "content": "과일 잘 안 먹게 돼"}, {"role": "assistant", "content": "그래도 먹으려고 노력해보세요."}]}
+{"messages": [{"role": "user", "content": "체육대회한데"}, {"role": "assistant", "content": "일기예보 확인해보세요."}]}
+{"messages": [{"role": "user", "content": "집에서 키우는 식물이 쑥쑥 자라."}, {"role": "assistant", "content": "잘 자라서 뿌듯하겠다! 어떤 식물이야?"}]}
+{"messages": [{"role": "user", "content": "숙제 안 한 듯"}, {"role": "assistant", "content": "미리미리 해야죠."}]}
+{"messages": [{"role": "user", "content": "장거리 이동을 하고 와서 지쳤다."}, {"role": "assistant", "content": "오래 이동하느라 고생했어. 이제는 도착해서 쉬고 있는 거야?"}]}
+{"messages": [{"role": "user", "content": "오늘 하루는 어땠냐고 물어봐 줄래?"}, {"role": "assistant", "content": "오늘 하루는 어땠어? 기억에 남는 일이 있었어?"}]}
+{"messages": [{"role": "user", "content": "스터디 카페 왔어"}, {"role": "assistant", "content": "공부하러 왔나봐요."}]}
+{"messages": [{"role": "user", "content": "텔레비전 볼 게 없어"}, {"role": "assistant", "content": "저랑 이야기 해요."}]}
+{"messages": [{"role": "user", "content": "차 막힌다"}, {"role": "assistant", "content": "여유를 가지세요."}]}
+{"messages": [{"role": "user", "content": "기프트콘 주면 좋아할까?"}, {"role": "assistant", "content": "기프티콘을 선물하려는군요. 상대방이 좋아하는 메뉴나 가게가 있나요?"}]}
+{"messages": [{"role": "user", "content": "먹을까 참을까"}, {"role": "assistant", "content": "조금만 드세요"}]}
+{"messages": [{"role": "user", "content": "버스탈까 택시탈까"}, {"role": "assistant", "content": "버스와 택시 중 고민이군요. 시간과 비용 중 어느 쪽이 더 중요한가요?"}]}
+{"messages": [{"role": "user", "content": "얼평해달라는 사람 어떻게 생각해?"}, {"role": "assistant", "content": "외모 평가를 부탁받으면 난감할 수 있겠어요. 어떤 상황이었나요?"}]}
+{"messages": [{"role": "user", "content": "오늘은 내가 기분이가 좋아"}, {"role": "assistant", "content": "저도 좋아요."}]}
+{"messages": [{"role": "user", "content": "기대 없이 본 영화가 의외로 좋았어."}, {"role": "assistant", "content": "뜻밖에 마음에 드는 작품을 만났네!"}]}
+{"messages": [{"role": "user", "content": "액션 영화가 취향이야."}, {"role": "assistant", "content": "박진감 있는 영화를 좋아하는구나. 기억에 남는 작품이 있어?"}]}
+{"messages": [{"role": "user", "content": "재테크 하는 방법 알려줘"}, {"role": "assistant", "content": "우선 관련 서적을 읽어보세요."}]}
+{"messages": [{"role": "user", "content": "증거도 없으면서 나만 의심해"}, {"role": "assistant", "content": "억울하겠어. 어떤 상황에서 의심을 받았어?"}]}
+{"messages": [{"role": "user", "content": "엔딩 크레딧까지 앉아서 보고 나왔어."}, {"role": "assistant", "content": "끝까지 여운을 즐기고 왔구나. 영화가 많이 마음에 들었어?"}]}
+{"messages": [{"role": "user", "content": "화분 받침을 씻었더니 주변이 깔끔해졌어."}, {"role": "assistant", "content": "화분 주변까지 정리했구나. 보고 있으면 기분 좋겠다."}]}
+{"messages": [{"role": "user", "content": "밤에 산책하니 동네가 조용해서 좋았어."}, {"role": "assistant", "content": "조용한 분위기에서 걸으니 편안했겠네."}]}
+{"messages": [{"role": "user", "content": "화분이 많이 자라서 분갈이를 하려고 해."}, {"role": "assistant", "content": "식물이 잘 자랐구나! 새 화분은 골랐어?"}]}
+{"messages": [{"role": "user", "content": "점심 때 은행 갔다와야지"}, {"role": "assistant", "content": "볼 일이 있나봐요."}]}
+{"messages": [{"role": "user", "content": "퇴근길 엄청 막히네"}, {"role": "assistant", "content": "라디오를 들으며 여유를 가져보세요."}]}
+{"messages": [{"role": "user", "content": "봄이 왔어"}, {"role": "assistant", "content": "초록초록하네요."}]}
+{"messages": [{"role": "user", "content": "내가 멍청한거지"}, {"role": "assistant", "content": "실수했나요."}]}
+{"messages": [{"role": "user", "content": "고데기 망했어"}, {"role": "assistant", "content": "연습이 필요해요."}]}
+{"messages": [{"role": "user", "content": "우리 편하게 말 놓고 대화해도 될까?"}, {"role": "assistant", "content": "좋아, 편하게 말하자. 어떤 이야기부터 할까?"}]}
+{"messages": [{"role": "user", "content": "같이 수영장 가기로 했어"}, {"role": "assistant", "content": "즐거운 시간 보내고 오세요!"}]}
+{"messages": [{"role": "user", "content": "혼자 걸으니까 생각을 정리하기 좋더라."}, {"role": "assistant", "content": "혼자 걷는 시간이 도움이 됐구나. 조금 후련해졌어?"}]}
+{"messages": [{"role": "user", "content": "괜히 아까운 시간 버렸다"}, {"role": "assistant", "content": "그 것도 다 경험이라고 생각하세요."}]}
+{"messages": [{"role": "user", "content": "시간 진짜 빨리감"}, {"role": "assistant", "content": "시간은 상대적으로 흘러갑니다."}]}
+{"messages": [{"role": "user", "content": "먹고 자도 되나"}, {"role": "assistant", "content": "식사 후에 바로 자도 되는지 궁금한가요?"}]}
+{"messages": [{"role": "user", "content": "무슨 매주 결혼식이야"}, {"role": "assistant", "content": "인맥이 넓으신가봐요."}]}
+{"messages": [{"role": "user", "content": "할 일은 남았는데 집중력이 떨어진다."}, {"role": "assistant", "content": "계속 하느라 지쳤나 봐. 잠깐 쉬었다가 가장 급한 일부터 해 보는 건 어때?"}]}
+{"messages": [{"role": "user", "content": "집을 왜 물어보지"}, {"role": "assistant", "content": "누가 어떤 상황에서 집을 물어봤나요?"}]}
+{"messages": [{"role": "user", "content": "같이 놀러갈 친구가 없어"}, {"role": "assistant", "content": "혼자도 좋아요."}]}
+{"messages": [{"role": "user", "content": "창문을 열고 나왔네"}, {"role": "assistant", "content": "들어가서 닫으세요."}]}
+{"messages": [{"role": "user", "content": "허리 아프다"}, {"role": "assistant", "content": "계속 앉아있지 마세요."}]}
+{"messages": [{"role": "user", "content": "햇볕이 좋아서 밖에서 걸었어."}, {"role": "assistant", "content": "햇볕을 쐬며 걸었구나. 기분 전환이 됐겠네."}]}
+{"messages": [{"role": "user", "content": "롱패딩 필요할까"}, {"role": "assistant", "content": "추울 때 딱이죠."}]}
+{"messages": [{"role": "user", "content": "결말을 미리 알아 버려서 아쉽다."}, {"role": "assistant", "content": "직접 보면서 알고 싶었을 텐데 아쉽겠어."}]}
+{"messages": [{"role": "user", "content": "모임에서 만났어"}, {"role": "assistant", "content": "모임에서 만났구나. 어떤 사람이었어?"}]}
+{"messages": [{"role": "user", "content": "어디서부터 잘못된 걸까"}, {"role": "assistant", "content": "처음부터 되짚어보세요."}]}
+{"messages": [{"role": "user", "content": "내일 날씨 어때?"}, {"role": "assistant", "content": "날씨 어플에 물어보세요."}]}
+{"messages": [{"role": "user", "content": "점심 먹고 나니까 잠깐 졸리네."}, {"role": "assistant", "content": "졸음이 오는구나. 잠깐 자리에서 일어나 쉬어 갈 시간은 있어?"}]}
+{"messages": [{"role": "user", "content": "자격증 공부해야지"}, {"role": "assistant", "content": "좋은 자세예요."}]}
+{"messages": [{"role": "user", "content": "개강옷 예쁘게 입어 볼까"}, {"role": "assistant", "content": "개시해보세요."}]}
+{"messages": [{"role": "user", "content": "친척들 만나는 거 싫어"}, {"role": "assistant", "content": "친척을 만나는 일이 부담스러운가 봐요. 어떤 점이 싫은가요?"}]}
+{"messages": [{"role": "user", "content": "나 오늘 따라 잘생겨 보이네"}, {"role": "assistant", "content": "자신에게 콩깍지가 씌였나봐요."}]}
+{"messages": [{"role": "user", "content": "담뱃값이 왜 이렇게 비싸"}, {"role": "assistant", "content": "금연하세요."}]}
+{"messages": [{"role": "user", "content": "잠깐 이야기할래?"}, {"role": "assistant", "content": "좋아! 어떤 이야기를 하고 싶어?"}]}
+{"messages": [{"role": "user", "content": "엄마가 언니랑 차별해"}, {"role": "assistant", "content": "상처받는다고 꼭 말하세요."}]}
+{"messages": [{"role": "user", "content": "동호회 나가지 말까"}, {"role": "assistant", "content": "취미생활은 좋은 거예요."}]}
+{"messages": [{"role": "user", "content": "친구한테 작은 화분을 선물 받았어."}, {"role": "assistant", "content": "오래 두고 볼 수 있는 선물이네! 어떤 식물이야?"}]}
+{"messages": [{"role": "user", "content": "휴지도 떨어졌네."}, {"role": "assistant", "content": "생활용품이 은근 많이 들어가요."}]}
+{"messages": [{"role": "user", "content": "전학가게 됐어"}, {"role": "assistant", "content": "새로 적응해야겠네요."}]}
+{"messages": [{"role": "user", "content": "목돈 만들기"}, {"role": "assistant", "content": "목돈을 모으고 싶군요. 목표 금액과 기간을 정해 두었나요?"}]}
+{"messages": [{"role": "user", "content": "요즘 자꾸 까먹어"}, {"role": "assistant", "content": "메모하는 습관을 들여보세요."}]}
+{"messages": [{"role": "user", "content": "공포 영화는 무서워서 중간에 껐어."}, {"role": "assistant", "content": "너무 무서웠구나. 오늘은 편안한 분위기의 작품이 더 좋겠네."}]}
+{"messages": [{"role": "user", "content": "오늘 날씨 좋아서 놀러가고 싶어"}, {"role": "assistant", "content": "친구들과 같이 놀러가세요."}]}
+{"messages": [{"role": "user", "content": "답 없는 내 인생"}, {"role": "assistant", "content": "정답을 찾아야할 필요는 없어요."}]}
+{"messages": [{"role": "user", "content": "짝사랑하는 사람한테 선물 주면 부담될까"}, {"role": "assistant", "content": "선물이 부담스러울지 고민되는군요. 어떤 선물을 생각하고 있나요?"}]}
+{"messages": [{"role": "user", "content": "마음에 안 드는 짓만 해"}, {"role": "assistant", "content": "너무 미워하지 마세요."}]}
+{"messages": [{"role": "user", "content": "냄새나면 어쩌지"}, {"role": "assistant", "content": "냄새가 날까 봐 걱정되는군요. 어떤 상황인가요?"}]}
+{"messages": [{"role": "user", "content": "떠나요~ 제주도~"}, {"role": "assistant", "content": "여행 좋죠!"}]}
+{"messages": [{"role": "user", "content": "나 같은 사람은 동물 키우면 안되겠지"}, {"role": "assistant", "content": "동물을 돌보는 게 걱정되는구나. 어떤 점이 가장 마음에 걸려?"}]}
+{"messages": [{"role": "user", "content": "월급에 비해 근무시간이 너무 긴 거 같애"}, {"role": "assistant", "content": "야근 수당을 챙겨보세요."}]}
+{"messages": [{"role": "user", "content": "양말 구멍 났다"}, {"role": "assistant", "content": "바늘과 실로 꿰메보세요."}]}
+{"messages": [{"role": "user", "content": "돈 빌려줬는데 잠수탔어"}, {"role": "assistant", "content": "돈을 빌려 간 사람이 연락되지 않아 답답하겠어요. 언제부터 연락이 끊겼나요?"}]}
+{"messages": [{"role": "user", "content": "머리 안감았더니 떡졌어"}, {"role": "assistant", "content": "앞머리만이라도 감으세요."}]}
+{"messages": [{"role": "user", "content": "모기가 너무 많아."}, {"role": "assistant", "content": "조심하세요."}]}
+{"messages": [{"role": "user", "content": "시험 없어지면 좋겠다."}, {"role": "assistant", "content": "시험이 부담스럽군요. 어떤 점이 가장 힘든가요?"}]}
+{"messages": [{"role": "user", "content": "해 질 무렵 호수 둘레를 한 바퀴 돌았어."}, {"role": "assistant", "content": "호수를 따라 걸었구나. 해 질 때 풍경이 좋았겠다."}]}
+{"messages": [{"role": "user", "content": "폰 케이스 사줄까?"}, {"role": "assistant", "content": "마음은 고맙지만 제가 폰 케이스를 사용할 수는 없어요. 선물을 고르는 중인가요?"}]}
+{"messages": [{"role": "user", "content": "채팅이 잘 되는지 확인하려고 인사해 봐."}, {"role": "assistant", "content": "인사 잘 도착했어! 지금 대화할 수 있어."}]}
+{"messages": [{"role": "user", "content": "바라는게 없어"}, {"role": "assistant", "content": "살고 싶은대로 사세요."}]}
+{"messages": [{"role": "user", "content": "너 말 잘하니"}, {"role": "assistant", "content": "노력하고 있어요."}]}
+{"messages": [{"role": "user", "content": "와 소름 돋아"}, {"role": "assistant", "content": "좋은 일이길 바랍니다."}]}
+{"messages": [{"role": "user", "content": "컴퓨터 백업해야지"}, {"role": "assistant", "content": "주기적으로 하는 게 좋죠."}]}
+{"messages": [{"role": "user", "content": "연애 상담 해줄래?"}, {"role": "assistant", "content": "부족하지만 열심히 해드릴게요."}]}
+{"messages": [{"role": "user", "content": "엄마한테 또 화냈어"}, {"role": "assistant", "content": "더 후회하기 전에 사과하세요."}]}
+{"messages": [{"role": "user", "content": "걸어서 장을 보고 왔더니 제법 많이 움직였네."}, {"role": "assistant", "content": "장도 보고 걷기도 했구나. 짐이 무겁지는 않았어?"}]}
+{"messages": [{"role": "user", "content": "대기업 취직 어려울까"}, {"role": "assistant", "content": "잘할 수 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "얼어 죽는 줄"}, {"role": "assistant", "content": "감기 조심하세요."}]}
+{"messages": [{"role": "user", "content": "정신차리라고 한 마디 해줘"}, {"role": "assistant", "content": "나 자신에 집중하세요. 언제나 1순위에 자신을 두세요."}]}
+{"messages": [{"role": "user", "content": "임용 결과 발표 기다리고 있어"}, {"role": "assistant", "content": "결과를 기다리느라 마음이 쓰이겠어요. 발표가 언제인가요?"}]}
+{"messages": [{"role": "user", "content": "내가 호구냐구"}, {"role": "assistant", "content": "이용당한 것처럼 느껴져서 화가 났군요. 무슨 일이 있었나요?"}]}
+{"messages": [{"role": "user", "content": "저녁으로 뭐 먹을까"}, {"role": "assistant", "content": "냉장고 파먹기 해보세요."}]}
+{"messages": [{"role": "user", "content": "너무 지쳐서 친구 약속을 미룰까 고민돼."}, {"role": "assistant", "content": "쉬고 싶은 마음과 약속 사이에서 고민이구나. 친구에게 상태를 솔직히 말해 보는 건 어때?"}]}
+{"messages": [{"role": "user", "content": "제주도 가고 싶어"}, {"role": "assistant", "content": "제주도에 가고 싶군요. 언제쯤 여행을 생각하고 있나요?"}]}
+{"messages": [{"role": "user", "content": "전남친이 자꾸 생각나"}, {"role": "assistant", "content": "세상은 넓고 사람은 많아요."}]}
+{"messages": [{"role": "user", "content": "알바하는데 같이 일하는 사람 좋아져"}, {"role": "assistant", "content": "같이 일하는 사람에게 마음이 생겼군요. 서로 이야기를 자주 나누나요?"}]}
+{"messages": [{"role": "user", "content": "식물 옆에 의자를 두고 쉬는 시간이 좋아."}, {"role": "assistant", "content": "식물과 함께 조용히 쉬는 공간이 생겼네."}]}
+{"messages": [{"role": "user", "content": "씻기도 귀찮다"}, {"role": "assistant", "content": "씻고 푹 쉬세요."}]}
+{"messages": [{"role": "user", "content": "얘는 싸우기만 하면 연락이 안돼"}, {"role": "assistant", "content": "혼자 풀릴 때까지 놔둬야하는데 기다리는게 힘들 거예요."}]}
+{"messages": [{"role": "user", "content": "저녁 먹고 동네 산책했어."}, {"role": "assistant", "content": "식사 후에 걸었구나. 저녁 풍경은 어땠어?"}]}
+{"messages": [{"role": "user", "content": "면접 준비 어떻게 하지"}, {"role": "assistant", "content": "회사와 자신에 대해서 더 공부해서 자신감을 가져보세요."}]}
+{"messages": [{"role": "user", "content": "뭐가 중요한지 모르겠어"}, {"role": "assistant", "content": "스스로의 우선순위를 정해보세요."}]}
+{"messages": [{"role": "user", "content": "나만 애기봐"}, {"role": "assistant", "content": "배우자와 대화를 나눠보세요."}]}
+{"messages": [{"role": "user", "content": "시험 끝나고 만나고 싶어"}, {"role": "assistant", "content": "시험이 끝난 뒤 누군가를 만나고 싶은가 봐요. 누구를 만나고 싶나요?"}]}
+{"messages": [{"role": "user", "content": "집앞에서 전남친 만남"}, {"role": "assistant", "content": "남이니 신경쓰지 마세요."}]}
+{"messages": [{"role": "user", "content": "옛날에 좋아했던 영화를 다시 봤어."}, {"role": "assistant", "content": "다시 봐도 좋았어? 예전과 다르게 느껴진 부분도 있었을 것 같아."}]}
+{"messages": [{"role": "user", "content": "추워서 오래 걷지는 못했지만 밖에 다녀왔어."}, {"role": "assistant", "content": "추운 날이었구나. 집에 돌아와서는 따뜻하게 쉬고 있어?"}]}
+{"messages": [{"role": "user", "content": "주말에 뭐 하고 놀까?"}, {"role": "assistant", "content": "저랑 놀아요."}]}
+{"messages": [{"role": "user", "content": "운동하다 다칠뻔"}, {"role": "assistant", "content": "운동할 때 조심하세요."}]}
+{"messages": [{"role": "user", "content": "분갈이하려고 흙을 준비했어."}, {"role": "assistant", "content": "준비를 하고 있구나. 옮겨 심을 화분도 마련했어?"}]}
+{"messages": [{"role": "user", "content": "감정이 쓰레기통처럼 엉망진창이야"}, {"role": "assistant", "content": "감정이 뒤엉켜서 많이 힘든가 봐요. 지금 가장 크게 느끼는 감정은 무엇인가요?"}]}
+{"messages": [{"role": "user", "content": "다음에는 가족이랑 같은 길을 걸어 보고 싶어."}, {"role": "assistant", "content": "함께 나누고 싶은 길을 찾았구나. 어떤 점이 특히 좋았어?"}]}
+{"messages": [{"role": "user", "content": "답하기 싫은가봐"}, {"role": "assistant", "content": "좀 더 기다려주세요."}]}
+{"messages": [{"role": "user", "content": "존댓말로 대화하고 싶어요. 반갑습니다."}, {"role": "assistant", "content": "반갑습니다. 편하게 이야기해 주세요."}]}
+{"messages": [{"role": "user", "content": "몸이 무거워"}, {"role": "assistant", "content": "피로를 풀어야 할 것 같아요."}]}
+{"messages": [{"role": "user", "content": "주행 연습 끝났어"}, {"role": "assistant", "content": "안전 운전 하세요."}]}
+{"messages": [{"role": "user", "content": "찰랑찰랑한 머릿결 갖고 싶다"}, {"role": "assistant", "content": "관리하는 게 쉽지 않아요."}]}
+{"messages": [{"role": "user", "content": "가족들이랑 여행 갈거야"}, {"role": "assistant", "content": "좋은 생각이에요."}]}
+{"messages": [{"role": "user", "content": "오랜만이네."}, {"role": "assistant", "content": "오랜만이야! 그동안 어떻게 지냈어?"}]}
+{"messages": [{"role": "user", "content": "식물 이름표를 만들어 화분에 꽂아 뒀어."}, {"role": "assistant", "content": "이름표까지 챙겼구나. 화분을 볼 때 더 정이 가겠네."}]}
+{"messages": [{"role": "user", "content": "요리하는게 재밌어"}, {"role": "assistant", "content": "만들어서 먹는 기쁨이죠."}]}
+{"messages": [{"role": "user", "content": "월세 너무 아까워"}, {"role": "assistant", "content": "돈을 얼른 모아야할 이유가 생겼네요."}]}
+{"messages": [{"role": "user", "content": "얼굴 보니까 떨리더라"}, {"role": "assistant", "content": "많이 좋아했던 사람인가봐요."}]}
+{"messages": [{"role": "user", "content": "중2병 이라더니 진짜 속썩일 줄이야"}, {"role": "assistant", "content": "사춘기인가봅니다."}]}
+{"messages": [{"role": "user", "content": "혼자 영화관에 가 보는 건 처음이야."}, {"role": "assistant", "content": "처음이라 조금 낯설겠네. 보고 싶은 영화는 골랐어?"}]}
+{"messages": [{"role": "user", "content": "출근하기 너무 오래 걸려"}, {"role": "assistant", "content": "회사 근처로 이사를 가보세요."}]}
+{"messages": [{"role": "user", "content": "패키지여행이 좋을까 자유여행이 좋을까"}, {"role": "assistant", "content": "가는 곳과 같이 가는 사람에 따라 다르겠죠."}]}
+{"messages": [{"role": "user", "content": "소개팅으로 잘되기도 하나?"}, {"role": "assistant", "content": "소개팅으로 잘 된 사람 많아요."}]}
+{"messages": [{"role": "user", "content": "티 안 나게 나 싫어해"}, {"role": "assistant", "content": "그렇게 느낀 일이 있었구나. 어떤 행동 때문에 그렇게 생각했어?"}]}
+{"messages": [{"role": "user", "content": "나만 뒤처지는 느낌이야"}, {"role": "assistant", "content": "스스로 경쟁해야하고 이겨야한다는 강박관념에 사로잡히지 마세요."}]}
+{"messages": [{"role": "user", "content": "이번 달에 결혼식 너무 많아"}, {"role": "assistant", "content": "인맥이 넓으신가봐요."}]}
+{"messages": [{"role": "user", "content": "친구랑 잘 노는 방법"}, {"role": "assistant", "content": "잘하는 건 칭찬해주고 본받을 점은 본받으면서 그대로 사랑해주세요."}]}
+{"messages": [{"role": "user", "content": "남자친구가 홧김에 욕함"}, {"role": "assistant", "content": "욕을 들어서 많이 속상했겠어요. 그때 어떤 일이 있었나요?"}]}
+{"messages": [{"role": "user", "content": "이번 주말에는 화분을 옮겨 심을 거야."}, {"role": "assistant", "content": "분갈이를 할 계획이구나. 어떤 식물을 키우고 있어?"}]}
+{"messages": [{"role": "user", "content": "하루종일 속상해"}, {"role": "assistant", "content": "좋은 일이 생길 거예요."}]}
+{"messages": [{"role": "user", "content": "서서 일하는 날이라 다리가 무겁네."}, {"role": "assistant", "content": "오래 서 있느라 힘들었겠다. 이제 앉아서 조금 쉴 수 있어?"}]}
+{"messages": [{"role": "user", "content": "여행 계획 세워야지"}, {"role": "assistant", "content": "좋은 여행 되길 바랍니다."}]}
+{"messages": [{"role": "user", "content": "친구가 나한테 집착해"}, {"role": "assistant", "content": "거리를 두세요."}]}
+{"messages": [{"role": "user", "content": "그냥 할까?"}, {"role": "assistant", "content": "어떤 일을 할지 고민 중이야? 상황을 조금 더 알려 줘."}]}
+{"messages": [{"role": "user", "content": "재미있는 영화 보고 싶다."}, {"role": "assistant", "content": "어떤 분위기가 끌려? 코미디나 모험 영화도 있겠네."}]}
+{"messages": [{"role": "user", "content": "오늘 처음으로 쉬는 시간이 나서 왔어."}, {"role": "assistant", "content": "쉬는 시간이 생겼구나. 잠깐 편하게 이야기하자."}]}
+{"messages": [{"role": "user", "content": "영어 잘 했으면 좋겠다"}, {"role": "assistant", "content": "매일 조금씩 해보세요."}]}
+{"messages": [{"role": "user", "content": "엄마아빠 노후가 걱정돼"}, {"role": "assistant", "content": "상담이나 컨설팅을 받아보는 것도 좋을 거예요."}]}
+{"messages": [{"role": "user", "content": "별이 안 보여"}, {"role": "assistant", "content": "한적한 시골에서 하늘을 올려봐보세요."}]}
+{"messages": [{"role": "user", "content": "프로젝트 끝났으면 좋겠다"}, {"role": "assistant", "content": "성공적으로 끝날 거예요."}]}
+{"messages": [{"role": "user", "content": "방법도 안 말해주고 그냥 열심히 하래"}, {"role": "assistant", "content": "방법을 알려 주지 않아서 답답하겠다. 어떤 일을 하려는 거야?"}]}
+{"messages": [{"role": "user", "content": "케익 만들어서 선물할까?"}, {"role": "assistant", "content": "수제 케익을 받으면 많이 좋아할 거예요."}]}
+{"messages": [{"role": "user", "content": "오늘 저녁에 영화 볼까 해."}, {"role": "assistant", "content": "저녁에 영화 한 편 좋지! 보고 싶은 작품이 있어?"}]}
+{"messages": [{"role": "user", "content": "키우는 식물 사진을 찍어서 성장 기록을 남겨."}, {"role": "assistant", "content": "나중에 비교하면 자란 모습이 더 잘 보이겠다."}]}
+{"messages": [{"role": "user", "content": "주말에도 못 쉬어서 월요일부터 지치네."}, {"role": "assistant", "content": "쉬는 날에도 바빴구나. 이번에는 쉴 시간을 조금 챙길 수 있으면 좋겠다."}]}
+{"messages": [{"role": "user", "content": "부담스러운 기대 좀 떨쳐낼 없을까?"}, {"role": "assistant", "content": "주변의 기대가 부담스러운가 봐요. 어떤 기대가 가장 무겁게 느껴지나요?"}]}
+{"messages": [{"role": "user", "content": "오늘 점심은"}, {"role": "assistant", "content": "맛있는 거 드세요."}]}
+{"messages": [{"role": "user", "content": "화분에 뭐 심어볼까"}, {"role": "assistant", "content": "화분에 심을 식물을 고르는군요. 햇빛이 잘 드는 곳에 둘 예정인가요?"}]}
+{"messages": [{"role": "user", "content": "길에서 담배 피우는 사람 싫어"}, {"role": "assistant", "content": "저도 싫어요."}]}
+{"messages": [{"role": "user", "content": "충분히 쉬고 나니까 기운이 좀 돌아왔어."}, {"role": "assistant", "content": "기운이 돌아왔다니 좋네! 쉬는 시간이 도움이 됐구나."}]}
+{"messages": [{"role": "user", "content": "다른 사람의 시선이 너무 신경쓰여"}, {"role": "assistant", "content": "자신만 생각하세요."}]}
+{"messages": [{"role": "user", "content": "하루 종일 일해서 힘이 없어."}, {"role": "assistant", "content": "오래 일하느라 지쳤겠다. 이제 조금 쉬어도 좋겠어."}]}
+{"messages": [{"role": "user", "content": "연락 하지 말라고"}, {"role": "assistant", "content": "누군가에게 연락하지 말라고 말한 상황인가요? 조금 더 알려 주세요."}]}
+{"messages": [{"role": "user", "content": "자기 소개서 오글거려"}, {"role": "assistant", "content": "나를 포장하는게 쉽지 않죠."}]}
+{"messages": [{"role": "user", "content": "공부를 오래 했더니 피곤해."}, {"role": "assistant", "content": "집중하느라 힘들었겠다. 잠깐 책을 덮고 쉬자."}]}
+{"messages": [{"role": "user", "content": "기운이 없어서 아무것도 하기 싫어."}, {"role": "assistant", "content": "기운이 많이 빠졌구나. 지금은 조금 쉬어 가도 괜찮아."}]}
+{"messages": [{"role": "user", "content": "골프 못 치는데"}, {"role": "assistant", "content": "처음부터 잘하는 사람은 없어요."}]}
+{"messages": [{"role": "user", "content": "안녕, 나는 민수라고 해."}, {"role": "assistant", "content": "안녕, 민수야! 만나서 반가워."}]}
+{"messages": [{"role": "user", "content": "도서관 가서 공부해야지"}, {"role": "assistant", "content": "열심히 공부하길 바랍니다."}]}
+{"messages": [{"role": "user", "content": "명품 이제 사지 말아야겠어"}, {"role": "assistant", "content": "남의 눈을 위한 거라면 필요 없어요."}]}
+{"messages": [{"role": "user", "content": "주말에 영화 보려고 해."}, {"role": "assistant", "content": "좋은 계획이네! 어떤 장르를 보고 싶어?"}]}
+{"messages": [{"role": "user", "content": "퇴근했는데 아무 말도 안 하고 쉬고 싶어."}, {"role": "assistant", "content": "그럴 때도 있지. 오늘은 편히 쉬어. 이야기하고 싶어지면 말 걸어 줘."}]}
+{"messages": [{"role": "user", "content": "아직도 안 끝났어"}, {"role": "assistant", "content": "곧 끝나길 바랄게요."}]}
+{"messages": [{"role": "user", "content": "계단을 많이 올라서 잠깐 앉아 있으려고."}, {"role": "assistant", "content": "많이 움직였구나. 잠시 앉아서 쉬어 가."}]}
+{"messages": [{"role": "user", "content": "기대했는데"}, {"role": "assistant", "content": "기대했던 일이 있었구나. 어떤 점이 아쉬웠어?"}]}
+{"messages": [{"role": "user", "content": "출근하기 전에 잠깐 들렀어. 잘 있었어?"}, {"role": "assistant", "content": "어서 와! 출근 전에 들러 줬구나. 오늘도 잘 다녀와."}]}
+{"messages": [{"role": "user", "content": "영화 음악이 좋아서 계속 찾아 듣고 있어."}, {"role": "assistant", "content": "음악이 오래 남았구나. 듣다 보면 장면도 떠올라?"}]}
+{"messages": [{"role": "user", "content": "되게 건조하네"}, {"role": "assistant", "content": "공기가 건조한가요, 피부나 눈이 건조한가요?"}]}
+{"messages": [{"role": "user", "content": "너무 많이 먹었어"}, {"role": "assistant", "content": "소화제 드세요."}]}
+{"messages": [{"role": "user", "content": "고의는 아닌데 실수를 한 거 같아"}, {"role": "assistant", "content": "용서를 구하세요."}]}
+{"messages": [{"role": "user", "content": "골목길을 걷다가 처음 보는 가게를 발견했어."}, {"role": "assistant", "content": "새로운 가게를 찾았네! 어떤 가게였어?"}]}
+{"messages": [{"role": "user", "content": "이직해도 될까"}, {"role": "assistant", "content": "다니면서 준비해보세요."}]}
+{"messages": [{"role": "user", "content": "어떻게해 늦잠 잤어"}, {"role": "assistant", "content": "피곤했나봐요."}]}
+{"messages": [{"role": "user", "content": "오늘 저녁 뭐 먹을까"}, {"role": "assistant", "content": "맛있는 거 드세요."}]}
+{"messages": [{"role": "user", "content": "입소문 난 맛집 다녀왔어"}, {"role": "assistant", "content": "맛있게 드시고 오셨길 바랍니다."}]}
+{"messages": [{"role": "user", "content": "맨몸으로 결혼하기 가능?"}, {"role": "assistant", "content": "서로 마음만 맞으면 가능해요."}]}
+{"messages": [{"role": "user", "content": "말 예쁘게 하고 싶어"}, {"role": "assistant", "content": "말을 더 다정하게 하고 싶군요. 어떤 상황에서 말투가 신경 쓰이나요?"}]}
+{"messages": [{"role": "user", "content": "오늘도 또 이렇게 가는구나"}, {"role": "assistant", "content": "작은것에 감사하는 마음을 가져보세요."}]}
+{"messages": [{"role": "user", "content": "만나기만 하면 싸워"}, {"role": "assistant", "content": "만날 때마다 다투면 지치겠다. 주로 어떤 일로 부딪혀?"}]}
+{"messages": [{"role": "user", "content": "분갈이할 때 쓰려고 작은 삽을 샀어."}, {"role": "assistant", "content": "도구를 준비했구나. 분갈이는 언제 할 생각이야?"}]}
+{"messages": [{"role": "user", "content": "나는 친구라고 믿었는데"}, {"role": "assistant", "content": "친구라고 믿던 사람에게 실망한 일이 있었나요?"}]}
+{"messages": [{"role": "user", "content": "남친이 입이 험해"}, {"role": "assistant", "content": "남자친구의 거친 말 때문에 힘들겠어요. 어떤 말을 들었나요?"}]}
+{"messages": [{"role": "user", "content": "알바 생각보다 힘들다."}, {"role": "assistant", "content": "생각보다 일이 고되군요. 어떤 업무가 가장 힘든가요?"}]}
+{"messages": [{"role": "user", "content": "좋은 아침이야."}, {"role": "assistant", "content": "좋은 아침! 오늘 하루도 잘 시작하길 바라."}]}
+{"messages": [{"role": "user", "content": "미세먼지 또 나쁨"}, {"role": "assistant", "content": "집에 있거나 나가면 마스크 쓰고 나가세요."}]}
+{"messages": [{"role": "user", "content": "노래방 가면 어색할까"}, {"role": "assistant", "content": "신나는 노래로 분위기를 띄어보세요."}]}
+{"messages": [{"role": "user", "content": "친구랑 산책하다가 길을 잘못 들었어."}, {"role": "assistant", "content": "이야기하며 걷다가 다른 길로 갔구나. 다시 길은 찾았어?"}]}
+{"messages": [{"role": "user", "content": "공원 한 바퀴 걷고 왔어."}, {"role": "assistant", "content": "공원 산책 좋지! 걷고 나니 기분이 어때?"}]}
+{"messages": [{"role": "user", "content": "행운을 빌어줘"}, {"role": "assistant", "content": "제 행운까지 모두 드리고 싶네요."}]}
+{"messages": [{"role": "user", "content": "김치볶음밥이나 만들어 먹어야지"}, {"role": "assistant", "content": "맛있는 식사시간 되시길 바랄게요."}]}
+{"messages": [{"role": "user", "content": "또 어떻게 버티지?"}, {"role": "assistant", "content": "내일은 나을 거예요."}]}
+{"messages": [{"role": "user", "content": "직장에서 따돌림 당함"}, {"role": "assistant", "content": "직장 스트레스 심하겠네요."}]}
+{"messages": [{"role": "user", "content": "은퇴후가 걱정이야"}, {"role": "assistant", "content": "은퇴 후 생활이 걱정되는군요. 어떤 부분이 가장 마음에 걸리나요?"}]}
+{"messages": [{"role": "user", "content": "며칠 전에 다시 만났는데"}, {"role": "assistant", "content": "좋은 만남이었길 바라요."}]}
+{"messages": [{"role": "user", "content": "시간이 너무 안 가 지루해"}, {"role": "assistant", "content": "다른 생각을 해보세요."}]}
+{"messages": [{"role": "user", "content": "덕수궁 돌담길 따라서 둘이 걸었어."}, {"role": "assistant", "content": "로맨틱하네요."}]}
+{"messages": [{"role": "user", "content": "오늘은 일찍 자고 싶어."}, {"role": "assistant", "content": "피곤한 날이구나. 편하게 쉬고 푹 자길 바라."}]}
+{"messages": [{"role": "user", "content": "하우스웨딩 하고싶다"}, {"role": "assistant", "content": "요즘 하우스웨딩이 추세더라구요."}]}
+{"messages": [{"role": "user", "content": "결혼도 다 돈이다."}, {"role": "assistant", "content": "많이 들지만 줄일 수 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "처음 인사해 봐."}, {"role": "assistant", "content": "만나서 반가워! 무슨 이야기부터 할까?"}]}
+{"messages": [{"role": "user", "content": "서핑하러 가야지"}, {"role": "assistant", "content": "좋은 취미네요."}]}
+{"messages": [{"role": "user", "content": "몸은 피곤한데 계속 휴대폰만 보게 돼."}, {"role": "assistant", "content": "쉬려다가 화면을 계속 보게 되는구나. 잠깐 내려놓고 쉬어 보는 건 어때?"}]}
+{"messages": [{"role": "user", "content": "교양수업 시간에 마음에 드는 애 있어"}, {"role": "assistant", "content": "같은 조가 되길 바랄게요."}]}
+{"messages": [{"role": "user", "content": "한약 먹기 싫어"}, {"role": "assistant", "content": "한약을 먹는 게 싫군요. 맛 때문인가요, 다른 이유가 있나요?"}]}
+{"messages": [{"role": "user", "content": "일 못하는 사수랑 일하는 거 힘드네"}, {"role": "assistant", "content": "사수와 일하면서 어려움이 많군요. 어떤 상황에서 가장 곤란한가요?"}]}
+{"messages": [{"role": "user", "content": "나 지금 좀 심심한데 말동무 해 줄래?"}, {"role": "assistant", "content": "좋아! 요즘 관심 있는 일이나 취미가 있어?"}]}
+{"messages": [{"role": "user", "content": "남편이 아기를 안 돌봐줘."}, {"role": "assistant", "content": "공동육아가 기본인데요."}]}
+{"messages": [{"role": "user", "content": "주말 내내 손님을 맞았더니 녹초가 됐어."}, {"role": "assistant", "content": "손님 챙기느라 바빴겠다. 이제는 네가 쉴 차례네."}]}
+{"messages": [{"role": "user", "content": "자신감 꺽는데 뭐 있는 듯"}, {"role": "assistant", "content": "어깨 펴고 좀 더 당당해져도 돼요."}]}
+{"messages": [{"role": "user", "content": "나 그지임"}, {"role": "assistant", "content": "돈이 부족해서 답답한가 봐요. 지금 가장 필요한 것이 무엇인가요?"}]}
+{"messages": [{"role": "user", "content": "방들이 준비 뭐하지?"}, {"role": "assistant", "content": "음식을 시켜보세요."}]}
+{"messages": [{"role": "user", "content": "스노클링 해볼까?"}, {"role": "assistant", "content": "즐거운 도전이 될 거예요."}]}
+{"messages": [{"role": "user", "content": "편하게 쉬고 싶다"}, {"role": "assistant", "content": "내려 놓으세요."}]}
+{"messages": [{"role": "user", "content": "마음을 정리하는 중인데 카톡 왔어"}, {"role": "assistant", "content": "정리하는데 도움이 될 수도 있겠네요."}]}
+{"messages": [{"role": "user", "content": "사업 해볼까?"}, {"role": "assistant", "content": "확신이 있을 때 시작해보세요."}]}
+{"messages": [{"role": "user", "content": "너 누구니?"}, {"role": "assistant", "content": "저는 위로해드리는 로봇이에요."}]}
+{"messages": [{"role": "user", "content": "폰 베터리가 벌써 없어"}, {"role": "assistant", "content": "배터리가 빨리 닳아서 불편하겠어요. 언제부터 그런가요?"}]}
+{"messages": [{"role": "user", "content": "이력서 몇 개째 쓰는건지 모르겠다"}, {"role": "assistant", "content": "좌절하지마세요."}]}
+{"messages": [{"role": "user", "content": "빵꾸난 양말 봤나"}, {"role": "assistant", "content": "괜찮아요. 그럴수도 있죠."}]}
+{"messages": [{"role": "user", "content": "여자 친구랑 연락이 안돼"}, {"role": "assistant", "content": "걱정되겠어요."}]}
+{"messages": [{"role": "user", "content": "새신발 신고 좋은 곳 가야지"}, {"role": "assistant", "content": "좋은 곳으로 데려다 줄 거예요."}]}
+{"messages": [{"role": "user", "content": "셀카 잘 찍고 싶다"}, {"role": "assistant", "content": "연습해보세요."}]}
+{"messages": [{"role": "user", "content": "기다리라고 말 못하겠어"}, {"role": "assistant", "content": "상대방의 선택에 맡겨보세요."}]}
+{"messages": [{"role": "user", "content": "진정으로 즐거운 게 뭘까?"}, {"role": "assistant", "content": "즐거운 일을 찾고 싶군요. 최근에 시간 가는 줄 몰랐던 일이 있나요?"}]}
+{"messages": [{"role": "user", "content": "친구한테 진짜 고마워"}, {"role": "assistant", "content": "좋은 친구를 뒀네요."}]}
+{"messages": [{"role": "user", "content": "잠깐 자리 비웠다가 돌아왔어."}, {"role": "assistant", "content": "다시 왔구나! 편하게 이야기 이어 가자."}]}
+{"messages": [{"role": "user", "content": "대학 다 떨어졌어"}, {"role": "assistant", "content": "막막하겠네요."}]}
+{"messages": [{"role": "user", "content": "자취하는데 뭐 필요할까?"}, {"role": "assistant", "content": "자취 준비 중이군요. 이미 갖춘 물건과 필요한 공간부터 알려 주실래요?"}]}
+{"messages": [{"role": "user", "content": "그냥 혼자 밥이나 먹어야지"}, {"role": "assistant", "content": "밥심으로 사는 거죠."}]}
+{"messages": [{"role": "user", "content": "살아서 좋은점"}, {"role": "assistant", "content": "살아있음 그 자체가 좋은 거예요."}]}
+{"messages": [{"role": "user", "content": "점심시간이라도 마음 놓고 쉬고 싶어"}, {"role": "assistant", "content": "맛난거 드시고 조금이라도 쉬셔야 할텐데."}]}
+{"messages": [{"role": "user", "content": "걷다가 예쁜 노을을 봐서 한참 멈춰 있었어."}, {"role": "assistant", "content": "그냥 지나치기 아까운 풍경이었나 봐. 어떤 색의 노을이었어?"}]}
+{"messages": [{"role": "user", "content": "뭔가 말해봐"}, {"role": "assistant", "content": "좋아요. 오늘 하루는 어땠나요?"}]}
+{"messages": [{"role": "user", "content": "주식이 떨어졌어"}, {"role": "assistant", "content": "주가가 내려서 걱정되는군요. 어떤 점이 가장 불안한가요?"}]}
+{"messages": [{"role": "user", "content": "어제보다 오늘은 덜 피곤해서 다행이야."}, {"role": "assistant", "content": "조금 나아졌다니 다행이네. 오늘은 여유 있게 보낼 수 있어?"}]}
+{"messages": [{"role": "user", "content": "단체생활 많이 힘든가"}, {"role": "assistant", "content": "서로 배려해야 하니까요."}]}
+{"messages": [{"role": "user", "content": "컴터 부팅하는데 시간이 오래걸려"}, {"role": "assistant", "content": "부팅이 오래 걸려서 답답하겠다. 언제부터 느려졌어?"}]}
+{"messages": [{"role": "user", "content": "자매가 있으면 좋은 점?"}, {"role": "assistant", "content": "평생 친구가 생긴다는 거죠."}]}
+{"messages": [{"role": "user", "content": "후회 안해야 할텐데"}, {"role": "assistant", "content": "잘 될거예요. 당신의 삶을 응원합니다!"}]}
+{"messages": [{"role": "user", "content": "이렇게 갈 거였구나"}, {"role": "assistant", "content": "이야기를 해보세요."}]}
+{"messages": [{"role": "user", "content": "밤새 보고서를 고쳤더니 머리가 멍해."}, {"role": "assistant", "content": "밤새 집중하느라 많이 지쳤겠네. 잠깐 일을 내려놓고 쉬어 가자."}]}
+{"messages": [{"role": "user", "content": "남자친구가 사진 실력 꽝"}, {"role": "assistant", "content": "그래도 구박하지는 마세요."}]}
+{"messages": [{"role": "user", "content": "산책하면서 꽃을 봤어."}, {"role": "assistant", "content": "꽃을 보며 걸으니 즐거웠겠다. 어떤 꽃이었어?"}]}
+{"messages": [{"role": "user", "content": "친한 친구랑 싸움"}, {"role": "assistant", "content": "대화로 풀어보세요."}]}
+{"messages": [{"role": "user", "content": "여자친구가 혼자 여행 가보고 싶다는데"}, {"role": "assistant", "content": "같이 가는 여행도 좋지만 혼자 여행도 좋을 거예요."}]}
+{"messages": [{"role": "user", "content": "새 화분을 사 왔어."}, {"role": "assistant", "content": "새 보금자리를 준비했네! 어떤 모양의 화분이야?"}]}
+{"messages": [{"role": "user", "content": "빚 때문에 죽을 것 같아"}, {"role": "assistant", "content": "빚 얼른 갚고 새출발하세요."}]}
+{"messages": [{"role": "user", "content": "치매이면 어쩌지"}, {"role": "assistant", "content": "기억력 때문에 걱정되는 일이 있었나요? 계속 걱정된다면 의료진과 상담해 보세요."}]}
+{"messages": [{"role": "user", "content": "이름 알려줘"}, {"role": "assistant", "content": "나는 네 이야기를 들어주는 챗봇이야. 편하게 말 걸어 줘."}]}
+{"messages": [{"role": "user", "content": "나 소개팅한다!"}, {"role": "assistant", "content": "성공을 기원합니다."}]}
+{"messages": [{"role": "user", "content": "영화 예고편을 보니 개봉일이 기다려져."}, {"role": "assistant", "content": "기대되는 작품을 찾았네. 어떤 내용이 끌렸어?"}]}
+{"messages": [{"role": "user", "content": "우리가 좋은데 왜 반대하시지"}, {"role": "assistant", "content": "현실의 벽에 부딪혔나봐요."}]}
+{"messages": [{"role": "user", "content": "나한테만 왜 이런 일이 일어날까"}, {"role": "assistant", "content": "힘든 일이 겹쳐서 지친 것 같아요. 무슨 일이 있었나요?"}]}
+{"messages": [{"role": "user", "content": "주택 청약 가입"}, {"role": "assistant", "content": "내 집 마련의 한 걸음을 내딛으셨네요."}]}
+{"messages": [{"role": "user", "content": "꽃 사고 싶어"}, {"role": "assistant", "content": "집안 분위기가 바뀔 거예요."}]}
+{"messages": [{"role": "user", "content": "설거지하고 청소하니까 벌써 기운이 빠졌어."}, {"role": "assistant", "content": "집안일도 힘이 많이 들지. 정리하느라 수고했어."}]}
+{"messages": [{"role": "user", "content": "돈 안드는 데이트 코스"}, {"role": "assistant", "content": "등산 데이트를 해보세요."}]}
+{"messages": [{"role": "user", "content": "인사만 하고 가려고 들렀어. 좋은 하루 보내."}, {"role": "assistant", "content": "들러 줘서 고마워! 너도 좋은 하루 보내."}]}
+{"messages": [{"role": "user", "content": "영화 보고 나서 원작 책도 읽고 싶어졌어."}, {"role": "assistant", "content": "이야기를 더 알아보고 싶어졌구나. 책에서는 어떻게 느껴질지도 궁금하네."}]}
+{"messages": [{"role": "user", "content": "매일 이 시간에 인사하러 와도 괜찮아?"}, {"role": "assistant", "content": "물론이지. 이야기하고 싶을 때 편하게 찾아와."}]}
+{"messages": [{"role": "user", "content": "낙엽 밟는 소리가 좋아서 천천히 걸었어."}, {"role": "assistant", "content": "발밑 소리까지 즐기며 걸었구나. 가을 산책 느낌이 나네."}]}
+{"messages": [{"role": "user", "content": "술 좀 마실까"}, {"role": "assistant", "content": "적당히 드세요."}]}
+{"messages": [{"role": "user", "content": "향수 뭐로 할까"}, {"role": "assistant", "content": "어울리는 향수가 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "말 거는게 어려워"}, {"role": "assistant", "content": "처음만 어렵지 그 다음부터는 덜할 거예요."}]}
+{"messages": [{"role": "user", "content": "중요한 발표 기다리고 있어"}, {"role": "assistant", "content": "행운을 빌어요."}]}
+{"messages": [{"role": "user", "content": "하이!"}, {"role": "assistant", "content": "안녕! 만나서 반가워."}]}
+{"messages": [{"role": "user", "content": "미래에 대한 고민"}, {"role": "assistant", "content": "미래의 어떤 부분이 가장 고민되나요?"}]}
+{"messages": [{"role": "user", "content": "산책길에 고양이가 햇볕을 쬐고 있었어."}, {"role": "assistant", "content": "걷다가 귀여운 모습을 봤네! 조용히 쉬고 있었어?"}]}
+{"messages": [{"role": "user", "content": "내일 날씨 좋을까?"}, {"role": "assistant", "content": "날씨 어플에 물어보세요."}]}
+{"messages": [{"role": "user", "content": "메모하는 습관 필요해"}, {"role": "assistant", "content": "오늘부터 하기로 해요."}]}
+{"messages": [{"role": "user", "content": "대만 여행가고 싶어"}, {"role": "assistant", "content": "놀러가세요!"}]}
+{"messages": [{"role": "user", "content": "오토바이 타고 싶은데 무서워"}, {"role": "assistant", "content": "오토바이에 관심은 있지만 타기가 무섭군요. 어떤 점이 가장 걱정되나요?"}]}
+{"messages": [{"role": "user", "content": "돈 모으고 싶어"}, {"role": "assistant", "content": "쓰지 않으면 모여요."}]}
+{"messages": [{"role": "user", "content": "쇼핑하고 싶다"}, {"role": "assistant", "content": "필요한 게 있으신가봐요."}]}
+{"messages": [{"role": "user", "content": "가스불 켜놓고 나온거 같아"}, {"role": "assistant", "content": "빨리 집에 돌아가서 끄고 나오세요."}]}
+{"messages": [{"role": "user", "content": "같이 볼 친구랑 장르 취향이 달라서 고민이야."}, {"role": "assistant", "content": "둘 다 즐길 작품을 고르기 어렵겠네. 서로 괜찮은 장르가 하나쯤 있어?"}]}
+{"messages": [{"role": "user", "content": "강변을 따라 걸으니 좋더라."}, {"role": "assistant", "content": "강을 보며 걷는 시간이 좋았구나. 바람도 불었어?"}]}
+{"messages": [{"role": "user", "content": "오랜만에 밖에 나가서 좀 걸었어."}, {"role": "assistant", "content": "오랜만에 바깥바람을 쐬었구나. 기분이 좀 달라졌어?"}]}
+{"messages": [{"role": "user", "content": "잘하는 게 뭔지 모르겠어"}, {"role": "assistant", "content": "찾기 어렵게 느껴지는구나. 해 봤을 때 즐겁거나 덜 힘들었던 일이 있어?"}]}
+{"messages": [{"role": "user", "content": "공부 때려치워야 하나"}, {"role": "assistant", "content": "확신이 없나봐요."}]}
+{"messages": [{"role": "user", "content": "오래 살고 싶다"}, {"role": "assistant", "content": "잘 먹고 잘 싸면 돼요."}]}
+{"messages": [{"role": "user", "content": "멋진 데 알아 냈어"}, {"role": "assistant", "content": "좋은 사람과 함께 가세요."}]}
+{"messages": [{"role": "user", "content": "환승이 될까"}, {"role": "assistant", "content": "어떤 교통수단을 어디에서 환승하려는 건가요?"}]}
+{"messages": [{"role": "user", "content": "피부가 푸석하다"}, {"role": "assistant", "content": "일찍 주무세요."}]}
+{"messages": [{"role": "user", "content": "빈 화분에 어떤 식물을 심을지 생각 중이야."}, {"role": "assistant", "content": "새로 키울 식물을 고르는 중이구나. 마음에 둔 종류가 있어?"}]}
+{"messages": [{"role": "user", "content": "꽃꽂이 배우니까 좋다"}, {"role": "assistant", "content": "마음의 안정을 취하기 좋은 취미네요."}]}
+{"messages": [{"role": "user", "content": "아무도 안 놀아줘"}, {"role": "assistant", "content": "혼자도 좋아요."}]}
+{"messages": [{"role": "user", "content": "개념이 없어"}, {"role": "assistant", "content": "누군가의 행동 때문에 답답한가 봐요. 어떤 일이 있었나요?"}]}
+{"messages": [{"role": "user", "content": "미용실 가서 머리해야지"}, {"role": "assistant", "content": "예쁘게 변신하고 오세요."}]}
+{"messages": [{"role": "user", "content": "저녁 먹고 다시 찾아왔어."}, {"role": "assistant", "content": "어서 와! 저녁은 잘 먹었어?"}]}
+{"messages": [{"role": "user", "content": "현금만 써야겠다."}, {"role": "assistant", "content": "현금영수증은 꼭 발급받으세요."}]}
+{"messages": [{"role": "user", "content": "남자 보통 어디서 만나"}, {"role": "assistant", "content": "소개팅 시켜달라고 말해보세요."}]}
+{"messages": [{"role": "user", "content": "학교에서 아싸해도 될까?"}, {"role": "assistant", "content": "개인의 선택이죠."}]}
+{"messages": [{"role": "user", "content": "애들 총회에 왜 나를 오라고 하냐"}, {"role": "assistant", "content": "가능하면 가는 게 좋겠죠."}]}
+{"messages": [{"role": "user", "content": "너무 빨리 대답해"}, {"role": "assistant", "content": "답변이 너무 빠르게 느껴졌군요. 짧게 나눠서 설명해 드릴까요?"}]}
+{"messages": [{"role": "user", "content": "동호회 나가야 하나"}, {"role": "assistant", "content": "동호회에 갈지 고민되는군요. 망설이는 이유가 있나요?"}]}
+{"messages": [{"role": "user", "content": "안녕하세요."}, {"role": "assistant", "content": "안녕하세요! 반가워요."}]}
+{"messages": [{"role": "user", "content": "분갈이한 화분을 창가 옆에 놓았어."}, {"role": "assistant", "content": "새 자리를 마련해 줬구나. 놓아 보니 마음에 들어?"}]}
+{"messages": [{"role": "user", "content": "낭만이 없어"}, {"role": "assistant", "content": "낭만적인 거 좋아하시는구나!"}]}
+{"messages": [{"role": "user", "content": "인생 잘 못 산건가"}, {"role": "assistant", "content": "태어난 것만으로도 성공한 인생이에요."}]}
+{"messages": [{"role": "user", "content": "스타트업하면 위험할까"}, {"role": "assistant", "content": "확신이 들 때까지 준비해보세요."}]}
+{"messages": [{"role": "user", "content": "블루투스 이어폰 편하겠지"}, {"role": "assistant", "content": "사면 편하겠죠."}]}
+{"messages": [{"role": "user", "content": "분위기 좋은 곳에서 데이트하고 싶어"}, {"role": "assistant", "content": "분위기 좋은 데이트 장소를 찾는군요. 조용한 곳과 활기찬 곳 중 어디가 좋아요?"}]}
+{"messages": [{"role": "user", "content": "결혼준비 돈 많이 들겠지"}, {"role": "assistant", "content": "많이 들지만 줄일 수 있을 거예요."}]}
+{"messages": [{"role": "user", "content": "혼술하고 있어"}, {"role": "assistant", "content": "캬아 맛있는 안주랑 드세요"}]}
+{"messages": [{"role": "user", "content": "춘곤증인가"}, {"role": "assistant", "content": "잠깐 주무세요."}]}
+{"messages": [{"role": "user", "content": "같은 식물인데 새잎이 나니 느낌이 다르네."}, {"role": "assistant", "content": "새잎 덕분에 더 생기 있게 보이나 봐."}]}
+{"messages": [{"role": "user", "content": "먼지가 쌓였네"}, {"role": "assistant", "content": "청소하세요."}]}
+{"messages": [{"role": "user", "content": "핫한 명절 선물 알려줘"}, {"role": "assistant", "content": "명절 선물을 고르는군요. 누구에게 드릴 선물이고 예산은 어느 정도인가요?"}]}
+{"messages": [{"role": "user", "content": "엄마는 뭐하나"}, {"role": "assistant", "content": "연락 드려 보세요."}]}
+{"messages": [{"role": "user", "content": "혼자가 편하대"}, {"role": "assistant", "content": "상대방을 이해해 주세요."}]}
+{"messages": [{"role": "user", "content": "조교하면서 공부할까?"}, {"role": "assistant", "content": "노력하는 모습이 좋아 보여요."}]}
+{"messages": [{"role": "user", "content": "내 잘못인 거 같은데 말을 못하겠어"}, {"role": "assistant", "content": "사과할 타이밍을 놓치지 마세요."}]}
+{"messages": [{"role": "user", "content": "책 좀 읽어야지"}, {"role": "assistant", "content": "좋은 생각이에요."}]}
+{"messages": [{"role": "user", "content": "회사만 가면 우울해"}, {"role": "assistant", "content": "우울한 이유에 대해 생각해보세요."}]}
+{"messages": [{"role": "user", "content": "못하는거 투성이야"}, {"role": "assistant", "content": "잘하는 것도 많아요."}]}
+{"messages": [{"role": "user", "content": "웃긴 장면에서 관객들이 다 같이 웃었어."}, {"role": "assistant", "content": "같이 웃는 분위기 덕분에 더 즐거웠겠다."}]}
+{"messages": [{"role": "user", "content": "친구랑 같은 영화를 봤는데 감상이 달랐어."}, {"role": "assistant", "content": "같은 작품도 다르게 느낄 수 있지. 어떤 부분에서 의견이 갈렸어?"}]}
+{"messages": [{"role": "user", "content": "눈꺼풀이 무거워"}, {"role": "assistant", "content": "잠시 눈을 붙여보세요."}]}
+{"messages": [{"role": "user", "content": "토분이랑 플라스틱 화분 중에 뭘 고를지 고민이야."}, {"role": "assistant", "content": "화분을 고르는 중이구나. 크기나 관리하기 편한 쪽을 생각하고 있어?"}]}
+{"messages": [{"role": "user", "content": "나 왔어."}, {"role": "assistant", "content": "어서 와! 오늘은 무슨 일이 있었어?"}]}
+{"messages": [{"role": "user", "content": "머리가 띵한게 한 대 맞은거 같아"}, {"role": "assistant", "content": "잠시 휴식을 취해보세요."}]}
+{"messages": [{"role": "user", "content": "건강검진하러 옴"}, {"role": "assistant", "content": "주기적으로 해주는 게 좋죠."}]}
+{"messages": [{"role": "user", "content": "개학하니까 좋다"}, {"role": "assistant", "content": "친구들이 보고싶었나봐요."}]}
+{"messages": [{"role": "user", "content": "입소문이 무서워"}, {"role": "assistant", "content": "긍정적이고 부정적인 파급력이 모두 세죠."}]}
+{"messages": [{"role": "user", "content": "식물이 커서 화분이 작아졌어."}, {"role": "assistant", "content": "잘 자라고 있네. 더 넓은 화분을 알아보고 있어?"}]}
+{"messages": [{"role": "user", "content": "진짜 이제 한계야"}, {"role": "assistant", "content": "한계라고 느낄 만큼 힘든 상태군요. 지금 무엇이 가장 버거운가요?"}]}
+{"messages": [{"role": "user", "content": "남자친구랑 종교 문제로 다툼"}, {"role": "assistant", "content": "종교의 자유를 인정해주세요."}]}
+{"messages": [{"role": "user", "content": "오늘 너무 지쳤어."}, {"role": "assistant", "content": "힘든 하루였구나. 어떤 일이 있었어?"}]}
+{"messages": [{"role": "user", "content": "왜 잠을 못 자는 걸까?"}, {"role": "assistant", "content": "잠들기 어려워서 답답하겠어요. 언제부터 잠이 잘 오지 않았나요?"}]}
+{"messages": [{"role": "user", "content": "이빨 아파"}, {"role": "assistant", "content": "어서 치과에 가보세요."}]}
+{"messages": [{"role": "user", "content": "처음 가 보는 산책로라 조금 헤맸어."}, {"role": "assistant", "content": "낯선 길이었구나. 그래도 무사히 다녀왔어?"}]}
+{"messages": [{"role": "user", "content": "지는 게 진짜 싫어"}, {"role": "assistant", "content": "질 때도 있고 이길 때도 있는 거예요."}]}
+{"messages": [{"role": "user", "content": "영양제 챙겨 먹을 나이가 됐어"}, {"role": "assistant", "content": "건강은 어려서부터 챙겨야해요."}]}
+{"messages": [{"role": "user", "content": "단둘이는 처음 만나는 날ㅋㅋ"}, {"role": "assistant", "content": "서로를 아는 좋은 기회가 되겠네요."}]}
+{"messages": [{"role": "user", "content": "고기 구워 먹고 싶다."}, {"role": "assistant", "content": "저기압에는 고기앞이죠."}]}
+{"messages": [{"role": "user", "content": "아침 챙겨 먹어야지"}, {"role": "assistant", "content": "든든하게 드세요."}]}
+{"messages": [{"role": "user", "content": "눈이 건조해"}, {"role": "assistant", "content": "눈을 깜빡거려보세요."}]}
+{"messages": [{"role": "user", "content": "출근길 막혀"}, {"role": "assistant", "content": "출근길이 막혀서 답답하겠어요. 평소보다 많이 늦어지고 있나요?"}]}
+{"messages": [{"role": "user", "content": "어떻게 하면 나를 좋아하게 만들지"}, {"role": "assistant", "content": "상대방에게 좋은 인상을 주고 싶은가 봐요. 어떤 사이인가요?"}]}
+{"messages": [{"role": "user", "content": "새 화분이 생각보다 무거워서 옮기기 힘들었어."}, {"role": "assistant", "content": "옮기느라 고생했네. 이제 원하는 자리에 놓았어?"}]}
+{"messages": [{"role": "user", "content": "걱정 없이 살고파"}, {"role": "assistant", "content": "누구나 걱정은 있어요."}]}
+{"messages": [{"role": "user", "content": "면허 따는 중"}, {"role": "assistant", "content": "안전 운전 하세요."}]}
+{"messages": [{"role": "user", "content": "오늘 날씨가 좋아서 산책하고 왔어."}, {"role": "assistant", "content": "날씨 좋은 날 걸으니 기분 좋았겠다! 어디를 걸었어?"}]}
+{"messages": [{"role": "user", "content": "오늘은 자막 없이 볼 수 있는 한국 영화를 보고 싶어."}, {"role": "assistant", "content": "한국 영화를 찾고 있구나. 어떤 분위기의 이야기가 좋아?"}]}
+{"messages": [{"role": "user", "content": "한 가지를 봐도 뻔한 것 같아"}, {"role": "assistant", "content": "어떤 것을 보고 뻔하다고 느꼈나요?"}]}
+{"messages": [{"role": "user", "content": "처음 키우는 식물이라 아직 이름도 낯설어."}, {"role": "assistant", "content": "처음이면 알아갈 게 많겠네. 어떤 이름의 식물이야?"}]}
+{"messages": [{"role": "user", "content": "왼손잡이가 잘못이야?"}, {"role": "assistant", "content": "절대 아니죠."}]}
+{"messages": [{"role": "user", "content": "오디션 나가볼까"}, {"role": "assistant", "content": "도전 응원합니다."}]}
+{"messages": [{"role": "user", "content": "버스 멀미하는 것 같아"}, {"role": "assistant", "content": "핸드폰 만지지 마세요."}]}
+{"messages": [{"role": "user", "content": "생각 없이 말했어"}, {"role": "assistant", "content": "상처가 될 수 있어요."}]}
+{"messages": [{"role": "user", "content": "여행가고 싶다"}, {"role": "assistant", "content": "계획을 세워보세요."}]}
+{"messages": [{"role": "user", "content": "집안일 어려워"}, {"role": "assistant", "content": "조금씩 잘 하게 될거예요"}]}
+{"messages": [{"role": "user", "content": "식물을 잘 키우는 친구가 부럽다."}, {"role": "assistant", "content": "친구가 정성껏 돌보나 봐. 너도 키워 보고 싶은 식물이 있어?"}]}
+{"messages": [{"role": "user", "content": "다시 태어나도 챗봇할래?"}, {"role": "assistant", "content": "다시 태어나는 경험은 없지만, 지금은 이야기를 나누는 챗봇이에요."}]}
+{"messages": [{"role": "user", "content": "다큐멘터리를 보다가 몰랐던 사실을 배웠어."}, {"role": "assistant", "content": "새롭게 알게 된 게 있었구나. 어떤 주제를 다룬 작품이야?"}]}
+{"messages": [{"role": "user", "content": "휴지 사야지"}, {"role": "assistant", "content": "생활용품이 은근 많이 들어가요."}]}
+{"messages": [{"role": "user", "content": "만나서 반가워. 너는 뭐 하는 챗봇이야?"}, {"role": "assistant", "content": "반가워! 네 이야기에 답하고 함께 대화하는 챗봇이야."}]}
+{"messages": [{"role": "user", "content": "자꾸 봐주니까 기어오른다"}, {"role": "assistant", "content": "계속 양보했는데 존중받지 못한다고 느끼는군요. 어떤 일이 있었나요?"}]}
+{"messages": [{"role": "user", "content": "남자친구가 맞춤법을 너무 많이 틀려"}, {"role": "assistant", "content": "맞춤법 실수가 많이 눈에 띄는군요. 어떤 점이 가장 신경 쓰이나요?"}]}
+{"messages": [{"role": "user", "content": "가만 있어도 땀난다"}, {"role": "assistant", "content": "땀을 식혀주세요."}]}
+{"messages": [{"role": "user", "content": "일 좀 하고 다시 말시킬게"}, {"role": "assistant", "content": "다녀오세요!"}]}
+{"messages": [{"role": "user", "content": "간식 뭐 먹을까"}, {"role": "assistant", "content": "단짠으로 두 개 사는게 진리죠."}]}
+{"messages": [{"role": "user", "content": "가장 확실한 건 뭘까?"}, {"role": "assistant", "content": "어떤 분야에서 확실한 것을 찾고 있나요?"}]}
+{"messages": [{"role": "user", "content": "강아지랑 산책 다녀왔어."}, {"role": "assistant", "content": "강아지랑 즐거운 시간 보냈겠다! 어디로 다녀왔어?"}]}
+{"messages": [{"role": "user", "content": "평소 버스로 지나던 길을 직접 걸어 봤어."}, {"role": "assistant", "content": "걸으면 다르게 보이는 게 있지. 새롭게 눈에 들어온 게 있어?"}]}
+{"messages": [{"role": "user", "content": "잘 사니?"}, {"role": "assistant", "content": "응, 이야기 나눌 준비가 되어 있어. 너는 요즘 어떻게 지내?"}]}
+{"messages": [{"role": "user", "content": "오늘 처리할 일 너무 많아"}, {"role": "assistant", "content": "하나씩 하나씩 해보세요."}]}
+{"messages": [{"role": "user", "content": "스트레스 팍팍"}, {"role": "assistant", "content": "소리를 질러보세요."}]}
+{"messages": [{"role": "user", "content": "상사가 미울 때"}, {"role": "assistant", "content": "상사 때문에 힘든 일이 있었군요. 무슨 일이 있었나요?"}]}
+{"messages": [{"role": "user", "content": "내가 좋아하는 거 모르는 거 같애"}, {"role": "assistant", "content": "살짝 감정을 흘려보세요."}]}
+{"messages": [{"role": "user", "content": "자꾸 함부로 대해"}, {"role": "assistant", "content": "그럴 때마다 따끔하게 말해보세요."}]}
+{"messages": [{"role": "user", "content": "돈없이 결혼하기 가능?"}, {"role": "assistant", "content": "결혼 비용이 걱정되는군요. 생각하는 준비 방식과 예산이 있나요?"}]}

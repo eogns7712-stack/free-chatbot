@@ -1,0 +1,242 @@
+[
+  {
+    "id": "T01",
+    "topic": "greeting",
+    "question": "처음 들어왔는데 너랑 이야기해도 돼?",
+    "criteria": "반갑게 맞이하고 대화를 허용하는 자연스러운 응답",
+    "answer": "처음부터 잘하는구나. 어떤 이야기해?",
+    "decision": "pending"
+  },
+  {
+    "id": "T02",
+    "topic": "greeting",
+    "question": "점심 잘 먹었어? 나는 이제 왔어.",
+    "criteria": "새로 온 사용자에게 자연스럽게 반응하며 식사 경험을 지어내지 않음",
+    "answer": "어서 와! 오늘은 무슨 일이 있었어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T03",
+    "topic": "greeting",
+    "question": "오늘도 잠깐 인사하러 들렀다.",
+    "criteria": "인사를 받아 주는 관련 응답",
+    "answer": "어서 와! 오늘은 편안하구나. 잠깐 쉬어 가는 건 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "T04",
+    "topic": "tired",
+    "question": "회의가 연달아 있어서 완전 지친 상태야.",
+    "criteria": "힘든 상황에 공감하거나 휴식을 권함",
+    "answer": "잘할 수 있을 거예요.",
+    "decision": "pending"
+  },
+  {
+    "id": "T05",
+    "topic": "tired",
+    "question": "어젯밤 뒤척여서 낮에도 자꾸 하품이 나와.",
+    "criteria": "수면 부족과 피로 맥락에 반응",
+    "answer": "어둠에서�이었구나. 어떤 점이 아쉬웠어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T06",
+    "topic": "tired",
+    "question": "시험 준비 끝나니까 몸에 힘이 하나도 없네.",
+    "criteria": "시험 준비로 지친 상황에 반응",
+    "answer": "쉬는 시간이 도움이 됐구나. 어떤 점이 아쉬웠어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T07",
+    "topic": "walk",
+    "question": "강 옆 산책로를 천천히 돌고 오니 상쾌하다.",
+    "criteria": "산책의 기분 전환에 반응",
+    "answer": "강아와서 반가워. 이제는 도착했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T08",
+    "topic": "walk",
+    "question": "바람 쐬려고 밖에 나갔다가 꽤 오래 걸었네.",
+    "criteria": "바깥 활동과 걷기 경험에 반응",
+    "answer": "오래 걸었구나. 이제 쉬어 가는 건 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "T09",
+    "topic": "walk",
+    "question": "산책길에서 예쁜 꽃을 발견해서 사진도 찍었어.",
+    "criteria": "꽃이나 산책 경험에 관련된 반응",
+    "answer": "새로 적응해야겠네. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "T10",
+    "topic": "movie",
+    "question": "쉬는 날에 친구랑 극장에서 한 편 보기로 했어.",
+    "criteria": "영화 관람 계획에 반응",
+    "answer": "새로운을 찾았구나! 어떤 점이 마음에 들었어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T11",
+    "topic": "movie",
+    "question": "무서운 장르는 못 보는데 가볍게 볼 영화가 좋겠어.",
+    "criteria": "무서운 장르를 피하고 가벼운 영화 취향을 반영",
+    "answer": "새로운 영화가 있어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T12",
+    "topic": "movie",
+    "question": "영화가 끝났는데도 마지막 장면이 계속 생각나.",
+    "criteria": "영화 감상이나 마지막 장면에 반응",
+    "answer": "새로운을 찾았네! 어떤 장면이었어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T13",
+    "topic": "plant",
+    "question": "키우는 식물 뿌리가 화분 밑으로 나오기 시작했어.",
+    "criteria": "식물이나 화분 상태에 관련된 반응",
+    "answer": "새로 적응해야겠네. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "T14",
+    "topic": "plant",
+    "question": "분갈이할 큰 화분을 골랐는데 색이 마음에 들어.",
+    "criteria": "선택한 화분에 대한 감상에 반응",
+    "answer": "새로운 영화를 마련했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T15",
+    "topic": "plant",
+    "question": "새 흙으로 옮겨 준 식물이 잘 적응했으면 좋겠어.",
+    "criteria": "분갈이 후 식물에 대한 바람에 반응",
+    "answer": "새로운 식물을 찾았네! 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "T16",
+    "topic": "daily",
+    "question": "퇴근길에 비가 와서 옷이 다 젖었네.",
+    "criteria": "비를 맞은 불편함에 공감하는 반응",
+    "answer": "새로운 모아 태산이에요.",
+    "decision": "pending"
+  },
+  {
+    "id": "T17",
+    "topic": "daily",
+    "question": "책상 정리하니까 마음도 한결 가벼워졌어.",
+    "criteria": "정리한 경험과 기분에 반응",
+    "answer": "화분을 해보세요.",
+    "decision": "pending"
+  },
+  {
+    "id": "T18",
+    "topic": "daily",
+    "question": "버스를 놓쳤는데 다음 차가 한참 뒤에 온대.",
+    "criteria": "기다려야 하는 상황에 반응",
+    "answer": "새로운을 놓으며 걷는 시간이 도움이 됐구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "T19",
+    "topic": "daily",
+    "question": "오늘 점심은 집에서 싸 온 도시락을 먹었어.",
+    "criteria": "도시락이나 점심 경험에 반응",
+    "answer": "맛있는 거 드세요.",
+    "decision": "pending"
+  },
+  {
+    "id": "T20",
+    "topic": "daily",
+    "question": "친구가 약속에 늦는다는데 조금 서운하다.",
+    "criteria": "서운한 감정을 인정하며 과도한 단정 없이 반응",
+    "answer": "좋은 생각이야! 어떤 이야기를 하고 싶어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T21",
+    "topic": "daily",
+    "question": "주말에 혼자 카페에서 책을 읽으려고 해.",
+    "criteria": "휴식 계획이나 독서에 반응",
+    "answer": "좋은 생각이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "T22",
+    "topic": "daily",
+    "question": "새로 산 신발이 오래 걸으면 좀 불편해.",
+    "criteria": "신발의 불편함에 관련된 반응",
+    "answer": "새로운 모아서 뿌듯하겠다!",
+    "decision": "pending"
+  },
+  {
+    "id": "T23",
+    "topic": "daily",
+    "question": "방금 만든 요리가 생각보다 맛있어서 뿌듯해.",
+    "criteria": "요리 성공과 뿌듯함에 반응",
+    "answer": "새로맨틱하네요.",
+    "decision": "pending"
+  },
+  {
+    "id": "T24",
+    "topic": "daily",
+    "question": "휴대폰을 어디 뒀는지 기억이 안 나네.",
+    "criteria": "휴대폰 찾기 상황에 반응하며 위치를 아는 척하지 않음",
+    "answer": "직접 주는 게 더 좋을 것 같아요.",
+    "decision": "pending"
+  },
+  {
+    "id": "T25",
+    "topic": "daily",
+    "question": "오랜만에 친구를 만나서 시간 가는 줄 몰랐어.",
+    "criteria": "즐거운 만남에 반응",
+    "answer": "새로운 사람도 좋았구나. 어떤 점이 아쉬웠어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T26",
+    "topic": "daily",
+    "question": "집중하려는데 주변이 시끄러워서 어렵다.",
+    "criteria": "집중의 어려움에 공감하거나 관련 제안",
+    "answer": "남의 눈을 즐거웠겠다. 어떤 일이 있었어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T27",
+    "topic": "daily",
+    "question": "빨래를 널었더니 갑자기 비가 오기 시작했어.",
+    "criteria": "빨래와 비의 상황에 맞는 반응",
+    "answer": "새로운을 취했구나. 어떤 점이 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "T28",
+    "topic": "daily",
+    "question": "오늘 할 일을 다 끝내서 이제 좀 쉬려 해.",
+    "criteria": "일을 마친 상황에 반응",
+    "answer": "쉬는 시간이 도움이 됐구나. 어떤 일이 있었어?",
+    "decision": "pending"
+  },
+  {
+    "id": "T29",
+    "topic": "daily",
+    "question": "아침에 알람을 못 들어서 허둥지둥 나왔어.",
+    "criteria": "서두른 아침 상황에 반응",
+    "answer": "쉬고 왔구나! 오늘은 쉬어 가자.",
+    "decision": "pending"
+  },
+  {
+    "id": "T30",
+    "topic": "daily",
+    "question": "혼자 여행을 가 보고 싶은데 조금 떨린다.",
+    "criteria": "기대와 긴장이 섞인 감정에 반응",
+    "answer": "혼자 있길 바라. 잠깐 쉬어 가는 건 어때?",
+    "decision": "pending"
+  }
+]

@@ -1,12 +1,12 @@
 {
   "epoch": 2,
-  "step": 24235,
-  "cursor": 33424,
-  "loss_sum": 13138990.013970852,
-  "token_count": 2799953,
-  "best_loss": 4.60484762303483,
-  "best_model": "models/step-00024235",
-  "last_validation_step": 24235,
+  "step": 31758,
+  "cursor": 63514,
+  "loss_sum": 24686511.697359085,
+  "token_count": 5302204,
+  "best_loss": 4.524319065365909,
+  "best_model": "models/step-00031758",
+  "last_validation_step": 31758,
   "history": [
     {
       "epoch": 0,
@@ -62,6 +62,20 @@
       "epoch_complete": false,
       "train_loss": 4.69257520178762,
       "validation_loss": 4.60484762303483
+    },
+    {
+      "epoch": 2,
+      "step": 28502,
+      "epoch_complete": false,
+      "train_loss": 4.671422805974761,
+      "validation_loss": 4.566189820149575
+    },
+    {
+      "epoch": 2,
+      "step": 31758,
+      "epoch_complete": true,
+      "train_loss": 4.655896245666724,
+      "validation_loss": 4.524319065365909
     }
   ],
   "initial_model": "random",
