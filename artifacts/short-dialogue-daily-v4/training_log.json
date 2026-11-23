@@ -1,0 +1,50 @@
+{
+  "initialization": "pretrained",
+  "source": "artifacts\\short-dialogue-mixed-v3\\epochs\\epoch-06",
+  "parameters": 4216320,
+  "train_count": 191,
+  "validation_count": 33,
+  "batch_size": 1,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "train_sha256": "79cf39eb8244e830aee27a53ae2c9743e2c56b847e486b4d2e8e309bdf8eddac",
+  "validation_sha256": "9308d901d1e8d33368c0524d93dba363427d523042e2abdbadd76e66fc7948a5",
+  "initial_validation_loss": 1.588750619517206,
+  "best_epoch": 6,
+  "best_validation_loss": 0.07371239635838772,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5935544331652759,
+      "validation_loss": 0.36430832862460927
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.18523192498941463,
+      "validation_loss": 0.1394382947050839
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.07249797524507473,
+      "validation_loss": 0.08679259181183448
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.03608928381562059,
+      "validation_loss": 0.07820234239119277
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.022528714709520593,
+      "validation_loss": 0.0843077222671476
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.02961336719187892,
+      "validation_loss": 0.07371239635838772
+    }
+  ],
+  "questions_sha256": "b2de753ac531e0cf0fea969f4cb7130871871f735e4f448be2bb5dba775d2707",
+  "note": "매 회차 생성 비교. 개발용 질문이며 독립 최종 시험이 아님. 자동 통과 판정 없음."
+}

@@ -1,0 +1,13 @@
+{
+  "train": 191,
+  "validation": 33,
+  "old_train_preserved": 119,
+  "new_daily_train": 48,
+  "new_timing_train": 24,
+  "new_daily_validation": 12,
+  "new_timing_validation": 6,
+  "probes": 117,
+  "train_evaluation_normalized_exact_overlap": 0,
+  "frozen40_sha256": "058ebbe21fd6b2d649eab0b32db77249a86061e3bd5c12f2e430f47834807cc2",
+  "note": "질문 표면의 정확 중복 제거이며 의미 중복은 존재. 세 주제를 추가한 확장 실험. 자유 주제 완성이 아님."
+}

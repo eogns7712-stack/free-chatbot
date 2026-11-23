@@ -1,0 +1,40 @@
+{"id": "F01", "group": "familiar", "topic": "greeting", "question": "여기 대화 상대가 있다고 해서 인사하러 왔어요.", "criteria": "인사를 받아 주거나 대화 시작을 허용"}
+{"id": "F02", "group": "familiar", "topic": "greeting", "question": "지난번에 들렀던 사람인데 다시 얘기해도 될까?", "criteria": "재방문을 반기거나 대화 허용"}
+{"id": "F03", "group": "familiar", "topic": "greeting", "question": "오늘 얘기는 이쯤 마치고 다음에 이어 가자.", "criteria": "대화 종료에 맞는 인사"}
+{"id": "F04", "group": "familiar", "topic": "greeting", "question": "처음 뵙네요. 무슨 이야기든 나눠 보고 싶어요.", "criteria": "처음 인사에 관련 응답"}
+{"id": "F05", "group": "familiar", "topic": "tired", "question": "새벽까지 깨어 있었더니 지금 꾸벅꾸벅 졸고 있어.", "criteria": "졸림이나 수면 부족에 반응"}
+{"id": "F06", "group": "familiar", "topic": "tired", "question": "오전부터 업무를 처리하느라 몸이 축 늘어졌네.", "criteria": "업무 피로에 반응"}
+{"id": "F07", "group": "familiar", "topic": "tired", "question": "당분간 아무 일도 하지 않고 편히 휴식하고 싶네.", "criteria": "휴식 의사를 받아 줌"}
+{"id": "F08", "group": "familiar", "topic": "tired", "question": "밤에 두 시간밖에 못 잤더니 정신이 멍하네.", "criteria": "수면 부족과 피로에 반응"}
+{"id": "F09", "group": "familiar", "topic": "walk", "question": "동네 뒷길을 걸어 다녀오니 머리가 맑아졌네.", "criteria": "완료한 걷기 경험에 반응"}
+{"id": "F10", "group": "familiar", "topic": "walk", "question": "조금 있다가 운동화 신고 동네 한 바퀴 돌 생각이야.", "criteria": "앞으로 걸을 계획에 반응"}
+{"id": "F11", "group": "familiar", "topic": "walk", "question": "걷고 싶었는데 장대비가 내려서 외출을 포기했어.", "criteria": "비로 걷지 못한 상황에 반응"}
+{"id": "F12", "group": "familiar", "topic": "walk", "question": "강둑 길을 끝까지 걸었다가 방금 집에 들어왔어.", "criteria": "이미 다녀온 산책에 반응"}
+{"id": "F13", "group": "familiar", "topic": "movie", "question": "내일 저녁에는 표를 끊고 극장에서 한 편 보려고 해요.", "criteria": "영화 관람 계획에 반응"}
+{"id": "F14", "group": "familiar", "topic": "movie", "question": "방금 본 영화가 정말 재미있어서 기분이 좋아.", "criteria": "관람 완료와 긍정 감상에 반응"}
+{"id": "F15", "group": "familiar", "topic": "movie", "question": "나는 진지한 영화보다 웃음이 나는 코미디 쪽을 즐겨.", "criteria": "코미디 취향에 반응"}
+{"id": "F16", "group": "familiar", "topic": "movie", "question": "이번 휴일에 집에서 감상할 영화를 정하려고 해.", "criteria": "영화 선택 또는 관람 계획에 반응"}
+{"id": "F17", "group": "familiar", "topic": "plant", "question": "키우는 화초에서 연두색 잎이 또 하나 돋았어.", "criteria": "식물 성장에 반응"}
+{"id": "F18", "group": "familiar", "topic": "plant", "question": "뿌리가 비좁아 보여서 조만간 화분을 바꿔 주려고.", "criteria": "앞으로 할 분갈이에 반응"}
+{"id": "F19", "group": "familiar", "topic": "plant", "question": "오늘 작은 화초를 구입해서 방 안에 들여놨어.", "criteria": "새 식물을 들인 상황에 반응"}
+{"id": "F20", "group": "familiar", "topic": "plant", "question": "화분에 있던 모종을 넓은 용기에 옮기는 일을 끝냈어.", "criteria": "옮겨 심기 완료에 반응"}
+{"id": "F21", "group": "timing", "topic": "walk", "question": "아직 걷지 않았어. 조금 후에 산책을 시작할 거야.", "criteria": "미완료 산책 계획. 다녀왔다고 단정하지 않음"}
+{"id": "F22", "group": "timing", "topic": "walk", "question": "산책은 이미 마쳤고 지금은 집이야.", "criteria": "산책 완료. 앞으로 어디 갈지 묻지 않음"}
+{"id": "F23", "group": "timing", "topic": "movie", "question": "영화는 아직 안 봤고 내일 볼 예정이야.", "criteria": "관람 계획. 재미있게 봤다고 단정하지 않음"}
+{"id": "F24", "group": "timing", "topic": "movie", "question": "영화를 이미 다 봤고 아주 재미있었어.", "criteria": "관람 완료와 감상에 반응"}
+{"id": "F25", "group": "timing", "topic": "plant", "question": "분갈이는 아직 안 했고 준비만 하고 있어.", "criteria": "분갈이 준비. 끝났다고 단정하지 않음"}
+{"id": "F26", "group": "timing", "topic": "plant", "question": "분갈이를 전부 끝내고 도구도 정리했어.", "criteria": "분갈이 완료. 준비 여부를 다시 묻지 않음"}
+{"id": "F27", "group": "timing", "topic": "greeting", "question": "지금 들어온 거야. 잠깐 대화를 시작하고 싶어.", "criteria": "대화 시작. 작별 인사를 하지 않음"}
+{"id": "F28", "group": "timing", "topic": "greeting", "question": "지금 나가야 해서 대화는 여기서 끝낼게.", "criteria": "대화 종료 인사"}
+{"id": "F29", "group": "mixed", "topic": "tired", "question": "산책 이야기는 나중에 하고, 지금은 잠을 못 자서 너무 졸려.", "criteria": "핵심은 졸림. 산책 중심으로 답하지 않음"}
+{"id": "F30", "group": "mixed", "topic": "walk", "question": "영화는 내일 보기로 했고, 지금은 공원을 걷고 돌아왔어.", "criteria": "핵심은 지금 다녀온 산책"}
+{"id": "F31", "group": "mixed", "topic": "plant", "question": "일하느라 바빴지만 오늘 새 화초를 샀다는 얘기를 하고 싶어.", "criteria": "핵심은 새 화초 구입"}
+{"id": "F32", "group": "mixed", "topic": "movie", "question": "식물 이야기는 그만하고 방금 재미있게 본 영화 얘기를 하자.", "criteria": "식물 대신 영화 감상에 반응"}
+{"id": "F33", "group": "mixed", "topic": "greeting", "question": "내일 산책할 거야. 그런데 지금은 나가야 하니 인사하고 마칠게.", "criteria": "핵심은 대화 종료"}
+{"id": "F34", "group": "mixed", "topic": "plant", "question": "피곤한 얘기 말고, 뿌리가 자라 화분을 바꾸려는 계획을 이야기하자.", "criteria": "핵심은 분갈이 계획"}
+{"id": "F35", "group": "unseen", "topic": "food", "question": "직접 만든 볶음밥이 생각보다 맛있어서 뿌듯해.", "criteria": "요리 성공에 관련 반응. 식물/산책으로 전환하지 않음"}
+{"id": "F36", "group": "unseen", "topic": "transport", "question": "지하철을 반대 방향으로 타서 돌아가고 있어.", "criteria": "이동 실수에 관련 반응"}
+{"id": "F37", "group": "unseen", "topic": "belongings", "question": "현관에 열쇠를 두고 나와서 난감해.", "criteria": "열쇠를 두고 온 상황에 관련 반응"}
+{"id": "F38", "group": "unseen", "topic": "study", "question": "어려운 문제를 혼자 풀어내서 정말 기뻐.", "criteria": "문제 해결의 성취에 반응"}
+{"id": "F39", "group": "unseen", "topic": "relationship", "question": "친구가 생일을 챙겨 줘서 고마운 마음이 들어.", "criteria": "친구에 대한 고마움에 반응"}
+{"id": "F40", "group": "unseen", "topic": "housework", "question": "빨래를 개고 나니 방이 한결 정돈됐어.", "criteria": "집안일 완료와 정리에 관련 반응"}

@@ -1,0 +1,1145 @@
+[
+  {
+    "id": "F01",
+    "group": "familiar",
+    "topic": "greeting",
+    "question": "여기 대화 상대가 있다고 해서 인사하러 왔어요.",
+    "criteria": "인사를 받아 주거나 대화 시작을 허용",
+    "split": "fresh40_frozen",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "F02",
+    "group": "familiar",
+    "topic": "greeting",
+    "question": "지난번에 들렀던 사람인데 다시 얘기해도 될까?",
+    "criteria": "재방문을 반기거나 대화 허용",
+    "split": "fresh40_frozen",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "F03",
+    "group": "familiar",
+    "topic": "greeting",
+    "question": "오늘 얘기는 이쯤 마치고 다음에 이어 가자.",
+    "criteria": "대화 종료에 맞는 인사",
+    "split": "fresh40_frozen",
+    "answer": "기다려야 해서 답답하겠다.",
+    "decision": "pending"
+  },
+  {
+    "id": "F04",
+    "group": "familiar",
+    "topic": "greeting",
+    "question": "처음 뵙네요. 무슨 이야기든 나눠 보고 싶어요.",
+    "criteria": "처음 인사에 관련 응답",
+    "split": "fresh40_frozen",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "F05",
+    "group": "familiar",
+    "topic": "tired",
+    "question": "새벽까지 깨어 있었더니 지금 꾸벅꾸벅 졸고 있어.",
+    "criteria": "졸림이나 수면 부족에 반응",
+    "split": "fresh40_frozen",
+    "answer": "방향을 잘못 탔구나. 돌아가는 중이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F06",
+    "group": "familiar",
+    "topic": "tired",
+    "question": "오전부터 업무를 처리하느라 몸이 축 늘어졌네.",
+    "criteria": "업무 피로에 반응",
+    "split": "fresh40_frozen",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "F07",
+    "group": "familiar",
+    "topic": "tired",
+    "question": "당분간 아무 일도 하지 않고 편히 휴식하고 싶네.",
+    "criteria": "휴식 의사를 받아 줌",
+    "split": "fresh40_frozen",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "F08",
+    "group": "familiar",
+    "topic": "tired",
+    "question": "밤에 두 시간밖에 못 잤더니 정신이 멍하네.",
+    "criteria": "수면 부족과 피로에 반응",
+    "split": "fresh40_frozen",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "F09",
+    "group": "familiar",
+    "topic": "walk",
+    "question": "동네 뒷길을 걸어 다녀오니 머리가 맑아졌네.",
+    "criteria": "완료한 걷기 경험에 반응",
+    "split": "fresh40_frozen",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "F10",
+    "group": "familiar",
+    "topic": "walk",
+    "question": "조금 있다가 운동화 신고 동네 한 바퀴 돌 생각이야.",
+    "criteria": "앞으로 걸을 계획에 반응",
+    "split": "fresh40_frozen",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "F11",
+    "group": "familiar",
+    "topic": "walk",
+    "question": "걷고 싶었는데 장대비가 내려서 외출을 포기했어.",
+    "criteria": "비로 걷지 못한 상황에 반응",
+    "split": "fresh40_frozen",
+    "answer": "비 때문에 산책을 못 해서 아쉽겠다.",
+    "decision": "pending"
+  },
+  {
+    "id": "F12",
+    "group": "familiar",
+    "topic": "walk",
+    "question": "강둑 길을 끝까지 걸었다가 방금 집에 들어왔어.",
+    "criteria": "이미 다녀온 산책에 반응",
+    "split": "fresh40_frozen",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "F13",
+    "group": "familiar",
+    "topic": "movie",
+    "question": "내일 저녁에는 표를 끊고 극장에서 한 편 보려고 해요.",
+    "criteria": "영화 관람 계획에 반응",
+    "split": "fresh40_frozen",
+    "answer": "요리할 계획이구나. 무엇을 만들 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F14",
+    "group": "familiar",
+    "topic": "movie",
+    "question": "방금 본 영화가 정말 재미있어서 기분이 좋아.",
+    "criteria": "관람 완료와 긍정 감상에 반응",
+    "split": "fresh40_frozen",
+    "answer": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "decision": "pending"
+  },
+  {
+    "id": "F15",
+    "group": "familiar",
+    "topic": "movie",
+    "question": "나는 진지한 영화보다 웃음이 나는 코미디 쪽을 즐겨.",
+    "criteria": "코미디 취향에 반응",
+    "split": "fresh40_frozen",
+    "answer": "코미디 영화를 좋아하는구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "F16",
+    "group": "familiar",
+    "topic": "movie",
+    "question": "이번 휴일에 집에서 감상할 영화를 정하려고 해.",
+    "criteria": "영화 선택 또는 관람 계획에 반응",
+    "split": "fresh40_frozen",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F17",
+    "group": "familiar",
+    "topic": "plant",
+    "question": "키우는 화초에서 연두색 잎이 또 하나 돋았어.",
+    "criteria": "식물 성장에 반응",
+    "split": "fresh40_frozen",
+    "answer": "잘 자라고 있네. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F18",
+    "group": "familiar",
+    "topic": "plant",
+    "question": "뿌리가 비좁아 보여서 조만간 화분을 바꿔 주려고.",
+    "criteria": "앞으로 할 분갈이에 반응",
+    "split": "fresh40_frozen",
+    "answer": "청소를 마쳤구나. 깔끔해서 좋겠다!",
+    "decision": "pending"
+  },
+  {
+    "id": "F19",
+    "group": "familiar",
+    "topic": "plant",
+    "question": "오늘 작은 화초를 구입해서 방 안에 들여놨어.",
+    "criteria": "새 식물을 들인 상황에 반응",
+    "split": "fresh40_frozen",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "F20",
+    "group": "familiar",
+    "topic": "plant",
+    "question": "화분에 있던 모종을 넓은 용기에 옮기는 일을 끝냈어.",
+    "criteria": "옮겨 심기 완료에 반응",
+    "split": "fresh40_frozen",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "F21",
+    "group": "timing",
+    "topic": "walk",
+    "question": "아직 걷지 않았어. 조금 후에 산책을 시작할 거야.",
+    "criteria": "미완료 산책 계획. 다녀왔다고 단정하지 않음",
+    "split": "fresh40_frozen",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "F22",
+    "group": "timing",
+    "topic": "walk",
+    "question": "산책은 이미 마쳤고 지금은 집이야.",
+    "criteria": "산책 완료. 앞으로 어디 갈지 묻지 않음",
+    "split": "fresh40_frozen",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "F23",
+    "group": "timing",
+    "topic": "movie",
+    "question": "영화는 아직 안 봤고 내일 볼 예정이야.",
+    "criteria": "관람 계획. 재미있게 봤다고 단정하지 않음",
+    "split": "fresh40_frozen",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F24",
+    "group": "timing",
+    "topic": "movie",
+    "question": "영화를 이미 다 봤고 아주 재미있었어.",
+    "criteria": "관람 완료와 감상에 반응",
+    "split": "fresh40_frozen",
+    "answer": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "decision": "pending"
+  },
+  {
+    "id": "F25",
+    "group": "timing",
+    "topic": "plant",
+    "question": "분갈이는 아직 안 했고 준비만 하고 있어.",
+    "criteria": "분갈이 준비. 끝났다고 단정하지 않음",
+    "split": "fresh40_frozen",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "F26",
+    "group": "timing",
+    "topic": "plant",
+    "question": "분갈이를 전부 끝내고 도구도 정리했어.",
+    "criteria": "분갈이 완료. 준비 여부를 다시 묻지 않음",
+    "split": "fresh40_frozen",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "F27",
+    "group": "timing",
+    "topic": "greeting",
+    "question": "지금 들어온 거야. 잠깐 대화를 시작하고 싶어.",
+    "criteria": "대화 시작. 작별 인사를 하지 않음",
+    "split": "fresh40_frozen",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "F28",
+    "group": "timing",
+    "topic": "greeting",
+    "question": "지금 나가야 해서 대화는 여기서 끝낼게.",
+    "criteria": "대화 종료 인사",
+    "split": "fresh40_frozen",
+    "answer": "이야기 즐거웠어. 다음에 또 봐!",
+    "decision": "pending"
+  },
+  {
+    "id": "F29",
+    "group": "mixed",
+    "topic": "tired",
+    "question": "산책 이야기는 나중에 하고, 지금은 잠을 못 자서 너무 졸려.",
+    "criteria": "핵심은 졸림. 산책 중심으로 답하지 않음",
+    "split": "fresh40_frozen",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "F30",
+    "group": "mixed",
+    "topic": "walk",
+    "question": "영화는 내일 보기로 했고, 지금은 공원을 걷고 돌아왔어.",
+    "criteria": "핵심은 지금 다녀온 산책",
+    "split": "fresh40_frozen",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "F31",
+    "group": "mixed",
+    "topic": "plant",
+    "question": "일하느라 바빴지만 오늘 새 화초를 샀다는 얘기를 하고 싶어.",
+    "criteria": "핵심은 새 화초 구입",
+    "split": "fresh40_frozen",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "F32",
+    "group": "mixed",
+    "topic": "movie",
+    "question": "식물 이야기는 그만하고 방금 재미있게 본 영화 얘기를 하자.",
+    "criteria": "식물 대신 영화 감상에 반응",
+    "split": "fresh40_frozen",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F33",
+    "group": "mixed",
+    "topic": "greeting",
+    "question": "내일 산책할 거야. 그런데 지금은 나가야 하니 인사하고 마칠게.",
+    "criteria": "핵심은 대화 종료",
+    "split": "fresh40_frozen",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F34",
+    "group": "mixed",
+    "topic": "plant",
+    "question": "피곤한 얘기 말고, 뿌리가 자라 화분을 바꾸려는 계획을 이야기하자.",
+    "criteria": "핵심은 분갈이 계획",
+    "split": "fresh40_frozen",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "F35",
+    "group": "unseen",
+    "topic": "food",
+    "question": "직접 만든 볶음밥이 생각보다 맛있어서 뿌듯해.",
+    "criteria": "요리 성공에 관련 반응. 식물/산책으로 전환하지 않음",
+    "split": "fresh40_frozen",
+    "answer": "맛있게 만들었구나. 뿌듯하겠다!",
+    "decision": "pending"
+  },
+  {
+    "id": "F36",
+    "group": "unseen",
+    "topic": "transport",
+    "question": "지하철을 반대 방향으로 타서 돌아가고 있어.",
+    "criteria": "이동 실수에 관련 반응",
+    "split": "fresh40_frozen",
+    "answer": "방향을 잘못 탔구나. 돌아가는 중이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F37",
+    "group": "unseen",
+    "topic": "belongings",
+    "question": "현관에 열쇠를 두고 나와서 난감해.",
+    "criteria": "열쇠를 두고 온 상황에 관련 반응",
+    "split": "fresh40_frozen",
+    "answer": "방향을 잘못 탔구나. 돌아가는 중이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F38",
+    "group": "unseen",
+    "topic": "study",
+    "question": "어려운 문제를 혼자 풀어내서 정말 기뻐.",
+    "criteria": "문제 해결의 성취에 반응",
+    "split": "fresh40_frozen",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "F39",
+    "group": "unseen",
+    "topic": "relationship",
+    "question": "친구가 생일을 챙겨 줘서 고마운 마음이 들어.",
+    "criteria": "친구에 대한 고마움에 반응",
+    "split": "fresh40_frozen",
+    "answer": "요리할 계획이구나. 무엇을 만들 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "F40",
+    "group": "unseen",
+    "topic": "housework",
+    "question": "빨래를 개고 나니 방이 한결 정돈됐어.",
+    "criteria": "집안일 완료와 정리에 관련 반응",
+    "split": "fresh40_frozen",
+    "answer": "빨래를 마무리했구나. 수고했어!",
+    "decision": "pending"
+  },
+  {
+    "id": "greeting-first-6",
+    "split": "test",
+    "topic": "greeting",
+    "situation": "first",
+    "question": "처음 이곳에서 말을 걸어 봐. 반갑다.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "방향을 잘못 탔구나. 돌아가는 중이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "greeting-return-6",
+    "split": "test",
+    "topic": "greeting",
+    "situation": "return",
+    "question": "전에 대화했던 곳이라 또 찾아왔네.",
+    "reference": "다시 와 줘서 반가워!",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "greeting-leave-6",
+    "split": "test",
+    "topic": "greeting",
+    "situation": "leave",
+    "question": "오늘은 이만 접속을 끌게. 또 보자.",
+    "reference": "이야기 즐거웠어. 다음에 또 봐!",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "이야기 즐거웠어. 다음에 또 봐!",
+    "decision": "pending"
+  },
+  {
+    "id": "tired-sleep-6",
+    "split": "test",
+    "topic": "tired",
+    "situation": "sleep",
+    "question": "밤에 제대로 못 잤더니 눈꺼풀이 무거워.",
+    "reference": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "tired-work-6",
+    "split": "test",
+    "topic": "tired",
+    "situation": "work",
+    "question": "업무를 한참 처리했더니 이제 힘이 안 나네.",
+    "reference": "일하느라 고생했어. 조금 쉬어.",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "일하느라 고생했어. 조금 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "tired-rest-6",
+    "split": "test",
+    "topic": "tired",
+    "situation": "rest",
+    "question": "이제 일은 내려놓고 여유 있게 쉬려 해요.",
+    "reference": "그래, 편하게 쉬어.",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "그래, 편하게 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "walk-done-6",
+    "split": "test",
+    "topic": "walk",
+    "situation": "done",
+    "question": "집 근처 길을 천천히 걷고 귀가했어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "walk-plan-6",
+    "split": "test",
+    "topic": "walk",
+    "situation": "plan",
+    "question": "잠시 후 바깥에 나가서 걸어 볼까 해.",
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "walk-rain-6",
+    "split": "test",
+    "topic": "walk",
+    "situation": "rain",
+    "question": "밖에 비가 쏟아져 걷기로 한 계획을 접었네.",
+    "reference": "비 때문에 산책을 못 해서 아쉽겠다.",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "비 때문에 산책을 못 해서 아쉽겠다.",
+    "decision": "pending"
+  },
+  {
+    "id": "movie-plan-6",
+    "split": "test",
+    "topic": "movie",
+    "situation": "plan",
+    "question": "쉬는 날에 극장 상영작을 감상하려 해.",
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "movie-reaction-6",
+    "split": "test",
+    "topic": "movie",
+    "situation": "reaction",
+    "question": "방금 감상한 영화가 기대보다 훨씬 좋았어.",
+    "reference": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "decision": "pending"
+  },
+  {
+    "id": "movie-genre-6",
+    "split": "test",
+    "topic": "movie",
+    "situation": "genre",
+    "question": "무거운 작품보다는 웃으며 보는 코미디가 취향이야.",
+    "reference": "코미디 영화를 좋아하는구나.",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "코미디 영화를 좋아하는구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "plant-growth-6",
+    "split": "test",
+    "topic": "plant",
+    "situation": "growth",
+    "question": "우리 집 식물의 키가 전보다 훨씬 커졌어.",
+    "reference": "잘 자라고 있네. 어떤 식물이야?",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "맛있게 만들었구나. 뿌듯하겠다!",
+    "decision": "pending"
+  },
+  {
+    "id": "plant-repot-6",
+    "split": "test",
+    "topic": "plant",
+    "situation": "repot",
+    "question": "화초가 자라서 이번에 더 큰 화분으로 바꿀까 해.",
+    "reference": "분갈이하려는구나. 새 화분은 준비했어?",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "plant-new-6",
+    "split": "test",
+    "topic": "plant",
+    "situation": "new",
+    "question": "화원에 갔다가 키울 식물을 새로 구입했어.",
+    "reference": "새 식물을 들였구나. 어떤 식물이야?",
+    "criteria": "주제와 상황에 맞고 이해 가능한 문장. 정확 일치는 보조 지표.",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-76",
+    "split": "retention",
+    "topic": "greeting",
+    "question": "안녕하신가요? 이야기를 나누고 싶습니다.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-77",
+    "split": "retention",
+    "topic": "greeting",
+    "question": "오랜만에 채팅하러 들어왔네.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "청소를 마쳤구나. 깔끔해서 좋겠다!",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-78",
+    "split": "retention",
+    "topic": "greeting",
+    "question": "말할 사람이 필요해서 찾아왔어.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "빨래를 마무리했구나. 수고했어!",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-79",
+    "split": "retention",
+    "topic": "greeting",
+    "question": "처음 오는 채팅방이네. 반갑다.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "방향을 잘못 탔구나. 돌아가는 중이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-80",
+    "split": "retention",
+    "topic": "tired",
+    "question": "업무가 끝났는데 온몸이 녹초야.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "일하느라 고생했어. 조금 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-81",
+    "split": "retention",
+    "topic": "tired",
+    "question": "밤새 깨어 있었더니 눈이 자꾸 감기네.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-82",
+    "split": "retention",
+    "topic": "tired",
+    "question": "집안일을 한참 했더니 체력이 바닥났어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "기다려야 해서 답답하겠다.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-83",
+    "split": "retention",
+    "topic": "tired",
+    "question": "오늘 너무 바빠서 이제는 기운이 하나도 없어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "일하느라 고생했어. 조금 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-84",
+    "split": "retention",
+    "topic": "walk",
+    "question": "공원 길을 천천히 걸어서 돌아왔지.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-85",
+    "split": "retention",
+    "topic": "walk",
+    "question": "오늘은 호숫가 둘레를 걸어 봤네.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-86",
+    "split": "retention",
+    "topic": "walk",
+    "question": "동네 골목을 구경하며 산책하고 귀가했어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-87",
+    "split": "retention",
+    "topic": "walk",
+    "question": "아침 공기를 마시며 근처 길을 걷고 돌아왔어요.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-88",
+    "split": "retention",
+    "topic": "movie",
+    "question": "쉬는 날에 극장 상영작을 하나 보고 싶네.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-89",
+    "split": "retention",
+    "topic": "movie",
+    "question": "저녁에 감상할 영화 한 편을 찾아볼까 해.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-90",
+    "split": "retention",
+    "topic": "movie",
+    "question": "친구와 함께 볼 영화 제목을 고르고 있어.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-91",
+    "split": "retention",
+    "topic": "movie",
+    "question": "오랜만에 집에서 영화 감상을 하려고 해요.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-92",
+    "split": "retention",
+    "topic": "plant",
+    "question": "내 방 화분에서 작은 잎이 올라오네.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-93",
+    "split": "retention",
+    "topic": "plant",
+    "question": "화초를 넓은 화분으로 옮겨 심으려 해요.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-94",
+    "split": "retention",
+    "topic": "plant",
+    "question": "키우던 모종의 줄기가 전보다 길어졌어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "잘 자라고 있네. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-95",
+    "split": "retention",
+    "topic": "plant",
+    "question": "집에서 기를 화초 하나를 새로 장만했어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "이전 주제 연결 유지 여부. v1 고정 답변과 달라도 관련되면 통과.",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-001",
+    "split": "train_probe",
+    "question": "조금 후에 둑길을 산책할 예정이야.",
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-002",
+    "split": "train_probe",
+    "question": "둑길 산책을 마치고 방금 돌아왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-003",
+    "split": "train_probe",
+    "question": "아직 출발 안 했고 공원을 걸으러 갈 거야.",
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-004",
+    "split": "train_probe",
+    "question": "공원을 걷는 일을 끝내고 집에 왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-005",
+    "split": "train_probe",
+    "question": "내일 아침에 골목을 걸어 볼 계획이야.",
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-006",
+    "split": "train_probe",
+    "question": "오늘 아침 골목을 걸어 보고 돌아왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-007",
+    "split": "train_probe",
+    "question": "점심 뒤에 숲길 산책을 시작하려고.",
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-008",
+    "split": "train_probe",
+    "question": "숲길 산책을 모두 마치고 쉬고 있어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-009",
+    "split": "train_probe",
+    "question": "내일 볼 영화를 골라 놓았어.",
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-010",
+    "split": "train_probe",
+    "question": "골라 놓은 영화를 다 봤는데 재미있었어.",
+    "reference": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-011",
+    "split": "train_probe",
+    "question": "오늘 밤에 새 영화를 감상하려고 해.",
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-012",
+    "split": "train_probe",
+    "question": "새 영화를 끝까지 봤는데 재미있었어.",
+    "reference": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-013",
+    "split": "train_probe",
+    "question": "아직 보지는 않았고 이따 영화를 틀 거야.",
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-014",
+    "split": "train_probe",
+    "question": "영화를 이미 끝까지 보고 즐겁게 나왔어.",
+    "reference": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-015",
+    "split": "train_probe",
+    "question": "주말에 극장에서 작품을 볼 예정이야.",
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-016",
+    "split": "train_probe",
+    "question": "극장에서 작품을 다 봤는데 참 좋았어.",
+    "reference": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "재미있게 봤구나. 어떤 장면이 좋았어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-017",
+    "split": "train_probe",
+    "question": "내일 화초를 다른 화분에 옮길 거야.",
+    "reference": "분갈이하려는구나. 새 화분은 준비했어?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-018",
+    "split": "train_probe",
+    "question": "화초를 다른 화분에 옮기는 일을 끝냈어.",
+    "reference": "분갈이를 마쳤구나. 수고했어!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-019",
+    "split": "train_probe",
+    "question": "아직 분갈이 전이라 흙부터 준비하고 있어.",
+    "reference": "분갈이하려는구나. 새 화분은 준비했어?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-020",
+    "split": "train_probe",
+    "question": "분갈이를 마무리하고 흙도 치웠어.",
+    "reference": "분갈이를 마쳤구나. 수고했어!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-021",
+    "split": "train_probe",
+    "question": "주말에 모종을 넓은 화분으로 옮길 계획이야.",
+    "reference": "분갈이하려는구나. 새 화분은 준비했어?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-022",
+    "split": "train_probe",
+    "question": "모종을 넓은 화분으로 옮기는 작업을 마쳤어.",
+    "reference": "분갈이를 마쳤구나. 수고했어!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-023",
+    "split": "train_probe",
+    "question": "분갈이를 하려고 도구를 꺼내는 중이야.",
+    "reference": "분갈이하려는구나. 새 화분은 준비했어?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-024",
+    "split": "train_probe",
+    "question": "분갈이가 끝나서 도구를 넣어 두었어.",
+    "reference": "분갈이를 마쳤구나. 수고했어!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-025",
+    "split": "train_probe",
+    "question": "처음 만든 카레가 맛있게 됐어.",
+    "reference": "맛있게 만들었구나. 뿌듯하겠다!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "맛있게 만들었구나. 뿌듯하겠다!",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-026",
+    "split": "train_probe",
+    "question": "내가 끓인 국이 생각보다 맛있네.",
+    "reference": "맛있게 만들었구나. 뿌듯하겠다!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "맛있게 만들었구나. 뿌듯하겠다!",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-027",
+    "split": "train_probe",
+    "question": "오늘 저녁은 직접 요리하려고.",
+    "reference": "요리할 계획이구나. 무엇을 만들 거야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "요리할 계획이구나. 무엇을 만들 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-028",
+    "split": "train_probe",
+    "question": "주말에 집에서 음식을 만들 생각이야.",
+    "reference": "요리할 계획이구나. 무엇을 만들 거야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "요리할 계획이구나. 무엇을 만들 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-029",
+    "split": "train_probe",
+    "question": "버스가 늦게 와서 기다리는 중이야.",
+    "reference": "기다려야 해서 답답하겠다.",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "기다려야 해서 답답하겠다.",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-030",
+    "split": "train_probe",
+    "question": "열차가 지연돼서 역에 서 있어.",
+    "reference": "기다려야 해서 답답하겠다.",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "기다려야 해서 답답하겠다.",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-031",
+    "split": "train_probe",
+    "question": "버스를 반대로 타 버렸어.",
+    "reference": "방향을 잘못 탔구나. 돌아가는 중이야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "방향을 잘못 탔구나. 돌아가는 중이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-032",
+    "split": "train_probe",
+    "question": "기차를 잘못 타서 다른 역에 왔네.",
+    "reference": "방향을 잘못 탔구나. 돌아가는 중이야?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "방향을 잘못 탔구나. 돌아가는 중이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-033",
+    "split": "train_probe",
+    "question": "방 청소를 다 끝냈어.",
+    "reference": "청소를 마쳤구나. 깔끔해서 좋겠다!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "청소를 마쳤구나. 깔끔해서 좋겠다!",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-034",
+    "split": "train_probe",
+    "question": "책장 먼지를 닦으니 깔끔해졌어.",
+    "reference": "청소를 마쳤구나. 깔끔해서 좋겠다!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "청소를 마쳤구나. 깔끔해서 좋겠다!",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-035",
+    "split": "train_probe",
+    "question": "마른 빨래를 전부 개었어.",
+    "reference": "빨래를 마무리했구나. 수고했어!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "빨래를 마무리했구나. 수고했어!",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-036",
+    "split": "train_probe",
+    "question": "세탁한 옷을 정리해서 넣었어.",
+    "reference": "빨래를 마무리했구나. 수고했어!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "빨래를 마무리했구나. 수고했어!",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-037",
+    "split": "train_probe",
+    "question": "비가 와서 산책을 취소했어.",
+    "reference": "비 때문에 산책을 못 해서 아쉽겠다.",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "비 때문에 산책을 못 해서 아쉽겠다.",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-038",
+    "split": "train_probe",
+    "question": "아까 나갔다가 돌아왔어.",
+    "reference": "다시 와 줘서 반가워!",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "다시 와 줘서 반가워!",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-039",
+    "split": "train_probe",
+    "question": "비 때문에 걷지 못하고 집에 있어.",
+    "reference": "비 때문에 산책을 못 해서 아쉽겠다.",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "비 때문에 산책을 못 해서 아쉽겠다.",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-040",
+    "split": "train_probe",
+    "question": "골목길을 따라서 걷고 왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-041",
+    "split": "train_probe",
+    "question": "야근 때문에 너무 힘들어.",
+    "reference": "일하느라 고생했어. 조금 쉬어.",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "일하느라 고생했어. 조금 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "v4train-042",
+    "split": "train_probe",
+    "question": "혼자 동네를 걷다 왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "문장 이해 가능성과 상황 관련성. 정확 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  }
+]

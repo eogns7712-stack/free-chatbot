@@ -1,0 +1,802 @@
+[
+  {
+    "id": "train-001",
+    "split": "train",
+    "topic": "greeting",
+    "question": "안녕, 이야기하러 왔어.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-002",
+    "split": "train",
+    "topic": "greeting",
+    "question": "반가워, 나랑 대화하자.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-003",
+    "split": "train",
+    "topic": "greeting",
+    "question": "안녕하세요, 처음 왔어요.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-004",
+    "split": "train",
+    "topic": "greeting",
+    "question": "하이, 잠깐 얘기하자.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-005",
+    "split": "train",
+    "topic": "greeting",
+    "question": "나 왔어, 인사할게.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-006",
+    "split": "train",
+    "topic": "greeting",
+    "question": "처음 뵙겠습니다. 잘 부탁해요.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-007",
+    "split": "train",
+    "topic": "greeting",
+    "question": "오랜만이야, 다시 만나서 반가워.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-008",
+    "split": "train",
+    "topic": "greeting",
+    "question": "여기서 대화하고 싶어.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-009",
+    "split": "train",
+    "topic": "greeting",
+    "question": "잠시 말동무가 되어 줄래?",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-010",
+    "split": "train",
+    "topic": "greeting",
+    "question": "다시 접속했어. 반가워.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-011",
+    "split": "train",
+    "topic": "greeting",
+    "question": "대화를 시작하고 싶어요.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-012",
+    "split": "train",
+    "topic": "greeting",
+    "question": "너랑 수다를 떨고 싶어.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "test-017",
+    "split": "test",
+    "topic": "greeting",
+    "question": "안녕하신가요? 이야기를 나누고 싶습니다.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "test-018",
+    "split": "test",
+    "topic": "greeting",
+    "question": "오랜만에 채팅하러 들어왔네.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "test-019",
+    "split": "test",
+    "topic": "greeting",
+    "question": "말할 사람이 필요해서 찾아왔어.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "test-020",
+    "split": "test",
+    "topic": "greeting",
+    "question": "처음 오는 채팅방이네. 반갑다.",
+    "reference": "반가워! 편하게 이야기해.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-021",
+    "split": "train",
+    "topic": "tired",
+    "question": "일을 오래 해서 피곤해.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-022",
+    "split": "train",
+    "topic": "tired",
+    "question": "잠을 적게 자서 졸려.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-023",
+    "split": "train",
+    "topic": "tired",
+    "question": "하루 종일 움직여서 지쳤어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-024",
+    "split": "train",
+    "topic": "tired",
+    "question": "공부하다가 기운이 빠졌어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-025",
+    "split": "train",
+    "topic": "tired",
+    "question": "야근 때문에 너무 힘들어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-026",
+    "split": "train",
+    "topic": "tired",
+    "question": "오늘은 몸이 무겁고 피곤해.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-027",
+    "split": "train",
+    "topic": "tired",
+    "question": "할 일이 많아서 녹초가 됐어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-028",
+    "split": "train",
+    "topic": "tired",
+    "question": "청소를 오래 했더니 힘이 없어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-029",
+    "split": "train",
+    "topic": "tired",
+    "question": "밤을 새웠더니 졸음이 와.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-030",
+    "split": "train",
+    "topic": "tired",
+    "question": "오래 서 있었더니 다리가 피곤해.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-031",
+    "split": "train",
+    "topic": "tired",
+    "question": "쉴 틈 없이 일해서 지쳤어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-032",
+    "split": "train",
+    "topic": "tired",
+    "question": "잠이 모자라서 눈꺼풀이 무거워.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "test-037",
+    "split": "test",
+    "topic": "tired",
+    "question": "업무가 끝났는데 온몸이 녹초야.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "test-038",
+    "split": "test",
+    "topic": "tired",
+    "question": "밤새 깨어 있었더니 눈이 자꾸 감기네.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "test-039",
+    "split": "test",
+    "topic": "tired",
+    "question": "집안일을 한참 했더니 체력이 바닥났어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "test-040",
+    "split": "test",
+    "topic": "tired",
+    "question": "오늘 너무 바빠서 이제는 기운이 하나도 없어.",
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "train-041",
+    "split": "train",
+    "topic": "walk",
+    "question": "공원에서 산책하고 왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-042",
+    "split": "train",
+    "topic": "walk",
+    "question": "집 근처를 걸어서 한 바퀴 돌았어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-043",
+    "split": "train",
+    "topic": "walk",
+    "question": "강가를 따라 걷고 왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-044",
+    "split": "train",
+    "topic": "walk",
+    "question": "저녁에 동네 산책을 했어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-045",
+    "split": "train",
+    "topic": "walk",
+    "question": "숲길을 천천히 걷고 왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-046",
+    "split": "train",
+    "topic": "walk",
+    "question": "점심 먹고 밖에서 좀 걸었어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-047",
+    "split": "train",
+    "topic": "walk",
+    "question": "아침에 산책로를 다녀왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-048",
+    "split": "train",
+    "topic": "walk",
+    "question": "친구랑 공원을 걸었어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-049",
+    "split": "train",
+    "topic": "walk",
+    "question": "혼자 동네를 걷다 왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-050",
+    "split": "train",
+    "topic": "walk",
+    "question": "호수 주변을 산책했어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-051",
+    "split": "train",
+    "topic": "walk",
+    "question": "골목길을 따라서 걷고 왔어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-052",
+    "split": "train",
+    "topic": "walk",
+    "question": "바깥 공기를 쐬며 걸었어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-057",
+    "split": "test",
+    "topic": "walk",
+    "question": "공원 길을 천천히 걸어서 돌아왔지.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-058",
+    "split": "test",
+    "topic": "walk",
+    "question": "오늘은 호숫가 둘레를 걸어 봤네.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-059",
+    "split": "test",
+    "topic": "walk",
+    "question": "동네 골목을 구경하며 산책하고 귀가했어.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-060",
+    "split": "test",
+    "topic": "walk",
+    "question": "아침 공기를 마시며 근처 길을 걷고 돌아왔어요.",
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-061",
+    "split": "train",
+    "topic": "movie",
+    "question": "영화를 보고 싶어.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-062",
+    "split": "train",
+    "topic": "movie",
+    "question": "코미디 영화를 볼까 해.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-063",
+    "split": "train",
+    "topic": "movie",
+    "question": "극장에서 영화 한 편 보려고.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-064",
+    "split": "train",
+    "topic": "movie",
+    "question": "주말에 액션 영화를 볼 예정이야.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-065",
+    "split": "train",
+    "topic": "movie",
+    "question": "집에서 볼 영화를 찾고 있어.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-066",
+    "split": "train",
+    "topic": "movie",
+    "question": "영화 고르는 중이야.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-067",
+    "split": "train",
+    "topic": "movie",
+    "question": "재미있는 영화 이야기를 하자.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-068",
+    "split": "train",
+    "topic": "movie",
+    "question": "오늘 밤에 영화를 틀려고 해.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-069",
+    "split": "train",
+    "topic": "movie",
+    "question": "친구랑 영화 보러 가려고.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-070",
+    "split": "train",
+    "topic": "movie",
+    "question": "애니메이션 영화를 볼 생각이야.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-071",
+    "split": "train",
+    "topic": "movie",
+    "question": "옛날 영화를 다시 보려고 해.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-072",
+    "split": "train",
+    "topic": "movie",
+    "question": "영화 한 편을 골라야겠어.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-077",
+    "split": "test",
+    "topic": "movie",
+    "question": "쉬는 날에 극장 상영작을 하나 보고 싶네.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-078",
+    "split": "test",
+    "topic": "movie",
+    "question": "저녁에 감상할 영화 한 편을 찾아볼까 해.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-079",
+    "split": "test",
+    "topic": "movie",
+    "question": "친구와 함께 볼 영화 제목을 고르고 있어.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-080",
+    "split": "test",
+    "topic": "movie",
+    "question": "오랜만에 집에서 영화 감상을 하려고 해요.",
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "영화 이야기구나. 어떤 장르가 좋아?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-081",
+    "split": "train",
+    "topic": "plant",
+    "question": "집에서 식물을 키워.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-082",
+    "split": "train",
+    "topic": "plant",
+    "question": "화분에 새 모종을 심었어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-083",
+    "split": "train",
+    "topic": "plant",
+    "question": "작은 식물을 하나 데려왔어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-084",
+    "split": "train",
+    "topic": "plant",
+    "question": "키우는 식물에 새잎이 났어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-085",
+    "split": "train",
+    "topic": "plant",
+    "question": "화분을 더 큰 것으로 바꾸려고.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-086",
+    "split": "train",
+    "topic": "plant",
+    "question": "베란다에 식물을 놓았어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-087",
+    "split": "train",
+    "topic": "plant",
+    "question": "분갈이할 흙을 준비했어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-088",
+    "split": "train",
+    "topic": "plant",
+    "question": "화원에서 식물을 샀어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-089",
+    "split": "train",
+    "topic": "plant",
+    "question": "집에 있는 화분을 돌보고 있어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-090",
+    "split": "train",
+    "topic": "plant",
+    "question": "모종을 화분으로 옮겼어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-091",
+    "split": "train",
+    "topic": "plant",
+    "question": "식물 줄기가 자라고 있어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "train-092",
+    "split": "train",
+    "topic": "plant",
+    "question": "새로 키울 식물을 골랐어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-097",
+    "split": "test",
+    "topic": "plant",
+    "question": "내 방 화분에서 작은 잎이 올라오네.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-098",
+    "split": "test",
+    "topic": "plant",
+    "question": "화초를 넓은 화분으로 옮겨 심으려 해요.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-099",
+    "split": "test",
+    "topic": "plant",
+    "question": "키우던 모종의 줄기가 전보다 길어졌어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "test-100",
+    "split": "test",
+    "topic": "plant",
+    "question": "집에서 기를 화초 하나를 새로 장만했어.",
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "criteria": "주제 유지와 이해 가능성을 수동 평가. 고정 답변 일치는 보조 지표.",
+    "answer": "식물을 키우는구나. 어떤 식물이야?",
+    "decision": "pending"
+  }
+]

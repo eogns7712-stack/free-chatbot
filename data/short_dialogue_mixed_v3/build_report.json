@@ -1,0 +1,30 @@
+{
+  "train_count": 119,
+  "deduplicated": [
+    {
+      "source": "v2_train",
+      "source_record": 49,
+      "topic": "plant",
+      "question": "키우는 식물에 새잎이 났어.",
+      "old_answer": "잘 자라고 있네. 어떤 식물이야?",
+      "new_answer": "잘 자라고 있네. 어떤 식물이야?",
+      "reason": "상황별 학습 문답 유지"
+    }
+  ],
+  "per_topic": {
+    "walk": 24,
+    "greeting": 24,
+    "tired": 24,
+    "plant": 23,
+    "movie": 24
+  },
+  "revised_v1_answers": 28,
+  "validation_count": 15,
+  "new_development_count": 15,
+  "retention_count": 20,
+  "normalized_overlap_with_prior_validation_and_test": 0,
+  "source_train_hashes": {
+    "C:\\Users\\510\\Desktop\\free-chatbot\\data\\short_dialogue_control_v1\\train.jsonl": "9db70bfcc4570c0a70ff9f26230d809a2de7939251f0b5bd5506914d1250155f",
+    "C:\\Users\\510\\Desktop\\free-chatbot\\data\\short_dialogue_situations_v2\\train.jsonl": "8d9e93c7f873a403717e4650b9aa46d2ad1b38b293e78d8be8534de11426236e"
+  }
+}

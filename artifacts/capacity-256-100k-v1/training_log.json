@@ -1,0 +1,87 @@
+{
+  "epoch": 1,
+  "step": 21879,
+  "cursor": 87516,
+  "loss_sum": 36621422.34715366,
+  "token_count": 7304310,
+  "best_loss": 4.6354720105711875,
+  "best_model": "models/step-00021879",
+  "last_validation_step": 21879,
+  "history": [
+    {
+      "epoch": 0,
+      "step": 0,
+      "train_loss": null,
+      "validation_loss": 8.345804328854815
+    },
+    {
+      "epoch": 1,
+      "step": 3000,
+      "epoch_complete": false,
+      "train_loss": 5.72798429652474,
+      "validation_loss": 5.354139485848724
+    },
+    {
+      "epoch": 1,
+      "step": 6000,
+      "epoch_complete": false,
+      "train_loss": 5.471693456719098,
+      "validation_loss": 5.066355706297663
+    },
+    {
+      "epoch": 1,
+      "step": 9000,
+      "epoch_complete": false,
+      "train_loss": 5.320973413097397,
+      "validation_loss": 4.9220437782695985
+    },
+    {
+      "epoch": 1,
+      "step": 12000,
+      "epoch_complete": false,
+      "train_loss": 5.215933775443694,
+      "validation_loss": 4.8158781107401385
+    },
+    {
+      "epoch": 1,
+      "step": 15000,
+      "epoch_complete": false,
+      "train_loss": 5.137817179067035,
+      "validation_loss": 4.747566687208365
+    },
+    {
+      "epoch": 1,
+      "step": 15879,
+      "epoch_complete": false,
+      "train_loss": 5.1185478490650285,
+      "validation_loss": 4.731831875522381
+    },
+    {
+      "epoch": 1,
+      "step": 18879,
+      "epoch_complete": false,
+      "train_loss": 5.061802858381881,
+      "validation_loss": 4.682066356844171
+    },
+    {
+      "epoch": 1,
+      "step": 21879,
+      "epoch_complete": false,
+      "train_loss": 5.0136730707149155,
+      "validation_loss": 4.6354720105711875
+    }
+  ],
+  "initial_model": "random",
+  "signature": {
+    "train_sha256": "f9a5ddee3a0353c8ed853a1ae02c4f29b78658c978c825353de3f05b2baf8265",
+    "validation_sha256": "ee7bc1788982efedd822a9031d3867352370e76a6ab969122a6ae6ca5d1be16c",
+    "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+    "report_sha256": "5df1bb34192d22fda099d922c173194cbb03a127e245830f5a45f48751a4309d",
+    "validation_limit": 1024,
+    "model_width": 256,
+    "model_heads": 8,
+    "objective": "fulltext_all_real_tokens",
+    "batch_size": 4,
+    "learning_rate": 0.0003
+  }
+}
