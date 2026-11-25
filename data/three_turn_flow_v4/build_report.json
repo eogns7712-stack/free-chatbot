@@ -1,0 +1,10 @@
+{
+  "train": 339,
+  "old_train_preserved": 299,
+  "new_three_turn_train": 40,
+  "validation": 63,
+  "new_three_turn_validation": 20,
+  "new_three_turn_development": 20,
+  "probes": 143,
+  "max_history_pairs": 2
+}

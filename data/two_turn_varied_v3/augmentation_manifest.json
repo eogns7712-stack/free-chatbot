@@ -1,0 +1,2010 @@
+[
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "선인장이야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "몬스테라를 기르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "선인장이야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "몬스테라를 기르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "선인장이야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "몬스테라를 기르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "선인장이야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "몬스테라를 기르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "선인장이야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "몬스테라를 기르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "선인장이야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "몬스테라를 기르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "선인장이야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "몬스테라를 기르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "선인장이야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "몬스테라를 기르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "선인장이야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "몬스테라를 기르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "plant",
+    "split": "validation",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화초를 한 종류 새로 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새로운 식물이구나. 무슨 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "국화야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "topic": "plant",
+    "split": "validation",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화초를 한 종류 새로 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새로운 식물이구나. 무슨 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "율마를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "topic": "plant",
+    "split": "validation",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화분에 식물을 심어서 돌보고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "어떤 종류를 키우고 있어?"
+      },
+      {
+        "role": "user",
+        "content": "율마를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "topic": "plant",
+    "split": "validation",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화분에 식물을 심어서 돌보고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "어떤 종류를 키우고 있어?"
+      },
+      {
+        "role": "user",
+        "content": "국화야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "topic": "plant",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 화초 하나가 집에 생겼어."
+      },
+      {
+        "role": "assistant",
+        "content": "집에 새 식물이 생겼구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "장미야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "topic": "plant",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 화초 하나가 집에 생겼어."
+      },
+      {
+        "role": "assistant",
+        "content": "집에 새 식물이 생겼구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아레카야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "topic": "plant",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "방 안에서 식물을 기르는 중이야."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 식물을 기르는 중이야?"
+      },
+      {
+        "role": "user",
+        "content": "아레카야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "topic": "plant",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "방 안에서 식물을 기르는 중이야."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 식물을 기르는 중이야?"
+      },
+      {
+        "role": "user",
+        "content": "장미야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "코코를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "인터스텔라를 골랐어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "코코를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "인터스텔라를 골랐어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "코코를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "인터스텔라를 골랐어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "코코를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "인터스텔라를 골랐어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "코코를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "인터스텔라를 골랐어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "코코를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "인터스텔라를 골랐어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "코코를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "인터스텔라를 골랐어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "코코를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 영화 보기로 했어?"
+      },
+      {
+        "role": "user",
+        "content": "인터스텔라를 골랐어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야!"
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "코코를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구랑 영화관 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "보고 싶은 영화는 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "인터스텔라를 골랐어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant"
+  },
+  {
+    "topic": "movie",
+    "split": "validation",
+    "messages": [
+      {
+        "role": "user",
+        "content": "이번에 볼 영화는 골라 놨어."
+      },
+      {
+        "role": "assistant",
+        "content": "어떤 작품을 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "이웃집 토토로야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "topic": "movie",
+    "split": "validation",
+    "messages": [
+      {
+        "role": "user",
+        "content": "이번에 볼 영화는 골라 놨어."
+      },
+      {
+        "role": "assistant",
+        "content": "어떤 작품을 골랐어?"
+      },
+      {
+        "role": "user",
+        "content": "마녀 배달부 키키야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "topic": "movie",
+    "split": "validation",
+    "messages": [
+      {
+        "role": "user",
+        "content": "극장에서 볼 작품을 정했어."
+      },
+      {
+        "role": "assistant",
+        "content": "제목이 뭐야?"
+      },
+      {
+        "role": "user",
+        "content": "마녀 배달부 키키야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "topic": "movie",
+    "split": "validation",
+    "messages": [
+      {
+        "role": "user",
+        "content": "극장에서 볼 작품을 정했어."
+      },
+      {
+        "role": "assistant",
+        "content": "제목이 뭐야?"
+      },
+      {
+        "role": "user",
+        "content": "이웃집 토토로야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "topic": "movie",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "다음에 볼 영화 제목을 정해 뒀어."
+      },
+      {
+        "role": "assistant",
+        "content": "어떤 영화를 볼 생각이야?"
+      },
+      {
+        "role": "user",
+        "content": "마당을 나온 암탉이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "topic": "movie",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "다음에 볼 영화 제목을 정해 뒀어."
+      },
+      {
+        "role": "assistant",
+        "content": "어떤 영화를 볼 생각이야?"
+      },
+      {
+        "role": "user",
+        "content": "너의 이름은이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "topic": "movie",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 감상할 작품은 이미 정했어."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 작품으로 정했어?"
+      },
+      {
+        "role": "user",
+        "content": "너의 이름은이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "topic": "movie",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 감상할 작품은 이미 정했어."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 작품으로 정했어?"
+      },
+      {
+        "role": "user",
+        "content": "마당을 나온 암탉이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  }
+]

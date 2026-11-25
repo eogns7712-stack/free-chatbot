@@ -1,12 +1,12 @@
 {
   "epoch": 1,
-  "step": 21879,
-  "cursor": 87516,
-  "loss_sum": 36621422.34715366,
-  "token_count": 7304310,
-  "best_loss": 4.6354720105711875,
-  "best_model": "models/step-00021879",
-  "last_validation_step": 21879,
+  "step": 31758,
+  "cursor": 127032,
+  "loss_sum": 51879345.10745764,
+  "token_count": 10598604,
+  "best_loss": 4.518120385954153,
+  "best_model": "models/step-00031758",
+  "last_validation_step": 31758,
   "history": [
     {
       "epoch": 0,
@@ -69,6 +69,34 @@
       "epoch_complete": false,
       "train_loss": 5.0136730707149155,
       "validation_loss": 4.6354720105711875
+    },
+    {
+      "epoch": 1,
+      "step": 24879,
+      "epoch_complete": false,
+      "train_loss": 4.972084615244344,
+      "validation_loss": 4.5880304424123555
+    },
+    {
+      "epoch": 1,
+      "step": 27879,
+      "epoch_complete": false,
+      "train_loss": 4.936286319784672,
+      "validation_loss": 4.561473428697423
+    },
+    {
+      "epoch": 1,
+      "step": 30879,
+      "epoch_complete": false,
+      "train_loss": 4.903821587819359,
+      "validation_loss": 4.531506134614008
+    },
+    {
+      "epoch": 1,
+      "step": 31758,
+      "epoch_complete": false,
+      "train_loss": 4.894922492382737,
+      "validation_loss": 4.518120385954153
     }
   ],
   "initial_model": "random",

@@ -1,0 +1,12 @@
+{
+  "train": 229,
+  "old_train_preserved": 169,
+  "new_switch_train": 60,
+  "validation": 35,
+  "switch_validation": 20,
+  "switch_development": 20,
+  "probes": 87,
+  "user_cases_not_in_train_or_validation": true,
+  "prior_probes_preserved": 45,
+  "old_train_hash": "a461e312029eadd13bc284f615a9cdb1883cce3a60b701be3bc5179d59fc9df8"
+}

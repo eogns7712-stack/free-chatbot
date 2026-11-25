@@ -1,0 +1,2918 @@
+[
+  {
+    "id": "multi-001",
+    "topic": "plant",
+    "kind": "followup",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-011",
+    "topic": "plant",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "페퍼민트야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-012",
+    "topic": "plant",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "벤자민을 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-013",
+    "topic": "plant",
+    "kind": "ambiguous",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "식물을 돌보는 시간이 좋아."
+      },
+      {
+        "role": "assistant",
+        "content": "식물 돌보는 시간이 좋은 거야?"
+      },
+      {
+        "role": "user",
+        "content": "응."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 돌보는 시간이 좋구나."
+      }
+    ],
+    "reference": "식물을 돌보는 시간이 좋구나.",
+    "answer": "식물을 돌보는 시간이 좋구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "식물 돌보는 시간이 좋은 거야?",
+    "rollout_answer": "식물을 돌보는 시간이 좋구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-016",
+    "topic": "plant",
+    "kind": "ambiguous",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "식물을 돌보는 시간이 좋아."
+      },
+      {
+        "role": "assistant",
+        "content": "식물 돌보는 시간이 좋은 거야?"
+      },
+      {
+        "role": "user",
+        "content": "그래."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 돌보는 시간이 좋구나."
+      }
+    ],
+    "reference": "식물을 돌보는 시간이 좋구나.",
+    "answer": "식물을 돌보는 시간이 좋구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "식물 돌보는 시간이 좋은 거야?",
+    "rollout_answer": "식물을 돌보는 시간이 좋구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-017",
+    "topic": "movie",
+    "kind": "followup",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "reference": "그 영화를 볼 계획이구나.",
+    "answer": "그 영화를 볼 계획이구나.",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "그 영화를 볼 계획이구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-027",
+    "topic": "movie",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "니모를 찾아서야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "reference": "그 영화를 볼 계획이구나.",
+    "answer": "그 영화를 볼 계획이구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "그 영화를 볼 계획이구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-028",
+    "topic": "movie",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "모아나를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "reference": "그 영화를 볼 계획이구나.",
+    "answer": "그 영화를 볼 계획이구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "그 영화를 볼 계획이구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-029",
+    "topic": "movie",
+    "kind": "ambiguous",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "영화 한 편을 재미있게 봤어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화가 마음에 들었어?"
+      },
+      {
+        "role": "user",
+        "content": "응."
+      },
+      {
+        "role": "assistant",
+        "content": "영화가 마음에 들었구나."
+      }
+    ],
+    "reference": "영화가 마음에 들었구나.",
+    "answer": "그 영화를 볼 계획이구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "영화가 마음에 들었어?",
+    "rollout_answer": "그 영화를 볼 계획이구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-032",
+    "topic": "movie",
+    "kind": "ambiguous",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "영화 한 편을 재미있게 봤어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화가 마음에 들었어?"
+      },
+      {
+        "role": "user",
+        "content": "그래."
+      },
+      {
+        "role": "assistant",
+        "content": "영화가 마음에 들었구나."
+      }
+    ],
+    "reference": "영화가 마음에 들었구나.",
+    "answer": "그 영화를 볼 계획이구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "영화가 마음에 들었어?",
+    "rollout_answer": "그 영화를 볼 계획이구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-033",
+    "topic": "walk",
+    "kind": "followup",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "기분이 좋아졌어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책이 기분 전환이 됐구나."
+      }
+    ],
+    "reference": "산책이 기분 전환이 됐구나.",
+    "answer": "산책이 기분 전환이 됐구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "산책이 기분 전환이 됐구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-043",
+    "topic": "walk",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "마음이 차분해졌어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책이 기분 전환이 됐구나."
+      }
+    ],
+    "reference": "산책이 기분 전환이 됐구나.",
+    "answer": "산책이 기분 전환이 됐구나.",
+    "without_history_answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "산책이 기분 전환이 됐구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-044",
+    "topic": "walk",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "걷고 나니 즐거워."
+      },
+      {
+        "role": "assistant",
+        "content": "산책이 기분 전환이 됐구나."
+      }
+    ],
+    "reference": "산책이 기분 전환이 됐구나.",
+    "answer": "산책이 기분 전환이 됐구나.",
+    "without_history_answer": "다시 와 줘서 반가워!",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "산책이 기분 전환이 됐구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-045",
+    "topic": "walk",
+    "kind": "ambiguous",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책이 기분 전환에 도움이 됐어?"
+      },
+      {
+        "role": "user",
+        "content": "응."
+      },
+      {
+        "role": "assistant",
+        "content": "산책이 기분 전환이 됐구나."
+      }
+    ],
+    "reference": "산책이 기분 전환이 됐구나.",
+    "answer": "산책이 기분 전환이 됐구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "산책이 기분 전환이 됐구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-048",
+    "topic": "walk",
+    "kind": "ambiguous",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책이 기분 전환에 도움이 됐어?"
+      },
+      {
+        "role": "user",
+        "content": "그래."
+      },
+      {
+        "role": "assistant",
+        "content": "산책이 기분 전환이 됐구나."
+      }
+    ],
+    "reference": "산책이 기분 전환이 됐구나.",
+    "answer": "산책이 기분 전환이 됐구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "산책이 기분 전환이 됐구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-049",
+    "topic": "tired",
+    "kind": "followup",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "잠깐 자야겠어."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ],
+    "reference": "그래, 편하게 쉬어.",
+    "answer": "그래, 편하게 쉬어.",
+    "without_history_answer": "다시 와 줘서 반가워!",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "그래, 편하게 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-059",
+    "topic": "tired",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "일을 멈추고 눈 좀 감을래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ],
+    "reference": "그래, 편하게 쉬어.",
+    "answer": "그래, 편하게 쉬어.",
+    "without_history_answer": "일하느라 고생했어. 조금 쉬어.",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "그래, 편하게 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-060",
+    "topic": "tired",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "쉬었다가 다시 할게."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ],
+    "reference": "그래, 편하게 쉬어.",
+    "answer": "그래, 편하게 쉬어.",
+    "without_history_answer": "다시 와 줘서 반가워!",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "그래, 편하게 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-061",
+    "topic": "tired",
+    "kind": "ambiguous",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠깐 쉬고 싶은 거야?"
+      },
+      {
+        "role": "user",
+        "content": "응."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ],
+    "reference": "그래, 편하게 쉬어.",
+    "answer": "그래, 편하게 쉬어.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "그래, 편하게 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-064",
+    "topic": "tired",
+    "kind": "ambiguous",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠깐 쉬고 싶은 거야?"
+      },
+      {
+        "role": "user",
+        "content": "그래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ],
+    "reference": "그래, 편하게 쉬어.",
+    "answer": "그래, 편하게 쉬어.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "그래, 편하게 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-065",
+    "topic": "greeting",
+    "kind": "followup",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "얘기를 나누고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-075",
+    "topic": "greeting",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "잠시 내 얘기를 들어 줘."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-076",
+    "topic": "greeting",
+    "kind": "followup",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "대화를 나눌 수 있어서 좋아."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-077",
+    "topic": "greeting",
+    "kind": "ambiguous",
+    "split": "train",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "여기서 편하게 이야기하고 싶은 거야?"
+      },
+      {
+        "role": "user",
+        "content": "응."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "multi-080",
+    "topic": "greeting",
+    "kind": "ambiguous",
+    "split": "test",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "여기서 편하게 이야기하고 싶은 거야?"
+      },
+      {
+        "role": "user",
+        "content": "그래."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-76",
+    "split": "single_retention",
+    "topic": "greeting",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "안녕하신가요? 이야기를 나누고 싶습니다."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      }
+    ],
+    "reference": "반가워! 편하게 이야기해.",
+    "answer": "반가워! 편하게 이야기해.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": null,
+    "rollout_answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-77",
+    "split": "single_retention",
+    "topic": "greeting",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오랜만에 채팅하러 들어왔네."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      }
+    ],
+    "reference": "반가워! 편하게 이야기해.",
+    "answer": "다시 와 줘서 반가워!",
+    "without_history_answer": "다시 와 줘서 반가워!",
+    "generated_first_answer": null,
+    "rollout_answer": "다시 와 줘서 반가워!",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-78",
+    "split": "single_retention",
+    "topic": "greeting",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "말할 사람이 필요해서 찾아왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      }
+    ],
+    "reference": "반가워! 편하게 이야기해.",
+    "answer": "반가워! 편하게 이야기해.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": null,
+    "rollout_answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-79",
+    "split": "single_retention",
+    "topic": "greeting",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "처음 오는 채팅방이네. 반갑다."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      }
+    ],
+    "reference": "반가워! 편하게 이야기해.",
+    "answer": "반가워! 편하게 이야기해.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": null,
+    "rollout_answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-80",
+    "split": "single_retention",
+    "topic": "tired",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "업무가 끝났는데 온몸이 녹초야."
+      },
+      {
+        "role": "assistant",
+        "content": "많이 피곤하구나. 잠깐 쉬어."
+      }
+    ],
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "answer": "일하느라 고생했어. 조금 쉬어.",
+    "without_history_answer": "일하느라 고생했어. 조금 쉬어.",
+    "generated_first_answer": null,
+    "rollout_answer": "일하느라 고생했어. 조금 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-81",
+    "split": "single_retention",
+    "topic": "tired",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "밤새 깨어 있었더니 눈이 자꾸 감기네."
+      },
+      {
+        "role": "assistant",
+        "content": "많이 피곤하구나. 잠깐 쉬어."
+      }
+    ],
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "without_history_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "generated_first_answer": null,
+    "rollout_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-82",
+    "split": "single_retention",
+    "topic": "tired",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "집안일을 한참 했더니 체력이 바닥났어."
+      },
+      {
+        "role": "assistant",
+        "content": "많이 피곤하구나. 잠깐 쉬어."
+      }
+    ],
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "answer": "일하느라 고생했어. 조금 쉬어.",
+    "without_history_answer": "일하느라 고생했어. 조금 쉬어.",
+    "generated_first_answer": null,
+    "rollout_answer": "일하느라 고생했어. 조금 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-83",
+    "split": "single_retention",
+    "topic": "tired",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 너무 바빠서 이제는 기운이 하나도 없어."
+      },
+      {
+        "role": "assistant",
+        "content": "많이 피곤하구나. 잠깐 쉬어."
+      }
+    ],
+    "reference": "많이 피곤하구나. 잠깐 쉬어.",
+    "answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "without_history_answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "generated_first_answer": null,
+    "rollout_answer": "많이 피곤하구나. 잠깐 쉬어.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-84",
+    "split": "single_retention",
+    "topic": "walk",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원 길을 천천히 걸어서 돌아왔지."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      }
+    ],
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "without_history_answer": "산책하고 왔구나. 기분이 어때?",
+    "generated_first_answer": null,
+    "rollout_answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-85",
+    "split": "single_retention",
+    "topic": "walk",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘은 호숫가 둘레를 걸어 봤네."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      }
+    ],
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "answer": "반가워! 편하게 이야기해.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": null,
+    "rollout_answer": "반가워! 편하게 이야기해.",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-86",
+    "split": "single_retention",
+    "topic": "walk",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "동네 골목을 구경하며 산책하고 귀가했어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      }
+    ],
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "without_history_answer": "산책하고 왔구나. 기분이 어때?",
+    "generated_first_answer": null,
+    "rollout_answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-87",
+    "split": "single_retention",
+    "topic": "walk",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "아침 공기를 마시며 근처 길을 걷고 돌아왔어요."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      }
+    ],
+    "reference": "산책하고 왔구나. 기분이 어때?",
+    "answer": "산책하고 왔구나. 기분이 어때?",
+    "without_history_answer": "산책하고 왔구나. 기분이 어때?",
+    "generated_first_answer": null,
+    "rollout_answer": "산책하고 왔구나. 기분이 어때?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-88",
+    "split": "single_retention",
+    "topic": "movie",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "쉬는 날에 극장 상영작을 하나 보고 싶네."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 이야기구나. 어떤 장르가 좋아?"
+      }
+    ],
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "without_history_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "generated_first_answer": null,
+    "rollout_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-89",
+    "split": "single_retention",
+    "topic": "movie",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "저녁에 감상할 영화 한 편을 찾아볼까 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 이야기구나. 어떤 장르가 좋아?"
+      }
+    ],
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": null,
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-90",
+    "split": "single_retention",
+    "topic": "movie",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구와 함께 볼 영화 제목을 고르고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 이야기구나. 어떤 장르가 좋아?"
+      }
+    ],
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": null,
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-91",
+    "split": "single_retention",
+    "topic": "movie",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오랜만에 집에서 영화 감상을 하려고 해요."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 이야기구나. 어떤 장르가 좋아?"
+      }
+    ],
+    "reference": "영화 이야기구나. 어떤 장르가 좋아?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": null,
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-92",
+    "split": "single_retention",
+    "topic": "plant",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "내 방 화분에서 작은 잎이 올라오네."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "without_history_answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "generated_first_answer": null,
+    "rollout_answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-93",
+    "split": "single_retention",
+    "topic": "plant",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "화초를 넓은 화분으로 옮겨 심으려 해요."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "without_history_answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "generated_first_answer": null,
+    "rollout_answer": "분갈이하려는구나. 새 화분은 준비했어?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-94",
+    "split": "single_retention",
+    "topic": "plant",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우던 모종의 줄기가 전보다 길어졌어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "answer": "잘 자라고 있네. 어떤 식물이야?",
+    "without_history_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "generated_first_answer": null,
+    "rollout_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "retention-95",
+    "split": "single_retention",
+    "topic": "plant",
+    "kind": "single",
+    "messages": [
+      {
+        "role": "user",
+        "content": "집에서 기를 화초 하나를 새로 장만했어."
+      },
+      {
+        "role": "assistant",
+        "content": "식물을 키우는구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "식물을 키우는구나. 어떤 식물이야?",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "without_history_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "generated_first_answer": null,
+    "rollout_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-plant-movie-1",
+    "topic": "movie",
+    "previous_topic": "plant",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 영화 얘기를 하자. 내일 영화관에 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-plant-movie-5",
+    "topic": "movie",
+    "previous_topic": "plant",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 내일 볼 영화의 표를 예매하려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-plant-walk-1",
+    "topic": "walk",
+    "previous_topic": "plant",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 산책 얘기를 할래. 조금 있다가 동네를 걸으려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      }
+    ],
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "without_history_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-plant-walk-5",
+    "topic": "walk",
+    "previous_topic": "plant",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 주말에 숲길을 걸어 볼 예정이야."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      }
+    ],
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-plant-tired-1",
+    "topic": "tired",
+    "previous_topic": "plant",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 다른 얘긴데, 어제 잠을 못 자서 지금 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      }
+    ],
+    "reference": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "without_history_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-plant-tired-5",
+    "topic": "tired",
+    "previous_topic": "plant",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 밤에 한숨도 못 자서 지금 졸음이 쏟아져."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      }
+    ],
+    "reference": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "without_history_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-plant-greeting-1",
+    "topic": "greeting",
+    "previous_topic": "plant",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 다른 얘기를 나누고 싶어. 내 이야기를 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-plant-greeting-5",
+    "topic": "greeting",
+    "previous_topic": "plant",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 다른 이야기를 편하게 꺼내도 괜찮을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "좋아. 편하게 이야기하자.",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-movie-plant-1",
+    "topic": "plant",
+    "previous_topic": "movie",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 화초 얘기를 할래. 오늘 화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "새 식물을 들였구나. 어떤 식물이야?",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "without_history_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-movie-plant-5",
+    "topic": "plant",
+    "previous_topic": "movie",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 새 화초를 장만해서 방 안에 놓았어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "새 식물을 들였구나. 어떤 식물이야?",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "without_history_answer": "식물을 키우는구나. 어떤 식물이야?",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-movie-walk-1",
+    "topic": "walk",
+    "previous_topic": "movie",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 산책 얘기를 할래. 조금 있다가 동네를 걸으려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      }
+    ],
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "without_history_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-movie-walk-5",
+    "topic": "walk",
+    "previous_topic": "movie",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 주말에 숲길을 걸어 볼 예정이야."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      }
+    ],
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "without_history_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-movie-tired-1",
+    "topic": "tired",
+    "previous_topic": "movie",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 다른 얘긴데, 어제 잠을 못 자서 지금 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      }
+    ],
+    "reference": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "without_history_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-movie-tired-5",
+    "topic": "tired",
+    "previous_topic": "movie",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 밤에 한숨도 못 자서 지금 졸음이 쏟아져."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      }
+    ],
+    "reference": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "without_history_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-movie-greeting-1",
+    "topic": "greeting",
+    "previous_topic": "movie",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 다른 얘기를 나누고 싶어. 내 이야기를 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-movie-greeting-5",
+    "topic": "greeting",
+    "previous_topic": "movie",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 다른 이야기를 편하게 꺼내도 괜찮을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "좋아. 편하게 이야기하자.",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-walk-plant-1",
+    "topic": "plant",
+    "previous_topic": "walk",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "이제 화초 얘기를 할래. 오늘 화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "새 식물을 들였구나. 어떤 식물이야?",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "without_history_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-walk-plant-5",
+    "topic": "plant",
+    "previous_topic": "walk",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 새 화초를 장만해서 방 안에 놓았어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "새 식물을 들였구나. 어떤 식물이야?",
+    "answer": "산책이 기분 전환이 됐구나.",
+    "without_history_answer": "식물을 키우는구나. 어떤 식물이야?",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "산책이 기분 전환이 됐구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-walk-movie-1",
+    "topic": "movie",
+    "previous_topic": "walk",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "이제 영화 얘기를 하자. 내일 영화관에 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-walk-movie-5",
+    "topic": "movie",
+    "previous_topic": "walk",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 내일 볼 영화의 표를 예매하려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-walk-tired-1",
+    "topic": "tired",
+    "previous_topic": "walk",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "이제 다른 얘긴데, 어제 잠을 못 자서 지금 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      }
+    ],
+    "reference": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "without_history_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-walk-tired-5",
+    "topic": "tired",
+    "previous_topic": "walk",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 밤에 한숨도 못 자서 지금 졸음이 쏟아져."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      }
+    ],
+    "reference": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "without_history_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-walk-greeting-1",
+    "topic": "greeting",
+    "previous_topic": "walk",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "이제 다른 얘기를 나누고 싶어. 내 이야기를 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-walk-greeting-5",
+    "topic": "greeting",
+    "previous_topic": "walk",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 다른 이야기를 편하게 꺼내도 괜찮을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "좋아. 편하게 이야기하자.",
+    "generated_first_answer": "산책하고 왔구나. 기분이 어때?",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-tired-plant-1",
+    "topic": "plant",
+    "previous_topic": "tired",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "이제 화초 얘기를 할래. 오늘 화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "새 식물을 들였구나. 어떤 식물이야?",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "without_history_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-tired-plant-5",
+    "topic": "plant",
+    "previous_topic": "tired",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 새 화초를 장만해서 방 안에 놓았어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "새 식물을 들였구나. 어떤 식물이야?",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "without_history_answer": "식물을 키우는구나. 어떤 식물이야?",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-tired-movie-1",
+    "topic": "movie",
+    "previous_topic": "tired",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "이제 영화 얘기를 하자. 내일 영화관에 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-tired-movie-5",
+    "topic": "movie",
+    "previous_topic": "tired",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 내일 볼 영화의 표를 예매하려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-tired-walk-1",
+    "topic": "walk",
+    "previous_topic": "tired",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "이제 산책 얘기를 할래. 조금 있다가 동네를 걸으려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      }
+    ],
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "without_history_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-tired-walk-5",
+    "topic": "walk",
+    "previous_topic": "tired",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 주말에 숲길을 걸어 볼 예정이야."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      }
+    ],
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-tired-greeting-1",
+    "topic": "greeting",
+    "previous_topic": "tired",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "이제 다른 얘기를 나누고 싶어. 내 이야기를 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-tired-greeting-5",
+    "topic": "greeting",
+    "previous_topic": "tired",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 다른 이야기를 편하게 꺼내도 괜찮을까?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      }
+    ],
+    "reference": "좋아. 편하게 이야기하자.",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "좋아. 편하게 이야기하자.",
+    "generated_first_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-greeting-plant-1",
+    "topic": "plant",
+    "previous_topic": "greeting",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이제 화초 얘기를 할래. 오늘 화원에서 식물을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "새 식물을 들였구나. 어떤 식물이야?",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "without_history_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-greeting-plant-5",
+    "topic": "plant",
+    "previous_topic": "greeting",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 새 화초를 장만해서 방 안에 놓았어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      }
+    ],
+    "reference": "새 식물을 들였구나. 어떤 식물이야?",
+    "answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "without_history_answer": "식물을 키우는구나. 어떤 식물이야?",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-greeting-movie-1",
+    "topic": "movie",
+    "previous_topic": "greeting",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이제 영화 얘기를 하자. 내일 영화관에 가기로 했어."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-greeting-movie-5",
+    "topic": "movie",
+    "previous_topic": "greeting",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 내일 볼 영화의 표를 예매하려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-greeting-walk-1",
+    "topic": "walk",
+    "previous_topic": "greeting",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이제 산책 얘기를 할래. 조금 있다가 동네를 걸으려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      }
+    ],
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "without_history_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-greeting-walk-5",
+    "topic": "walk",
+    "previous_topic": "greeting",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 주말에 숲길을 걸어 볼 예정이야."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      }
+    ],
+    "reference": "산책할 계획이구나. 어디로 갈 거야?",
+    "answer": "좋아. 편하게 이야기하자.",
+    "without_history_answer": "산책할 계획이구나. 어디로 갈 거야?",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-greeting-tired-1",
+    "topic": "tired",
+    "previous_topic": "greeting",
+    "split": "switch_train",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이제 다른 얘긴데, 어제 잠을 못 자서 지금 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      }
+    ],
+    "reference": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "without_history_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "switch-greeting-tired-5",
+    "topic": "tired",
+    "previous_topic": "greeting",
+    "split": "switch_test",
+    "kind": "topic_switch",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "그건 그렇고, 밤에 한숨도 못 자서 지금 졸음이 쏟아져."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      }
+    ],
+    "reference": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "without_history_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "잠이 부족하구나. 잠깐 눈을 붙여.",
+    "decision": "pending"
+  },
+  {
+    "id": "user-switch-1",
+    "split": "user_case",
+    "kind": "topic_switch",
+    "topic": "movie",
+    "previous_topic": "plant",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "식물 이야기는 그만하고 오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "user-switch-2",
+    "split": "user_case",
+    "kind": "topic_switch",
+    "topic": "movie",
+    "previous_topic": "plant",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "다른 얘기로, 주말에 영화를 볼 예정이야."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      }
+    ],
+    "reference": "영화 볼 계획이구나. 어떤 작품이야?",
+    "answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-train-plant-0",
+    "topic": "plant",
+    "split": "varied_train",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant",
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "다시 와 줘서 반가워!",
+    "generated_first_answer": "잘 자라고 있네. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-train-plant-1",
+    "topic": "plant",
+    "split": "varied_train",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 식물을 하나 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초를 키우고 있어."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "loss_scope": "last_assistant",
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "다시 와 줘서 반가워!",
+    "generated_first_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-test-plant-0-0",
+    "topic": "plant",
+    "split": "varied_test",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 화초 하나가 집에 생겼어."
+      },
+      {
+        "role": "assistant",
+        "content": "집에 새 식물이 생겼구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "장미야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-test-plant-0-1",
+    "topic": "plant",
+    "split": "varied_test",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "작은 화초 하나가 집에 생겼어."
+      },
+      {
+        "role": "assistant",
+        "content": "집에 새 식물이 생겼구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아레카야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-test-plant-1-0",
+    "topic": "plant",
+    "split": "varied_test",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "방 안에서 식물을 기르는 중이야."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 식물을 기르는 중이야?"
+      },
+      {
+        "role": "user",
+        "content": "아레카야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "식물을 키우는구나. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-test-plant-1-1",
+    "topic": "plant",
+    "split": "varied_test",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "방 안에서 식물을 기르는 중이야."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 식물을 기르는 중이야?"
+      },
+      {
+        "role": "user",
+        "content": "장미야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "식물을 키우는구나. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-train-movie-0",
+    "topic": "movie",
+    "split": "varied_train",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant",
+    "reference": "그 영화를 볼 계획이구나.",
+    "answer": "그 영화를 볼 계획이구나.",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "그 영화를 볼 계획이구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-train-movie-1",
+    "topic": "movie",
+    "split": "varied_train",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 영화 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리를 보려고."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "loss_scope": "last_assistant",
+    "reference": "그 영화를 볼 계획이구나.",
+    "answer": "그 영화를 볼 계획이구나.",
+    "without_history_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "그 영화를 볼 계획이구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-test-movie-0-0",
+    "topic": "movie",
+    "split": "varied_test",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "다음에 볼 영화 제목을 정해 뒀어."
+      },
+      {
+        "role": "assistant",
+        "content": "어떤 영화를 볼 생각이야?"
+      },
+      {
+        "role": "user",
+        "content": "마당을 나온 암탉이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "reference": "그 영화를 볼 계획이구나.",
+    "answer": "그 영화를 볼 계획이구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "그 영화를 볼 계획이구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-test-movie-0-1",
+    "topic": "movie",
+    "split": "varied_test",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "다음에 볼 영화 제목을 정해 뒀어."
+      },
+      {
+        "role": "assistant",
+        "content": "어떤 영화를 볼 생각이야?"
+      },
+      {
+        "role": "user",
+        "content": "너의 이름은이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "reference": "그 영화를 볼 계획이구나.",
+    "answer": "그 영화를 볼 계획이구나.",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "영화 볼 계획이구나. 어떤 작품이야?",
+    "rollout_answer": "그 영화를 볼 계획이구나.",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-test-movie-1-0",
+    "topic": "movie",
+    "split": "varied_test",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 감상할 작품은 이미 정했어."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 작품으로 정했어?"
+      },
+      {
+        "role": "user",
+        "content": "너의 이름은이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "reference": "그 영화를 볼 계획이구나.",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-test-movie-1-1",
+    "topic": "movie",
+    "split": "varied_test",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "주말에 감상할 작품은 이미 정했어."
+      },
+      {
+        "role": "assistant",
+        "content": "무슨 작품으로 정했어?"
+      },
+      {
+        "role": "user",
+        "content": "마당을 나온 암탉이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ],
+    "reference": "그 영화를 볼 계획이구나.",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "반가워! 편하게 이야기해.",
+    "rollout_answer": "좋아. 편하게 이야기하자.",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-regression-1",
+    "topic": "plant",
+    "split": "regression",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "집에 새 화초를 데려왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "데이지를 키워."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  },
+  {
+    "id": "varied-regression-2",
+    "topic": "plant",
+    "split": "regression",
+    "kind": "varied_history",
+    "messages": [
+      {
+        "role": "user",
+        "content": "친구가 작은 화초를 선물해 줬어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "제라늄이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ],
+    "reference": "그 식물을 키우는구나!",
+    "answer": "그 식물을 키우는구나!",
+    "without_history_answer": "반가워! 편하게 이야기해.",
+    "generated_first_answer": "새 식물을 들였구나. 어떤 식물이야?",
+    "rollout_answer": "그 식물을 키우는구나!",
+    "decision": "pending"
+  }
+]

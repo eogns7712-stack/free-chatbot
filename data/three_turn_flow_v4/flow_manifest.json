@@ -1,0 +1,2642 @@
+[
+  {
+    "id": "flow-plant-movie-1",
+    "topic": "movie",
+    "previous_topic": "plant",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "저녁에 영화를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "코코야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-movie-2",
+    "topic": "movie",
+    "previous_topic": "plant",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 영화 얘기하자. 내일 극장에 가."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-movie-3",
+    "topic": "movie",
+    "previous_topic": "plant",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "다음 휴일에 영화를 감상하려고."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-movie-4",
+    "topic": "movie",
+    "previous_topic": "plant",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "이따 극장 영화를 보러 가려고."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "엘리멘탈이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-walk-1",
+    "topic": "walk",
+    "previous_topic": "plant",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "조금 후 산책하러 가려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "공원으로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-walk-2",
+    "topic": "walk",
+    "previous_topic": "plant",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 산책 얘기야. 내일 걸으러 가."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "강가로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-walk-3",
+    "topic": "walk",
+    "previous_topic": "plant",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "오늘 오후에 좀 걸으려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "호수로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-walk-4",
+    "topic": "walk",
+    "previous_topic": "plant",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "이따 바깥을 산책할 생각이야."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "숲길로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-tired-1",
+    "topic": "tired",
+    "previous_topic": "plant",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "밤을 새워서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "잠깐 잘래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-tired-2",
+    "topic": "tired",
+    "previous_topic": "plant",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 내 상태 얘긴데 잠이 부족해."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "조금 쉴게."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-tired-3",
+    "topic": "tired",
+    "previous_topic": "plant",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "어제 못 자서 눈이 감겨."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "눈 좀 붙일래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-tired-4",
+    "topic": "tired",
+    "previous_topic": "plant",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "밤에 못 자서 지금 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "쉬고 올게."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-greeting-1",
+    "topic": "greeting",
+    "previous_topic": "plant",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "새 이야기를 나눠도 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "내 얘기를 들어 줘."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-greeting-2",
+    "topic": "greeting",
+    "previous_topic": "plant",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "지금은 다른 대화를 하고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "잠깐 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-greeting-3",
+    "topic": "greeting",
+    "previous_topic": "plant",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "다른 이야기로 대화하고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "이야기 좀 할게."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-plant-greeting-4",
+    "topic": "greeting",
+    "previous_topic": "plant",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "키우는 식물에 새잎이 났어."
+      },
+      {
+        "role": "assistant",
+        "content": "잘 자라고 있네. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "새로운 얘기를 시작해도 될까?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "내 말을 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-plant-1",
+    "topic": "plant",
+    "previous_topic": "movie",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "화초를 새로 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-plant-2",
+    "topic": "plant",
+    "previous_topic": "movie",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 식물 얘긴데 모종을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-plant-3",
+    "topic": "plant",
+    "previous_topic": "movie",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "새 식물을 집에 들였어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "율마야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-plant-4",
+    "topic": "plant",
+    "previous_topic": "movie",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "화원에서 화초를 구입했네."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "장미야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-walk-1",
+    "topic": "walk",
+    "previous_topic": "movie",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "조금 후 산책하러 가려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "공원으로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-walk-2",
+    "topic": "walk",
+    "previous_topic": "movie",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 산책 얘기야. 내일 걸으러 가."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "강가로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-walk-3",
+    "topic": "walk",
+    "previous_topic": "movie",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "오늘 오후에 좀 걸으려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "호수로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-walk-4",
+    "topic": "walk",
+    "previous_topic": "movie",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "이따 바깥을 산책할 생각이야."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "숲길로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-tired-1",
+    "topic": "tired",
+    "previous_topic": "movie",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "밤을 새워서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "잠깐 잘래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-tired-2",
+    "topic": "tired",
+    "previous_topic": "movie",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "이제 내 상태 얘긴데 잠이 부족해."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "조금 쉴게."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-tired-3",
+    "topic": "tired",
+    "previous_topic": "movie",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "어제 못 자서 눈이 감겨."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "눈 좀 붙일래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-tired-4",
+    "topic": "tired",
+    "previous_topic": "movie",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "밤에 못 자서 지금 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "쉬고 올게."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-greeting-1",
+    "topic": "greeting",
+    "previous_topic": "movie",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "새 이야기를 나눠도 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "내 얘기를 들어 줘."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-greeting-2",
+    "topic": "greeting",
+    "previous_topic": "movie",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "지금은 다른 대화를 하고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "잠깐 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-greeting-3",
+    "topic": "greeting",
+    "previous_topic": "movie",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "다른 이야기로 대화하고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "이야기 좀 할게."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-movie-greeting-4",
+    "topic": "greeting",
+    "previous_topic": "movie",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 영화를 보려고 해."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "새로운 얘기를 시작해도 될까?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "내 말을 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-plant-1",
+    "topic": "plant",
+    "previous_topic": "walk",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "화초를 새로 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-plant-2",
+    "topic": "plant",
+    "previous_topic": "walk",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "이제 식물 얘긴데 모종을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-plant-3",
+    "topic": "plant",
+    "previous_topic": "walk",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "새 식물을 집에 들였어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "율마야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-plant-4",
+    "topic": "plant",
+    "previous_topic": "walk",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "화원에서 화초를 구입했네."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "장미야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-movie-1",
+    "topic": "movie",
+    "previous_topic": "walk",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "저녁에 영화를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "코코야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-movie-2",
+    "topic": "movie",
+    "previous_topic": "walk",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "이제 영화 얘기하자. 내일 극장에 가."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-movie-3",
+    "topic": "movie",
+    "previous_topic": "walk",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "다음 휴일에 영화를 감상하려고."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-movie-4",
+    "topic": "movie",
+    "previous_topic": "walk",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "이따 극장 영화를 보러 가려고."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "엘리멘탈이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-tired-1",
+    "topic": "tired",
+    "previous_topic": "walk",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "밤을 새워서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "잠깐 잘래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-tired-2",
+    "topic": "tired",
+    "previous_topic": "walk",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "이제 내 상태 얘긴데 잠이 부족해."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "조금 쉴게."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-tired-3",
+    "topic": "tired",
+    "previous_topic": "walk",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "어제 못 자서 눈이 감겨."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "눈 좀 붙일래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-tired-4",
+    "topic": "tired",
+    "previous_topic": "walk",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "밤에 못 자서 지금 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "쉬고 올게."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-greeting-1",
+    "topic": "greeting",
+    "previous_topic": "walk",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "새 이야기를 나눠도 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "내 얘기를 들어 줘."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-greeting-2",
+    "topic": "greeting",
+    "previous_topic": "walk",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "지금은 다른 대화를 하고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "잠깐 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-greeting-3",
+    "topic": "greeting",
+    "previous_topic": "walk",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "다른 이야기로 대화하고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "이야기 좀 할게."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-walk-greeting-4",
+    "topic": "greeting",
+    "previous_topic": "walk",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "공원에서 산책하고 왔어."
+      },
+      {
+        "role": "assistant",
+        "content": "산책하고 왔구나. 기분이 어때?"
+      },
+      {
+        "role": "user",
+        "content": "새로운 얘기를 시작해도 될까?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "내 말을 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-plant-1",
+    "topic": "plant",
+    "previous_topic": "tired",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "화초를 새로 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-plant-2",
+    "topic": "plant",
+    "previous_topic": "tired",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "이제 식물 얘긴데 모종을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-plant-3",
+    "topic": "plant",
+    "previous_topic": "tired",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "새 식물을 집에 들였어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "율마야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-plant-4",
+    "topic": "plant",
+    "previous_topic": "tired",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "화원에서 화초를 구입했네."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "장미야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-movie-1",
+    "topic": "movie",
+    "previous_topic": "tired",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "저녁에 영화를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "코코야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-movie-2",
+    "topic": "movie",
+    "previous_topic": "tired",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "이제 영화 얘기하자. 내일 극장에 가."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-movie-3",
+    "topic": "movie",
+    "previous_topic": "tired",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "다음 휴일에 영화를 감상하려고."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-movie-4",
+    "topic": "movie",
+    "previous_topic": "tired",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "이따 극장 영화를 보러 가려고."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "엘리멘탈이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-walk-1",
+    "topic": "walk",
+    "previous_topic": "tired",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "조금 후 산책하러 가려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "공원으로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-walk-2",
+    "topic": "walk",
+    "previous_topic": "tired",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "이제 산책 얘기야. 내일 걸으러 가."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "강가로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-walk-3",
+    "topic": "walk",
+    "previous_topic": "tired",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "오늘 오후에 좀 걸으려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "호수로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-walk-4",
+    "topic": "walk",
+    "previous_topic": "tired",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "이따 바깥을 산책할 생각이야."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "숲길로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-greeting-1",
+    "topic": "greeting",
+    "previous_topic": "tired",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "새 이야기를 나눠도 돼?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "내 얘기를 들어 줘."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-greeting-2",
+    "topic": "greeting",
+    "previous_topic": "tired",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "지금은 다른 대화를 하고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "잠깐 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-greeting-3",
+    "topic": "greeting",
+    "previous_topic": "tired",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "다른 이야기로 대화하고 싶어."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "이야기 좀 할게."
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-tired-greeting-4",
+    "topic": "greeting",
+    "previous_topic": "tired",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "잠을 적게 자서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "새로운 얘기를 시작해도 될까?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 편하게 이야기하자."
+      },
+      {
+        "role": "user",
+        "content": "내 말을 들어 줄래?"
+      },
+      {
+        "role": "assistant",
+        "content": "좋아. 이야기해 줘."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-plant-1",
+    "topic": "plant",
+    "previous_topic": "greeting",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "화초를 새로 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "난초야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-plant-2",
+    "topic": "plant",
+    "previous_topic": "greeting",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이제 식물 얘긴데 모종을 샀어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "아이비야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-plant-3",
+    "topic": "plant",
+    "previous_topic": "greeting",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "새 식물을 집에 들였어."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "율마야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-plant-4",
+    "topic": "plant",
+    "previous_topic": "greeting",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "화원에서 화초를 구입했네."
+      },
+      {
+        "role": "assistant",
+        "content": "새 식물을 들였구나. 어떤 식물이야?"
+      },
+      {
+        "role": "user",
+        "content": "장미야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 식물을 키우는구나!"
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-movie-1",
+    "topic": "movie",
+    "previous_topic": "greeting",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "저녁에 영화를 볼 거야."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "코코야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-movie-2",
+    "topic": "movie",
+    "previous_topic": "greeting",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이제 영화 얘기하자. 내일 극장에 가."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "모아나야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-movie-3",
+    "topic": "movie",
+    "previous_topic": "greeting",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "다음 휴일에 영화를 감상하려고."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "토이 스토리야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-movie-4",
+    "topic": "movie",
+    "previous_topic": "greeting",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이따 극장 영화를 보러 가려고."
+      },
+      {
+        "role": "assistant",
+        "content": "영화 볼 계획이구나. 어떤 작품이야?"
+      },
+      {
+        "role": "user",
+        "content": "엘리멘탈이야."
+      },
+      {
+        "role": "assistant",
+        "content": "그 영화를 볼 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-walk-1",
+    "topic": "walk",
+    "previous_topic": "greeting",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "조금 후 산책하러 가려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "공원으로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-walk-2",
+    "topic": "walk",
+    "previous_topic": "greeting",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이제 산책 얘기야. 내일 걸으러 가."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "강가로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-walk-3",
+    "topic": "walk",
+    "previous_topic": "greeting",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "오늘 오후에 좀 걸으려고."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "호수로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-walk-4",
+    "topic": "walk",
+    "previous_topic": "greeting",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이따 바깥을 산책할 생각이야."
+      },
+      {
+        "role": "assistant",
+        "content": "산책할 계획이구나. 어디로 갈 거야?"
+      },
+      {
+        "role": "user",
+        "content": "숲길로."
+      },
+      {
+        "role": "assistant",
+        "content": "그곳으로 산책을 갈 계획이구나."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-tired-1",
+    "topic": "tired",
+    "previous_topic": "greeting",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "밤을 새워서 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "잠깐 잘래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-tired-2",
+    "topic": "tired",
+    "previous_topic": "greeting",
+    "split": "flow_train",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "이제 내 상태 얘긴데 잠이 부족해."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "조금 쉴게."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-tired-3",
+    "topic": "tired",
+    "previous_topic": "greeting",
+    "split": "flow_validation",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "어제 못 자서 눈이 감겨."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "눈 좀 붙일래."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  },
+  {
+    "id": "flow-greeting-tired-4",
+    "topic": "tired",
+    "previous_topic": "greeting",
+    "split": "flow_test",
+    "kind": "three_turn",
+    "messages": [
+      {
+        "role": "user",
+        "content": "오늘 처음 왔어. 반가워."
+      },
+      {
+        "role": "assistant",
+        "content": "반가워! 편하게 이야기해."
+      },
+      {
+        "role": "user",
+        "content": "밤에 못 자서 지금 졸려."
+      },
+      {
+        "role": "assistant",
+        "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+      },
+      {
+        "role": "user",
+        "content": "쉬고 올게."
+      },
+      {
+        "role": "assistant",
+        "content": "그래, 편하게 쉬어."
+      }
+    ]
+  }
+]

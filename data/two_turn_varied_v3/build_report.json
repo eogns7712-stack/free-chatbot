@@ -1,0 +1,10 @@
+{
+  "train": 299,
+  "old_train_preserved": 229,
+  "new_last_assistant_only": 70,
+  "deduplicated": 2,
+  "validation": 43,
+  "new_development": 8,
+  "probes": 101,
+  "regression_phrases_excluded_from_train_and_validation": true
+}

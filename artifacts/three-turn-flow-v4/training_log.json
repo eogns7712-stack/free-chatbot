@@ -1,0 +1,50 @@
+{
+  "source": "artifacts\\two-turn-switch-v2\\epochs\\epoch-03",
+  "train_count": 339,
+  "validation_count": 63,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "batch_size": 1,
+  "max_history_pairs": 2,
+  "selection": "검증 마지막 assistant 답변의 토큰 손실. 정답 이전 응답을 문맥으로 제공.",
+  "hashes": {
+    "train.jsonl": "081c3bb0bf5fdc26206ab5a41877ca8a3c6c3dbc96d3ee274a5c9ae39ec0f972",
+    "validation.jsonl": "664dc7e2e821e0137075ab2b360572fdf1e99f10cfed7e42ef1f5505fe63c77f",
+    "probes.jsonl": "815ad3d03e5859015c4b7fe51f00dc401088e9336cd07c4a671ff99d8724dda5"
+  },
+  "best_epoch": 6,
+  "best_validation_loss": 0.01137829422139365,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.06631921517845382,
+      "followup_validation_loss": 0.07288497063669969
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.019142647053381128,
+      "followup_validation_loss": 0.041004729347839726
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.010236919018397909,
+      "followup_validation_loss": 0.04623775517878433
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.01952113407525246,
+      "followup_validation_loss": 0.026760291937865655
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.00925795620669751,
+      "followup_validation_loss": 0.015138665732405516
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.010884697346846734,
+      "followup_validation_loss": 0.01137829422139365
+    }
+  ],
+  "initial_validation_loss": 0.5375623667824336
+}

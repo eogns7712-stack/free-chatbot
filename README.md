@@ -1,179 +1,132 @@
-# 자유주제 한국어 챗봇과 직접 학습 실험
+# 직접 학습한 한국어 챗봇
 
-Python과 Hugging Face 도구로 한국어 대화 모델을 직접 학습하고, 자유로운 주제로 대화하는 챗봇을 만드는 프로젝트입니다.
+Python·PyTorch·Hugging Face 도구로 모델을 직접 학습하고, 자유로운 주제로 대화하는 한국어 챗봇을 만드는 프로젝트입니다.
 
-**현재는 모델 학습·평가 단계입니다.** 학습·저장·재개와 비교 실험은 실행되지만, 직접 학습 모델이 처음 보는 질문에 안정적으로 답하는 수준은 아직 확보하지 못했습니다. 기존 터미널·Gradio 앱은 현재 Qwen 모델을 사용합니다.
+**현재 성과는 제한된 5개 주제의 짧은 문맥 유지·주제 전환·3턴 대화입니다. 자유 주제 대화는 아직 미달성입니다.** 직접 학습 모델을 Gradio 화면에 연결했고, 사용자가 영화→식물 전환→“데이지를 키워.”의 전체 흐름을 확인했습니다.
 
-문서 갱신일은 **2026년 11월 18일**입니다.
+갱신일: **2026-11-25**
 
-## 처음 계획과 달라진 점
+## 초기 계획과 변경 이유
 
-초기 계획은 공개 모델 Qwen2.5-0.5B-Instruct를 Python에 연결해 로컬 챗봇을 만들고, 2~4주 동안 답변 품질과 실행 문서를 정리하는 것이었습니다. 이후 사용자가 모델도 직접 학습하기를 원해 토크나이저·무작위 초기화 GPT-2·데이터 전처리·사전학습·문답 학습까지 범위가 확장됐습니다.
+초기에는 Qwen2.5-0.5B-Instruct를 연결해 2~4주 동안 채팅 앱을 구현·개선하려 했습니다. 앱 구현 후 사용자가 모델도 직접 학습하기를 원해 토크나이저, 무작위 초기화 GPT-2, SNS 사전학습과 문답 추가 학습으로 범위를 확대했습니다.
 
-학습 문장 재현과 손실 감소가 실제 대화 개선으로 이어지지 않아, 계획을 데이터와 모델 규모의 통제 비교 및 실제 생성 평가 중심으로 변경했습니다. 기존 11/09~12/06 기간은 실험·성과 정리의 초기 일정이며 자유 대화 품질을 보장하는 마감일이 아닙니다.
+손실 감소와 데이터 수 증가가 실제 대화 개선으로 이어지지 않아, 짧은 단문→상황 구분→2턴 문맥→주제 전환→3턴 전체 흐름 순서로 과제를 나눴습니다. 최종 자유 대화 목표는 유지합니다. 초기 4주 일정은 성과 정리 기간이며 품질 달성 보장일이 아닙니다.
 
-상세 변경 이유와 예정 일정은 [PLAN.md](PLAN.md), 완료한 실험과 결과는 [PROGRESS.md](PROGRESS.md)에서 확인할 수 있습니다.
+변경 이유와 날짜별 예정 작업은 [PLAN.md](PLAN.md), 실험 근거와 결과는 [PROGRESS.md](PROGRESS.md)에 기록합니다.
 
-## 현재 기능과 실험 범위
+## 현재 실행할 앱
 
-| 구분 | 상태 |
+| 앱 | 모델·입력 범위 | 상태 |
+| --- | --- | --- |
+| `app.py`, `web_app.py` | 기존 공개 Qwen 모델 | 최초 비교용. 직접 학습 모델과 별도 |
+| `web_app_v3.py` | 직접 모델의 현재 질문만 전달 | 단일 문답 비교용 |
+| `web_app_two_turn.py` | 직전 문답 1쌍 + 현재 메시지 | 2턴 유지·전환 시험용 |
+| `web_app_three_turn.py` | 최근 문답 최대 2쌍 + 현재 메시지 | 현재 3턴 시험용 |
+
+프로젝트 루트에서 실행합니다. 이전 서버가 켜져 있으면 먼저 Ctrl+C로 종료합니다.
+
+```powershell
+.\.venv\Scripts\python.exe web_app_three_turn.py --model artifacts/three-turn-flow-v4/epochs/epoch-06
+```
+
+터미널에 서버 주소가 출력되면 브라우저에서 http://127.0.0.1:7860 을 엽니다. 실행 파일과 `three_turn_runtime.py`, 해당 모델 폴더의 `config.json`, 가중치와 `tokenizer.json`이 필요합니다. 모델은 로컬 파일만 읽습니다.
+
+화면 기록을 초기화한 뒤 한 문장씩 입력하고 답변을 기다립니다.
+
+```text
+오늘 영화를 보려고 해
+집에 새 화초를 데려왔어.
+데이지를 키워.
+```
+
+사용자 확인 결과는 “영화 볼 계획이구나. 어떤 작품이야?” → “새 식물을 들였구나. 어떤 식물이야?” → “그 식물을 키우는구나!”였습니다. 이는 해당 사례의 성공이며 모든 표현의 성공을 보장하지 않습니다.
+
+## 모델 선택과 현재 한계
+
+| 경로 | 역할 |
 | --- | --- |
-| Qwen 터미널·브라우저 채팅 | 실행 가능 |
-| 직접 토크나이저·GPT-2 학습 및 재로딩 | 구현 |
-| CPU 시간 예산·체크포인트 재개 | 구현 및 소량 재현 검사 |
-| SNS 50,000대화의 블록 사전학습 | 데이터 준비 및 모델 규모 비교 완료 |
-| 새 질문의 자연스러운 응답 | 미달성. 반복·주제 혼합·문장 오류가 남음 |
-| 직접 학습 모델의 다중 턴 품질 | 정식 검수 미완료 |
-| 직접 모델의 Gradio 연결 | 미완료 |
+| `artifacts/short-dialogue-mixed-v3/epochs/epoch-06` | 단일 문답 비교 기준 보존 |
+| `artifacts/two-turn-switch-v2/epochs/epoch-03` | 기존 2턴 문맥·전환 기준 보존 |
+| `artifacts/three-turn-flow-v4/epochs/epoch-06` | 3턴 대화 시험 모델. 전체 기준을 대체했다고 판단하지 않음 |
+
+학습 로그의 최저 손실 모델과 생성 시험 후보가 다를 수 있습니다. 예를 들어 주제 전환 모델은 검증 최저가 6회차지만 개발용 전환 질문 결과를 보고 3회차를 시험했습니다. 평가 질문을 반복 사용했으므로 독립 최종 점수로 보고하지 않습니다.
+
+- 인사·피곤함·산책·영화·식물 중심의 짧은 응답입니다. 미학습 주제에는 엉뚱한 답변이 나올 수 있습니다.
+- 최근 기록을 입력에 포함하는 방식이며 영구 저장이나 장기 기억이 아닙니다. 이름·색 같은 임의 정보 회상은 검증되지 않았고 기존 시험에서 실패했습니다.
+- 3턴 모델도 일부 단일 질문과 주제 전환에서 실패합니다. 단문 기준 모델보다 모든 기능이 좋아진 것은 아닙니다.
+- 문맥 한도 128토큰, 응답 최대 48토큰입니다. 대화가 길면 새 대화 또는 짧은 입력을 요청합니다. 임의로 기록을 숨겨 잘라 주지는 않습니다.
+- 새로운 대화 시나리오끼리는 화면 기록을 초기화합니다. 모델 가중치는 채팅 중 바뀌지 않습니다.
 
 ## 환경과 설치
 
-확인한 환경은 Windows, Python 3.14.5, Ryzen 7 1700, RAM 약 8GB입니다. GTX 1060 3GB가 있지만 설치된 PyTorch는 CPU 빌드이며 현재 학습은 CPU에서 진행합니다.
+확인한 환경은 Windows·Python 3.14.5·Ryzen 7 1700·RAM 약 8GB입니다. GTX 1060 3GB가 있지만 설치된 PyTorch는 CPU 빌드이며 현재 학습·추론은 CPU를 사용합니다.
 
-| 패키지 | 확인한 버전 | 용도 |
-| --- | --- | --- |
-| torch | 2.15.0 | 텐서, 손실, AdamW, 학습과 추론 |
-| transformers | 5.22.2 | GPT-2 구조, 체크포인트와 생성 |
-| tokenizers | 0.23.3 | ByteLevel BPE 학습과 토큰화 |
-| gradio | 6.31.0 | 기존 Qwen 웹 채팅 |
-| ijson | 3.6.0 | ZIP 내부 대형 JSON 순차 처리 |
-| numpy | 2.5.4 | uint16 토큰 블록과 메모리 매핑 |
-
-프로젝트 폴더에서 가상환경을 만들고 설치합니다.
-
-~~~powershell
+```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m pip install "tokenizers==0.23.3" "ijson==3.6.0" "numpy==2.5.4"
-~~~
+```
 
-현재 requirements.txt는 torch, transformers, gradio만 고정합니다. 추가 명령은 직접 학습 스크립트의 의존성을 보완합니다. 위 버전은 기존 환경의 기록이며 새 환경 전체 재현 검수는 남아 있습니다. VS Code의 Python 인터프리터도 .venv를 선택합니다.
+기존 확인 버전은 torch 2.15.0, transformers 5.22.2, gradio 6.31.0입니다. requirements.txt는 이 세 패키지를 고정하고 추가 명령은 전처리·직접 학습 의존성을 보완합니다. 새 환경에서 전체 재현 검수는 남아 있습니다. VS Code 인터프리터는 `.venv`를 선택합니다.
 
-## 기존 Qwen 앱 실행
+## 데이터와 학습 단계
 
-~~~powershell
-.\.venv\Scripts\python.exe app.py
-~~~
+| 단계 | 데이터·규모 | 의미 |
+| --- | --- | --- |
+| 토크나이저 | ByteLevel BPE, 어휘 4,000개 | 초기 386개 실험과 별도 |
+| SNS 사전학습 | 5만·10만 대화 비교 | 전체 실제 토큰의 다음 토큰 예측 |
+| 단문 통제 | 60개, 5개 고정 답변 | 주제 연결과 문장 생성 확인 |
+| 단문 혼합 v3 | 119개 | 기존 질문과 상황별 응답 유지 |
+| 2턴 유지 v1 | 169개 | 단문 119 + 2턴 50 |
+| 2턴 전환 v2 | 229개 | 기존 169 + 전환 60 |
+| 문맥 변형 v3 | 299개 | 기존 229 + 마지막 답변만 학습하는 변형 70 |
+| 3턴 흐름 v4 | 339개 | 기존 299 + 전환·후속 흐름 40 |
 
-터미널에서 /reset으로 기록을 지우고 /exit로 종료합니다.
+역할과 종료 토큰은 `<user>`, `<assistant>`, `<eos>` 등이며 Qwen 채팅 템플릿을 사용하지 않습니다. 사용자 발화와 역할 토큰은 문답 학습의 손실에서 제외합니다. 70개 문맥 변형은 첫 assistant 응답도 제외하고 마지막 응답만 학습합니다. 새 3턴 예시는 세 assistant 응답을 함께 학습합니다.
 
-~~~powershell
-.\.venv\Scripts\python.exe web_app.py
-~~~
+### 현재 3턴 학습 명령의 기록
 
-출력된 로컬 주소를 브라우저에서 엽니다. 웹 앱의 휴지통으로 대화를 지우며 서버는 Ctrl+C로 종료합니다. 모델 첫 다운로드에는 인터넷 연결이 필요합니다. 이 명령은 직접 학습 모델이 아닌 app.py에 설정된 Qwen을 사용합니다.
+아래 결과 폴더는 이미 생성됐습니다. 재현하려면 `--output`을 새 이름으로 바꿉니다.
 
-## 직접 학습 코드와 데이터
+```powershell
+.\.venv\Scripts\python.exe train_three_turn_v4.py --source artifacts/two-turn-switch-v2/epochs/epoch-03 --data data/three_turn_flow_v4 --output artifacts/three-turn-flow-v4 --epochs 6 --learning-rate 0.0001
+```
 
-| 파일 | 역할 |
+`train_three_turn_v4.py`와 `three_turn_runtime.py`, 공통 배치·검증 함수를 제공하는 `train_sns_30min.py`가 같은 프로젝트 루트에 있어야 합니다. 기존 가중치를 읽지만 옵티마이저는 새로 초기화합니다. 정확한 중단 재개 명령이 아닙니다.
+
+매 회차 `epochs/epoch-XX/`에 모델·토크나이저·`test_answers.json`을 저장합니다. `answer`는 정답 이전 응답을 제공한 결과, `rollout_answer`는 실제 생성의 마지막 답변, `rollout_turns`는 모델이 처음부터 생성한 전체 흐름입니다. 모델 선택은 검증 마지막 assistant 답변의 손실을 사용합니다. 전체 대화 품질은 별도 검토합니다.
+
+## 최근 비교 결과
+
+| 비교 | 확인 결과 | 해석 |
+| --- | --- | --- |
+| 같은 31,758스텝의 5만·10만 사전학습 | 검증 손실 4.5243 / 4.5181 | 소폭 차이. 실제 대화 개선을 확정하지 않음 |
+| 각각 같은 단문 60개 학습 | 선택 모델 모두 미학습 질문 18/20 정확 일치 | 5개 답변 과제이며 자유 대화 90%가 아님 |
+| 2턴 전환 3회차 | 기존 후속 15/15, 전환 18/20 정확 일치 | 실제 생성 조건의 반복 개발 평가 |
+| 3턴 v4 6회차 | 마지막 답변: 정답 문맥 20/20, 실제 전체 흐름 18/20 전체 정확 일치 | 정답 문맥과 실제 생성의 차이가 남음 |
+| 데이지·제라늄 3턴 회귀 | 2/2 전체 정확 일치 | 이전 실패 사례의 회복 확인. 일반 성능 보장 아님 |
+
+통과는 모범 답변과 문자 일치가 아니라 이해 가능한 문장과 주제·상황 관련성으로 판정합니다. 정확 일치는 고정·단문 과제의 보조 지표입니다. 부분 관련·시점 혼동·답을 받은 뒤 질문 반복은 별도 기록합니다.
+
+## 주요 실행 파일
+
+| 파일 | 용도 |
 | --- | --- |
-| train_tokenizer.py, train_model.py | 최초 소량 토크나이저·모델 실험 |
-| train_sns_tokenizer.py | SNS 학습 텍스트로 어휘 4,000개 토크나이저 학습 |
-| prepare_sns_dataset.py, prepare_sns_30min.py | 짧은 대화 JSONL 선별·분할 |
-| prepare_pretrain_blocks.py | 긴 대화를 보존해 128토큰 블록 생성 |
-| train_sns_30min.py | 기존 배치 학습 및 공통 로더·검증 함수 |
-| train_sns_fulltext.py | 전체 발화 다음 토큰 학습 비교 |
-| train_sns_resume.py | 짧은 JSONL 실험의 체크포인트 재개 |
-| train_pretrain_blocks.py | 메모리 매핑 블록 말뭉치의 누적 사전학습 |
-| train_capacity_trial.py | 같은 데이터·스텝의 128·256차원 규모 비교 |
-| train_intent_from_pretrained.py | 기존 가중치에 모범 문답 답변 부분 추가 학습 |
-| evaluate_dialogue_30.py | 공통 질문의 결정적 생성과 결과 저장 |
-| audit_dialogue_500.py, audit_question_conditioning.py | 문답 구조·표현 및 질문 조건 활용 검사 |
+| `prepare_pretrain_blocks.py` | ZIP 내부 대화를 읽어 128토큰 블록 생성 |
+| `train_capacity_target.py` | 사전학습 체크포인트 재개·누적 목표 스텝 종료 |
+| `train_intent_from_pretrained.py` | 초기 문답 학습, 검증 최선 모델 보존 |
+| `train_intent_lr_compare.py` | 단문 회차별 모델과 생성 답변 저장 |
+| `train_two_turn_v1.py` | 2턴 문답·전환 학습과 실제 생성 평가 |
+| `train_two_turn_varied_v3.py` | 문맥 변형의 마지막 답변 손실 처리 |
+| `train_three_turn_v4.py`, `three_turn_runtime.py` | 최대 3턴 학습·실제 대화 평가·공통 추론 |
+| `web_app_three_turn.py` | 최근 두 문답을 전달하는 로컬 채팅 화면 |
 
-직접 모델은 <user>, <assistant>, <eos>, <pad> 등의 토큰으로 학습과 추론 형식을 맞춥니다. 기존 Qwen용 채팅 템플릿을 그대로 적용하지 않습니다.
+사전학습의 `--steps`는 이번 실행에서 추가할 스텝 상한이고 `--target-step`은 누적 목표입니다. `--resume`에는 같은 데이터·토크나이저·설정을 사용해야 합니다. 문답 학습기들은 이 사전학습 재개 기능과 다릅니다.
 
-### 필요한 로컬 파일
+## 출처·로컬 파일·남은 작업
 
-~~~text
-data/
-  sns_pretrain_blocks/
-    train.bin
-    validation.bin
-    report.json
-    manifest.jsonl
-  intent_dialogue/
-    train.jsonl
-    validation.jsonl
-  intent_expanded/
-    test_questions.jsonl
-artifacts/
-  sns-tokenizer-v1/
-    tokenizer.json
-~~~
+AI Hub 한국어 SNS는 사전학습 원본입니다. 일부 과거 500·600개 실험은 [songys/Chatbot_data](https://github.com/songys/Chatbot_data)를 사용했으며 출처·행 기록·MIT 라이선스를 유지합니다. 현재 단계적 단문·다중 턴 데이터는 프로젝트용 작성 예시이며 일반 한국어 지식 말뭉치가 아닙니다.
 
-큰 말뭉치·체크포인트가 저장소에 포함되지 않을 수 있습니다. 클론만으로 모든 실험을 실행할 수 있다고 가정하지 않습니다. AI Hub 원본 접근과 전처리 결과, 학습한 토크나이저가 필요합니다. 모델·말뭉치·토크나이저 파일은 해당 실험의 해시와 맞아야 합니다.
+큰 말뭉치·모델·체크포인트가 저장소에 포함되지 않을 수 있어 클론만으로 실행된다고 보장하지 않습니다. 실제 실행에는 해당 데이터와 로컬 모델·토크나이저가 필요합니다. `.venv`, 캐시, 인증 정보, 모델 가중치, 원본 데이터는 커밋 목록과 `.gitignore`를 확인합니다.
 
-[AI Hub 한국어 SNS](https://www.aihub.or.kr/aihubdata/data/view.do?dataSetSn=114)에서 원본을 준비합니다. 전처리 스크립트의 기본 ZIP 경로는 개발 PC 경로이므로 다른 환경에서는 --zip으로 지정합니다.
-
-~~~powershell
-.\.venv\Scripts\python.exe prepare_pretrain_blocks.py --zip "D:\datasets\한국어SNS_train.zip" --output data/sns_pretrain_blocks
-~~~
-
-출력 폴더가 이미 있으면 중단합니다. 기존 토크나이저를 다시 학습하거나 교체하면 과거 모델·말뭉치와 호환되지 않을 수 있습니다. 기존 실험을 재현할 때는 같은 tokenizer.json을 사용합니다.
-
-### 블록 말뭉치
-
-학습 50,000대화·5,352,204토큰과 검증 5,000대화·534,070토큰입니다. 학습 63,514블록을 배치 4로 처리하므로 말뭉치 1회는 15,879스텝입니다.
-
-서로 다른 원본 대화를 학습·검증에 나누고 중복을 검사했습니다. 긴 대화는 128토큰 블록으로 나누며 직전 토큰 하나를 겹칩니다. 파일 형식은 little-endian uint16이고 메모리 매핑으로 읽습니다.
-
-## 모델 규모 비교 재현 예시
-
-아래는 별도의 새 결과 경로에서 실행하는 예시입니다. 이미 완료한 모델 폴더에 덮어쓰지 않습니다. 기존 train_sns_30min.py는 공통 함수로 사용되므로 프로젝트 루트에 있어야 합니다.
-
-~~~powershell
-.\.venv\Scripts\python.exe train_capacity_trial.py --width 128 --output artifacts/capacity128-repro --steps 3000
-.\.venv\Scripts\python.exe train_capacity_trial.py --width 256 --output artifacts/capacity256-repro --steps 3000
-~~~
-
-재개할 때는 같은 차원과 결과 폴더에 --resume을 지정합니다.
-
-~~~powershell
-.\.venv\Scripts\python.exe train_capacity_trial.py --width 256 --output artifacts/capacity256-repro --resume --steps 3000
-~~~
-
-**--steps는 이번 실행에서 추가할 스텝 상한**입니다. 재개 학습의 평생 누적 스텝 상한은 없으며 시간을 기준으로 종료될 수도 있습니다. 이미 12,000스텝이면 3,879스텝을 추가해 15,879에 도달합니다.
-
-모델·옵티마이저·현재 순서와 위치·난수 상태를 저장합니다. 100스텝마다 체크포인트를 교체하므로 Ctrl+C 이후에는 마지막 완전 저장 지점부터 재개합니다. 전체 실행 약 30분 중 학습 약 20분, 나머지는 검증·저장에 배정합니다.
-
-처음 128·256차원 비교는 양쪽 모두 무작위 초기화합니다. 차원이 다른 기존 가중치를 그대로 가져오는 방식은 사용하지 않습니다.
-
-## 문답 추가 학습과 생성 평가
-
-다음은 실제 수행한 큰 모델의 문답 학습 명령입니다. 결과 폴더가 이미 있으면 재실행 전에 --output을 새 이름으로 지정합니다.
-
-~~~powershell
-.\.venv\Scripts\python.exe train_intent_from_pretrained.py --source artifacts/capacity-256-v1/models/step-00015879 --data data/intent_dialogue --output artifacts/intent-capacity256-v1
-~~~
-
-원래 모델 가중치에서 시작하고 이 단계의 옵티마이저는 새로 초기화합니다. 기본 상한은 30회입니다. 시작 모델도 후보로 포함하고 답변 부분 검증 손실이 가장 낮은 회차를 저장합니다.
-
-~~~powershell
-.\.venv\Scripts\python.exe evaluate_dialogue_30.py --model artifacts/intent-capacity256-v1 --questions data/intent_expanded/test_questions.jsonl
-~~~
-
-training_log.json에 학습·선택 기록, validation_answers.json에 검증 질문 생성, test_answers.json에 30개 공통 질문 답변이 저장됩니다. 자동 pending 표시는 수동 판정 전 상태입니다.
-
-## 최근 결과와 해석
-
-| 같은 조건의 실험 | 128차원 | 256차원 |
-| --- | ---: | ---: |
-| 파라미터 | 1,321,728 | 4,216,320 |
-| 말뭉치 1회 후 전체 발화 검증 손실 | 4.8587 | 4.7258 |
-| 50개 문답 추가 학습 최저 검증 손실 | 3.3311 | 3.2126 |
-| 공통 생성 평가의 명확한 통과 | 수동 1/30 | 수동 3/30 |
-
-큰 모델의 손실이 더 낮고 일부 생성 이점이 관찰됐습니다. 그러나 두 모델 모두 주제 혼합·반복·문장 오류가 남았고, 자유 대화 능력 확보로 판단하지 않습니다. 이 비교는 단일 시드·작은 개발 평가이며 CPU 비용도 큰 모델이 약 두 배였습니다.
-
-공통 30개 질문과 검증 15개는 이미 여러 번 사용한 개발 자료입니다. 새 최종 평가로 취급하지 않습니다. 학습 문답의 재현율과 자유 생성 점수를 구분하고, 토크나이저·손실 대상이 다른 수치를 직접 비교하지 않습니다.
-
-## 다음 단계
-
-현재 규모 비교를 결과와 함께 문서화하고, 후속 가설·변경 조건·종료 기준을 먼저 정합니다. 같은 조건의 무제한 추가 학습과 1,000개까지의 기계적 문답 확대는 보류했습니다. 직접 모델의 Gradio 통합과 새 질문·다중 턴 최종 검수는 남아 있습니다.
-
-## 데이터 출처와 저장소 관리
-
-- SNS 사전학습 원본은 AI Hub 한국어 SNS입니다. 원본 신청·이용·배포 조건에 맞춰 관리합니다.
-- 500·600개 문답 실험에는 [songys/Chatbot_data](https://github.com/songys/Chatbot_data)의 일부가 포함됩니다. 해당 실험 폴더의 출처·원본 행 기록과 MIT 라이선스를 함께 유지합니다.
-- .venv, 캐시, 인증 정보와 모델 가중치는 .gitignore 및 커밋 목록에서 확인합니다. 체크포인트의 checkpoint.pt는 모델뿐 아니라 옵티마이저와 상태를 포함하므로 공개 여부를 별도로 정합니다.
-- 이 저장소의 실행 안내와 기존 학습 파일만으로 누락된 토크나이저·학습 데이터·모델을 자동 복구하는 기능은 없습니다.
+다음은 모델·평가 버전을 고정하고 새로운 표현과 미학습 주제의 실패를 기록하는 작업입니다. 추가 학습은 필요한 가설과 종료 조건을 먼저 정한 후 수행합니다. 자유 대화, 장기 기억, 새 환경 전체 재현, 폭넓은 품질 검수는 남아 있습니다.
