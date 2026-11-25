@@ -97,3 +97,9 @@ data/와 artifacts/는 학습 로그·실행 명령에서 참조하므로 위치
 | `question_conditioning_audit.json` | `reports/question_conditioning_audit.json` |
 | `question_usage_results.json` | `reports/question_usage_results.json` |
 | `intent_clean600` | `archive/imported_packages/intent_clean600` |
+
+## 현재 대화 평가
+
+`evaluation/`에는 현재 모델의 시나리오 평가 코드와 입력을 둡니다. 과거 코드는 experiments/와 구분합니다.
+`evaluation/evaluate_scenarios.py`는 프로젝트 루트에서 실행하며 결과는 reports/fresh_dialogues_v1/에 저장합니다.
+이미 있는 결과는 덮어쓰지 않습니다. 실행법과 판정 기준은 evaluation/README.md를 확인합니다.

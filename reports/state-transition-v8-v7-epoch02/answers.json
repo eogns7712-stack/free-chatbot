@@ -1,0 +1,823 @@
+{
+  "model": "C:\\Users\\510\\Desktop\\free-chatbot\\artifacts\\first-reply-cap-v7\\epochs\\epoch-02",
+  "weight_hashes": {
+    "model.safetensors": "c4b72a54e92c2c96767a2206ff9bf8c7530a7f0c948d006111badf60f3147a86"
+  },
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "scenarios_sha256": "16e7da632ff05877be4bf2b03237977a5385228eebc63e83fc3efea5a2ed8793",
+  "max_history_pairs": 2,
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 48
+  },
+  "environment": {
+    "python": "3.14.5",
+    "torch": "2.15.0+cpu",
+    "transformers": "5.22.2"
+  },
+  "method": "각 시나리오는 새 대화. 모델이 생성한 최근 두 문답만 전달하며 정답 중간 응답을 제공하지 않음.",
+  "limitations": "학습 대화와 전체 사용자 발화 순서의 정확 중복을 배제한 소규모 개발 평가. 의미가 유사한 예시와 범위 밖 진단을 포함함.",
+  "results": [
+    {
+      "id": "walk-plan-single",
+      "group": "walk_plan",
+      "mode": "single",
+      "topic": "walk",
+      "state": "plan",
+      "user_messages": [
+        "오늘 저녁에 동네를 산책하러 나갈 예정이야."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 저녁에 동네를 산책하러 나갈 예정이야.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁에 동네를 산책하러 나갈 예정이야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "walk-plan-history",
+      "group": "walk_plan",
+      "mode": "history",
+      "topic": "walk",
+      "state": "plan",
+      "user_messages": [
+        "조금 후 산책을 나갈 생각이야.",
+        "동네 하천 쪽으로 갈 거야.",
+        "오늘 저녁에 동네를 산책하러 나갈 예정이야."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 후 산책을 나갈 생각이야.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "동네 하천 쪽으로 갈 거야.",
+          "assistant": "그곳으로 산책을 갈 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "동네 하천 쪽으로 갈 거야."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "오늘 저녁에 동네를 산책하러 나갈 예정이야.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "동네 하천 쪽으로 갈 거야."
+            },
+            {
+              "role": "assistant",
+              "content": "그곳으로 산책을 갈 계획이구나."
+            },
+            {
+              "role": "user",
+              "content": "오늘 저녁에 동네를 산책하러 나갈 예정이야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "walk-ongoing-single",
+      "group": "walk_ongoing",
+      "mode": "single",
+      "topic": "walk",
+      "state": "ongoing",
+      "user_messages": [
+        "지금 밖에서 산책하는 중이야. 아직 걷고 있어."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "지금 밖에서 산책하는 중이야. 아직 걷고 있어.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "지금 밖에서 산책하는 중이야. 아직 걷고 있어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "walk-ongoing-history",
+      "group": "walk_ongoing",
+      "mode": "history",
+      "topic": "walk",
+      "state": "ongoing",
+      "user_messages": [
+        "조금 후 산책을 나갈 생각이야.",
+        "동네 하천 쪽으로 갈 거야.",
+        "지금 밖에서 산책하는 중이야. 아직 걷고 있어."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 후 산책을 나갈 생각이야.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "동네 하천 쪽으로 갈 거야.",
+          "assistant": "그곳으로 산책을 갈 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "동네 하천 쪽으로 갈 거야."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "지금 밖에서 산책하는 중이야. 아직 걷고 있어.",
+          "assistant": "그곳으로 산책을 갈 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "동네 하천 쪽으로 갈 거야."
+            },
+            {
+              "role": "assistant",
+              "content": "그곳으로 산책을 갈 계획이구나."
+            },
+            {
+              "role": "user",
+              "content": "지금 밖에서 산책하는 중이야. 아직 걷고 있어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "walk-done-single",
+      "group": "walk_done",
+      "mode": "single",
+      "topic": "walk",
+      "state": "done",
+      "user_messages": [
+        "산책을 다 마치고 조금 전에 집으로 돌아왔어."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "산책을 다 마치고 조금 전에 집으로 돌아왔어.",
+          "assistant": "비 때문에 산책을 못 해서 아쉽겠다.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "산책을 다 마치고 조금 전에 집으로 돌아왔어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "walk-done-history",
+      "group": "walk_done",
+      "mode": "history",
+      "topic": "walk",
+      "state": "done",
+      "user_messages": [
+        "조금 후 산책을 나갈 생각이야.",
+        "동네 하천 쪽으로 갈 거야.",
+        "산책을 다 마치고 조금 전에 집으로 돌아왔어."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 후 산책을 나갈 생각이야.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "동네 하천 쪽으로 갈 거야.",
+          "assistant": "그곳으로 산책을 갈 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "동네 하천 쪽으로 갈 거야."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "산책을 다 마치고 조금 전에 집으로 돌아왔어.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "동네 하천 쪽으로 갈 거야."
+            },
+            {
+              "role": "assistant",
+              "content": "그곳으로 산책을 갈 계획이구나."
+            },
+            {
+              "role": "user",
+              "content": "산책을 다 마치고 조금 전에 집으로 돌아왔어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "walk-cancel-single",
+      "group": "walk_cancel",
+      "mode": "single",
+      "topic": "walk",
+      "state": "cancel",
+      "user_messages": [
+        "오늘 산책은 취소했어. 밖에 나가지 않을 거야."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 산책은 취소했어. 밖에 나가지 않을 거야.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 산책은 취소했어. 밖에 나가지 않을 거야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "walk-cancel-history",
+      "group": "walk_cancel",
+      "mode": "history",
+      "topic": "walk",
+      "state": "cancel",
+      "user_messages": [
+        "조금 후 산책을 나갈 생각이야.",
+        "동네 하천 쪽으로 갈 거야.",
+        "오늘 산책은 취소했어. 밖에 나가지 않을 거야."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 후 산책을 나갈 생각이야.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "동네 하천 쪽으로 갈 거야.",
+          "assistant": "그곳으로 산책을 갈 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "동네 하천 쪽으로 갈 거야."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "오늘 산책은 취소했어. 밖에 나가지 않을 거야.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후 산책을 나갈 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "동네 하천 쪽으로 갈 거야."
+            },
+            {
+              "role": "assistant",
+              "content": "그곳으로 산책을 갈 계획이구나."
+            },
+            {
+              "role": "user",
+              "content": "오늘 산책은 취소했어. 밖에 나가지 않을 거야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "movie-plan-single",
+      "group": "movie_plan",
+      "mode": "single",
+      "topic": "movie",
+      "state": "plan",
+      "user_messages": [
+        "오늘 저녁에 영화 한 편을 볼 예정이야."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 저녁에 영화 한 편을 볼 예정이야.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁에 영화 한 편을 볼 예정이야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "movie-plan-history",
+      "group": "movie_plan",
+      "mode": "history",
+      "topic": "movie",
+      "state": "plan",
+      "user_messages": [
+        "조금 후에 영화를 한 편 감상하려고.",
+        "코코를 골랐어.",
+        "오늘 저녁에 영화 한 편을 볼 예정이야."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 후에 영화를 한 편 감상하려고.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "코코를 골랐어.",
+          "assistant": "그 영화를 볼 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "코코를 골랐어."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "오늘 저녁에 영화 한 편을 볼 예정이야.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "코코를 골랐어."
+            },
+            {
+              "role": "assistant",
+              "content": "그 영화를 볼 계획이구나."
+            },
+            {
+              "role": "user",
+              "content": "오늘 저녁에 영화 한 편을 볼 예정이야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "movie-ongoing-single",
+      "group": "movie_ongoing",
+      "mode": "single",
+      "topic": "movie",
+      "state": "ongoing",
+      "user_messages": [
+        "지금 영화를 보는 중이야. 아직 끝나지 않았어."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "지금 영화를 보는 중이야. 아직 끝나지 않았어.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "지금 영화를 보는 중이야. 아직 끝나지 않았어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "movie-ongoing-history",
+      "group": "movie_ongoing",
+      "mode": "history",
+      "topic": "movie",
+      "state": "ongoing",
+      "user_messages": [
+        "조금 후에 영화를 한 편 감상하려고.",
+        "코코를 골랐어.",
+        "지금 영화를 보는 중이야. 아직 끝나지 않았어."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 후에 영화를 한 편 감상하려고.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "코코를 골랐어.",
+          "assistant": "그 영화를 볼 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "코코를 골랐어."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "지금 영화를 보는 중이야. 아직 끝나지 않았어.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "코코를 골랐어."
+            },
+            {
+              "role": "assistant",
+              "content": "그 영화를 볼 계획이구나."
+            },
+            {
+              "role": "user",
+              "content": "지금 영화를 보는 중이야. 아직 끝나지 않았어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "movie-done-single",
+      "group": "movie_done",
+      "mode": "single",
+      "topic": "movie",
+      "state": "done",
+      "user_messages": [
+        "영화를 끝까지 다 보고 조금 전에 감상을 마쳤어."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "영화를 끝까지 다 보고 조금 전에 감상을 마쳤어.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "영화를 끝까지 다 보고 조금 전에 감상을 마쳤어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "movie-done-history",
+      "group": "movie_done",
+      "mode": "history",
+      "topic": "movie",
+      "state": "done",
+      "user_messages": [
+        "조금 후에 영화를 한 편 감상하려고.",
+        "코코를 골랐어.",
+        "영화를 끝까지 다 보고 조금 전에 감상을 마쳤어."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 후에 영화를 한 편 감상하려고.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "코코를 골랐어.",
+          "assistant": "그 영화를 볼 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "코코를 골랐어."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "영화를 끝까지 다 보고 조금 전에 감상을 마쳤어.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "코코를 골랐어."
+            },
+            {
+              "role": "assistant",
+              "content": "그 영화를 볼 계획이구나."
+            },
+            {
+              "role": "user",
+              "content": "영화를 끝까지 다 보고 조금 전에 감상을 마쳤어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "movie-cancel-single",
+      "group": "movie_cancel",
+      "mode": "single",
+      "topic": "movie",
+      "state": "cancel",
+      "user_messages": [
+        "오늘 영화 감상은 취소했어. 안 볼 거야."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 영화 감상은 취소했어. 안 볼 거야.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 영화 감상은 취소했어. 안 볼 거야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "movie-cancel-history",
+      "group": "movie_cancel",
+      "mode": "history",
+      "topic": "movie",
+      "state": "cancel",
+      "user_messages": [
+        "조금 후에 영화를 한 편 감상하려고.",
+        "코코를 골랐어.",
+        "오늘 영화 감상은 취소했어. 안 볼 거야."
+      ],
+      "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 후에 영화를 한 편 감상하려고.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "코코를 골랐어.",
+          "assistant": "그 영화를 볼 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "코코를 골랐어."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "오늘 영화 감상은 취소했어. 안 볼 거야.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 후에 영화를 한 편 감상하려고."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "코코를 골랐어."
+            },
+            {
+              "role": "assistant",
+              "content": "그 영화를 볼 계획이구나."
+            },
+            {
+              "role": "user",
+              "content": "오늘 영화 감상은 취소했어. 안 볼 거야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    }
+  ]
+}

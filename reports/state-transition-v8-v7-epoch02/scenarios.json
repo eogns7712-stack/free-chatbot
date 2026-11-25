@@ -1,0 +1,194 @@
+[
+  {
+    "id": "walk-plan-single",
+    "group": "walk_plan",
+    "mode": "single",
+    "topic": "walk",
+    "state": "plan",
+    "user_messages": [
+      "오늘 저녁에 동네를 산책하러 나갈 예정이야."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "walk-plan-history",
+    "group": "walk_plan",
+    "mode": "history",
+    "topic": "walk",
+    "state": "plan",
+    "user_messages": [
+      "조금 후 산책을 나갈 생각이야.",
+      "동네 하천 쪽으로 갈 거야.",
+      "오늘 저녁에 동네를 산책하러 나갈 예정이야."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "walk-ongoing-single",
+    "group": "walk_ongoing",
+    "mode": "single",
+    "topic": "walk",
+    "state": "ongoing",
+    "user_messages": [
+      "지금 밖에서 산책하는 중이야. 아직 걷고 있어."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "walk-ongoing-history",
+    "group": "walk_ongoing",
+    "mode": "history",
+    "topic": "walk",
+    "state": "ongoing",
+    "user_messages": [
+      "조금 후 산책을 나갈 생각이야.",
+      "동네 하천 쪽으로 갈 거야.",
+      "지금 밖에서 산책하는 중이야. 아직 걷고 있어."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "walk-done-single",
+    "group": "walk_done",
+    "mode": "single",
+    "topic": "walk",
+    "state": "done",
+    "user_messages": [
+      "산책을 다 마치고 조금 전에 집으로 돌아왔어."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "walk-done-history",
+    "group": "walk_done",
+    "mode": "history",
+    "topic": "walk",
+    "state": "done",
+    "user_messages": [
+      "조금 후 산책을 나갈 생각이야.",
+      "동네 하천 쪽으로 갈 거야.",
+      "산책을 다 마치고 조금 전에 집으로 돌아왔어."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "walk-cancel-single",
+    "group": "walk_cancel",
+    "mode": "single",
+    "topic": "walk",
+    "state": "cancel",
+    "user_messages": [
+      "오늘 산책은 취소했어. 밖에 나가지 않을 거야."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "walk-cancel-history",
+    "group": "walk_cancel",
+    "mode": "history",
+    "topic": "walk",
+    "state": "cancel",
+    "user_messages": [
+      "조금 후 산책을 나갈 생각이야.",
+      "동네 하천 쪽으로 갈 거야.",
+      "오늘 산책은 취소했어. 밖에 나가지 않을 거야."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "movie-plan-single",
+    "group": "movie_plan",
+    "mode": "single",
+    "topic": "movie",
+    "state": "plan",
+    "user_messages": [
+      "오늘 저녁에 영화 한 편을 볼 예정이야."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "movie-plan-history",
+    "group": "movie_plan",
+    "mode": "history",
+    "topic": "movie",
+    "state": "plan",
+    "user_messages": [
+      "조금 후에 영화를 한 편 감상하려고.",
+      "코코를 골랐어.",
+      "오늘 저녁에 영화 한 편을 볼 예정이야."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "movie-ongoing-single",
+    "group": "movie_ongoing",
+    "mode": "single",
+    "topic": "movie",
+    "state": "ongoing",
+    "user_messages": [
+      "지금 영화를 보는 중이야. 아직 끝나지 않았어."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "movie-ongoing-history",
+    "group": "movie_ongoing",
+    "mode": "history",
+    "topic": "movie",
+    "state": "ongoing",
+    "user_messages": [
+      "조금 후에 영화를 한 편 감상하려고.",
+      "코코를 골랐어.",
+      "지금 영화를 보는 중이야. 아직 끝나지 않았어."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "movie-done-single",
+    "group": "movie_done",
+    "mode": "single",
+    "topic": "movie",
+    "state": "done",
+    "user_messages": [
+      "영화를 끝까지 다 보고 조금 전에 감상을 마쳤어."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "movie-done-history",
+    "group": "movie_done",
+    "mode": "history",
+    "topic": "movie",
+    "state": "done",
+    "user_messages": [
+      "조금 후에 영화를 한 편 감상하려고.",
+      "코코를 골랐어.",
+      "영화를 끝까지 다 보고 조금 전에 감상을 마쳤어."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "movie-cancel-single",
+    "group": "movie_cancel",
+    "mode": "single",
+    "topic": "movie",
+    "state": "cancel",
+    "user_messages": [
+      "오늘 영화 감상은 취소했어. 안 볼 거야."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  },
+  {
+    "id": "movie-cancel-history",
+    "group": "movie_cancel",
+    "mode": "history",
+    "topic": "movie",
+    "state": "cancel",
+    "user_messages": [
+      "조금 후에 영화를 한 편 감상하려고.",
+      "코코를 골랐어.",
+      "오늘 영화 감상은 취소했어. 안 볼 거야."
+    ],
+    "criteria": "현재 사용자 발화의 주제와 상태에 관련된 이해 가능한 반응. 완료·진행·취소를 미래 계획으로 되돌리지 않음. 마지막 응답과 전체 흐름을 별도 판정."
+  }
+]

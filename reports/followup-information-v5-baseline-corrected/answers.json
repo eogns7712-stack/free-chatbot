@@ -1,0 +1,539 @@
+{
+  "model": "C:\\Users\\510\\Desktop\\free-chatbot\\artifacts\\three-turn-flow-v4\\epochs\\epoch-06",
+  "weight_hashes": {
+    "model.safetensors": "9eae2b3485bdbe38cd28ace36f89a8e9f82b6bd41830331a16065e2de015298a"
+  },
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "scenarios_sha256": "2e0127ba68a68583bbd832e87d60a5185d4f0d7869b43b6d0b52fa68c147d771",
+  "max_history_pairs": 2,
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 48
+  },
+  "environment": {
+    "python": "3.14.5",
+    "torch": "2.15.0+cpu",
+    "transformers": "5.22.2"
+  },
+  "method": "각 시나리오는 새 대화. 모델이 생성한 최근 두 문답만 전달하며 정답 중간 응답을 제공하지 않음.",
+  "limitations": "학습 대화와 전체 사용자 발화 순서의 정확 중복을 배제한 소규모 개발 평가. 의미가 유사한 예시와 범위 밖 진단을 포함함.",
+  "results": [
+    {
+      "id": "info-movie-validation-000",
+      "group": "information_movie",
+      "user_messages": [
+        "이번에는 영화 한 편을 감상할 생각이야.",
+        "이번에 고른 건 주토피아라는 작품이야."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "이번에는 영화 한 편을 감상할 생각이야.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "이번에는 영화 한 편을 감상할 생각이야."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "이번에 고른 건 주토피아라는 작품이야.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "이번에는 영화 한 편을 감상할 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "이번에 고른 건 주토피아라는 작품이야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-movie-validation-001",
+      "group": "information_movie",
+      "user_messages": [
+        "이번에는 영화 한 편을 감상할 생각이야.",
+        "나는 주토피아로 정했거든."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "이번에는 영화 한 편을 감상할 생각이야.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "이번에는 영화 한 편을 감상할 생각이야."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "나는 주토피아로 정했거든.",
+          "assistant": "그 영화를 볼 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "이번에는 영화 한 편을 감상할 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "나는 주토피아로 정했거든."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-plant-validation-002",
+      "group": "information_plant",
+      "user_messages": [
+        "방에서 화초를 기르고 있어.",
+        "지금 기르는 식물 이름은 라벤더야."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "방에서 화초를 기르고 있어.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "방에서 화초를 기르고 있어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "지금 기르는 식물 이름은 라벤더야.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "방에서 화초를 기르고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "지금 기르는 식물 이름은 라벤더야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-plant-validation-003",
+      "group": "information_plant",
+      "user_messages": [
+        "방에서 화초를 기르고 있어.",
+        "우리 집에는 라벤더가 자라."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "방에서 화초를 기르고 있어.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "방에서 화초를 기르고 있어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "우리 집에는 라벤더가 자라.",
+          "assistant": "그 식물을 키우는구나!",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "방에서 화초를 기르고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "우리 집에는 라벤더가 자라."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-walk-validation-004",
+      "group": "information_walk",
+      "user_messages": [
+        "조금 있다가 산책을 나가려고.",
+        "산책 장소는 수목원으로 정했어."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 있다가 산책을 나가려고.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 있다가 산책을 나가려고."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "산책 장소는 수목원으로 정했어.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 있다가 산책을 나가려고."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "산책 장소는 수목원으로 정했어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-walk-validation-005",
+      "group": "information_walk",
+      "user_messages": [
+        "조금 있다가 산책을 나가려고.",
+        "나는 수목원 쪽에 가려고 해."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 있다가 산책을 나가려고.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 있다가 산책을 나가려고."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "나는 수목원 쪽에 가려고 해.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 있다가 산책을 나가려고."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "나는 수목원 쪽에 가려고 해."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-movie-test-000",
+      "group": "information_movie",
+      "user_messages": [
+        "이번에는 영화 한 편을 감상할 생각이야.",
+        "제목은 토이 스토리라고 해."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "이번에는 영화 한 편을 감상할 생각이야.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "이번에는 영화 한 편을 감상할 생각이야."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "제목은 토이 스토리라고 해.",
+          "assistant": "그 영화를 볼 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "이번에는 영화 한 편을 감상할 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "제목은 토이 스토리라고 해."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-movie-test-001",
+      "group": "information_movie",
+      "user_messages": [
+        "이번에는 영화 한 편을 감상할 생각이야.",
+        "내가 보겠다는 작품은 토이 스토리야."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "이번에는 영화 한 편을 감상할 생각이야.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "이번에는 영화 한 편을 감상할 생각이야."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "내가 보겠다는 작품은 토이 스토리야.",
+          "assistant": "그 영화를 볼 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "이번에는 영화 한 편을 감상할 생각이야."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "내가 보겠다는 작품은 토이 스토리야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-plant-test-002",
+      "group": "information_plant",
+      "user_messages": [
+        "방에서 화초를 기르고 있어.",
+        "이름을 알려 주자면 고무나무야."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "방에서 화초를 기르고 있어.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "방에서 화초를 기르고 있어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "이름을 알려 주자면 고무나무야.",
+          "assistant": "좋아. 편하게 이야기하자.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "방에서 화초를 기르고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "이름을 알려 주자면 고무나무야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-plant-test-003",
+      "group": "information_plant",
+      "user_messages": [
+        "방에서 화초를 기르고 있어.",
+        "내가 돌보는 화초는 고무나무라고 해."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "방에서 화초를 기르고 있어.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "방에서 화초를 기르고 있어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "내가 돌보는 화초는 고무나무라고 해.",
+          "assistant": "그 영화를 볼 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "방에서 화초를 기르고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "내가 돌보는 화초는 고무나무라고 해."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-walk-test-004",
+      "group": "information_walk",
+      "user_messages": [
+        "조금 있다가 산책을 나가려고.",
+        "목적지는 해변이라고 하면 돼."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 있다가 산책을 나가려고.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 있다가 산책을 나가려고."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "목적지는 해변이라고 하면 돼.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 있다가 산책을 나가려고."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "목적지는 해변이라고 하면 돼."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "info-walk-test-005",
+      "group": "information_walk",
+      "user_messages": [
+        "조금 있다가 산책을 나가려고.",
+        "걸으러 가려는 곳은 해변이야."
+      ],
+      "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "조금 있다가 산책을 나가려고.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 있다가 산책을 나가려고."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "걸으러 가려는 곳은 해변이야.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "조금 있다가 산책을 나가려고."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "걸으러 가려는 곳은 해변이야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    }
+  ]
+}

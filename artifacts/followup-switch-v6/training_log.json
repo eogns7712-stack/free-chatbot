@@ -1,0 +1,35 @@
+{
+  "source": "artifacts\\three-turn-flow-v4\\epochs\\epoch-06",
+  "train_count": 435,
+  "validation_count": 93,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "batch_size": 1,
+  "max_history_pairs": 2,
+  "selection": "검증 마지막 assistant 답변의 토큰 손실. 정답 이전 응답을 문맥으로 제공.",
+  "hashes": {
+    "train.jsonl": "7fd83708015018dda19d2fc5a88642992ca0a5bd6d2ec740774e0b59ba684351",
+    "validation.jsonl": "89b6660518ba57cb6477a22a2e56f83be6b730d8d2737dba3b8837b70fbfcf92",
+    "probes.jsonl": "e6c6eed79daf159efab09b6e2a05493d61ebca732ffe6076f60ef9e719dd861a"
+  },
+  "best_epoch": 1,
+  "best_validation_loss": 0.005541696401516674,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.011914261846877586,
+      "followup_validation_loss": 0.005541696401516674
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.00848937013541504,
+      "followup_validation_loss": 0.0055805696884635835
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0087503255568941,
+      "followup_validation_loss": 0.03426596971345134
+    }
+  ],
+  "initial_validation_loss": 0.0705066141972784
+}

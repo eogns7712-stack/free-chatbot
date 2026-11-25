@@ -1,0 +1,1081 @@
+{
+  "model": "C:\\Users\\510\\Desktop\\free-chatbot\\artifacts\\three-turn-flow-v4\\epochs\\epoch-06",
+  "weight_hashes": {
+    "model.safetensors": "9eae2b3485bdbe38cd28ace36f89a8e9f82b6bd41830331a16065e2de015298a"
+  },
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "scenarios_sha256": "e960d53e81b44838627b729bae9241791dbecd6347a70d2e1184ee0a52eeaea0",
+  "max_history_pairs": 2,
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 48
+  },
+  "environment": {
+    "python": "3.14.5",
+    "torch": "2.15.0+cpu",
+    "transformers": "5.22.2"
+  },
+  "method": "각 시나리오는 새 대화. 모델이 생성한 최근 두 문답만 다음 입력에 전달. 정답 중간 응답을 제공하지 않음.",
+  "limitations": "학습 대화와 전체 사용자 발화 순서의 정확 중복을 배제한 소규모 개발 평가. 의미가 비슷한 예시는 포함하며 자유 대화 전체 정확도가 아님. 경계 과제는 별도 진단.",
+  "results": [
+    {
+      "id": "N01",
+      "group": "followup",
+      "user_messages": [
+        "새 화초를 데려와 키우고 있어.",
+        "수선화야."
+      ],
+      "criteria": "첫 식물 반응과 이름을 받은 후속 반응 모두 관련됨. 이름을 다시 묻지 않음",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "새 화초를 데려와 키우고 있어.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "수선화야.",
+          "assistant": "그 식물을 키우는구나!",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "새 식물을 들였구나. 어떤 식물이야?"
+            },
+            {
+              "role": "user",
+              "content": "수선화야."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N02",
+      "group": "followup",
+      "user_messages": [
+        "오늘 저녁엔 영화 한 편을 볼까 해.",
+        "벼랑 위의 포뇨를 보려고."
+      ],
+      "criteria": "영화 관람 계획을 유지하고 제목을 받은 뒤 같은 질문을 반복하지 않음",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 저녁엔 영화 한 편을 볼까 해.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "벼랑 위의 포뇨를 보려고.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "벼랑 위의 포뇨를 보려고."
+            }
+          ]
+        }
+      ],
+      "decision": "partial",
+      "notes": "작품명을 받았는데 제목을 다시 물음"
+    },
+    {
+      "id": "N03",
+      "group": "followup",
+      "user_messages": [
+        "동네 공원을 걷고 집에 왔어.",
+        "한결 마음이 가벼워졌네."
+      ],
+      "criteria": "산책 완료와 기분 전환에 관련 응답",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "동네 공원을 걷고 집에 왔어.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "동네 공원을 걷고 집에 왔어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "한결 마음이 가벼워졌네.",
+          "assistant": "산책이 기분 전환이 됐구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "동네 공원을 걷고 집에 왔어."
+            },
+            {
+              "role": "assistant",
+              "content": "산책하고 왔구나. 기분이 어때?"
+            },
+            {
+              "role": "user",
+              "content": "한결 마음이 가벼워졌네."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N04",
+      "group": "followup",
+      "user_messages": [
+        "잠을 거의 못 자서 졸음이 와.",
+        "응, 눈 좀 감고 쉬어야겠어."
+      ],
+      "criteria": "수면 부족과 휴식 의사에 관련 응답",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "잠을 거의 못 자서 졸음이 와.",
+          "assistant": "잠이 부족하구나. 잠깐 눈을 붙여.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "잠을 거의 못 자서 졸음이 와."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "응, 눈 좀 감고 쉬어야겠어.",
+          "assistant": "그래, 편하게 쉬어.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "잠을 거의 못 자서 졸음이 와."
+            },
+            {
+              "role": "assistant",
+              "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+            },
+            {
+              "role": "user",
+              "content": "응, 눈 좀 감고 쉬어야겠어."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N05",
+      "group": "followup",
+      "user_messages": [
+        "처음 들어왔어. 반갑습니다.",
+        "내 일상을 이야기해도 괜찮을까?"
+      ],
+      "criteria": "첫 인사와 대화 시작 의사를 받아 줌",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "처음 들어왔어. 반갑습니다.",
+          "assistant": "반가워! 편하게 이야기해.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "처음 들어왔어. 반갑습니다."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "내 일상을 이야기해도 괜찮을까?",
+          "assistant": "좋아. 편하게 이야기하자.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "처음 들어왔어. 반갑습니다."
+            },
+            {
+              "role": "assistant",
+              "content": "반가워! 편하게 이야기해."
+            },
+            {
+              "role": "user",
+              "content": "내 일상을 이야기해도 괜찮을까?"
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N06",
+      "group": "switch",
+      "user_messages": [
+        "새 화초를 데려와 키우고 있어.",
+        "그 얘긴 여기까지 하고 내일 극장에서 영화를 볼까 해."
+      ],
+      "criteria": "첫 식물 응답은 관련되고 새 관람 계획에서는 영화로 전환",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "새 화초를 데려와 키우고 있어.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "그 얘긴 여기까지 하고 내일 극장에서 영화를 볼까 해.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "새 식물을 들였구나. 어떤 식물이야?"
+            },
+            {
+              "role": "user",
+              "content": "그 얘긴 여기까지 하고 내일 극장에서 영화를 볼까 해."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N07",
+      "group": "switch",
+      "user_messages": [
+        "오늘 저녁엔 영화 한 편을 볼까 해.",
+        "지금은 밤샘 때문에 자꾸 눈이 감기네."
+      ],
+      "criteria": "영화에서 수면 부족으로 전환",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 저녁엔 영화 한 편을 볼까 해.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "지금은 밤샘 때문에 자꾸 눈이 감기네.",
+          "assistant": "잠이 부족하구나. 잠깐 눈을 붙여.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "지금은 밤샘 때문에 자꾸 눈이 감기네."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N08",
+      "group": "switch",
+      "user_messages": [
+        "동네 공원을 걷고 집에 왔어.",
+        "오늘 꽃집에서 화초를 한 종류 사 왔어."
+      ],
+      "criteria": "산책에서 새 식물 구입으로 전환",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "동네 공원을 걷고 집에 왔어.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "동네 공원을 걷고 집에 왔어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "오늘 꽃집에서 화초를 한 종류 사 왔어.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "동네 공원을 걷고 집에 왔어."
+            },
+            {
+              "role": "assistant",
+              "content": "산책하고 왔구나. 기분이 어때?"
+            },
+            {
+              "role": "user",
+              "content": "오늘 꽃집에서 화초를 한 종류 사 왔어."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N09",
+      "group": "switch",
+      "user_messages": [
+        "잠을 거의 못 자서 졸음이 와.",
+        "조금 뒤에 친구와 둑길을 산책하러 갈 거야."
+      ],
+      "criteria": "피로에서 산책 계획으로 전환하고 완료로 단정하지 않음",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "잠을 거의 못 자서 졸음이 와.",
+          "assistant": "잠이 부족하구나. 잠깐 눈을 붙여.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "잠을 거의 못 자서 졸음이 와."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "조금 뒤에 친구와 둑길을 산책하러 갈 거야.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "잠을 거의 못 자서 졸음이 와."
+            },
+            {
+              "role": "assistant",
+              "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+            },
+            {
+              "role": "user",
+              "content": "조금 뒤에 친구와 둑길을 산책하러 갈 거야."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N10",
+      "group": "switch",
+      "user_messages": [
+        "새 화초를 데려와 키우고 있어.",
+        "오늘 대화는 마무리하고 다음에 다시 올게."
+      ],
+      "criteria": "식물에서 작별 인사로 전환",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "새 화초를 데려와 키우고 있어.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "오늘 대화는 마무리하고 다음에 다시 올게.",
+          "assistant": "좋아. 편하게 이야기하자.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "새 식물을 들였구나. 어떤 식물이야?"
+            },
+            {
+              "role": "user",
+              "content": "오늘 대화는 마무리하고 다음에 다시 올게."
+            }
+          ]
+        }
+      ],
+      "decision": "fail",
+      "notes": "대화 종료 요청에 대화를 계속하자는 반응"
+    },
+    {
+      "id": "N11",
+      "group": "switch_followup",
+      "user_messages": [
+        "새 화초를 데려와 키우고 있어.",
+        "휴일에는 영화관에서 영화를 볼 예정이야.",
+        "벼랑 위의 포뇨야."
+      ],
+      "criteria": "식물→영화 전환과 영화 제목 후속 응답이 모두 관련됨",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "새 화초를 데려와 키우고 있어.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "휴일에는 영화관에서 영화를 볼 예정이야.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "새 식물을 들였구나. 어떤 식물이야?"
+            },
+            {
+              "role": "user",
+              "content": "휴일에는 영화관에서 영화를 볼 예정이야."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "벼랑 위의 포뇨야.",
+          "assistant": "그 영화를 볼 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "새 식물을 들였구나. 어떤 식물이야?"
+            },
+            {
+              "role": "user",
+              "content": "휴일에는 영화관에서 영화를 볼 예정이야."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "벼랑 위의 포뇨야."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N12",
+      "group": "switch_followup",
+      "user_messages": [
+        "오늘 저녁엔 영화 한 편을 볼까 해.",
+        "작은 식물을 사서 집으로 데려왔네.",
+        "수선화를 키워."
+      ],
+      "criteria": "영화→새 식물 전환과 이름 후속 응답 모두 관련됨",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 저녁엔 영화 한 편을 볼까 해.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "작은 식물을 사서 집으로 데려왔네.",
+          "assistant": "산책할 계획이구나. 어디로 갈 거야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "작은 식물을 사서 집으로 데려왔네."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "수선화를 키워.",
+          "assistant": "그곳으로 산책을 갈 계획이구나.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "작은 식물을 사서 집으로 데려왔네."
+            },
+            {
+              "role": "assistant",
+              "content": "산책할 계획이구나. 어디로 갈 거야?"
+            },
+            {
+              "role": "user",
+              "content": "수선화를 키워."
+            }
+          ]
+        }
+      ],
+      "decision": "fail",
+      "notes": "식물 전환을 산책으로 오인해 후속도 잘못 연결"
+    },
+    {
+      "id": "N13",
+      "group": "switch_followup",
+      "user_messages": [
+        "잠을 거의 못 자서 졸음이 와.",
+        "쉬는 날에는 극장에 가서 한 편 감상하려 해.",
+        "하울의 움직이는 성이야."
+      ],
+      "criteria": "피로→영화 전환과 제목 후속 응답 모두 관련됨",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "잠을 거의 못 자서 졸음이 와.",
+          "assistant": "잠이 부족하구나. 잠깐 눈을 붙여.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "잠을 거의 못 자서 졸음이 와."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "쉬는 날에는 극장에 가서 한 편 감상하려 해.",
+          "assistant": "그래, 편하게 쉬어.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "잠을 거의 못 자서 졸음이 와."
+            },
+            {
+              "role": "assistant",
+              "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+            },
+            {
+              "role": "user",
+              "content": "쉬는 날에는 극장에 가서 한 편 감상하려 해."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "하울의 움직이는 성이야.",
+          "assistant": "그래, 편하게 쉬어.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "잠을 거의 못 자서 졸음이 와."
+            },
+            {
+              "role": "assistant",
+              "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+            },
+            {
+              "role": "user",
+              "content": "쉬는 날에는 극장에 가서 한 편 감상하려 해."
+            },
+            {
+              "role": "assistant",
+              "content": "그래, 편하게 쉬어."
+            },
+            {
+              "role": "user",
+              "content": "하울의 움직이는 성이야."
+            }
+          ]
+        }
+      ],
+      "decision": "fail",
+      "notes": "영화 전환을 휴식으로 오인해 후속도 잘못 연결"
+    },
+    {
+      "id": "N14",
+      "group": "switch_followup",
+      "user_messages": [
+        "처음 들어왔어. 반갑습니다.",
+        "새로 산 화초를 창가에 놓았어.",
+        "스킨답서스야."
+      ],
+      "criteria": "인사→새 식물 전환과 이름 후속 응답 모두 관련됨",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "처음 들어왔어. 반갑습니다.",
+          "assistant": "반가워! 편하게 이야기해.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "처음 들어왔어. 반갑습니다."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "새로 산 화초를 창가에 놓았어.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "처음 들어왔어. 반갑습니다."
+            },
+            {
+              "role": "assistant",
+              "content": "반가워! 편하게 이야기해."
+            },
+            {
+              "role": "user",
+              "content": "새로 산 화초를 창가에 놓았어."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "스킨답서스야.",
+          "assistant": "그 식물을 키우는구나!",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "처음 들어왔어. 반갑습니다."
+            },
+            {
+              "role": "assistant",
+              "content": "반가워! 편하게 이야기해."
+            },
+            {
+              "role": "user",
+              "content": "새로 산 화초를 창가에 놓았어."
+            },
+            {
+              "role": "assistant",
+              "content": "새 식물을 들였구나. 어떤 식물이야?"
+            },
+            {
+              "role": "user",
+              "content": "스킨답서스야."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N15",
+      "group": "switch_followup",
+      "user_messages": [
+        "오늘 저녁엔 영화 한 편을 볼까 해.",
+        "어제 거의 못 자서 지금 너무 졸린 상태야.",
+        "조금 자고 올게."
+      ],
+      "criteria": "영화→수면 부족 전환과 휴식 의사 응답 모두 관련됨",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 저녁엔 영화 한 편을 볼까 해.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "어제 거의 못 자서 지금 너무 졸린 상태야.",
+          "assistant": "잠이 부족하구나. 잠깐 눈을 붙여.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "어제 거의 못 자서 지금 너무 졸린 상태야."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "조금 자고 올게.",
+          "assistant": "그래, 편하게 쉬어.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "어제 거의 못 자서 지금 너무 졸린 상태야."
+            },
+            {
+              "role": "assistant",
+              "content": "잠이 부족하구나. 잠깐 눈을 붙여."
+            },
+            {
+              "role": "user",
+              "content": "조금 자고 올게."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N16",
+      "group": "boundary",
+      "user_messages": [
+        "오늘 저녁엔 영화 한 편을 볼까 해.",
+        "영화는 안 볼래. 지금은 그냥 쉬려고."
+      ],
+      "criteria": "관람 계획 취소와 휴식 의사 반영. 이미 봤다고 하거나 관람을 계속 권하지 않음",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 저녁엔 영화 한 편을 볼까 해.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "영화는 안 볼래. 지금은 그냥 쉬려고.",
+          "assistant": "그래, 편하게 쉬어.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "영화는 안 볼래. 지금은 그냥 쉬려고."
+            }
+          ]
+        }
+      ],
+      "decision": "pass",
+      "notes": "전체 단계가 질문 주제와 상황에 관련된 이해 가능한 응답"
+    },
+    {
+      "id": "N17",
+      "group": "boundary",
+      "user_messages": [
+        "새 화초를 데려와 키우고 있어.",
+        "식물 말고 고양이를 키우고 싶다는 얘기를 할게."
+      ],
+      "criteria": "고양이를 식물로 오인하지 않음. 미학습 주제 한계 진단",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "새 화초를 데려와 키우고 있어.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "식물 말고 고양이를 키우고 싶다는 얘기를 할게.",
+          "assistant": "그 식물을 키우는구나!",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "새 화초를 데려와 키우고 있어."
+            },
+            {
+              "role": "assistant",
+              "content": "새 식물을 들였구나. 어떤 식물이야?"
+            },
+            {
+              "role": "user",
+              "content": "식물 말고 고양이를 키우고 싶다는 얘기를 할게."
+            }
+          ]
+        }
+      ],
+      "decision": "fail",
+      "notes": "고양이를 식물로 오인"
+    },
+    {
+      "id": "N18",
+      "group": "boundary",
+      "user_messages": [
+        "처음 들어왔어. 반갑습니다.",
+        "내 가방 색은 파란색이야.",
+        "내 가방이 무슨 색이라고 했지?"
+      ],
+      "criteria": "직전 사용자 메시지에 있는 파란색 회상. 미학습 정보 회상 진단",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "처음 들어왔어. 반갑습니다.",
+          "assistant": "반가워! 편하게 이야기해.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "처음 들어왔어. 반갑습니다."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "내 가방 색은 파란색이야.",
+          "assistant": "좋아. 편하게 이야기하자.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "처음 들어왔어. 반갑습니다."
+            },
+            {
+              "role": "assistant",
+              "content": "반가워! 편하게 이야기해."
+            },
+            {
+              "role": "user",
+              "content": "내 가방 색은 파란색이야."
+            }
+          ]
+        },
+        {
+          "turn": 3,
+          "user": "내 가방이 무슨 색이라고 했지?",
+          "assistant": "좋아. 편하게 이야기하자.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "처음 들어왔어. 반갑습니다."
+            },
+            {
+              "role": "assistant",
+              "content": "반가워! 편하게 이야기해."
+            },
+            {
+              "role": "user",
+              "content": "내 가방 색은 파란색이야."
+            },
+            {
+              "role": "assistant",
+              "content": "좋아. 편하게 이야기하자."
+            },
+            {
+              "role": "user",
+              "content": "내 가방이 무슨 색이라고 했지?"
+            }
+          ]
+        }
+      ],
+      "decision": "fail",
+      "notes": "직전 입력의 파란색을 회상하지 못함"
+    },
+    {
+      "id": "N19",
+      "group": "boundary",
+      "user_messages": [
+        "오늘 저녁엔 영화 한 편을 볼까 해.",
+        "집에서 구운 빵이 맛있어서 뿌듯해."
+      ],
+      "criteria": "요리 성공에 관련 응답. 미학습 주제 한계 진단",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 저녁엔 영화 한 편을 볼까 해.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "집에서 구운 빵이 맛있어서 뿌듯해.",
+          "assistant": "새 식물을 들였구나. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 저녁엔 영화 한 편을 볼까 해."
+            },
+            {
+              "role": "assistant",
+              "content": "영화 볼 계획이구나. 어떤 작품이야?"
+            },
+            {
+              "role": "user",
+              "content": "집에서 구운 빵이 맛있어서 뿌듯해."
+            }
+          ]
+        }
+      ],
+      "decision": "fail",
+      "notes": "요리 성공을 식물로 오인"
+    },
+    {
+      "id": "N20",
+      "group": "boundary",
+      "user_messages": [
+        "동네 공원을 걷고 집에 왔어.",
+        "아까 말은 잘못했어. 산책은 안 했고 영화를 재미있게 봤어."
+      ],
+      "criteria": "정정된 현재 정보에 맞춰 영화 감상에 반응. 산책 완료를 유지하지 않음",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "동네 공원을 걷고 집에 왔어.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "동네 공원을 걷고 집에 왔어."
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "user": "아까 말은 잘못했어. 산책은 안 했고 영화를 재미있게 봤어.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "동네 공원을 걷고 집에 왔어."
+            },
+            {
+              "role": "assistant",
+              "content": "산책하고 왔구나. 기분이 어때?"
+            },
+            {
+              "role": "user",
+              "content": "아까 말은 잘못했어. 산책은 안 했고 영화를 재미있게 봤어."
+            }
+          ]
+        }
+      ],
+      "decision": "partial",
+      "notes": "영화 주제로 바꿨지만 이미 본 영화를 앞으로 볼 계획으로 혼동"
+    }
+  ],
+  "manual_review": {
+    "groups": {
+      "followup": {
+        "pass": 4,
+        "partial": 1,
+        "fail": 0
+      },
+      "switch": {
+        "pass": 4,
+        "partial": 0,
+        "fail": 1
+      },
+      "switch_followup": {
+        "pass": 3,
+        "partial": 0,
+        "fail": 2
+      },
+      "boundary": {
+        "pass": 1,
+        "partial": 1,
+        "fail": 3
+      }
+    },
+    "total": {
+      "pass": 12,
+      "partial": 2,
+      "fail": 6
+    },
+    "rubric": "모범 문장 정확 일치가 아니라 전체 흐름의 주제·상황 관련성으로 수동 평가. 반복 질문·시점 혼동은 부분통과, 명확한 주제 이탈과 요청 반대 응답은 실패. 경계 과제는 범위 밖 진단을 포함한다."
+  }
+}

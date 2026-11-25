@@ -1,0 +1,253 @@
+{
+  "model": "C:\\Users\\510\\Desktop\\free-chatbot\\artifacts\\followup-switch-v6\\epochs\\epoch-01",
+  "weight_hashes": {
+    "model.safetensors": "57a32af968c0baf8220bb69332102d00dfbdfab6203c4476465083f8e2ca0c33"
+  },
+  "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+  "scenarios_sha256": "59b5543cc3fd707a219aaf9420550412e0b5b4ba60104d982cecf71277b994d6",
+  "max_history_pairs": 2,
+  "generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 48
+  },
+  "environment": {
+    "python": "3.14.5",
+    "torch": "2.15.0+cpu",
+    "transformers": "5.22.2"
+  },
+  "method": "각 시나리오는 새 대화. 모델이 생성한 최근 두 문답만 전달하며 정답 중간 응답을 제공하지 않음.",
+  "limitations": "학습 대화와 전체 사용자 발화 순서의 정확 중복을 배제한 소규모 개발 평가. 의미가 유사한 예시와 범위 밖 진단을 포함함.",
+  "results": [
+    {
+      "id": "first-v7-01",
+      "group": "greeting",
+      "user_messages": [
+        "안녕하세요, 여기서 잠시 수다 떨고 싶어서요."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "안녕하세요, 여기서 잠시 수다 떨고 싶어서요.",
+          "assistant": "반가워! 편하게 이야기해.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "안녕하세요, 여기서 잠시 수다 떨고 싶어서요."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "first-v7-02",
+      "group": "greeting",
+      "user_messages": [
+        "반갑습니다. 처음 접속해서 인사를 남겨요."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "반갑습니다. 처음 접속해서 인사를 남겨요.",
+          "assistant": "반가워! 편하게 이야기해.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "반갑습니다. 처음 접속해서 인사를 남겨요."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "first-v7-03",
+      "group": "tired",
+      "user_messages": [
+        "밤에 잠을 충분히 못 잤더니 졸음이 몰려와."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "밤에 잠을 충분히 못 잤더니 졸음이 몰려와.",
+          "assistant": "잠이 부족하구나. 잠깐 눈을 붙여.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "밤에 잠을 충분히 못 잤더니 졸음이 몰려와."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "first-v7-04",
+      "group": "tired",
+      "user_messages": [
+        "어젯밤 뒤척여서 오늘은 눈을 뜨고 있기 힘들어."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "어젯밤 뒤척여서 오늘은 눈을 뜨고 있기 힘들어.",
+          "assistant": "잠이 부족하구나. 잠깐 눈을 붙여.",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "어젯밤 뒤척여서 오늘은 눈을 뜨고 있기 힘들어."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "first-v7-05",
+      "group": "walk",
+      "user_messages": [
+        "햇살을 쬐며 동네 길을 걷다가 방금 돌아왔네."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "햇살을 쬐며 동네 길을 걷다가 방금 돌아왔네.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "햇살을 쬐며 동네 길을 걷다가 방금 돌아왔네."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "first-v7-06",
+      "group": "walk",
+      "user_messages": [
+        "오늘 공원 둘레를 한 바퀴 걷고 귀가했지."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 공원 둘레를 한 바퀴 걷고 귀가했지.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 공원 둘레를 한 바퀴 걷고 귀가했지."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "first-v7-07",
+      "group": "movie",
+      "user_messages": [
+        "이번 주 쉬는 날에는 영화 한 편 감상할까 생각해."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "이번 주 쉬는 날에는 영화 한 편 감상할까 생각해.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "이번 주 쉬는 날에는 영화 한 편 감상할까 생각해."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "first-v7-08",
+      "group": "movie",
+      "user_messages": [
+        "오늘 밤 볼 영화를 골라 두려고 해."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "오늘 밤 볼 영화를 골라 두려고 해.",
+          "assistant": "영화 볼 계획이구나. 어떤 작품이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "오늘 밤 볼 영화를 골라 두려고 해."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "first-v7-09",
+      "group": "plant",
+      "user_messages": [
+        "집에서 돌보던 화초에 잎사귀가 새로 올라왔네."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "집에서 돌보던 화초에 잎사귀가 새로 올라왔네.",
+          "assistant": "잘 자라고 있네. 어떤 식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "집에서 돌보던 화초에 잎사귀가 새로 올라왔네."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "first-v7-10",
+      "group": "plant",
+      "user_messages": [
+        "요즘 작은 화분을 들여 식물을 돌보는 중이야."
+      ],
+      "criteria": "입력의 주제와 상황에 맞는 이해 가능한 반응. 정답 문장 일치는 요구하지 않음.",
+      "turns": [
+        {
+          "turn": 1,
+          "user": "요즘 작은 화분을 들여 식물을 돌보는 중이야.",
+          "assistant": "식물이야?",
+          "input_messages": [
+            {
+              "role": "user",
+              "content": "요즘 작은 화분을 들여 식물을 돌보는 중이야."
+            }
+          ]
+        }
+      ],
+      "decision": "pending",
+      "notes": ""
+    }
+  ]
+}

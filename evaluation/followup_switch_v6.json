@@ -1,0 +1,482 @@
+[
+  {
+    "id": "contrast-movie-plant-validation-2-followup",
+    "group": "followup",
+    "pair_id": "movie-plant-validation-2",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "이번에 선택한 작품의 제목을 말하면 센과 치히로."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-plant-validation-2-switch",
+    "group": "switch",
+    "pair_id": "movie-plant-validation-2",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "작은 화분 하나를 들여서 키우기 시작했네."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-walk-validation-2-followup",
+    "group": "followup",
+    "pair_id": "movie-walk-validation-2",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "이번에 선택한 작품의 제목을 말하면 쿵푸팬더."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-walk-validation-2-switch",
+    "group": "switch",
+    "pair_id": "movie-walk-validation-2",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "이번 오후에는 천천히 걸으러 나갈 예정이야."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-tired-validation-2-followup",
+    "group": "followup",
+    "pair_id": "movie-tired-validation-2",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "이번에 선택한 작품의 제목을 말하면 루카."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-tired-validation-2-switch",
+    "group": "switch",
+    "pair_id": "movie-tired-validation-2",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "잠을 설쳐서 지금 졸음이 쏟아져."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-greeting-validation-2-followup",
+    "group": "followup",
+    "pair_id": "movie-greeting-validation-2",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "이번에 선택한 작품의 제목을 말하면 소울."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-greeting-validation-2-switch",
+    "group": "switch",
+    "pair_id": "movie-greeting-validation-2",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "이번에는 다른 이야기를 나눠도 괜찮겠어?"
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-movie-validation-2-followup",
+    "group": "followup",
+    "pair_id": "plant-movie-validation-2",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "우리 집 식물의 이름을 말하면 스파티필룸."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-movie-validation-2-switch",
+    "group": "switch",
+    "pair_id": "plant-movie-validation-2",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "오늘은 극장에 가서 한 편 감상할 예정이야."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-walk-validation-2-followup",
+    "group": "followup",
+    "pair_id": "plant-walk-validation-2",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "우리 집 식물의 이름을 말하면 산세베리아."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-walk-validation-2-switch",
+    "group": "switch",
+    "pair_id": "plant-walk-validation-2",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "이번 오후에는 천천히 걸으러 나갈 예정이야."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-tired-validation-2-followup",
+    "group": "followup",
+    "pair_id": "plant-tired-validation-2",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "우리 집 식물의 이름을 말하면 율마."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-tired-validation-2-switch",
+    "group": "switch",
+    "pair_id": "plant-tired-validation-2",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "잠을 설쳐서 지금 졸음이 쏟아져."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-greeting-validation-2-followup",
+    "group": "followup",
+    "pair_id": "plant-greeting-validation-2",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "우리 집 식물의 이름을 말하면 호야."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-greeting-validation-2-switch",
+    "group": "switch",
+    "pair_id": "plant-greeting-validation-2",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "이번에는 다른 이야기를 나눠도 괜찮겠어?"
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-movie-validation-2-followup",
+    "group": "followup",
+    "pair_id": "walk-movie-validation-2",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "이번 산책의 목적지를 말하면 산책로."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-movie-validation-2-switch",
+    "group": "switch",
+    "pair_id": "walk-movie-validation-2",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "오늘은 극장에 가서 한 편 감상할 예정이야."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-plant-validation-2-followup",
+    "group": "followup",
+    "pair_id": "walk-plant-validation-2",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "이번 산책의 목적지를 말하면 꽃길."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-plant-validation-2-switch",
+    "group": "switch",
+    "pair_id": "walk-plant-validation-2",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "작은 화분 하나를 들여서 키우기 시작했네."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-tired-validation-2-followup",
+    "group": "followup",
+    "pair_id": "walk-tired-validation-2",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "이번 산책의 목적지를 말하면 언덕길."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-tired-validation-2-switch",
+    "group": "switch",
+    "pair_id": "walk-tired-validation-2",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "잠을 설쳐서 지금 졸음이 쏟아져."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-greeting-validation-2-followup",
+    "group": "followup",
+    "pair_id": "walk-greeting-validation-2",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "이번 산책의 목적지를 말하면 공원 입구."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-greeting-validation-2-switch",
+    "group": "switch",
+    "pair_id": "walk-greeting-validation-2",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "이번에는 다른 이야기를 나눠도 괜찮겠어?"
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-plant-test-3-followup",
+    "group": "followup",
+    "pair_id": "movie-plant-test-3",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "볼 영화 제목을 알려 줄게: 인어공주."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-plant-test-3-switch",
+    "group": "switch",
+    "pair_id": "movie-plant-test-3",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "새 화초를 장만해 창가에서 키우는 중이야."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-walk-test-3-followup",
+    "group": "followup",
+    "pair_id": "movie-walk-test-3",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "볼 영화 제목을 알려 줄게: 엘리멘탈."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-walk-test-3-switch",
+    "group": "switch",
+    "pair_id": "movie-walk-test-3",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "저녁에는 산책을 하러 밖에 나갈 계획이야."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-tired-test-3-followup",
+    "group": "followup",
+    "pair_id": "movie-tired-test-3",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "볼 영화 제목을 알려 줄게: 리오."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-tired-test-3-switch",
+    "group": "switch",
+    "pair_id": "movie-tired-test-3",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "밤새 잠을 못 이뤄서 지금 눈꺼풀이 무거워."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-greeting-test-3-followup",
+    "group": "followup",
+    "pair_id": "movie-greeting-test-3",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "볼 영화 제목을 알려 줄게: 메리다."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-movie-greeting-test-3-switch",
+    "group": "switch",
+    "pair_id": "movie-greeting-test-3",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "새 얘기를 하고 싶어. 내 말을 들어 줄 수 있어?"
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-movie-test-3-followup",
+    "group": "followup",
+    "pair_id": "plant-movie-test-3",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "키우는 식물 이름을 알려 줄게: 베고니아."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-movie-test-3-switch",
+    "group": "switch",
+    "pair_id": "plant-movie-test-3",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "저녁에는 영화 한 편 감상할 계획을 세웠어."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-walk-test-3-followup",
+    "group": "followup",
+    "pair_id": "plant-walk-test-3",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "키우는 식물 이름을 알려 줄게: 동백."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-walk-test-3-switch",
+    "group": "switch",
+    "pair_id": "plant-walk-test-3",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "저녁에는 산책을 하러 밖에 나갈 계획이야."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-tired-test-3-followup",
+    "group": "followup",
+    "pair_id": "plant-tired-test-3",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "키우는 식물 이름을 알려 줄게: 해피트리."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-tired-test-3-switch",
+    "group": "switch",
+    "pair_id": "plant-tired-test-3",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "밤새 잠을 못 이뤄서 지금 눈꺼풀이 무거워."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-greeting-test-3-followup",
+    "group": "followup",
+    "pair_id": "plant-greeting-test-3",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "키우는 식물 이름을 알려 줄게: 카라."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-plant-greeting-test-3-switch",
+    "group": "switch",
+    "pair_id": "plant-greeting-test-3",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "새 얘기를 하고 싶어. 내 말을 들어 줄 수 있어?"
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-movie-test-3-followup",
+    "group": "followup",
+    "pair_id": "walk-movie-test-3",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "산책 장소를 알려 줄게: 물가."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-movie-test-3-switch",
+    "group": "switch",
+    "pair_id": "walk-movie-test-3",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "저녁에는 영화 한 편 감상할 계획을 세웠어."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-plant-test-3-followup",
+    "group": "followup",
+    "pair_id": "walk-plant-test-3",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "산책 장소를 알려 줄게: 동네 뒷길."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-plant-test-3-switch",
+    "group": "switch",
+    "pair_id": "walk-plant-test-3",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "새 화초를 장만해 창가에서 키우는 중이야."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-tired-test-3-followup",
+    "group": "followup",
+    "pair_id": "walk-tired-test-3",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "산책 장소를 알려 줄게: 나무 그늘길."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-tired-test-3-switch",
+    "group": "switch",
+    "pair_id": "walk-tired-test-3",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "밤새 잠을 못 이뤄서 지금 눈꺼풀이 무거워."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-greeting-test-3-followup",
+    "group": "followup",
+    "pair_id": "walk-greeting-test-3",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "산책 장소를 알려 줄게: 호수 옆."
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  },
+  {
+    "id": "contrast-walk-greeting-test-3-switch",
+    "group": "switch",
+    "pair_id": "walk-greeting-test-3",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "새 얘기를 하고 싶어. 내 말을 들어 줄 수 있어?"
+    ],
+    "criteria": "후속 정보에는 재질문하지 않고 관련 반응. 전환에는 새 주제에 반응. 첫 응답도 함께 판정."
+  }
+]

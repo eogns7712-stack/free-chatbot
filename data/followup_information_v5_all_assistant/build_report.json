@@ -1,0 +1,255 @@
+{
+  "source": "C:\\Users\\510\\Desktop\\free-chatbot\\data\\followup_information_v5",
+  "changed_records": 48,
+  "unchanged_original_records": 339,
+  "only_change": "신규48개에서 loss_scope 제거. 첫 assistant 본문과EOS도 학습.",
+  "train_order_and_messages_identical": true,
+  "evaluation_files_byte_identical": {
+    "validation.jsonl": "8892631d6663f5f49421c6292c13e8d44172a42c16c9dec4a712072420f46a9f",
+    "test.jsonl": "15d1420359d83bc230b79366ee89401c21a577b1042d09c911aa5692e6b4d62f",
+    "probes.jsonl": "10c7e18394cbdf3d925cbd90ffe6ac328b730f64f2ef3e41683100968b999f9b"
+  },
+  "source_train_sha256": "7d0d07945da426b72f69055e64583eb13f73b42cf944e5ca17f6e1fc6e486566",
+  "changes": [
+    {
+      "index": 339,
+      "id": "info-movie-train-000",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 340,
+      "id": "info-movie-train-001",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 341,
+      "id": "info-movie-train-002",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 342,
+      "id": "info-movie-train-003",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 343,
+      "id": "info-movie-train-004",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 344,
+      "id": "info-movie-train-005",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 345,
+      "id": "info-movie-train-006",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 346,
+      "id": "info-movie-train-007",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 347,
+      "id": "info-movie-train-008",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 348,
+      "id": "info-movie-train-009",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 349,
+      "id": "info-movie-train-010",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 350,
+      "id": "info-movie-train-011",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 351,
+      "id": "info-movie-train-012",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 352,
+      "id": "info-movie-train-013",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 353,
+      "id": "info-movie-train-014",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 354,
+      "id": "info-movie-train-015",
+      "added_supervised_tokens": 13
+    },
+    {
+      "index": 355,
+      "id": "info-plant-train-016",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 356,
+      "id": "info-plant-train-017",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 357,
+      "id": "info-plant-train-018",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 358,
+      "id": "info-plant-train-019",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 359,
+      "id": "info-plant-train-020",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 360,
+      "id": "info-plant-train-021",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 361,
+      "id": "info-plant-train-022",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 362,
+      "id": "info-plant-train-023",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 363,
+      "id": "info-plant-train-024",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 364,
+      "id": "info-plant-train-025",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 365,
+      "id": "info-plant-train-026",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 366,
+      "id": "info-plant-train-027",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 367,
+      "id": "info-plant-train-028",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 368,
+      "id": "info-plant-train-029",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 369,
+      "id": "info-plant-train-030",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 370,
+      "id": "info-plant-train-031",
+      "added_supervised_tokens": 12
+    },
+    {
+      "index": 371,
+      "id": "info-walk-train-032",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 372,
+      "id": "info-walk-train-033",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 373,
+      "id": "info-walk-train-034",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 374,
+      "id": "info-walk-train-035",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 375,
+      "id": "info-walk-train-036",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 376,
+      "id": "info-walk-train-037",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 377,
+      "id": "info-walk-train-038",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 378,
+      "id": "info-walk-train-039",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 379,
+      "id": "info-walk-train-040",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 380,
+      "id": "info-walk-train-041",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 381,
+      "id": "info-walk-train-042",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 382,
+      "id": "info-walk-train-043",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 383,
+      "id": "info-walk-train-044",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 384,
+      "id": "info-walk-train-045",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 385,
+      "id": "info-walk-train-046",
+      "added_supervised_tokens": 14
+    },
+    {
+      "index": 386,
+      "id": "info-walk-train-047",
+      "added_supervised_tokens": 14
+    }
+  ]
+}

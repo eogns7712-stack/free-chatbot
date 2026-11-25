@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "train": 387,
+    "validation": 69,
+    "test": 69,
+    "probes": 155
+  },
+  "added": {
+    "train": 48,
+    "validation": 6,
+    "test": 6
+  },
+  "source_train_sha256": "081c3bb0bf5fdc26206ab5a41877ca8a3c6c3dbc96d3ee274a5c9ae39ec0f972",
+  "checks": "기존339개 순서·내용 보존, 신규 사용자 순서 중복 없음, 역할·길이·마스킹 검사 통과",
+  "limitations": "정규화 정확 중복 검사이며 의미적 독립성을 보장하지 않음. 제한된 세 주제 실험."
+}

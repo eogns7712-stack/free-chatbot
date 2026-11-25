@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "train": 435,
+    "validation": 93,
+    "test": 93,
+    "probes": 203
+  },
+  "added": {
+    "train": 48,
+    "validation": 24,
+    "test": 24
+  },
+  "base_train_sha256": "9a0a1e25ad3b096c90e5cf6093b13eb8e65faf61d7575a7fc29534e083e01cee",
+  "checks": "기존387개 보존, 신규 사용자 순서 중복 없음, 역할·길이·손실 마스킹 검사 통과",
+  "limitations": "공통 첫 문맥을 공유하는 제한된 대비 실험. 의미적 독립성과 자유 대화 성능을 보장하지 않음."
+}

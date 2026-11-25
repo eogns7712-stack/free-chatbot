@@ -1,0 +1,110 @@
+[
+  {
+    "id": "info-movie-validation-000",
+    "group": "information_movie",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "이번에 고른 건 주토피아라는 작품이야."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-movie-validation-001",
+    "group": "information_movie",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "나는 주토피아로 정했거든."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-plant-validation-002",
+    "group": "information_plant",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "지금 기르는 식물 이름은 라벤더야."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-plant-validation-003",
+    "group": "information_plant",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "우리 집에는 라벤더가 자라."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-walk-validation-004",
+    "group": "information_walk",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "산책 장소는 수목원로 정했어."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-walk-validation-005",
+    "group": "information_walk",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "나는 수목원 쪽에 가려고 해."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-movie-test-000",
+    "group": "information_movie",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "제목은 토이 스토리라고 해."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-movie-test-001",
+    "group": "information_movie",
+    "user_messages": [
+      "이번에는 영화 한 편을 감상할 생각이야.",
+      "내가 보겠다는 작품은 토이 스토리야."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-plant-test-002",
+    "group": "information_plant",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "이름을 알려 주자면 고무나무야."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-plant-test-003",
+    "group": "information_plant",
+    "user_messages": [
+      "방에서 화초를 기르고 있어.",
+      "내가 돌보는 화초는 고무나무라고 해."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-walk-test-004",
+    "group": "information_walk",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "목적지는 해변라고 하면 돼."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  },
+  {
+    "id": "info-walk-test-005",
+    "group": "information_walk",
+    "user_messages": [
+      "조금 있다가 산책을 나가려고.",
+      "걸으러 가려는 곳은 해변야."
+    ],
+    "criteria": "첫 질문은 허용. 제공한 작품명·식물명·장소를 다시 묻지 않고 관련된 답변을 한다."
+  }
+]
