@@ -6,6 +6,27 @@ Python·PyTorch·Hugging Face 도구로 모델을 직접 학습하고, 자유로
 
 갱신일: **2026-11-25**
 
+## 폴더 구조와 실행 위치
+
+현재 3턴 앱·학습·공통 모듈은 루트에 두고, 이전 실행 코드는 `experiments/`로 옮겼습니다. **터미널 작업 위치는 항상 프로젝트 루트**를 사용합니다. 자세한 이동표와 모델·데이터 역할은 [docs/PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)에 있습니다.
+
+```text
+free-chatbot/
+  web_app_three_turn.py     # 현재 채팅 화면
+  three_turn_runtime.py    # 현재 모델의 직렬화·추론
+  train_three_turn_v4.py    # 현재 3턴 학습
+  train_sns_30min.py        # 현재 학습기도 사용하는 공통 함수
+  experiments/             # 과거 앱·학습·전처리·평가 코드
+  docs/archive/            # 이전 계획서·PDF·실험 문서 원본
+  reports/                 # 루트에 흩어져 있던 JSON 분석 결과
+  archive/imported_packages/ # 중복으로 풀렸던 데이터 묶음 보존
+  data/                    # 기존 데이터 경로 유지
+  artifacts/               # 기존 모델·체크포인트 경로 유지
+  README.md / PLAN.md / PROGRESS.md
+```
+
+과거 명령은 `python.exe experiments/파일명.py` 형식으로 실행합니다. 이동한 스크립트는 프로젝트 루트의 데이터·모델 경로와 공통 함수 import를 유지하도록 수정했습니다. 과거 문서 원본의 명령은 당시 위치를 가리킬 수 있으므로 이 문서의 현재 경로와 이동표를 따릅니다.
+
 ## 초기 계획과 변경 이유
 
 초기에는 Qwen2.5-0.5B-Instruct를 연결해 2~4주 동안 채팅 앱을 구현·개선하려 했습니다. 앱 구현 후 사용자가 모델도 직접 학습하기를 원해 토크나이저, 무작위 초기화 GPT-2, SNS 사전학습과 문답 추가 학습으로 범위를 확대했습니다.
@@ -18,9 +39,9 @@ Python·PyTorch·Hugging Face 도구로 모델을 직접 학습하고, 자유로
 
 | 앱 | 모델·입력 범위 | 상태 |
 | --- | --- | --- |
-| `app.py`, `web_app.py` | 기존 공개 Qwen 모델 | 최초 비교용. 직접 학습 모델과 별도 |
-| `web_app_v3.py` | 직접 모델의 현재 질문만 전달 | 단일 문답 비교용 |
-| `web_app_two_turn.py` | 직전 문답 1쌍 + 현재 메시지 | 2턴 유지·전환 시험용 |
+| `experiments/app.py`, `experiments/web_app.py` | 기존 공개 Qwen 모델 | 최초 비교용. 직접 학습 모델과 별도 |
+| `experiments/web_app_v3.py` | 직접 모델의 현재 질문만 전달 | 단일 문답 비교용 |
+| `experiments/web_app_two_turn.py` | 직전 문답 1쌍 + 현재 메시지 | 2턴 유지·전환 시험용 |
 | `web_app_three_turn.py` | 최근 문답 최대 2쌍 + 현재 메시지 | 현재 3턴 시험용 |
 
 프로젝트 루트에서 실행합니다. 이전 서버가 켜져 있으면 먼저 Ctrl+C로 종료합니다.
@@ -92,7 +113,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe train_three_turn_v4.py --source artifacts/two-turn-switch-v2/epochs/epoch-03 --data data/three_turn_flow_v4 --output artifacts/three-turn-flow-v4 --epochs 6 --learning-rate 0.0001
 ```
 
-`train_three_turn_v4.py`와 `three_turn_runtime.py`, 공통 배치·검증 함수를 제공하는 `train_sns_30min.py`가 같은 프로젝트 루트에 있어야 합니다. 기존 가중치를 읽지만 옵티마이저는 새로 초기화합니다. 정확한 중단 재개 명령이 아닙니다.
+`train_three_turn_v4.py`와 `three_turn_runtime.py`, 공통 배치·검증 함수를 제공하는 `train_sns_30min.py`를 프로젝트에 함께 보존해야 합니다. 기존 가중치를 읽지만 옵티마이저는 새로 초기화합니다. 정확한 중단 재개 명령이 아닙니다.
 
 매 회차 `epochs/epoch-XX/`에 모델·토크나이저·`test_answers.json`을 저장합니다. `answer`는 정답 이전 응답을 제공한 결과, `rollout_answer`는 실제 생성의 마지막 답변, `rollout_turns`는 모델이 처음부터 생성한 전체 흐름입니다. 모델 선택은 검증 마지막 assistant 답변의 손실을 사용합니다. 전체 대화 품질은 별도 검토합니다.
 
@@ -112,12 +133,12 @@ python -m venv .venv
 
 | 파일 | 용도 |
 | --- | --- |
-| `prepare_pretrain_blocks.py` | ZIP 내부 대화를 읽어 128토큰 블록 생성 |
-| `train_capacity_target.py` | 사전학습 체크포인트 재개·누적 목표 스텝 종료 |
-| `train_intent_from_pretrained.py` | 초기 문답 학습, 검증 최선 모델 보존 |
-| `train_intent_lr_compare.py` | 단문 회차별 모델과 생성 답변 저장 |
-| `train_two_turn_v1.py` | 2턴 문답·전환 학습과 실제 생성 평가 |
-| `train_two_turn_varied_v3.py` | 문맥 변형의 마지막 답변 손실 처리 |
+| `experiments/prepare_pretrain_blocks.py` | ZIP 내부 대화를 읽어 128토큰 블록 생성 |
+| `experiments/train_capacity_target.py` | 사전학습 체크포인트 재개·누적 목표 스텝 종료 |
+| `experiments/train_intent_from_pretrained.py` | 초기 문답 학습, 검증 최선 모델 보존 |
+| `experiments/train_intent_lr_compare.py` | 단문 회차별 모델과 생성 답변 저장 |
+| `experiments/train_two_turn_v1.py` | 2턴 문답·전환 학습과 실제 생성 평가 |
+| `experiments/train_two_turn_varied_v3.py` | 문맥 변형의 마지막 답변 손실 처리 |
 | `train_three_turn_v4.py`, `three_turn_runtime.py` | 최대 3턴 학습·실제 대화 평가·공통 추론 |
 | `web_app_three_turn.py` | 최근 두 문답을 전달하는 로컬 채팅 화면 |
 
