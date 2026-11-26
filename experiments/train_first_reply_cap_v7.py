@@ -5,7 +5,7 @@ import json
 import random
 from pathlib import Path
 import sys
-sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0,r'C:\Users\510\Desktop\free-chatbot')
 import torch
 from three_turn_runtime import ThreeTurnModel, encode_record
 from train_sns_30min import make_batch, validation_loss
@@ -15,8 +15,38 @@ def read(path):
     return [json.loads(s) for s in path.read_text(encoding='utf-8-sig').splitlines() if s.strip()]
 
 
+def evaluate_probe(engine, record):
+    """문맥 초과는 명시적 평가 실패로 기록하고 다른 예외는 그대로 올린다."""
+    def attempt(messages):
+        prompt_tokens=len(engine.prompt_ids(messages))
+        limit=engine.model.config.n_positions
+        if prompt_tokens+48>limit:
+            return None, {'code':'context_limit','prompt_tokens':prompt_tokens,
+                          'reserved_new_tokens':48,'context_limit':limit}
+        return engine.generate(messages), None
+    messages=record['messages']
+    answer,answer_error=attempt(messages[:-1])
+    alone,alone_error=attempt([messages[-2]]) if len(messages)>2 else (answer,answer_error)
+    generated=[];turns=[]
+    for i in range(0,len(messages),2):
+        q=messages[i];out,error=attempt([*generated[-4:],q])
+        turn={'user':q['content'],'assistant':out,'reference':messages[i+1]['content']}
+        if error:
+            turn['error']=error;turns.append(turn);break
+        turns.append(turn);generated.extend([q,{'role':'assistant','content':out}])
+    complete=len(turns)==len(messages)//2 and not any('error' in t for t in turns)
+    failed=bool(answer_error or alone_error or not complete)
+    return {**record,'reference':messages[-1]['content'],'answer':answer,
+            'answer_error':answer_error,'without_history_answer':alone,'without_history_error':alone_error,
+            'rollout_answer':turns[-1]['assistant'] if complete else None,
+            'rollout_turns':turns,'rollout_complete':complete,
+            'decision':'fail' if failed else 'pending',
+            'notes':'문맥 한도 초과. 입력을 자르거나 정답 중간응답으로 대체하지 않음.' if failed else ''}
+
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--evaluate-only',action='store_true',help='초기 전체평가만 저장하고 학습하지 않음')
     p.add_argument('--check-only',action='store_true',help='마스킹만 검사하고 학습·저장하지 않음')
     p.add_argument('--first-reply-cap',type=int,choices=(0,1),default=1,help='0=원본 학습, 1=동일 첫 문답의 첫 응답을 한 레코드에서만 학습')
     p.add_argument('--source',type=Path,required=True)
@@ -76,19 +106,11 @@ def main():
             folder=a.output/'epochs'/f'epoch-{epoch:02d}';folder.mkdir(parents=True)
             model.save_pretrained(str(folder));tok.save(str(folder/'tokenizer.json'))
             answers=[]
-            for r in probes:
-                messages=r['messages']
-                answer=engine.generate(messages[:-1])
-                alone=engine.generate([messages[-2]]) if len(messages)>2 else answer
-                generated=[];turns=[]
-                for i in range(0,len(messages),2):
-                    q=messages[i]
-                    out=engine.generate([*generated[-4:],q])
-                    generated.extend([q,{'role':'assistant','content':out}])
-                    turns.append({'user':q['content'],'assistant':out,'reference':messages[i+1]['content']})
-                answers.append({**r,'reference':messages[-1]['content'],'answer':answer,
-                                'without_history_answer':alone,'rollout_answer':turns[-1]['assistant'],
-                                'rollout_turns':turns,'decision':'pending'})
+            for index,r in enumerate(probes,1):
+                answers.append(evaluate_probe(engine,r))
+                if index%25==0 or index==len(probes):
+                    print(f'평가 {epoch}회차 {index}/{len(probes)}',flush=True)
+            print(f'평가 {epoch}회차 | 문맥초과 {sum(r["decision"]=="fail" for r in answers)}/{len(answers)}',flush=True)
             (folder/'test_answers.json').write_text(json.dumps(answers,ensure_ascii=False,indent=2),encoding='utf-8')
             if report['best_validation_loss'] is None or value<report['best_validation_loss']:
                 report['best_validation_loss']=value;report['best_epoch']=epoch
@@ -99,6 +121,8 @@ def main():
     def save_log():
         (a.output/'training_log.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     initial=snapshot(0);report['initial_validation_loss']=initial;save_log()
+    if a.evaluate_only:
+        print('초기 평가 완료. 학습하지 않았습니다.',flush=True);return
     print(f'학습 {len(train)}개 | 검증 {len(validation)}개 | 시작 {initial:.4f}',flush=True)
     for epoch in range(1,a.epochs+1):
         model.train();order=list(range(len(train)));random.shuffle(order)

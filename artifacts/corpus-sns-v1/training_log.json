@@ -1,0 +1,39 @@
+{
+  "epoch": 1,
+  "step": 3000,
+  "cursor": 12000,
+  "loss_sum": 8749519.761772156,
+  "token_count": 1524000,
+  "best_loss": 5.728064965456724,
+  "best_model": "models/step-00003000",
+  "last_validation_step": 3000,
+  "history": [
+    {
+      "epoch": 0,
+      "step": 0,
+      "train_loss": null,
+      "validation_loss": 8.341057129204273
+    },
+    {
+      "epoch": 1,
+      "step": 3000,
+      "epoch_complete": true,
+      "train_loss": 5.741154699325562,
+      "validation_loss": 5.728064965456724
+    }
+  ],
+  "initial_model": "random",
+  "signature": {
+    "train_sha256": "f33a58163a07eaee57bf7d21b147349cf9b3f67216796d9bc12ee14a4f678988",
+    "validation_sha256": "7e4d2248d4575e687270fc4d1a69552f89734f54ab1889be6972d4323bd96271",
+    "tokenizer_sha256": "73cbb1badac4e213b0ee7f116fb93ff4c5149946cc47daf72a16087646b3bdb1",
+    "report_sha256": "2764c02090b13f363c58ba1d627685788bb5badfbbafb890613f58da8cf71dba",
+    "validation_limit": 1024,
+    "target_step": 3000,
+    "model_width": 256,
+    "model_heads": 8,
+    "objective": "fulltext_all_real_tokens",
+    "batch_size": 4,
+    "learning_rate": 0.0003
+  }
+}

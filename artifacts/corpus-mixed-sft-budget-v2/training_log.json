@@ -1,0 +1,84 @@
+{
+  "source": "C:\\Users\\510\\Desktop\\free-chatbot\\artifacts\\corpus-mixed-v1\\target",
+  "train_count": 483,
+  "validation_count": 101,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "batch_size": 1,
+  "epochs_max": 12,
+  "patience": 3,
+  "min_delta": 0.001,
+  "minutes": 30.0,
+  "masking": "기존 first_reply_cap1·last_assistant 유지",
+  "supervised_tokens_per_epoch": 5938,
+  "hashes": {
+    "train.jsonl": "9ce4dc8a8298a566764c6cb19a1a8543845a9818722422bc76173ef84e87a8f9",
+    "validation.jsonl": "80524900531192111c80852922708b859cedc1241ca2fc6b365411f051a63410",
+    "probes.jsonl": "10f3cb1c8ca89aebe031f2219946e9d40b226ca253d1df67771f19efea16535d"
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": null,
+      "validation_loss": 5.1109307477589825
+    },
+    {
+      "epoch": 1,
+      "train_loss": 1.7058501215171697,
+      "validation_loss": 0.6732075451059507
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6776701270741605,
+      "validation_loss": 0.4208578627917844
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.38468262532417896,
+      "validation_loss": 0.2520375842533576
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.22536711313119664,
+      "validation_loss": 0.1849419309758502
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.13045124588179774,
+      "validation_loss": 0.1636516804374884
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0976637963401392,
+      "validation_loss": 0.09533459564508173
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.06271741569906243,
+      "validation_loss": 0.09654677693462826
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.04524623551343622,
+      "validation_loss": 0.10375777924783129
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.03906508447025529,
+      "validation_loss": 0.15357549857761035
+    }
+  ],
+  "best_epoch": 6,
+  "best_validation_loss": 0.09533459564508173,
+  "optimizer_steps": 4347,
+  "selection": "검증 마지막 응답 토큰손실 최소. 생성평가는 선택모델에서만 수행. 기존3회 실행과 평가호출시점이 다르나 평가RNG는 보존.",
+  "stop_reason": "early_stopping",
+  "training_elapsed_seconds": 246.83138350001536,
+  "selected_model": "C:\\Users\\510\\Desktop\\free-chatbot\\artifacts\\corpus-mixed-sft-budget-v2\\epochs\\epoch-06",
+  "selected_evaluation_count": 235,
+  "selected_evaluation_expected": 235,
+  "selected_evaluation_complete": true,
+  "elapsed_seconds": 304.7859932000283,
+  "resume_supported": false,
+  "note": "미완료 회차는 선택하지 않음. 시간검사는 스텝·대화 사이에서 수행돼 약간 초과할 수 있음."
+}

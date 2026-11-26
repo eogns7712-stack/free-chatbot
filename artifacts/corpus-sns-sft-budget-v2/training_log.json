@@ -1,0 +1,94 @@
+{
+  "source": "C:\\Users\\510\\Desktop\\free-chatbot\\artifacts\\corpus-sns-v1\\target",
+  "train_count": 483,
+  "validation_count": 101,
+  "learning_rate": 0.0001,
+  "seed": 42,
+  "batch_size": 1,
+  "epochs_max": 12,
+  "patience": 3,
+  "min_delta": 0.001,
+  "minutes": 30.0,
+  "masking": "기존 first_reply_cap1·last_assistant 유지",
+  "supervised_tokens_per_epoch": 5938,
+  "hashes": {
+    "train.jsonl": "9ce4dc8a8298a566764c6cb19a1a8543845a9818722422bc76173ef84e87a8f9",
+    "validation.jsonl": "80524900531192111c80852922708b859cedc1241ca2fc6b365411f051a63410",
+    "probes.jsonl": "10f3cb1c8ca89aebe031f2219946e9d40b226ca253d1df67771f19efea16535d"
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": null,
+      "validation_loss": 5.0818376514961825
+    },
+    {
+      "epoch": 1,
+      "train_loss": 1.8842478049658653,
+      "validation_loss": 0.7301634538915325
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7267715112033588,
+      "validation_loss": 0.3966545222390167
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4184490925619556,
+      "validation_loss": 0.23430606905176676
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.23970086489242284,
+      "validation_loss": 0.18297295555751855
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.15577583583294544,
+      "validation_loss": 0.13078668369414848
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.10880024466576081,
+      "validation_loss": 0.24056644325995816
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.07839995435950822,
+      "validation_loss": 0.2953122161671328
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0634618084734612,
+      "validation_loss": 0.07007100858831265
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.05360288335202618,
+      "validation_loss": 0.0908725717951086
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.04991187819443394,
+      "validation_loss": 0.14700376973909215
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.024744185886548756,
+      "validation_loss": 0.0786898309021527
+    }
+  ],
+  "best_epoch": 8,
+  "best_validation_loss": 0.07007100858831265,
+  "optimizer_steps": 5313,
+  "selection": "검증 마지막 응답 토큰손실 최소. 생성평가는 선택모델에서만 수행. 기존3회 실행과 평가호출시점이 다르나 평가RNG는 보존.",
+  "stop_reason": "early_stopping",
+  "training_elapsed_seconds": 309.6315512000001,
+  "selected_model": "C:\\Users\\510\\Desktop\\free-chatbot\\artifacts\\corpus-sns-sft-budget-v2\\epochs\\epoch-08",
+  "selected_evaluation_count": 235,
+  "selected_evaluation_expected": 235,
+  "selected_evaluation_complete": true,
+  "elapsed_seconds": 365.701188099978,
+  "resume_supported": false,
+  "note": "미완료 회차는 선택하지 않음. 시간검사는 스텝·대화 사이에서 수행돼 약간 초과할 수 있음."
+}

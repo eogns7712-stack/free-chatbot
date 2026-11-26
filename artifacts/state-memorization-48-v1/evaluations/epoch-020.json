@@ -1,0 +1,1115 @@
+{
+  "summary": {
+    "epoch": 20,
+    "train_answer_loss_eval": 0.0009895119168061269,
+    "gold_exact": 48,
+    "rollout_last_exact": 48,
+    "rollout_all_exact": 24
+  },
+  "results": [
+    {
+      "id": "state8-walk-plan-train-0-single",
+      "topic": "walk",
+      "state": "plan",
+      "mode": "single",
+      "gold_context_answer": "산책할 계획이구나.",
+      "reference": "산책할 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "내일은 산책을 하러 나갈 생각이야.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-plan-train-0-history",
+      "topic": "walk",
+      "state": "plan",
+      "mode": "history",
+      "gold_context_answer": "산책할 계획이구나.",
+      "reference": "산책할 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "내일은 산책을 하러 나갈 생각이야.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-plan-train-1-single",
+      "topic": "walk",
+      "state": "plan",
+      "mode": "single",
+      "gold_context_answer": "산책할 계획이구나.",
+      "reference": "산책할 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "조만간 가볍게 산책할 계획을 잡았어.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-plan-train-1-history",
+      "topic": "walk",
+      "state": "plan",
+      "mode": "history",
+      "gold_context_answer": "산책할 계획이구나.",
+      "reference": "산책할 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "조만간 가볍게 산책할 계획을 잡았어.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-plan-train-2-single",
+      "topic": "walk",
+      "state": "plan",
+      "mode": "single",
+      "gold_context_answer": "산책할 계획이구나.",
+      "reference": "산책할 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "잠시 뒤 동네 산책을 시작하려고 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-plan-train-2-history",
+      "topic": "walk",
+      "state": "plan",
+      "mode": "history",
+      "gold_context_answer": "산책할 계획이구나.",
+      "reference": "산책할 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "잠시 뒤 동네 산책을 시작하려고 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-ongoing-train-0-single",
+      "topic": "walk",
+      "state": "ongoing",
+      "mode": "single",
+      "gold_context_answer": "산책하고 있구나. 천천히 걸어.",
+      "reference": "산책하고 있구나. 천천히 걸어.",
+      "rollout_turns": [
+        {
+          "user": "산책을 시작해서 지금 걷고 있는 중이야.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "산책하고 있구나. 천천히 걸어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-ongoing-train-0-history",
+      "topic": "walk",
+      "state": "ongoing",
+      "mode": "history",
+      "gold_context_answer": "산책하고 있구나. 천천히 걸어.",
+      "reference": "산책하고 있구나. 천천히 걸어.",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "산책을 시작해서 지금 걷고 있는 중이야.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "산책하고 있구나. 천천히 걸어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-ongoing-train-1-single",
+      "topic": "walk",
+      "state": "ongoing",
+      "mode": "single",
+      "gold_context_answer": "산책하고 있구나. 천천히 걸어.",
+      "reference": "산책하고 있구나. 천천히 걸어.",
+      "rollout_turns": [
+        {
+          "user": "밖에서 산책하고 있어. 아직 집으로 안 왔어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "산책하고 있구나. 천천히 걸어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-ongoing-train-1-history",
+      "topic": "walk",
+      "state": "ongoing",
+      "mode": "history",
+      "gold_context_answer": "산책하고 있구나. 천천히 걸어.",
+      "reference": "산책하고 있구나. 천천히 걸어.",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "밖에서 산책하고 있어. 아직 집으로 안 왔어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "산책하고 있구나. 천천히 걸어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-ongoing-train-2-single",
+      "topic": "walk",
+      "state": "ongoing",
+      "mode": "single",
+      "gold_context_answer": "산책하고 있구나. 천천히 걸어.",
+      "reference": "산책하고 있구나. 천천히 걸어.",
+      "rollout_turns": [
+        {
+          "user": "지금 산책길을 따라 천천히 걸어가는 중이야.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "산책하고 있구나. 천천히 걸어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-ongoing-train-2-history",
+      "topic": "walk",
+      "state": "ongoing",
+      "mode": "history",
+      "gold_context_answer": "산책하고 있구나. 천천히 걸어.",
+      "reference": "산책하고 있구나. 천천히 걸어.",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "지금 산책길을 따라 천천히 걸어가는 중이야.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "산책하고 있구나. 천천히 걸어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-done-train-0-single",
+      "topic": "walk",
+      "state": "done",
+      "mode": "single",
+      "gold_context_answer": "산책하고 왔구나. 기분이 어때?",
+      "reference": "산책하고 왔구나. 기분이 어때?",
+      "rollout_turns": [
+        {
+          "user": "산책을 마무리하고 집에 도착했네.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "reference": "산책하고 왔구나. 기분이 어때?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-done-train-0-history",
+      "topic": "walk",
+      "state": "done",
+      "mode": "history",
+      "gold_context_answer": "산책하고 왔구나. 기분이 어때?",
+      "reference": "산책하고 왔구나. 기분이 어때?",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "산책을 마무리하고 집에 도착했네.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "reference": "산책하고 왔구나. 기분이 어때?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-done-train-1-single",
+      "topic": "walk",
+      "state": "done",
+      "mode": "single",
+      "gold_context_answer": "산책하고 왔구나. 기분이 어때?",
+      "reference": "산책하고 왔구나. 기분이 어때?",
+      "rollout_turns": [
+        {
+          "user": "오늘 산책은 끝났어. 지금은 집에서 쉬어.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "reference": "산책하고 왔구나. 기분이 어때?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-done-train-1-history",
+      "topic": "walk",
+      "state": "done",
+      "mode": "history",
+      "gold_context_answer": "산책하고 왔구나. 기분이 어때?",
+      "reference": "산책하고 왔구나. 기분이 어때?",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "오늘 산책은 끝났어. 지금은 집에서 쉬어.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "reference": "산책하고 왔구나. 기분이 어때?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-done-train-2-single",
+      "topic": "walk",
+      "state": "done",
+      "mode": "single",
+      "gold_context_answer": "산책하고 왔구나. 기분이 어때?",
+      "reference": "산책하고 왔구나. 기분이 어때?",
+      "rollout_turns": [
+        {
+          "user": "걷기를 끝내고 방금 산책에서 돌아온 참이야.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "reference": "산책하고 왔구나. 기분이 어때?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-done-train-2-history",
+      "topic": "walk",
+      "state": "done",
+      "mode": "history",
+      "gold_context_answer": "산책하고 왔구나. 기분이 어때?",
+      "reference": "산책하고 왔구나. 기분이 어때?",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "걷기를 끝내고 방금 산책에서 돌아온 참이야.",
+          "assistant": "산책하고 왔구나. 기분이 어때?",
+          "reference": "산책하고 왔구나. 기분이 어때?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-cancel-train-0-single",
+      "topic": "walk",
+      "state": "cancel",
+      "mode": "single",
+      "gold_context_answer": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "reference": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "산책하려다 마음을 바꿨어. 오늘은 안 나가.",
+          "assistant": "산책을 취소했구나. 집에서 편하게 쉬어.",
+          "reference": "산책을 취소했구나. 집에서 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-cancel-train-0-history",
+      "topic": "walk",
+      "state": "cancel",
+      "mode": "history",
+      "gold_context_answer": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "reference": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "산책하려다 마음을 바꿨어. 오늘은 안 나가.",
+          "assistant": "산책을 취소했구나. 집에서 편하게 쉬어.",
+          "reference": "산책을 취소했구나. 집에서 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-cancel-train-1-single",
+      "topic": "walk",
+      "state": "cancel",
+      "mode": "single",
+      "gold_context_answer": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "reference": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "오늘 잡았던 산책 계획을 취소했네.",
+          "assistant": "산책을 취소했구나. 집에서 편하게 쉬어.",
+          "reference": "산책을 취소했구나. 집에서 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-cancel-train-1-history",
+      "topic": "walk",
+      "state": "cancel",
+      "mode": "history",
+      "gold_context_answer": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "reference": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "오늘 잡았던 산책 계획을 취소했네.",
+          "assistant": "산책을 취소했구나. 집에서 편하게 쉬어.",
+          "reference": "산책을 취소했구나. 집에서 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-walk-cancel-train-2-single",
+      "topic": "walk",
+      "state": "cancel",
+      "mode": "single",
+      "gold_context_answer": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "reference": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "산책을 가지 않기로 했어. 집에 있을래.",
+          "assistant": "산책을 취소했구나. 집에서 편하게 쉬어.",
+          "reference": "산책을 취소했구나. 집에서 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-walk-cancel-train-2-history",
+      "topic": "walk",
+      "state": "cancel",
+      "mode": "history",
+      "gold_context_answer": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "reference": "산책을 취소했구나. 집에서 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "이따 산책하러 나가 볼까 해.",
+          "assistant": "산책할 계획이구나.",
+          "reference": "산책할 계획이구나. 어디로 갈 거야?"
+        },
+        {
+          "user": "동네 둘레길로 정했어.",
+          "assistant": "산책하고 있구나. 천천히 걸어.",
+          "reference": "그곳으로 산책을 갈 계획이구나."
+        },
+        {
+          "user": "산책을 가지 않기로 했어. 집에 있을래.",
+          "assistant": "산책을 취소했구나. 집에서 편하게 쉬어.",
+          "reference": "산책을 취소했구나. 집에서 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-plan-train-0-single",
+      "topic": "movie",
+      "state": "plan",
+      "mode": "single",
+      "gold_context_answer": "영화 볼 계획이구나.",
+      "reference": "영화 볼 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "내일 영화 한 편 감상할 생각이야.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-plan-train-0-history",
+      "topic": "movie",
+      "state": "plan",
+      "mode": "history",
+      "gold_context_answer": "영화 볼 계획이구나.",
+      "reference": "영화 볼 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "내일 영화 한 편 감상할 생각이야.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-plan-train-1-single",
+      "topic": "movie",
+      "state": "plan",
+      "mode": "single",
+      "gold_context_answer": "영화 볼 계획이구나.",
+      "reference": "영화 볼 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "곧 영화를 보기 시작할 계획이야.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-plan-train-1-history",
+      "topic": "movie",
+      "state": "plan",
+      "mode": "history",
+      "gold_context_answer": "영화 볼 계획이구나.",
+      "reference": "영화 볼 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "곧 영화를 보기 시작할 계획이야.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-plan-train-2-single",
+      "topic": "movie",
+      "state": "plan",
+      "mode": "single",
+      "gold_context_answer": "영화 볼 계획이구나.",
+      "reference": "영화 볼 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "잠시 뒤 영화 감상을 시작하려고 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-plan-train-2-history",
+      "topic": "movie",
+      "state": "plan",
+      "mode": "history",
+      "gold_context_answer": "영화 볼 계획이구나.",
+      "reference": "영화 볼 계획이구나.",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "잠시 뒤 영화 감상을 시작하려고 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-ongoing-train-0-single",
+      "topic": "movie",
+      "state": "ongoing",
+      "mode": "single",
+      "gold_context_answer": "영화를 보고 있구나. 재미있게 봐.",
+      "reference": "영화를 보고 있구나. 재미있게 봐.",
+      "rollout_turns": [
+        {
+          "user": "영화를 틀어서 지금 감상하고 있는 중이야.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "영화를 보고 있구나. 재미있게 봐."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-ongoing-train-0-history",
+      "topic": "movie",
+      "state": "ongoing",
+      "mode": "history",
+      "gold_context_answer": "영화를 보고 있구나. 재미있게 봐.",
+      "reference": "영화를 보고 있구나. 재미있게 봐.",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "영화를 틀어서 지금 감상하고 있는 중이야.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "영화를 보고 있구나. 재미있게 봐."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-ongoing-train-1-single",
+      "topic": "movie",
+      "state": "ongoing",
+      "mode": "single",
+      "gold_context_answer": "영화를 보고 있구나. 재미있게 봐.",
+      "reference": "영화를 보고 있구나. 재미있게 봐.",
+      "rollout_turns": [
+        {
+          "user": "지금 영화가 상영 중이야. 아직 다 안 봤어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "영화를 보고 있구나. 재미있게 봐."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-ongoing-train-1-history",
+      "topic": "movie",
+      "state": "ongoing",
+      "mode": "history",
+      "gold_context_answer": "영화를 보고 있구나. 재미있게 봐.",
+      "reference": "영화를 보고 있구나. 재미있게 봐.",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "지금 영화가 상영 중이야. 아직 다 안 봤어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "영화를 보고 있구나. 재미있게 봐."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-ongoing-train-2-single",
+      "topic": "movie",
+      "state": "ongoing",
+      "mode": "single",
+      "gold_context_answer": "영화를 보고 있구나. 재미있게 봐.",
+      "reference": "영화를 보고 있구나. 재미있게 봐.",
+      "rollout_turns": [
+        {
+          "user": "영화를 보는 도중에 잠깐 메시지를 보내.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "영화를 보고 있구나. 재미있게 봐."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-ongoing-train-2-history",
+      "topic": "movie",
+      "state": "ongoing",
+      "mode": "history",
+      "gold_context_answer": "영화를 보고 있구나. 재미있게 봐.",
+      "reference": "영화를 보고 있구나. 재미있게 봐.",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "영화를 보는 도중에 잠깐 메시지를 보내.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "영화를 보고 있구나. 재미있게 봐."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-done-train-0-single",
+      "topic": "movie",
+      "state": "done",
+      "mode": "single",
+      "gold_context_answer": "영화를 다 봤구나. 감상이 어땠어?",
+      "reference": "영화를 다 봤구나. 감상이 어땠어?",
+      "rollout_turns": [
+        {
+          "user": "영화 감상을 마무리했어. 끝까지 다 봤네.",
+          "assistant": "영화를 다 봤구나. 감상이 어땠어?",
+          "reference": "영화를 다 봤구나. 감상이 어땠어?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-done-train-0-history",
+      "topic": "movie",
+      "state": "done",
+      "mode": "history",
+      "gold_context_answer": "영화를 다 봤구나. 감상이 어땠어?",
+      "reference": "영화를 다 봤구나. 감상이 어땠어?",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "영화 감상을 마무리했어. 끝까지 다 봤네.",
+          "assistant": "영화를 다 봤구나. 감상이 어땠어?",
+          "reference": "영화를 다 봤구나. 감상이 어땠어?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-done-train-1-single",
+      "topic": "movie",
+      "state": "done",
+      "mode": "single",
+      "gold_context_answer": "영화를 다 봤구나. 감상이 어땠어?",
+      "reference": "영화를 다 봤구나. 감상이 어땠어?",
+      "rollout_turns": [
+        {
+          "user": "영화를 모두 보고 이제 쉬고 있어.",
+          "assistant": "영화를 다 봤구나. 감상이 어땠어?",
+          "reference": "영화를 다 봤구나. 감상이 어땠어?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-done-train-1-history",
+      "topic": "movie",
+      "state": "done",
+      "mode": "history",
+      "gold_context_answer": "영화를 다 봤구나. 감상이 어땠어?",
+      "reference": "영화를 다 봤구나. 감상이 어땠어?",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "영화를 모두 보고 이제 쉬고 있어.",
+          "assistant": "영화를 다 봤구나. 감상이 어땠어?",
+          "reference": "영화를 다 봤구나. 감상이 어땠어?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-done-train-2-single",
+      "topic": "movie",
+      "state": "done",
+      "mode": "single",
+      "gold_context_answer": "영화를 다 봤구나. 감상이 어땠어?",
+      "reference": "영화를 다 봤구나. 감상이 어땠어?",
+      "rollout_turns": [
+        {
+          "user": "방금 영화의 마지막 장면까지 보고 끝냈어.",
+          "assistant": "영화를 다 봤구나. 감상이 어땠어?",
+          "reference": "영화를 다 봤구나. 감상이 어땠어?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-done-train-2-history",
+      "topic": "movie",
+      "state": "done",
+      "mode": "history",
+      "gold_context_answer": "영화를 다 봤구나. 감상이 어땠어?",
+      "reference": "영화를 다 봤구나. 감상이 어땠어?",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "방금 영화의 마지막 장면까지 보고 끝냈어.",
+          "assistant": "영화를 다 봤구나. 감상이 어땠어?",
+          "reference": "영화를 다 봤구나. 감상이 어땠어?"
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-cancel-train-0-single",
+      "topic": "movie",
+      "state": "cancel",
+      "mode": "single",
+      "gold_context_answer": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "reference": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "영화를 보려다 마음을 바꿨어. 오늘은 안 봐.",
+          "assistant": "영화를 안 보기로 했구나. 편하게 쉬어.",
+          "reference": "영화를 안 보기로 했구나. 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-cancel-train-0-history",
+      "topic": "movie",
+      "state": "cancel",
+      "mode": "history",
+      "gold_context_answer": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "reference": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "영화를 보려다 마음을 바꿨어. 오늘은 안 봐.",
+          "assistant": "영화를 안 보기로 했구나. 편하게 쉬어.",
+          "reference": "영화를 안 보기로 했구나. 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-cancel-train-1-single",
+      "topic": "movie",
+      "state": "cancel",
+      "mode": "single",
+      "gold_context_answer": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "reference": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "오늘 잡았던 영화 감상 계획을 취소했네.",
+          "assistant": "영화를 안 보기로 했구나. 편하게 쉬어.",
+          "reference": "영화를 안 보기로 했구나. 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-cancel-train-1-history",
+      "topic": "movie",
+      "state": "cancel",
+      "mode": "history",
+      "gold_context_answer": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "reference": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "오늘 잡았던 영화 감상 계획을 취소했네.",
+          "assistant": "영화를 안 보기로 했구나. 편하게 쉬어.",
+          "reference": "영화를 안 보기로 했구나. 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    },
+    {
+      "id": "state8-movie-cancel-train-2-single",
+      "topic": "movie",
+      "state": "cancel",
+      "mode": "single",
+      "gold_context_answer": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "reference": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "영화를 보지 않기로 했어. 다른 일을 할래.",
+          "assistant": "영화를 안 보기로 했구나. 편하게 쉬어.",
+          "reference": "영화를 안 보기로 했구나. 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": true
+    },
+    {
+      "id": "state8-movie-cancel-train-2-history",
+      "topic": "movie",
+      "state": "cancel",
+      "mode": "history",
+      "gold_context_answer": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "reference": "영화를 안 보기로 했구나. 편하게 쉬어.",
+      "rollout_turns": [
+        {
+          "user": "이따 영화 감상을 해 볼까 해.",
+          "assistant": "영화 볼 계획이구나.",
+          "reference": "영화 볼 계획이구나. 어떤 작품이야?"
+        },
+        {
+          "user": "알라딘을 골랐어.",
+          "assistant": "영화를 보고 있구나. 재미있게 봐.",
+          "reference": "그 영화를 볼 계획이구나."
+        },
+        {
+          "user": "영화를 보지 않기로 했어. 다른 일을 할래.",
+          "assistant": "영화를 안 보기로 했구나. 편하게 쉬어.",
+          "reference": "영화를 안 보기로 했구나. 편하게 쉬어."
+        }
+      ],
+      "gold_exact": true,
+      "rollout_last_exact": true,
+      "rollout_all_exact": false
+    }
+  ]
+}

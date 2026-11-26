@@ -1,0 +1,9 @@
+{
+  "step": 3000,
+  "domain_validation_loss": {
+    "sns": 5.316650230437517,
+    "wiki": 6.139479745179415
+  },
+  "model": "artifacts\\corpus-sns-v1\\target",
+  "note": "같은 도메인 검증의 양군 차이를 비교. 두 도메인 손실끼리 직접 품질순위로 해석하지 않음."
+}

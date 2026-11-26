@@ -1,0 +1,173 @@
+{
+  "source": "C:\\Users\\510\\Desktop\\free-chatbot\\artifacts\\state-contrast-v8\\epochs\\epoch-02",
+  "source_weight_hashes": {
+    "model.safetensors": "9091ab2efc5e0e0d8406dbf52134dbe637e4182dd9662cd05b65ef78224d584b"
+  },
+  "data_sha256": "9ce4dc8a8298a566764c6cb19a1a8543845a9818722422bc76173ef84e87a8f9",
+  "selected_ids": [
+    "state8-walk-plan-train-0-single",
+    "state8-walk-plan-train-0-history",
+    "state8-walk-plan-train-1-single",
+    "state8-walk-plan-train-1-history",
+    "state8-walk-plan-train-2-single",
+    "state8-walk-plan-train-2-history",
+    "state8-walk-ongoing-train-0-single",
+    "state8-walk-ongoing-train-0-history",
+    "state8-walk-ongoing-train-1-single",
+    "state8-walk-ongoing-train-1-history",
+    "state8-walk-ongoing-train-2-single",
+    "state8-walk-ongoing-train-2-history",
+    "state8-walk-done-train-0-single",
+    "state8-walk-done-train-0-history",
+    "state8-walk-done-train-1-single",
+    "state8-walk-done-train-1-history",
+    "state8-walk-done-train-2-single",
+    "state8-walk-done-train-2-history",
+    "state8-walk-cancel-train-0-single",
+    "state8-walk-cancel-train-0-history",
+    "state8-walk-cancel-train-1-single",
+    "state8-walk-cancel-train-1-history",
+    "state8-walk-cancel-train-2-single",
+    "state8-walk-cancel-train-2-history",
+    "state8-movie-plan-train-0-single",
+    "state8-movie-plan-train-0-history",
+    "state8-movie-plan-train-1-single",
+    "state8-movie-plan-train-1-history",
+    "state8-movie-plan-train-2-single",
+    "state8-movie-plan-train-2-history",
+    "state8-movie-ongoing-train-0-single",
+    "state8-movie-ongoing-train-0-history",
+    "state8-movie-ongoing-train-1-single",
+    "state8-movie-ongoing-train-1-history",
+    "state8-movie-ongoing-train-2-single",
+    "state8-movie-ongoing-train-2-history",
+    "state8-movie-done-train-0-single",
+    "state8-movie-done-train-0-history",
+    "state8-movie-done-train-1-single",
+    "state8-movie-done-train-1-history",
+    "state8-movie-done-train-2-single",
+    "state8-movie-done-train-2-history",
+    "state8-movie-cancel-train-0-single",
+    "state8-movie-cancel-train-0-history",
+    "state8-movie-cancel-train-1-single",
+    "state8-movie-cancel-train-1-history",
+    "state8-movie-cancel-train-2-single",
+    "state8-movie-cancel-train-2-history"
+  ],
+  "train_count": 48,
+  "seed": 42,
+  "threads": 4,
+  "batch_size": 1,
+  "learning_rate": 0.0001,
+  "max_epochs": 60,
+  "budget_minutes": 25,
+  "scope": "48개만 습득 진단. 기존 기능 유지·새 표현 일반화는 별도이며 배포 모델로 채택하지 않음.",
+  "stop_rule": "최대회차/시간 도달 또는 정답문맥 마지막48/48 및 실제전체48/48 정확 일치",
+  "best_epoch": 60,
+  "history": [
+    {
+      "epoch": 0,
+      "train_answer_loss_eval": 0.16398343558366474,
+      "gold_exact": 24,
+      "rollout_last_exact": 24,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 1,
+      "train_answer_loss_eval": 0.07293209694843325,
+      "gold_exact": 39,
+      "rollout_last_exact": 37,
+      "rollout_all_exact": 27
+    },
+    {
+      "epoch": 5,
+      "train_answer_loss_eval": 0.006391327697931835,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 10,
+      "train_answer_loss_eval": 0.0017079156552498582,
+      "gold_exact": 48,
+      "rollout_last_exact": 47,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 15,
+      "train_answer_loss_eval": 0.0012831295894477248,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 20,
+      "train_answer_loss_eval": 0.0009895119168061269,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 25,
+      "train_answer_loss_eval": 0.000521334003949497,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 30,
+      "train_answer_loss_eval": 0.0003675871562352696,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 35,
+      "train_answer_loss_eval": 0.00027756923280510714,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 40,
+      "train_answer_loss_eval": 0.00022515287009386203,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 45,
+      "train_answer_loss_eval": 0.00017998202833608643,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 50,
+      "train_answer_loss_eval": 0.00014873217658917327,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 55,
+      "train_answer_loss_eval": 0.00012365610634062712,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    },
+    {
+      "epoch": 60,
+      "train_answer_loss_eval": 0.00010455477099460829,
+      "gold_exact": 48,
+      "rollout_last_exact": 48,
+      "rollout_all_exact": 24
+    }
+  ],
+  "stop_reason": "max_epochs",
+  "optimizer_steps": 2880,
+  "last_epoch_attempted": 60,
+  "elapsed_seconds": 338.8175518999924,
+  "source_unchanged": true,
+  "note": "best는 완전히 끝난 검사 중 최고 적합도 모델. 시간 종료 시 마지막 가중치와 다를 수 있음. 재개 미지원."
+}
